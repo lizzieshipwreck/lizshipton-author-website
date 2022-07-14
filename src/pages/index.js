@@ -3,12 +3,13 @@ import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPage = () => {
+
+
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-            <StaticImage
-        alt="A goat skull with a beautiful background"
-        src="../images/goat-skull.jpg"/>
+    <Layout pageTitle="Coming Soon!">
+        <StaticImage
+        alt="A headshot of a woman with a low-key mowhawk"
+        src="../images/author_headshot_round.png"/>
     </Layout>
   )
 }

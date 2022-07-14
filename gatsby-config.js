@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Landing Page Test`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Liz Shipton`,
+    siteUrl: `https://lizshipton.com`,
   },
   plugins: [
     "gatsby-plugin-image",

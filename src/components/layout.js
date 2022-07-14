@@ -12,7 +12,7 @@ query {
   }
 }
   `)
-    console.log(data)
+  window.location.replace("https://subscribepage.io/scourge-giveaway");
   return (
     <div className={styles.container}>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
