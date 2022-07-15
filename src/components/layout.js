@@ -1,45 +1,30 @@
 import * as React from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import * as styles from './layout.module.css'
+import Header from './header'
+import Footer from './footer'
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
-query {
-  site {
-    siteMetadata {
-      title
+    query {
+      site {
+        siteMetadata {
+          title
+          socialLinks
+        }
+      }
     }
-  }
-}
   `)
-  window.location.replace("https://subscribepage.io/scourge-giveaway");
+
+  const { site: { siteMetadata: { title, socialLinks } } } = data;
+
   return (
     <div className={styles.container}>
-      <title>{pageTitle} | {data.site.siteMetadata.title}</title>
-      <header className={styles.siteTitle}>{data.site.siteMetadata.title}</header>
-      <nav>
-        <ul className={styles.navLinks}>
-          <li className={styles.navLinkItem}>
-            <Link to="/" className={styles.navLinkText}>
-              Home
-            </Link>
-          </li>
-          <li className={styles.navLinkItem}>
-            <Link to="/about" className={styles.navLinkText}>
-              About
-            </Link>
-            </li>
-            <li className={styles.navLinkItem}>
-            <Link to="/blog" className={styles.navLinkText}>
-              Blog
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <h1 className={styles.heading}>{pageTitle}</h1>
+      <Header siteName={title} pageName={pageTitle}/>
+      <main className={styles.main}>
         {children}
       </main>
+      <Footer socialLinks={socialLinks}/>
     </div>
   )
 }

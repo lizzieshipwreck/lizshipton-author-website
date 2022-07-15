@@ -1,0 +1,16 @@
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link-item {
+    padding-right: 2rem;
+}
+
+.nav-link-text {
+    color: #a9a9a9;
+    text-decoration: none;
+    font-family: 'Megrim';
+    font-size: x-large;
+}

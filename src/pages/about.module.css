@@ -1,0 +1,37 @@
+.content {
+    width: 75%;
+    margin: auto;
+}
+
+.text-header {
+    font-family: 'Raleway';
+    font-size: xx-large;
+    margin: 0;
+    color: #403C4A;
+}
+
+.text {
+    font-family: 'Roboto';
+    line-height: 1.5;
+    font-size: large;
+    text-align: justify;
+    color: #5f5c5c;
+}
+
+.text-footer {
+    font-family: 'Raleway';
+    font-size: larger;
+    color: #403C4A;
+}
+
+@media only screen and (min-width: 500px) {
+    .block {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 5rem;
+        }
+    .textBlock {
+        width: 50%;
+    }
+}

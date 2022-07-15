@@ -1,15 +1,20 @@
 import * as React from 'react'
-import Layout from '../components/layout'
+import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import Layout from '../components/layout'
+import * as styles from './index.module.css'
 
 const IndexPage = () => {
 
-
   return (
-    <Layout pageTitle="Coming Soon!">
-        <StaticImage
-        alt="A headshot of a woman with a low-key mowhawk"
-        src="../images/author_headshot_round.png"/>
+    <Layout pageTitle={"Home"}>
+      <div className={styles.content}>
+        <Link to="https://subscribepage.io/scourge-giveaway">
+          <h1 className={styles.text}><i>Scourge</i> novella available now</h1>
+          <StaticImage src="../images/salt_mockup.jpg" width={1000}/>
+          <h2 className={styles.text}>Click to download for FREE!</h2>
+        </Link>
+      </div>
     </Layout>
   )
 }
