@@ -10,7 +10,12 @@ module.exports = {
       ]
   },
   plugins: [
-    "gatsby-plugin-image",
+    {
+      resolve: "gatsby-plugin-image",
+      options: {
+        quality: 100
+      }
+    },
         {
       resolve: "gatsby-plugin-manifest",
       options: {

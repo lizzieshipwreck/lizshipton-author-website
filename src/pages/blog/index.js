@@ -9,7 +9,12 @@ const BlogPage = ({data}) => {
     <Layout pageTitle="Blog">
       <div className={styles.content}>
         <h1 className={styles.text}>Coming soon</h1>
-        <StaticImage src="../../images/goat_skull.jpg" width={750} />
+        <StaticImage
+          src="../../images/goat_skull.jpg"
+          width={750}
+          placeholder="blurred"
+          quality={100}
+        />
       </div>
     </Layout>
   )

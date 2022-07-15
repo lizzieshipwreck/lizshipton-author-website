@@ -9,7 +9,12 @@ const Header = ({siteName, pageName}) => {
         <div className={styles.container}>
             <title>{siteName} | {pageName}</title>
             <Link to="/">
-                <StaticImage alt="Liz Shipton logo with compass" src="../images/logo.png" width={250}/>
+                <StaticImage
+                    alt="Liz Shipton logo with compass"
+                    src="../images/logo_small.png"
+                    placeholder="blurred"
+                    quality={100}
+                />
             </Link>
             <Nav/>
         </div>
