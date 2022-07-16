@@ -4,10 +4,6 @@
     padding-left: 0;
 }
 
-.nav-link-item {
-    padding-right: 2rem;
-}
-
 .nav-link-text {
     color: #a9a9a9;
     text-decoration: none;
@@ -17,6 +13,11 @@
 
 @media only screen and (max-width: 500px) {
     .nav-links {
-        padding-top: 2rem;
+        /* padding-top: 2rem; */
+        flex-direction: column;
+        align-items: flex-end;
     }
+        .nav-link-item {
+            padding-left: 2rem;
+        }
 }
