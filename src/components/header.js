@@ -1,22 +1,56 @@
 import * as React from 'react'
+import { useEffect, useState } from 'react'
 import Nav from './nav';
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 import * as styles from './header.module.css'
 
 const Header = ({siteName, pageName}) => {
+    const [windowWidth, setWindowWidth] = useState(0);
+    const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
+
+    useEffect(() => {
+        checkWindowWidth();
+        return () => window.removeEventListener('resize', checkWindowWidth)
+    });
+
+    const checkWindowWidth = () => {
+        if (typeof window !== undefined) {
+        const width = window.innerWidth;
+        setWindowWidth(width);
+        window.addEventListener('resize', checkWindowWidth);
+        }
+    }
+
     return (
         <div className={styles.container}>
             <title>{siteName} | {pageName}</title>
             <Link to="/">
-                <StaticImage
-                    alt="Liz Shipton logo with compass"
-                    src="../images/logo_small.png"
-                    placeholder="blurred"
-                    quality={100}
-                />
+                {!!windowWidth && windowWidth > 500 ? (
+                    <StaticImage
+                        alt="Liz Shipton logo with compass"
+                        src="../images/logo_small.png"
+                        placeholder="blurred"
+                        quality={100}
+                    />
+                ) : (
+                    !isHamburgerOpen ? (
+                        <StaticImage
+                            alt="Liz Shipton compass"
+                            src="../images/compass_icon.png"
+                            placeholder="blurred"
+                            quality={100}
+                            width={50}
+                        />
+                    ) : null
+                )
+                }
             </Link>
-            <Nav/>
+            <Nav
+                windowWidth={windowWidth}
+                isHamburgerOpen={isHamburgerOpen}
+                setIsHamburgerOpen={setIsHamburgerOpen}
+            />
         </div>
 
     )

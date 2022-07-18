@@ -27,6 +27,7 @@
     "gatsby-plugin-sharp": "^4.17.0",
     "gatsby-source-filesystem": "^4.17.0",
     "gatsby-transformer-sharp": "^4.17.0",
+    "hamburger-react": "^2.5.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
     "react-social-icons": "^5.14.0"
