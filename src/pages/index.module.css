@@ -3,6 +3,13 @@
     text-align: center;
 }
 
+.title-text { 
+    font-family: 'Raleway';
+    text-align: center;
+    color: #363934;
+    font-size: xxx-large;
+}
+
 .text {
     font-family: 'Raleway';
     text-align: center;
