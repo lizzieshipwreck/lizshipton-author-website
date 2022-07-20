@@ -17,7 +17,7 @@ const AboutPage = () => {
               I enjoy creative world-building, humor, and characters who are nearly irredeemable. 
             </p>
             <p className={styles.text}>
-              I live on a sailboat with my partner and my dog. We're on a mission to sail around
+              I live on a sailboat with my boyfriend and my dog. We're on a mission to sail around
               the world! I strive to incorporate my sailing experiences into my writing while
               being sensitive to the people who occupy the places we travel to.
             </p>
