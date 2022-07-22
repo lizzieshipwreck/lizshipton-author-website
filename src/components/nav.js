@@ -25,10 +25,15 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen }) => {
             </Link>
             </li>
             <li className={styles.navLinkItem}>
+            <Link to="/newsletter" className={styles.navLinkText}>
+              <b>Newsletter</b>
+            </Link>
+            </li>
+            {/* <li className={styles.navLinkItem}>
             <Link to="/blog" className={styles.navLinkText}>
               <b>Blog</b>
             </Link>
-            </li>
+            </li> */}
           </ul>
         )
       }

@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle={"Home"}>
         <div className={styles.content}>
-          <a href="https://subscribepage.io/scourge-giveaway">
+          <a href="https://subscribepage.io/lizshipton-free-novella">
             <h1 className={styles.titleText}><b>Scourge</b> novella available now</h1>
             <StaticImage
               src="../images/scourge_mockup.jpg"

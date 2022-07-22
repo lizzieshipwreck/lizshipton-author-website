@@ -1,0 +1,17 @@
+.content {
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Megrim';
+    font-size: xx-large;
+}
+
+.subtitle {
+    font-family: 'Raleway';
+}
+
+.header {
+    font-family: 'Raleway';
+}
