@@ -29,18 +29,21 @@ const Header = ({siteName, pageName}) => {
                 {!!windowWidth && windowWidth > 500 ? (
                     <StaticImage
                         alt="Liz Shipton logo with compass"
-                        src="../images/logo_small.png"
+                        src="../images/liz_shipton_logo.png"
                         placeholder="blurred"
                         quality={100}
+                        width={500}
+                        className={styles.logo}
                     />
                 ) : (
                     !isHamburgerOpen ? (
                         <StaticImage
                             alt="Liz Shipton compass"
-                            src="../images/compass_icon.png"
+                            src="../images/compass_logo.png"
                             placeholder="blurred"
                             quality={100}
                             width={50}
+                            className={styles.logo}
                         />
                     ) : null
                 )
