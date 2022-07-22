@@ -10,10 +10,22 @@
 }
 
 .nav-link-text {
-    color: #a9a9a9;
+    color: #000000;
     text-decoration: none;
     font-family: 'Megrim';
-    font-size: x-large;
+    font-size: xx-large;
+}
+
+#home {
+    text-shadow: -2px -2px 0px #F8F005, 2px 2px 0px #00E6F6;
+}
+
+#about {
+    text-shadow: -2px -2px 0px #bdff2fba, 2px 2px 0px orange;
+}
+
+#newsletter {
+    text-shadow: -2px -2px 0px #9bfeddd5, 2px 2px 0px #de7688;
 }
 
 .nav-link-item {

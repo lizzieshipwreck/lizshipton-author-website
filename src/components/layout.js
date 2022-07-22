@@ -10,7 +10,10 @@ const Layout = ({ pageTitle, children }) => {
       site {
         siteMetadata {
           title
-          socialLinks
+          socialLinks {
+            url
+            color
+          }
         }
       }
     }

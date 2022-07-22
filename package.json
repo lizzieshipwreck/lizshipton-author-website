@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/bebas-neue": "^4.5.7",
     "@fontsource/megrim": "^4.5.9",
     "@fontsource/raleway": "^4.5.9",
     "@fontsource/roboto": "^4.5.7",

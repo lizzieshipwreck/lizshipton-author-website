@@ -4,9 +4,10 @@ module.exports = {
     siteUrl: `https://lizshipton.com`,
     socialLinks:
       [
-        "https://tiktok.com/@lizshiptonauthor",
-        "https://instagram.com/lizshiptonauthor",
-        "https://facebook.com/lizshiptonauthor",
+        {url: "https://tiktok.com/@lizshiptonauthor", color: 'pink'},
+        {url: "https://facebook.com/lizshiptonauthor", color: 'aquamarine'},
+        { url: "https://instagram.com/lizshiptonauthor", color: 'orange' },
+        {url: "https://twitter.com/lizshipton", color: 'greenyellow'}
       ]
   },
   plugins: [

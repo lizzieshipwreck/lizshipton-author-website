@@ -15,17 +15,17 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen }) => {
         (
         <ul className={styles.navLinks}>
             <li className={styles.navLinkItem}>
-            <Link to="/" className={styles.navLinkText}>
+            <Link to="/" className={styles.navLinkText} id={styles.home}>
               <b>Home</b>
             </Link>
             </li>
             <li className={styles.navLinkItem}>
-            <Link to="/about" className={styles.navLinkText}>
+            <Link to="/about" className={styles.navLinkText} id={styles.about}>
               <b>About</b>
             </Link>
             </li>
             <li className={styles.navLinkItem}>
-            <Link to="/newsletter" className={styles.navLinkText}>
+            <Link to="/newsletter" className={styles.navLinkText} id={styles.newsletter}>
               <b>Newsletter</b>
             </Link>
             </li>
@@ -38,10 +38,11 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen }) => {
         )
       }
       <Hamburger
-        color='#a9a9a9'
+        color='black'
         distance='lg'
         toggled={isHamburgerOpen}
         toggle={toggleHamburger}
+        className={styles.hamburger}
       />
     </nav>
   )

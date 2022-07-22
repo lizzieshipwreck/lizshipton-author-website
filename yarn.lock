@@ -1129,6 +1129,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/bebas-neue@^4.5.7":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/bebas-neue/-/bebas-neue-4.5.7.tgz#8fe7b6a44443d1593ade495fd96782839a990bc6"
+  integrity sha512-wVPVtSxQD3BVYs9F2ENBq9Qx2PZW0X9GOMhtbny+kKQAAaKWrFv29r8swJ6uNuXM+f+CcNmjb3P/aWC7tPaR+w==
+
 "@fontsource/megrim@^4.5.9":
   version "4.5.9"
   resolved "https://registry.npmjs.org/@fontsource/megrim/-/megrim-4.5.9.tgz"
@@ -9694,14 +9699,7 @@ qs@6.10.3:
   dependencies:
     side-channel "^1.0.4"
 
-qs@^6.11.0:
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
-  integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
-  dependencies:
-    side-channel "^1.0.4"
-
-qs@^6.9.4:
+qs@^6.11.0, qs@^6.9.4:
   version "6.11.0"
   resolved "https://registry.npmjs.org/qs/-/qs-6.11.0.tgz"
   integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
