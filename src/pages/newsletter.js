@@ -4,7 +4,7 @@ import LandingPageRedirect from '../components/landing-page-redirect'
 const NewsletterRedirect = () => {
 
     return (
-        <LandingPageRedirect pageTitle={"Newsletter"} redirectUrl={"https://subscribe.io/lizshipton-newsletter"}/>
+        <LandingPageRedirect pageTitle={"Newsletter"} redirectUrl={"https://subscribepage.io/lizshipton-newsletter"}/>
   )
 }
 
