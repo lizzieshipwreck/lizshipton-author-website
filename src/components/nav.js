@@ -42,7 +42,6 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
         distance='lg'
         toggled={isHamburgerOpen}
         toggle={toggleHamburger}
-        className={styles.hamburger}
       />
     </nav>
   )
