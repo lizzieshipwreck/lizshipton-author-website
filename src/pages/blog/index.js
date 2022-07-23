@@ -40,7 +40,6 @@ export default BlogPage
 
 
 // TODO
-
       {/* {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>

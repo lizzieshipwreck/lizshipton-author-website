@@ -20,7 +20,7 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
             }
         }   
         return () => {}
-    });
+    },[redirectToLandingPage]);
 
     const redirectToLandingPage = () => {
         if (typeof window !== undefined) {
