@@ -11,6 +11,13 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
     
     const [params, setParams] = useState({});
 
+
+    const redirectToLandingPage = () => {
+        if (typeof window !== undefined) {
+            window.location.replace(redirectUrl)
+        }
+    }
+
     useEffect(() => {
         if (typeof window !== undefined) {
             const params = QueryString.parse(window.location.search, { ignoreQueryPrefix: true });
@@ -21,12 +28,6 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
         }   
         return () => {}
     },[redirectToLandingPage]);
-
-    const redirectToLandingPage = () => {
-        if (typeof window !== undefined) {
-            window.location.replace(redirectUrl)
-        }
-    }
 
     return (
             params['thank_you'] ? (
