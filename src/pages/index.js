@@ -11,13 +11,13 @@ const IndexPage = () => {
         <div className={styles.content}>
           <div className={styles.block}>
             <div className={styles.stack}>
-              <StaticImage src={"../images/scourge_cover_small.jpg"} placeholder="blurred" quality={100} height={600} />
+              <StaticImage src={"../images/scourge_cover_small.jpg"} placeholder="blurred" quality={100} height={475} />
               <Link to="/free-novella">
                 <button className={styles.buttonScourge}>DOWNLOAD FREE</button>
               </Link>
             </div>
             <div className={styles.stack}>
-              <StaticImage src={"../images/salt_cover_small.jpg"} placeholder="blurred" quality={100} height={600} />
+              <StaticImage src={"../images/salt_cover_small.jpg"} placeholder="blurred" quality={100} height={475} />
               <Link to="/newsletter">
                 <button className={styles.buttonSalt}>COMING SOON</button>
               </Link>

@@ -8,7 +8,7 @@ const AboutPage = () => {
     <Layout pageTitle="About">
       <div className={styles.content}>
         <div className={styles.block}>
-          <StaticImage src={"../images/lizzie_hammock_smile_round.png"} placeholder="blurred" quality={100} width={500}/>
+          <StaticImage src={"../images/lizzie_hammock_smile_round.png"} placeholder="blurred" quality={100} height={475}/>
           <div className={styles.textBlock}>
             <h2 className={styles.textHeader}>Part-time author 🪶 Full-time pirate</h2>
             <p className={styles.text}>

@@ -32,7 +32,7 @@ const Header = ({siteName, pageName}) => {
                         src="../images/liz_shipton_logo.png"
                         placeholder="blurred"
                         quality={100}
-                        width={500}
+                        width={350}
                         className={styles.logo}
                     />
                 ) : (
