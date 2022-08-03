@@ -6,8 +6,8 @@ module.exports = {
       [
         {url: "https://tiktok.com/@lizshiptonauthor", color: 'pink'},
         {url: "https://facebook.com/lizshiptonauthor", color: 'aquamarine'},
-        { url: "https://instagram.com/lizshiptonauthor", color: 'orange' },
-        {url: "https://twitter.com/lizshipton", color: 'greenyellow'}
+        {url: "https://instagram.com/lizshiptonauthor", color: 'orange' },
+        {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", color: 'greenyellow'}
       ]
   },
   plugins: [
