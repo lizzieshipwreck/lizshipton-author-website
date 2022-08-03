@@ -37,14 +37,14 @@ const Header = ({siteName, pageName}) => {
                     />
                 ) : (
                     !isHamburgerOpen ? (
-                        <StaticImage
-                            alt="Liz Shipton compass"
-                            src="../images/compass_logo.png"
-                            placeholder="blurred"
-                            quality={100}
-                            width={50}
-                            className={styles.logo}
-                        />
+                    <StaticImage
+                        alt="Liz Shipton logo with compass"
+                        src="../images/liz_shipton_logo.png"
+                        placeholder="blurred"
+                        quality={100}
+                        width={250}
+                        className={styles.logo}
+                    />
                     ) : null
                 )
                 }
