@@ -11,7 +11,7 @@ const IndexPage = () => {
         <div className={styles.content}>
           <div className={styles.block}>
             <div className={styles.stack}>
-              <StaticImage src={"../images/scourge_cover_small.jpg"} placeholder="blurred" quality={100} height={475} />
+              <StaticImage src={"../images/scourge_cover_nashville_small.jpg"} placeholder="blurred" quality={100} height={475} />
               <Link to="/free-novella">
                 <button className={styles.buttonScourge}>DOWNLOAD FREE</button>
               </Link>

@@ -16,6 +16,14 @@
     font-family: 'Raleway';
 }
 
+.spam {
+    color: palevioletred;
+}
+
+.promo {
+    color: darkcyan;
+}
+
 .spinner {
     width: 50%;
     margin: auto;

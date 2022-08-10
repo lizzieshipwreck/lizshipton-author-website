@@ -34,7 +34,7 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
                         <StaticImage src={"../images/lizzie_and_aloy_round.png"} placeholder="blurred" quality={100} width={300}/>
                         <h1 className={styles.title}>Thank you!</h1>
                         <h2 className={styles.subtitle}>Check your inbox for a <b>confirmation email</b>.</h2>
-                        <h3 className={styles.header}>Don't forget to check your <b>SPAM</b> and <b>PROMOTIONS</b> folders!</h3>
+                        <h3 className={styles.header}>Don't forget to check your <i className={styles.spam}>SPAM</i> and <i className={styles.promo}>PROMOTIONS</i> folders!</h3>
                     </div>
             </Layout>
             ) : (<div className={styles.spinner}> <PropogateLoader color={'black'} size={25}/></div>)
