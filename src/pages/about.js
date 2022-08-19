@@ -26,7 +26,7 @@ const AboutPage = () => {
               I write about characters who struggle with addiction and mental health because these are things I have struggled with.
               I write about the immigrant experience because I'm an immigrant.
               I write about climate change, pandemics, and the apocalypse because...honestly? It's more fun to read about those things in a book 
-              than to watching them happening all around you.
+              than to watch them happening all around you.
             </p>
             <p className={styles.text}>
               When I'm not writing about young adults and the impending apocalypse, I code or write about code.
