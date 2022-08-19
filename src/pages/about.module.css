@@ -27,7 +27,7 @@
 @media only screen and (min-width: 500px) {
     .block {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             margin-top: 5rem;
         }
