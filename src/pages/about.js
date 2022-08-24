@@ -14,19 +14,22 @@ const AboutPage = () => {
             <p className={styles.text}>
               Hi! I'm Liz. I have a stupid haircut and I write speculative fiction about
               young women who make questionable decisions. I live on a sailboat with my boyfriend and my dog.
-              We're on a mission to sail around the world!
+              We're on a mission to sail around the world, and I'm turning my real-life adventures into YA Sci-Fi books!
+            </p>
+            <p className={styles.text}>
+              My debut series is about two friends who are forced to undertake an arduous sailng voyage in a 
+              near-future dystopia. It deals with themes that are important to me: identity, mental health,
+              climate change, immigration, and figuring out your place in the world.
+              I love incorporating the incredible, beautiful, fascinating places and people we encounter into my work.
             </p>
             <p className={styles.text}>
               I write what I know.
-              I write about sailing because it helps me process my experiences.
-              I also love incorporating the incredible, beautiful, fascinating places and people we encounter into my work.
-              I write about pirates because...well, pirates. Duh.
-            </p>
-            <p className={styles.text}>
+              I write about sailing because it helps me process my own sailing experiences.
               I write about characters who struggle with addiction and mental health because these are things I have struggled with.
               I write about the immigrant experience because I grew up as an immigrant.
               I write about climate change, pandemics, and the apocalypse because...honestly? It's more fun to read about those things in a book 
               than to watch them happening all around you.
+              I write about pirates because...well, pirates. Duh.
             </p>
             <p className={styles.text}>
               When I'm not writing about young adults and the impending apocalypse, I code or write about code.
