@@ -81,7 +81,7 @@ button::after {
 .button-scourge,
 .button-scourge::after {
     background: linear-gradient(45deg, transparent 5%, orange 5%);
-    box-shadow: 6px 0px 0px yellowgreen;
+    box-shadow: 6px 0px 0px lime;
 }
 
 button::after {

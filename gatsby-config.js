@@ -5,9 +5,9 @@ module.exports = {
     socialLinks:
       [
         {url: "https://tiktok.com/@lizshiptonauthor", color: 'hotpink'},
-        {url: "https://facebook.com/lizshiptonauthor", color: 'aquamarine'},
+        {url: "https://facebook.com/lizshiptonauthor", color: 'darkturquoise'},
         {url: "https://instagram.com/lizshiptonauthor", color: 'orange' },
-        {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", color: 'greenyellow'}
+        {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", color: 'lime'}
       ]
   },
   plugins: [
