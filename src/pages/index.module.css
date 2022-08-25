@@ -12,6 +12,41 @@
     margin-top: 1rem;
 }
 
+.hover {
+    position: relative;
+}
+
+.description-block, .description-block-scourge, .description-block-salt {
+    position: absolute;
+    height: 100%;
+}
+
+.description-block-scourge {
+    background: linear-gradient(greenyellow, orange);
+    color: purple;
+}
+
+.description-block-salt {
+    background: linear-gradient(hotpink, darkturquoise);
+    color: white;
+}
+
+.description {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: Raleway;
+    line-height: 1.5rem;
+}
+
+.book-cover {
+    width: 100%;
+    transition: .5s;
+}
+
+.book-cover:hover {
+    opacity: .1;
+}
+
 @media only screen and (min-width: 750px) {
     .block {
         width: 75%
@@ -37,7 +72,7 @@ button::after {
 
 .button-salt, 
 .button-salt::after {
-    background: linear-gradient(45deg, transparent 5%, #de7688 5%);
+    background: linear-gradient(45deg, transparent 5%, hotpink 5%);
     box-shadow: 6px 0px 0px aquamarine;
 }
 
@@ -66,14 +101,14 @@ button::after {
 
 .button-salt::after {
     content: 'COMING SOON';
-    background: linear-gradient(45deg, transparent 3%, aquamarine 3%, aquamarine 5%, #de7688 5%);
+    background: linear-gradient(45deg, transparent 3%, aquamarine 3%, aquamarine 5%, hotpink 5%);
     text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
 }
 
 .button-scourge::after {
     content: 'DOWNLOAD FREE';
     background: linear-gradient(45deg, transparent 3%, greenyellow 3%, greenyellow 5%, orange 5%);
-    text-shadow: -3px -3px 0px pink, 3px 3px 0px #00E6F6;
+    text-shadow: -3px -3px 0px hotpink, 3px 3px 0px #00E6F6;
 }
 
 button:hover::after {
@@ -145,3 +180,4 @@ button:hover::after {
         align-items: center;
     }
 }
+

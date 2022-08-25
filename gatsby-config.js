@@ -4,7 +4,7 @@ module.exports = {
     siteUrl: `https://lizshipton.com`,
     socialLinks:
       [
-        {url: "https://tiktok.com/@lizshiptonauthor", color: 'pink'},
+        {url: "https://tiktok.com/@lizshiptonauthor", color: 'hotpink'},
         {url: "https://facebook.com/lizshiptonauthor", color: 'aquamarine'},
         {url: "https://instagram.com/lizshiptonauthor", color: 'orange' },
         {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", color: 'greenyellow'}
