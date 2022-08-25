@@ -74,14 +74,14 @@ button::after {
 
 .button-salt, 
 .button-salt::after {
-    background: linear-gradient(45deg, transparent 5%, hotpink 5%);
-    box-shadow: 6px 0px 0px aquamarine;
+    background: linear-gradient(45deg, transparent 5%, darkturquoise 5%);
+    box-shadow: 6px 0px 0px fuchsia;
 }
 
 .button-scourge,
 .button-scourge::after {
     background: linear-gradient(45deg, transparent 5%, orange 5%);
-    box-shadow: 6px 0px 0px greenyellow;
+    box-shadow: 6px 0px 0px yellowgreen;
 }
 
 button::after {
@@ -103,8 +103,8 @@ button::after {
 
 .button-salt::after {
     content: 'COMING SOON';
-    background: linear-gradient(45deg, transparent 3%, aquamarine 3%, aquamarine 5%, hotpink 5%);
-    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+    background: linear-gradient(45deg, transparent 3%, hotpink 3%, hotpink 5%, darkturquoise 5%);
+    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
 }
 
 .button-scourge::after {
