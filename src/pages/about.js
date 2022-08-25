@@ -17,9 +17,9 @@ const AboutPage = () => {
               We're on a mission to sail around the world, and I'm turning my real-life adventures into YA Sci-Fi books!
             </p>
             <p className={styles.text}>
-              My debut series is about two friends who are forced to undertake an arduous sailing voyage in a 
-              near-future dystopia. It deals with themes that are important to me: identity, mental health,
-              climate change, inequality, and figuring out your place in the world.
+              My debut series <i>The Thalassic Tetralogy</i> is about two friends who are forced to undertake an arduous sailing voyage in a 
+              near-future dystopia destroyed by climate chagne and pandemics. Along the way, they fight pirates, run from a shadow government, overcome mental health issues and addiction,
+              find their places in the world and (yes) fall in love.
             </p>
             <p className={styles.text}>
               I write about sailing because it helps me process my own sailing experiences. I love incorporating the incredible, beautiful, fascinating places and people we encounter into my work.
