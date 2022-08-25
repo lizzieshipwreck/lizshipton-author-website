@@ -75,7 +75,7 @@ button::after {
 .button-salt, 
 .button-salt::after {
     background: linear-gradient(45deg, transparent 5%, darkturquoise 5%);
-    box-shadow: 6px 0px 0px fuchsia;
+    box-shadow: 6px 0px 0px hotpink;
 }
 
 .button-scourge,
