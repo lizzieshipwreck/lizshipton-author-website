@@ -55,6 +55,15 @@
     }
 }
 
+@media (hover: none) {
+    /* disable hover effect for touchscreens */
+    .book-cover:hover {
+        opacity: inherit;
+        filter: none;
+        -webkit-filter: none;
+    }
+}
+
 /* nifty glitch buttons from  https: //codepen.io/stevenlei/pen/ZEpyBod */
 button,
 button::after {
