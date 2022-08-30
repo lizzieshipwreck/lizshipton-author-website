@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import BookCover from '../components/index/book-cover';
 import * as styles from './index.module.css'
+import BookButton from '../components/index/book-button';
 
 const scourge_one = "Marlin Paz and her girlfriend Gnamma Farr arrive in the harbor city of Brume after twenty-five days on the Salt, and are forbidden to come ashore."
 const scourge_two = "Meanwhile, Axioma Nation, CEO of the world's leading corporation, receives an urgent message from a colleague overseas that makes the climate crisis the least of her concerns."
@@ -41,9 +42,7 @@ const IndexPage = () => {
                 link={"/free-novella"}
                 styles={{descriptionBlock: styles.descriptionBlockScourge}}
               />
-              <Link to="/free-novella">
-                <button className={styles.buttonScourge}>DOWNLOAD FREE</button>
-              </Link>
+              <BookButton link="/free-novella" text="DOWNLOAD NOW" title="Scourge"/>
             </div>
             <div className={styles.stack}>
               <BookCover
@@ -51,10 +50,8 @@ const IndexPage = () => {
                 description={[salt_one, salt_two, salt_three, salt_four]}
                 link={"/newsletter"}
                 styles={{descriptionBlock: styles.descriptionBlockSalt}}
-              />
-              <Link to="/newsletter">
-                <button className={styles.buttonSalt}>COMING SOON</button>
-              </Link>
+            />
+            <BookButton link="/newsletter" text="COMING SOON" title="Salt"/>
             </div>
           </div>
       </div>
