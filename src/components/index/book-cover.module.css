@@ -3,7 +3,6 @@
 }
 
 .book-cover {
-    width: 100%;
     transition: .5s;
 }
 
@@ -16,6 +15,7 @@
 .description-block {
     position: absolute;
     height: 100%;
+    overflow-y: scroll;
 }
 
 .description-block-scourge {

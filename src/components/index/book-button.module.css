@@ -1,7 +1,16 @@
+.container {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.flipContainer {
+    margin-bottom: .5rem;
+    margin-top: 3rem;
+}
+
 /* nifty glitch buttons from  https: //codepen.io/stevenlei/pen/ZEpyBod */
 button,
 button::after {
-    margin-top: 1rem;
     width: 100%; 
     height: 86px;
     font-size: 36px;
@@ -17,14 +26,24 @@ button::after {
 
 .button-salt, 
 .button-salt::after {
-    background: linear-gradient(45deg, transparent 5%, darkturquoise 5%);
-    box-shadow: 6px 0px 0px hotpink;
+    background: darkturquoise 5%;
+    box-shadow: 6px 6px 0px hotpink;
+}
+
+.button-salt-flip,
+.button-salt-flip::after {
+    box-shadow: -6px -6px 0px hotpink;
 }
 
 .button-scourge,
 .button-scourge::after {
-    background: linear-gradient(45deg, transparent 5%, orange 5%);
-    box-shadow: 6px 0px 0px lime;
+    background: orange 5%;
+    box-shadow: 6px 6px 0px lime;
+}
+
+.button-scourge-flip,
+.button-scourge-flip::after {
+    box-shadow: -6px -6px 0px lime;
 }
 
 button::after {

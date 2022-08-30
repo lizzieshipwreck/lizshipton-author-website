@@ -13,7 +13,7 @@ const BookCover = ({ src, description, link, title }) => {
                         original {
                             src
                         }
-                        gatsbyImageData(quality: 100, placeholder: BLURRED, height: 475)
+                        gatsbyImageData(quality: 100, placeholder: BLURRED, width: 320)
                     }
                 }
             }
