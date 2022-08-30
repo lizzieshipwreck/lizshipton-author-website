@@ -1,10 +1,14 @@
 import * as React from 'react';
+import { useEffect, useState } from 'react';
 import { useMemo } from 'react';
 import { graphql, useStaticQuery, Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import * as moduleStyles from './book-cover.module.css';
 
 const BookCover = ({ src, description, link, title }) => {
+
+    const [showDescription, setShowDescription] = useState(false);
+
     const data = useStaticQuery(graphql`
         query {
             allImageSharp {
@@ -20,15 +24,25 @@ const BookCover = ({ src, description, link, title }) => {
         }
         `
     );
+    
     const match = useMemo(() => data.allImageSharp.edges.find(({ node }) => node.original.src.includes(src)), [data, src]);
 
     if (!match) return null;
     
     const image = getImage(match.node);
+    
+    const revealDescription = (e) => {
+
+        if (showDescription) {
+            setShowDescription(false);
+        } else {
+            setShowDescription(true)
+        }
+    }
 
     return (
-        <Link to={link}>
-            <div className={moduleStyles.hover}>
+        <div onClick={revealDescription}>
+            <div className={moduleStyles.container}>
                 <div className={`${moduleStyles.descriptionBlock} ${moduleStyles[`descriptionBlock${title}`]}`}>
                     {
                         description.map((paragraph) => {
@@ -36,9 +50,12 @@ const BookCover = ({ src, description, link, title }) => {
                         })
                     }
                 </div>
-                <GatsbyImage image={image} className={moduleStyles.bookCover} />
+                <GatsbyImage
+                    image={image}
+                    className={`${moduleStyles.bookCover} ${showDescription && moduleStyles.bookCoverHover}`}
+                />
             </div>
-        </Link>
+        </div>
 
     );
 }
