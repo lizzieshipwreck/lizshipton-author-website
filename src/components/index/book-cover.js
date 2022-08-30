@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useMemo } from 'react';
 import { graphql, useStaticQuery, Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
@@ -24,7 +24,7 @@ const BookCover = ({ src, description, link, title }) => {
         }
         `
     );
-    
+
     const match = useMemo(() => data.allImageSharp.edges.find(({ node }) => node.original.src.includes(src)), [data, src]);
 
     if (!match) return null;
