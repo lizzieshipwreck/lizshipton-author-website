@@ -18,7 +18,7 @@ const AboutPage = () => {
             </p>
             <p className={styles.text}>
               My debut series <i>The Thalassic Tetralogy</i> is about two friends who are forced to undertake an arduous sailing voyage in a 
-              near-future dystopia destroyed by climate chagne and pandemics. Along the way, they fight pirates, run from a shadow government, overcome mental health issues and addiction,
+              near-future dystopia destroyed by climate change and pandemics. Along the way, they fight pirates, run from a shadow government, overcome mental health issues and addiction,
               find their places in the world and (yes) fall in love.
             </p>
             <p className={styles.text}>
