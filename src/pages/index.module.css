@@ -12,15 +12,6 @@
     margin-top: 1rem;
 }
 
-.hover {
-    position: relative;
-}
-
-.description-block, .description-block-scourge, .description-block-salt {
-    position: absolute;
-    height: 100%;
-}
-
 .description-block-scourge {
     background: linear-gradient(greenyellow, orange);
     color: purple;
@@ -31,36 +22,9 @@
     color: white;
 }
 
-.description {
-    margin-right: 1rem;
-    margin-left: 1rem;
-    font-family: Raleway;
-    line-height: 1.5rem;
-}
-
-.book-cover {
-    width: 100%;
-    transition: .5s;
-}
-
-.book-cover:hover {
-    opacity: .25;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-}
-
 @media only screen and (min-width: 750px) {
     .block {
         width: 75%
-    }
-}
-
-@media (hover: none) {
-    /* disable hover effect for touchscreens */
-    .book-cover:hover {
-        opacity: inherit;
-        filter: none;
-        -webkit-filter: none;
     }
 }
 

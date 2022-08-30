@@ -1,22 +1,21 @@
 import * as React from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import * as styles from './block.module.css'
+import * as blockStyles from './block.module.css'
 
-const Block = ({ image, text, rtl }) => {
-    const pic = getImage(image)
+const Block = ({ contentOne, contentTwo, flip, styles }) => {
 
-    if (rtl) {
-        return (
+    if (flip) {
+    return (
         <div className={styles.container}>
-                <GatsbyImage image={pic} width={100}/>
-                <h3>{text}</h3>
+            <div>{contentTwo}</div>
+            <div>{contentOne}</div>
         </div>
         )
     } else {
     return (
         <div className={styles.container}>
-                <h3>{text}</h3>
-                <GatsbyImage image={pic} width={100}/>
+            <div>{contentOne}</div>
+            <div>{contentTwo}</div>
         </div>
 
     )

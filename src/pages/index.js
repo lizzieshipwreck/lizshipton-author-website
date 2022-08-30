@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
+import BookCover from '../components/index/book-cover';
 import * as styles from './index.module.css'
 
 const scourge_one = "Marlin Paz and her girlfriend Gnamma Farr arrive in the harbor city of Brume after twenty-five days on the Salt, and are forbidden to come ashore."
@@ -15,49 +15,43 @@ const salt_four = "Forced to sail into the Salt, they battle the dangers of an u
 
 const IndexPage = () => {
 
+    // const [windowWidth, setWindowWidth] = useState(0);
+
+    // useEffect(() => {
+    //     checkWindowWidth();
+    //     return () => window.removeEventListener('resize', checkWindowWidth)
+    // });
+
+    // const checkWindowWidth = () => {
+    //     if (typeof window !== undefined) {
+    //     const width = window.innerWidth;
+    //     setWindowWidth(width);
+    //     window.addEventListener('resize', checkWindowWidth);
+    //     }
+    // }
+
   return (
     <Layout pageTitle={"Home"}>
         <div className={styles.content}>
           <div className={styles.block}>
           <div className={styles.stack}>
-            <Link to="/free-novella">
-              <div className={styles.hover}>
-                <div className={styles.descriptionBlockScourge}>
-                  <p className={styles.description}>{scourge_one}</p>
-                  <p className={styles.description}>{scourge_two}</p>
-                  <p className={styles.description}>{scourge_three}</p>
-                </div>
-                <StaticImage
-                  src={"../images/scourge_cover_nashville_small.jpg"}
-                  placeholder="blurred"
-                  quality={100}
-                  height={475}
-                  className={styles.bookCover}
-                />
-              </div>
-            </Link>
+              <BookCover
+                src={"scourge_cover_nashville_small"}
+                description={[scourge_one, scourge_two, scourge_three]}
+                link={"/free-novella"}
+                styles={{descriptionBlock: styles.descriptionBlockScourge}}
+              />
               <Link to="/free-novella">
                 <button className={styles.buttonScourge}>DOWNLOAD FREE</button>
               </Link>
             </div>
             <div className={styles.stack}>
-            <Link to="/newsletter">
-              <div className={styles.hover}>
-                <div className={styles.descriptionBlockSalt}>
-                  <p className={styles.description}>{salt_one}</p>
-                  <p className={styles.description}>{salt_two}</p>
-                  <p className={styles.description}>{salt_three}</p>
-                  <p className={styles.description}>{salt_four}</p>
-                </div>
-                <StaticImage
-                  src={"../images/salt_cover_nashville_small.jpg"}
-                  placeholder="blurred"
-                  quality={100}
-                  height={475}
-                  className={styles.bookCover}
-                />
-              </div>
-            </Link>
+              <BookCover
+                src={"salt_cover_nashville_small"}
+                description={[salt_one, salt_two, salt_three, salt_four]}
+                link={"/newsletter"}
+                styles={{descriptionBlock: styles.descriptionBlockSalt}}
+              />
               <Link to="/newsletter">
                 <button className={styles.buttonSalt}>COMING SOON</button>
               </Link>

@@ -12,15 +12,15 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-image",
-      options: {
-        quality: 100
-      }
-    },
-        {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/compass_favicon.png",
+      }
+    },
+    {
+      resolve: "gatsby-plugin-image",
+      options: {
+        quality: 100
       }
     },
     {
@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
+        name: `images`,
+        path: `${__dirname}/src/images`,
       }
     },
     "gatsby-plugin-mdx",
