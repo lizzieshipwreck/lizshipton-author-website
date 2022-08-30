@@ -18,6 +18,16 @@
     height: 100%;
 }
 
+.description-block-scourge {
+    background: linear-gradient(greenyellow, orange);
+    color: purple;
+}
+
+.description-block-salt {
+    background: linear-gradient(hotpink, darkturquoise);
+    color: white;
+}
+
 .description {
     margin-right: 1rem;
     margin-left: 1rem;

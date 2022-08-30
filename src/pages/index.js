@@ -40,7 +40,8 @@ const IndexPage = () => {
                 src={"scourge_cover_nashville_small"}
                 description={[scourge_one, scourge_two, scourge_three]}
                 link={"/free-novella"}
-                styles={{descriptionBlock: styles.descriptionBlockScourge}}
+                title="Scourge"
+                 tyles={{descriptionBlock: styles.descriptionBlockScourge}}
               />
               <BookButton link="/free-novella" text="DOWNLOAD NOW" title="Scourge"/>
             </div>
@@ -49,7 +50,7 @@ const IndexPage = () => {
                 src={"salt_cover_nashville_small"}
                 description={[salt_one, salt_two, salt_three, salt_four]}
                 link={"/newsletter"}
-                styles={{descriptionBlock: styles.descriptionBlockSalt}}
+                title="Salt"
             />
             <BookButton link="/newsletter" text="COMING SOON" title="Salt"/>
             </div>

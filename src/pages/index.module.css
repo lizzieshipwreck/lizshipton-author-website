@@ -12,16 +12,6 @@
     margin-top: 1rem;
 }
 
-.description-block-scourge {
-    background: linear-gradient(greenyellow, orange);
-    color: purple;
-}
-
-.description-block-salt {
-    background: linear-gradient(hotpink, darkturquoise);
-    color: white;
-}
-
 @media only screen and (min-width: 750px) {
     .block {
         width: 75%

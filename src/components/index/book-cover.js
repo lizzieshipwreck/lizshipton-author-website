@@ -4,7 +4,7 @@ import { graphql, useStaticQuery, Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import * as moduleStyles from './book-cover.module.css';
 
-const BookCover = ({ src, description, link, styles }) => {
+const BookCover = ({ src, description, link, title }) => {
     const data = useStaticQuery(graphql`
         query {
             allImageSharp {
@@ -29,7 +29,7 @@ const BookCover = ({ src, description, link, styles }) => {
     return (
         <Link to={link}>
             <div className={moduleStyles.hover}>
-                <div className={`${moduleStyles.descriptionBlock} ${styles.descriptionBlock}`}>
+                <div className={`${moduleStyles.descriptionBlock} ${moduleStyles[`descriptionBlock${title}`]}`}>
                     {
                         description.map((paragraph) => {
                             return <p className={moduleStyles.description}>{paragraph}</p>
