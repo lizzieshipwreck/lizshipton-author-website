@@ -24,7 +24,6 @@ const AboutPage = () => {
             <p className={styles.text}>
               I write about sailing because it helps me process my own sailing experiences. I love incorporating the incredible, beautiful, fascinating places and people we encounter into my work.
               I write about characters who struggle with addiction and mental health because these are things I have struggled with.
-              I write about the immigrant experience because I grew up as an immigrant.
               I write about climate change, pandemics, and the apocalypse because...honestly? It's more fun to read about those things in a book 
               than to watch them happening all around you.
               I write about pirates because...well, pirates. Duh.
