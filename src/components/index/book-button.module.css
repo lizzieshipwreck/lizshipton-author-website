@@ -47,6 +47,17 @@ button::after {
     box-shadow: -6px -6px 0px lime;
 }
 
+.button-seed,
+.button-seed::after {
+    background: plum 5%;
+    box-shadow: 6px 6px 0px yellow;
+}
+
+.button-seed-flip,
+.button-seed-flip::after {
+    box-shadow: -6px -6px 0px yellow;
+}
+
 button::after {
     --slice-0: inset(50% 50% 50% 50%);
     --slice-1: inset(80% -6px 0 0);
@@ -71,9 +82,15 @@ button::after {
 }
 
 .button-scourge::after {
-    content: 'DOWNLOAD FREE';
+    content: 'FREE ON AMAZON';
     background: linear-gradient(45deg, transparent 3%, greenyellow 3%, greenyellow 5%, orange 5%);
     text-shadow: -3px -3px 0px hotpink, 3px 3px 0px #00E6F6;
+}
+
+.button-seed::after {
+    content: 'DOWNLOAD FREE';
+    background: linear-gradient(45deg, transparent 3%, yellow 3%, yellow 5%, plum 5%);
+    text-shadow: -3px -3px 0px hotpink, 3px 3px 0px greenyellow;
 }
 
 button:hover::after {

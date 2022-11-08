@@ -8,6 +8,7 @@ import Block from '../components/block';
 
 import { scourge_description, scourge_cta, scourge_title, scourge_cover_image } from '../copy/scourge';
 import { salt_description, salt_cta, salt_title, salt_cover_image } from '../copy/salt';
+import { seed_cover_image, seed_cta, seed_description, seed_title } from '../copy/seed';
 
 
 const IndexPage = () => {
@@ -47,6 +48,26 @@ const IndexPage = () => {
                 link="/free-novella"
                 text={scourge_cta}
                 title={scourge_title}
+                flip={flip}
+              />
+            }
+            styles={styles}
+            flip={flip}
+            />
+            <Block
+              contentOne={
+                <BookCover
+                  src={seed_cover_image}
+                  description={seed_description}
+                  link={"/free-short-story"}
+                  title={seed_title}
+                />
+              }
+            contentTwo={
+              <BookButton
+                link="/free-short-story"
+                text={seed_cta}
+                title={seed_title}
                 flip={flip}
               />
             }

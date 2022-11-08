@@ -5,8 +5,8 @@ const salt_four = "Forced to sail into the Salt, they battle the dangers of an u
 
 export const salt_description = [salt_one, salt_two, salt_three, salt_four];
 
-export const salt_cta = "GET NOTIFIED";
+export const salt_cta = "COMING SOON";
 
 export const salt_title = "Salt";
 
-export const salt_cover_image = "salt_cover_nashville_small";
+export const salt_cover_image = "salt_small";
