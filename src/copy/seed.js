@@ -4,8 +4,10 @@ const seed_three = "But when she stops to pick up a scruffy hitchhiker, all her 
 
 export const seed_description = [seed_one, seed_two, seed_three];
 
-export const seed_cta = "DOWNLOAD NOW";
+export const seed_cta = "DOWNLOAD FREE";
 
 export const seed_title = "Seed";
 
 export const seed_cover_image = "seed_small";
+
+export const seed_download_link = "https://subscribepage.io/seed-giveaway";

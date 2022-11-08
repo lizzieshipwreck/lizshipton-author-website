@@ -4,8 +4,10 @@ const scourge_three = "And Heron Howsley must reckon with her family's legacy an
 
 export const scourge_description = [scourge_one, scourge_two, scourge_three];
 
-export const scourge_cta = "FREE ON AMAZON";
+export const scourge_cta = "AVAILABLE NOW";
 
 export const scourge_title = "Scourge";
 
 export const scourge_cover_image = "scourge_small";
+
+export const scourge_download_link = "https://books2read.com/lizshipton-scourge"
