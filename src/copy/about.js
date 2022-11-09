@@ -2,6 +2,6 @@ export const about_one = "Hi! I'm Liz. I have a stupid haircut and I write specu
 
 export const about_two = "My debut series, Thalassic, is about two friends who are forced to sail across a dangerous ocean in a post-apocalyptic, high-tech dystopia. Along the way, they fight pirates, run from a shadow government, overcome mental health issues, and (of course) fall in love ❤️"
 
-export const about_three = "I write about sailing because I love incorporating the incredible, beautiful, fascinating places and people we encounter into my work. I write about characters who struggle with mental health because these are things I have struggled with. I write about the apocalypse because...secretly, I may or may not be waiting for it (shh!) I write about pirates because...well, pirates are awesome. Duh 🏴‍☠️"
+export const about_three = "I write about sailing because I love incorporating the incredible experiences, beautiful places, and fascinating people we encounter into my work. I write about characters who struggle with mental health because these are things I have struggled with. I write about the apocalypse because...secretly, I may or may not be waiting for it (shh!) I write about pirates because...well, pirates are awesome. Duh 🏴‍☠️"
 
 export const about_four = "When I'm not writing about the impending apocalypse, I code or write about code.\nYou can also sometimes find me doing yoga, telling my dog I love her for the bazillionth time today, or watching Taskmaster."
