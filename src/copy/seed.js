@@ -12,3 +12,5 @@ export const seed_title = "Seed";
 export const seed_cover_image = "seed_small";
 
 export const seed_download_link = "https://subscribepage.io/seed-giveaway";
+
+export const seed_alt = "A young woman standing by a bare tree with a cat sitting in the branches, looking at a refugee camp in the desert."

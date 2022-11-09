@@ -5,8 +5,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import * as moduleStyles from './book-cover.module.css';
 
-const BookCover = ({ src, description, title }) => {
-
+const BookCover = ({ src, description, title, alt }) => {
     const [showDescription, setShowDescription] = useState(false);
 
     const data = useStaticQuery(graphql`
@@ -53,6 +52,7 @@ const BookCover = ({ src, description, title }) => {
                 <GatsbyImage
                     image={image}
                     className={`${moduleStyles.bookCover} ${showDescription && moduleStyles.bookCoverHover}`}
+                    alt={alt}
                 />
             </div>
         </div>

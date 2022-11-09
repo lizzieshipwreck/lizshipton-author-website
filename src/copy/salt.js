@@ -10,3 +10,5 @@ export const salt_cta = "COMING SOON";
 export const salt_title = "Salt";
 
 export const salt_cover_image = "salt_small";
+
+export const salt_alt = "A young woman, large dog, and a young man standing on a pier looking at a sailboat on the ocean, in front of a futuristic city."

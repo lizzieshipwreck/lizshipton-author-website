@@ -6,9 +6,9 @@ import * as styles from './index.module.css'
 import BookButton from '../components/index/book-button';
 import Block from '../components/block';
 
-import { scourge_description, scourge_cta, scourge_title, scourge_cover_image } from '../copy/scourge';
-import { salt_description, salt_cta, salt_title, salt_cover_image } from '../copy/salt';
-import { seed_cover_image, seed_cta, seed_description, seed_title } from '../copy/seed';
+import { scourge_description, scourge_cta, scourge_title, scourge_cover_image, scourge_alt } from '../copy/scourge';
+import { salt_description, salt_cta, salt_title, salt_cover_image, salt_alt } from '../copy/salt';
+import { seed_cover_image, seed_cta, seed_description, seed_title, seed_alt } from '../copy/seed';
 
 
 const IndexPage = () => {
@@ -41,6 +41,7 @@ const IndexPage = () => {
                   description={scourge_description}
                   link={"/free-novella"}
                   title={scourge_title}
+                  alt={scourge_alt}
                 />
               }
             contentTwo={
@@ -61,6 +62,7 @@ const IndexPage = () => {
                   description={seed_description}
                   link={"/free-short-story"}
                   title={seed_title}
+                  alt={seed_alt}
                 />
               }
             contentTwo={
@@ -81,6 +83,7 @@ const IndexPage = () => {
                   description={salt_description}
                   link={"/newsletter"}
                   title={salt_title}
+                  alt={salt_alt}
                 />
               }
             contentTwo={
