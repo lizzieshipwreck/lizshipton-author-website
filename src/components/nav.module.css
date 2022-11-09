@@ -19,15 +19,15 @@
 }
 
 #home {
-    text-shadow: -2px -2px 0px #F8F005, 2px 2px 0px #00E6F6;
+    text-shadow: -2px -2px 0px orange, 2px 2px 0px greenyellow;
 }
 
 #about {
-    text-shadow: -2px -2px 0px #bdff2fba, 2px 2px 0px orange;
+    text-shadow: -2px -2px 0px plum, 2px 2px 0px gold;
 }
 
 #newsletter {
-    text-shadow: -2px -2px 0px #9bfeddd5, 2px 2px 0px #de7688;
+    text-shadow: -2px -2px 0px darkturquoise, 2px 2px 0px hotpink;
 }
 
 .nav-link-item {
