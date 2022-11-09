@@ -1,8 +1,9 @@
-const seed_one = "Heron made it out of the Alley, but her journey is far from over."
-const seed_two = "With her cat Zig Zag, she makes the dangerous trip to Naze, a climate settlement on the West Coast. She has two rules: don't make friends, don't get murdered."
-const seed_three = "But when she stops to pick up a scruffy hitchhiker, all her rules go out the window and she finds herself confronting demons she thought long dead."
+const seed_one = "The world has ended. The virus took everything."
+const seed_two = "Heron Howsley and her cat Zig Zag flee the tornado-ravaged Alley for a better life in a climate refugee camp on the West Coast."
+const seed_three = "Heron has just two rules: no making friends, no getting murdered. But when she spots a lonely hitchhiker on the side of the road, she breaks those rules and stops to pick him up."
+const seed_four = "That simple act of kindness sparks a chain of events that forces Heron to reconcile with demons both old and new: a past she thought she'd left behind, a sister she thought was dead, and a future she may not be a part of."
 
-export const seed_description = [seed_one, seed_two, seed_three];
+export const seed_description = [seed_one, seed_two, seed_three, seed_four];
 
 export const seed_cta = "DOWNLOAD FREE";
 

@@ -29,6 +29,11 @@
     color: white;
 }
 
+.description-block-seed {
+    background: linear-gradient(yellow, plum);
+    color: black;
+}
+
 .description {
     margin-right: 1rem;
     margin-left: 1rem;
