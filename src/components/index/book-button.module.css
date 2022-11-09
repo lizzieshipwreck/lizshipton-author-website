@@ -50,7 +50,7 @@ button::after {
 .button-seed,
 .button-seed::after {
     background: plum 5%;
-    box-shadow: 6px 6px 0px yellow;
+    box-shadow: 6px 6px 0px gold;
 }
 
 .button-seed-flip,
