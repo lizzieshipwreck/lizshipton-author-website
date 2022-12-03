@@ -39,14 +39,14 @@ const IndexPage = () => {
                 <BookCover
                   src={scourge_cover_image}
                   description={scourge_description}
-                  link={"/free-novella"}
+                  link={"/novella"}
                   title={scourge_title}
                   alt={scourge_alt}
                 />
               }
             contentTwo={
               <BookButton
-                link="/free-novella"
+                link="/novella"
                 text={scourge_cta}
                 title={scourge_title}
                 flip={flip}
