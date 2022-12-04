@@ -30,6 +30,10 @@
     text-shadow: -2px -2px 0px darkturquoise, 2px 2px 0px hotpink;
 }
 
+#contact {
+    text-shadow: -2px -2px 0px slateblue, 2px 2px 0px pink;
+}
+
 .nav-link-item {
     padding-left: 1rem;
 }
