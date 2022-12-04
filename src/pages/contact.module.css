@@ -1,0 +1,22 @@
+.content {
+    width: 75%;
+    margin: auto;
+}
+
+.text {
+    font-family: 'Roboto';
+    line-height: 1.5;
+    font-size: large;
+    text-align: justify;
+    color: #5f5c5c;
+}
+
+.link {
+    color: slateblue;
+}
+
+@media only screen and (min-width: 500px) {
+    .textBlock {
+        width: 50%;
+    }
+}
