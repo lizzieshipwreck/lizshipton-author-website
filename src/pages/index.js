@@ -81,14 +81,14 @@ const IndexPage = () => {
                 <BookCover
                   src={salt_cover_image}
                   description={salt_description}
-                  link={"/newsletter"}
+                  link={"https://subscribepage.io/lizshipton_salt_arc"}
                   title={salt_title}
                   alt={salt_alt}
                 />
               }
             contentTwo={
               <BookButton
-                link="/newsletter"
+                link="https://subscribepage.io/lizshipton_salt_arc"
                 text={salt_cta}
                 title={salt_title}
                 flip={flip}
