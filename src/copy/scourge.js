@@ -10,6 +10,6 @@ export const scourge_title = "Scourge";
 
 export const scourge_cover_image = "scourge_small";
 
-export const scourge_download_link = "https://books2read.com/lizshipton-scourge"
+export const scourge_kindle_link = "https://www.amazon.com/dp/B0BN4Q98R9";
 
 export const scourge_alt = "A young woman walking through a desert, next to a green truck, with a tornado on the horizon."

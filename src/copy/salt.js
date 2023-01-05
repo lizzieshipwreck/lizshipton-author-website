@@ -5,10 +5,12 @@ const salt_four = "Forced to sail into the Salt, they battle the dangers of an u
 
 export const salt_description = [salt_one, salt_two, salt_three, salt_four];
 
-export const salt_cta = "COMING SOON";
+export const salt_cta = "PRE-ORDER NOW";
 
 export const salt_title = "Salt";
 
 export const salt_cover_image = "salt_small";
+
+export const salt_kindle_link = "https://www.amazon.com/dp/B0BRHK64P7";
 
 export const salt_alt = "A young woman, large dog, and a young man standing on a pier looking at a sailboat on the ocean, in front of a futuristic city."

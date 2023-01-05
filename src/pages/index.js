@@ -6,8 +6,8 @@ import * as styles from './index.module.css'
 import BookButton from '../components/index/book-button';
 import Block from '../components/block';
 
-import { scourge_description, scourge_cta, scourge_title, scourge_cover_image, scourge_alt } from '../copy/scourge';
-import { salt_description, salt_cta, salt_title, salt_cover_image, salt_alt } from '../copy/salt';
+import { scourge_description, scourge_cta, scourge_title, scourge_cover_image, scourge_alt, scourge_kindle_link } from '../copy/scourge';
+import { salt_description, salt_cta, salt_title, salt_cover_image, salt_alt, salt_kindle_link } from '../copy/salt';
 import { seed_cover_image, seed_cta, seed_description, seed_title, seed_alt } from '../copy/seed';
 
 
@@ -39,14 +39,14 @@ const IndexPage = () => {
                 <BookCover
                   src={scourge_cover_image}
                   description={scourge_description}
-                  link={"/novella"}
+                  link={scourge_kindle_link}
                   title={scourge_title}
                   alt={scourge_alt}
                 />
               }
             contentTwo={
               <BookButton
-                link="/novella"
+                link={scourge_kindle_link}
                 text={scourge_cta}
                 title={scourge_title}
                 flip={flip}
@@ -81,14 +81,14 @@ const IndexPage = () => {
                 <BookCover
                   src={salt_cover_image}
                   description={salt_description}
-                  link={"https://subscribepage.io/lizshipton_salt_arc"}
+                  link={salt_kindle_link}
                   title={salt_title}
                   alt={salt_alt}
                 />
               }
             contentTwo={
               <BookButton
-                link="https://subscribepage.io/lizshipton_salt_arc"
+                link={salt_kindle_link}
                 text={salt_cta}
                 title={salt_title}
                 flip={flip}
