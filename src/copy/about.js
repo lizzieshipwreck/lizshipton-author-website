@@ -1,4 +1,4 @@
-export const about_one = "Hi! I'm Liz. I'm a digital nomad, freelance writer, and indie author. I'm sailing around the world with my boyfriend and my dog, turning my real-life adventures into YA Sci-Fi books.";
+export const about_one = "Hi! I'm Liz. I'm a freelance writer, indie author, and full-time, off-grid, live-aboard sailor. I’m currently sailing around the world with my boyfriend and my dog, turning my real-life adventures into YA Sci-Fi and Fantasy books.";
 
 export const about_two = "My debut fiction series, Thalassic, is based on my own experience sailing from California to Panama. It's about two friends who are forced to sail across a dangerous ocean in a post-apocalyptic, high-tech dystopia. Along the way, they fight pirates, rescue a dog, run from a shadow government, and (of course) fall in love ❤️"
 
