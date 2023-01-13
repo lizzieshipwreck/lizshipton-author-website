@@ -11,7 +11,7 @@ const AboutPage = () => {
         <div className={styles.block}>
           <StaticImage src={"../images/lizzie_hammock_smile_round.png"} placeholder="blurred" quality={100} height={475}/>
           <div className={styles.textBlock}>
-            <h2 className={styles.textHeader}>Part-time author 🪶 Full-time pirate</h2>
+            <h2 className={styles.textHeader}>Part-time author 🪶⚓ Full-time pirate</h2>
             <p className={styles.text}>
               {about_one}
             </p>
@@ -24,7 +24,7 @@ const AboutPage = () => {
             <p className={styles.text}>
               {about_four}
             </p>
-            <h3 className={styles.textFooter}> ⚓ Thanks for stopping by!</h3>
+            <h3 className={styles.textFooter}>Thanks for stopping by!</h3>
           </div>
         </div>
       </div>
