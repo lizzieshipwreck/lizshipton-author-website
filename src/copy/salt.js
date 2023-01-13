@@ -11,6 +11,6 @@ export const salt_title = "Salt";
 
 export const salt_cover_image = "salt_small";
 
-export const salt_kindle_link = "https://www.amazon.com/dp/B0BRHK64P7";
+export const salt_kindle_link = "https://www.amazon.com/Salt-Thalassic-Book-Liz-Shipton-ebook/dp/B0BRHK64P7?maas=maas_adg_F4D729763A84791B73D562CB877EC097_afap_abs&ref_=aa_maas&tag=maas";
 
 export const salt_alt = "A young woman, large dog, and a young man standing on a pier looking at a sailboat on the ocean, in front of a futuristic city."
