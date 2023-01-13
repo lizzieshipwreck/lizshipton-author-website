@@ -13,7 +13,7 @@
 }
 
 .nav-link-text {
-    color: #000000;
+    color: rgba(55, 54, 54, 0.85);
     text-decoration: none;
     font-family: 'Megrim';
     font-size: x-large;

@@ -9,7 +9,7 @@
 .blockContainer {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 320px;
     margin: auto;
 }
 
@@ -18,7 +18,7 @@
         width: 85%
     }
     .blockContainer {
-        width: 375px;
+        width: 320px;
     }
 }
 
