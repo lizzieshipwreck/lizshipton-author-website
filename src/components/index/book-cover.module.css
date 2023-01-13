@@ -31,12 +31,12 @@
 
 .description-block-seed {
     background: linear-gradient(yellow, plum);
-    color: black;
+    color: darkslategray;
 }
 
 .description {
     margin-right: 1rem;
     margin-left: 1rem;
-    font-family: Raleway;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5rem;
 }

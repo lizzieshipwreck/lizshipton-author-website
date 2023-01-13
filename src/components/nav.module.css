@@ -7,7 +7,7 @@
 
 .nav-links {
     display: flex;
-align-items: baseline;
+    align-items: baseline;
     list-style: none;
     padding-left: 0;
 }
@@ -24,19 +24,19 @@ align-items: baseline;
 }
 
 #home {
-    text-shadow: -2px -2px 0px orange, 2px 2px 0px yellowgreen;
+    text-shadow: -1.5px -1.5px 0px orange, 1.5px 1.5px 0px yellowgreen;
 }
 
 #about {
-    text-shadow: -2px -2px 0px plum, 2px 2px 0px gold;
+    text-shadow: -1.5px -1.5px 0px plum, 1.5px 1.5px 0px gold;
 }
 
 #newsletter {
-    text-shadow: -2px -2px 0px darkturquoise, 2px 2px 0px hotpink;
+    text-shadow: -1.5px -1.5px 0px darkturquoise, 1.5px 1.5px 0px hotpink;
 }
 
 #contact {
-    text-shadow: -2px -2px 0px slateblue, 2px 2px 0px pink;
+    text-shadow: -1.5px -1.5px 0px slateblue, 1.5px 1.5px 0px pink;
 }
 
 @media only screen and (min-width: 750px) {

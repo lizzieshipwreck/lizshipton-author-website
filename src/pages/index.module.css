@@ -9,13 +9,16 @@
 .blockContainer {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 350px;
     margin: auto;
 }
 
 @media only screen and (min-width: 1000px) {
     .blocks {
-        width: 75%
+        width: 85%
+    }
+    .blockContainer {
+        width: 375px;
     }
 }
 
@@ -24,6 +27,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding-top: 2rem;
     }
 }
 

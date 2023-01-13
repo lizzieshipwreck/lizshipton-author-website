@@ -1,0 +1,42 @@
+.author-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author-headshot {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 3px 0 3px hotpink, -3px 0 3px turquoise;
+}
+
+.text-header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: medium;
+    letter-spacing: 1px;
+    color: rgba(55, 54, 54, 0.85);
+    margin: 0.5rem;
+}
+
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    text-align: center;
+    width: 85%;
+    margin: 0;
+}
+
+@media only screen and (min-width: 700px) {
+    .author-intro {
+        padding-bottom: 2rem;
+    }
+    .text-header {
+        font-size: x-large;
+    }
+    .text {
+        width: 100%;
+        font-size: x-large;
+    }
+}
+

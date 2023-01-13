@@ -4,24 +4,26 @@
 }
 
 .text-header {
-    font-family: 'Raleway';
-    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
     margin: 0;
-    color: #403C4A;
+    color: rgba(55, 54, 54, 0.85);
 }
 
 .text {
-    font-family: 'Roboto';
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5;
-    font-size: large;
+    letter-spacing: 1.5;
+    font-size: larger;
     text-align: justify;
-    color: #5f5c5c;
+    color: gray;
 }
 
 .text-footer {
-    font-family: 'Raleway';
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
-    color: #403C4A;
+    font-style: italic;
+    color: gray;
 }
 
 @media only screen and (min-width: 500px) {

@@ -2,6 +2,12 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+        padding-bottom: 1rem;
+        border-style: solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: gainsboro;
 }
 
 .logo {
