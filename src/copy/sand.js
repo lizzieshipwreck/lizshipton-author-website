@@ -11,6 +11,6 @@ export const sand_title = "Sand";
 
 export const sand_cover_image = "sand_small";
 
-export const sand_kindle_link = "";
+export const sand_kindle_link = "https://www.amazon.com/Sand-Thalassic-Book-Liz-Shipton-ebook/dp/B0BSCHP2HB?maas=maas_adg_44445E370729929852FEBEF69EBF8A98_afap_abs&ref_=aa_maas&tag=maas";
 
 export const sand_alt = "Two young women, a young man and a dog sailing into a lightning storm."
