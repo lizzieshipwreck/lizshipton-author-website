@@ -36,6 +36,28 @@ button::after {
     box-shadow: -6px -6px 0px hotpink;
 }
 
+.button-sand, 
+.button-sand::after {
+    background: mediumorchid 5%;
+    box-shadow: 6px 6px 0px turquoise;
+}
+
+.button-sand-flip,
+.button-sand-flip::after {
+    box-shadow: -6px -6px 0px mediumpurple;
+}
+
+.button-soul, 
+.button-soul::after {
+    background: crimson 5%;
+    box-shadow: 6px 6px 0px darkorange;
+}
+
+.button-soul-flip,
+.button-soul-flip::after {
+    box-shadow: -6px -6px 0px darkorange;
+}
+
 .button-scourge,
 .button-scourge::after {
     background: orange 5%;
@@ -79,6 +101,17 @@ button::after {
     content: 'PRE-ORDER NOW';
     background: linear-gradient(45deg, transparent 3%, hotpink 3%, hotpink 5%, darkturquoise 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
+}
+
+.button-sand::after {
+    content: 'COMING 03/2023';
+    background: linear-gradient(45deg, transparent 3%, turquoise 3%, turquoise 5%, mediumorchid 5%);
+    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px hotpink;
+}
+.button-soul::after {
+    content: 'COMING 05/2023';
+    background: linear-gradient(45deg, transparent 3%, darkorange 3%, darkorange 5%, crimson 5%);
+    text-shadow: -3px -3px 0px hotpink, 3px 3px 0px greenyellow;
 }
 
 .button-scourge::after {

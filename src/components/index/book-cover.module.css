@@ -19,14 +19,24 @@
     overflow-y: scroll;
 }
 
-.description-block-scourge {
-    background: linear-gradient(greenyellow, orange);
-    color: purple;
-}
-
 .description-block-salt {
     background: linear-gradient(hotpink, darkturquoise);
     color: white;
+}
+
+.description-block-sand {
+    background: linear-gradient(mediumorchid, teal);
+    color: white;
+}
+
+.description-block-soul {
+    background: linear-gradient(maroon, darkorange);
+    color: white;
+}
+
+.description-block-scourge {
+    background: linear-gradient(greenyellow, orange);
+    color: purple;
 }
 
 .description-block-seed {
