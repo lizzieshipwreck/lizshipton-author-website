@@ -10,7 +10,7 @@ import Block from '../components/block';
 import { scourge_description, scourge_cta, scourge_title, scourge_cover_image, scourge_alt, scourge_kindle_link } from '../copy/scourge';
 import { salt_description, salt_cta, salt_title, salt_cover_image, salt_alt, salt_kindle_link } from '../copy/salt';
 import { seed_cover_image, seed_cta, seed_description, seed_title, seed_alt } from '../copy/seed';
-import AuthorIntroBlock from '../components/author-intro-block';
+import AuthorIntroBlock from '../components/index/author-intro-block';
 import { sand_alt, sand_cover_image, sand_cta, sand_description, sand_kindle_link, sand_title } from '../copy/sand';
 import { soul_alt, soul_cover_image, soul_cta, soul_description, soul_kindle_link, soul_title } from '../copy/soul';
 

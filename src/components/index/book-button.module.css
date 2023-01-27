@@ -111,7 +111,7 @@ button::after {
 .button-soul::after {
     content: 'COMING 05/2023';
     background: linear-gradient(45deg, transparent 3%, darkorange 3%, darkorange 5%, crimson 5%);
-    text-shadow: -3px -3px 0px hotpink, 3px 3px 0px greenyellow;
+    text-shadow: -3px -3px 0px turquoise, 3px 3px 0px greenyellow;
 }
 
 .button-scourge::after {
