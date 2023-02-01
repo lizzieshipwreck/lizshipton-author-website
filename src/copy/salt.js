@@ -5,7 +5,7 @@ const salt_four = "Forced to sail into the Salt, they battle the dangers of an u
 
 export const salt_description = [salt_one, salt_two, salt_three, salt_four];
 
-export const salt_cta = "PRE-ORDER NOW";
+export const salt_cta = "AVAILABLE NOW";
 
 export const salt_title = "Salt";
 

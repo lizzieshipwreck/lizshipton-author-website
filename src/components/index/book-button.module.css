@@ -98,7 +98,7 @@ button::after {
 }
 
 .button-salt::after {
-    content: 'PRE-ORDER NOW';
+    content: 'AVAILABLE NOW';
     background: linear-gradient(45deg, transparent 3%, hotpink 3%, hotpink 5%, darkturquoise 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
 }
