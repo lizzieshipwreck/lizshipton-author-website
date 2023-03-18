@@ -5,7 +5,7 @@ const sand_four = "In the process, she uncovers a deadly secret that upends ever
 
 export const sand_description = [sand_one, sand_two, sand_three, sand_four];
 
-export const sand_cta = "COMING 03/2023";
+export const sand_cta = "AVAILABLE NOW";
 
 export const sand_title = "Sand";
 
