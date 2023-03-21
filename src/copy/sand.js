@@ -1,11 +1,11 @@
-const sand_one = "Who can you rely on when your own brain is unreliable?"
-const sand_two = "After bartering passage to Alluvium, a step too far with Savage and a run-in with her brother Shale have Bird again fleeing for her life, wondering who she can trust, and worried there may be some truth to Shale’s crackpot theories about Zenith."
-const sand_three = "When she learns that Sargo may be in Grike, eight thousand miles west across the Salt, Bird decides to undertake a dangerous solo journey to get him back."
-const sand_four = "In the process, she uncovers a deadly secret that upends everything she thought she knew about Zenith, the Anonymity, and her place in the world."
+const sand_one = "It is not the Salt we conquer: it is ourselves."
+const sand_two = "When Bird learns that Sargo has been kidnapped and taken to a city eight thousand miles across the Salt, she realizes she has only one choice if she ever wants to see him again…"
+const sand_three = "Undertake a dangerous voyage to get him back. Alone."
+const sand_four = "Desperate but determined, Bird sets out to rescue the friend she may be falling in love with. But the closer she gets to Sargo, the more she learns about the true nature of the people that took him—and about herself."
 
 export const sand_description = [sand_one, sand_two, sand_three, sand_four];
 
-export const sand_cta = "AVAILABLE NOW";
+export const sand_cta = "FREE IN KU";
 
 export const sand_title = "Sand";
 

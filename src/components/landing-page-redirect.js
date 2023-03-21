@@ -7,7 +7,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import PropogateLoader from "react-spinners/PropagateLoader";
 import * as styles from './landing-page-redirect.module.css';
 
-const EMAIL_PARAMS = ['remain', 'releases', 'arc', 'spice', 'some_spice', 'no_spice']
+const EMAIL_PARAMS = ['remain', 'releases', 'arc', 'spice', 'no_spice']
 
 const ThankyouText = ({isEmailClick}) => {
     if (isEmailClick) {
@@ -44,7 +44,7 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
                 redirectToLandingPage();
             } else {
                 // we have been sent here from a landing page thank you,
-                // of from an email where the user has responded to a prompt by clicking a link.
+                // or from an email where the user has responded to a prompt by clicking a link.
                 // Display the page.
                 for (let param in EMAIL_PARAMS) {
                     const option = EMAIL_PARAMS[param]

@@ -1,11 +1,11 @@
 const salt_one = "What do you do with a drunken sailor when the world is underwater?"
-const salt_two = "Bird Howsley and Sargo Paz are struggling to find their places in a world where biochips are ubiquitous but habitable space is at a premium."
-const salt_three = "When their search for answers takes a dangerous turn, they find themselves in the crosshairs of a dangerous criminal organization that wants them dead."
-const salt_four = "Forced to sail into the Salt, they battle the dangers of an unpredictable ocean, and discover pirates, an underground plot, and their true feelings for each other."
+const salt_two = "A terrible sailor with a drinking habit to boot, Bird Howsley is not exactly thriving in a dystopian water world. And now a message from her dead brother has her questioning everything she knew about her past."
+const salt_three = "But when her search for answers takes a reckless turn, she puts herself and her best friend Sargo in the crosshairs of a dangerous underground organization that wants them dead."
+const salt_four = "Forced to flee their hometown, they sail into the Salt—and quickly discover that the organization they're running from runs deeper than they know…"
 
 export const salt_description = [salt_one, salt_two, salt_three, salt_four];
 
-export const salt_cta = "AVAILABLE NOW";
+export const salt_cta = "FREE IN KU";
 
 export const salt_title = "Salt";
 
