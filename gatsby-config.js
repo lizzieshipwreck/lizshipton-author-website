@@ -4,10 +4,10 @@ module.exports = {
     siteUrl: `https://lizshipton.com`,
     socialLinks:
       [
-        {url: "https://tiktok.com/@lizshiptonauthor", color: 'hotpink'},
-        {url: "https://facebook.com/lizshiptonauthor", color: 'darkturquoise'},
-        {url: "https://instagram.com/sv_loki", color: 'orange' },
-        {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", color: 'lime'}
+        {url: "https://tiktok.com/@lizshiptonauthor", color: 'darkgray'},
+        {url: "https://facebook.com/lizshiptonauthor", color: 'darkgray'},
+        {url: "https://instagram.com/sv_loki", color: 'darkgray' },
+        {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", color: 'darkgray'}
       ]
   },
   plugins: [

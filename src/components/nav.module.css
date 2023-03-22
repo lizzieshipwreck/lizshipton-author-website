@@ -24,19 +24,19 @@
 }
 
 #home {
-    text-shadow: -1.5px -1.5px 0px orange, 1.5px 1.5px 0px yellowgreen;
+    text-shadow: -1px -1px 0px gray, 1px 1px 0px darkgray;
 }
 
 #about {
-    text-shadow: -1.5px -1.5px 0px plum, 1.5px 1.5px 0px gold;
+    text-shadow: -1px -1px 0px gray, 1px 1px 0px darkgray;
 }
 
 #newsletter {
-    text-shadow: -1.5px -1.5px 0px darkturquoise, 1.5px 1.5px 0px hotpink;
+    text-shadow: -1px -1px 0px gray, 1px 1px 0px darkgray;
 }
 
 #contact {
-    text-shadow: -1.5px -1.5px 0px slateblue, 1.5px 1.5px 0px pink;
+    text-shadow: -1px -1px 0px gray, 1px 1px 0px darkgray;
 }
 
 @media only screen and (min-width: 750px) {

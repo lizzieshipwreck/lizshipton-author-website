@@ -27,63 +27,46 @@ button::after {
 
 .button-salt, 
 .button-salt::after {
-    background: darkturquoise 5%;
-    box-shadow: 6px 6px 0px hotpink;
+    background: rgb(22,43,93) 5%;
+    box-shadow: 6px 6px 0px rgb(224,95,119);
 }
 
 .button-salt-flip,
 .button-salt-flip::after {
-    box-shadow: -6px -6px 0px hotpink;
+    box-shadow: -6px -6px 0px rgb(224,95,119);
 }
 
 .button-sand, 
 .button-sand::after {
-    background: mediumorchid 5%;
-    box-shadow: 6px 6px 0px turquoise;
+    background: rgb(78, 28, 96) 5%;
+    box-shadow: 6px 6px 0px rgb(45, 181, 186);
 }
 
 .button-sand-flip,
 .button-sand-flip::after {
-    box-shadow: -6px -6px 0px mediumpurple;
+    box-shadow: -6px -6px 0px rgb(45, 181, 186);
 }
 
 .button-soul, 
 .button-soul::after {
-    background: crimson 5%;
-    box-shadow: 6px 6px 0px darkorange;
+    background: rgb(49,23,59) 5%;
+    box-shadow: 6px 6px 0px rgb(212,94,91);
 }
 
 .button-soul-flip,
 .button-soul-flip::after {
-    box-shadow: -6px -6px 0px darkorange;
+    box-shadow: -6px -6px 0px rgb(212,94,91);
 }
 
 .button-scourge,
 .button-scourge::after {
-    background: orange 5%;
-    box-shadow: 6px 6px 0px lime;
+    background: rgb(22,70,119) 5%;
+    box-shadow: 6px 6px 0px rgb(233,125,91);
 }
 
 .button-scourge-flip,
 .button-scourge-flip::after {
-    box-shadow: -6px -6px 0px lime;
-}
-
-.button-seed,
-.button-seed::after {
-    background: plum 5%;
-    box-shadow: 6px 6px 0px gold;
-}
-
-.button-seed-flip,
-.button-seed-flip::after {
-    box-shadow: -6px -6px 0px yellow;
-}
-
-.button-salt-dark,
-.button-salt-dark::after {
-    background: rgb(100,82,131) 5%;
-    box-shadow: 6px 6px 0px rgb(211,55,71);
+    box-shadow: -6px -6px 0px rgb(233,125,91);
 }
 
 button::after {
@@ -105,37 +88,25 @@ button::after {
 
 .button-salt::after {
     content: 'FREE IN KU';
-    background: linear-gradient(45deg, transparent 3%, hotpink 3%, hotpink 5%, darkturquoise 5%);
-    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
-}
-
-.button-salt-dark::after {
-    content: 'FREE IN KU';
-    background: linear-gradient(45deg, transparent 3%, rgb(211,55,71) 3%, rgb(211,55,71) 5%, rgb(100,82,131) 5%);
+    background: linear-gradient(45deg, transparent 3%, rgb(224,95,119) 3%, rgb(224,95,119) 5%, rgb(22,43,93) 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
 }
 
 .button-sand::after {
     content: 'FREE IN KU';
-    background: linear-gradient(45deg, transparent 3%, turquoise 3%, turquoise 5%, mediumorchid 5%);
-    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px hotpink;
+    background: linear-gradient(45deg, transparent 3%, rgb(45, 181, 186) 3%, rgb(45, 181, 186) 5%, rgb(78, 28, 96) 5%);
+    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px rgb(224,95,119);
 }
 .button-soul::after {
     content: 'COMING 05/2023';
-    background: linear-gradient(45deg, transparent 3%, darkorange 3%, darkorange 5%, crimson 5%);
+    background: linear-gradient(45deg, transparent 3%, rgb(212,94,91) 3%, rgb(212,94,91) 5%, rgb(49,23,59) 5%);
     text-shadow: -3px -3px 0px turquoise, 3px 3px 0px greenyellow;
 }
 
 .button-scourge::after {
     content: 'FREE IN KU';
-    background: linear-gradient(45deg, transparent 3%, greenyellow 3%, greenyellow 5%, orange 5%);
-    text-shadow: -3px -3px 0px hotpink, 3px 3px 0px #00E6F6;
-}
-
-.button-seed::after {
-    content: 'DOWNLOAD FREE';
-    background: linear-gradient(45deg, transparent 3%, yellow 3%, yellow 5%, plum 5%);
-    text-shadow: -3px -3px 0px hotpink, 3px 3px 0px greenyellow;
+    background: linear-gradient(45deg, transparent 3%, rgb(233,125,91) 3%, rgb(233,125,91) 5%, rgb(22,70,119)  5%);
+    text-shadow: -3px -3px 0px rgb(224,95,119), 3px 3px 0px #00E6F6;
 }
 
 button:hover::after {
