@@ -14,7 +14,7 @@ export const salt_description = {
 
 export const salt_quotes = [quote_one, quote_two]
 
-export const salt_cta = "FREE IN KU";
+export const salt_cta = "CLICK TO BUY";
 
 export const salt_title = "Salt";
 

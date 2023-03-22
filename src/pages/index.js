@@ -95,7 +95,7 @@ const IndexPage = () => {
                 <BookCover
                 src={seed_cover_image}
                 description={seed_description}
-                link={"/free-short-story"}
+                link={seed_page_link}
                 title={seed_title}
                 alt={seed_alt}
                 />

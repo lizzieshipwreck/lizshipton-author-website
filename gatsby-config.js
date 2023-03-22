@@ -24,18 +24,13 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-plugin-sharp",
-      options: {
-        quality: 100,
-      }
-    },
-    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       }
     },
+    "gatsby-plugin-sharp",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
   ],
