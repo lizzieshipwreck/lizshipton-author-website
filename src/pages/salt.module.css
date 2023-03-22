@@ -1,0 +1,47 @@
+.content {
+    width: 75%;
+    margin: auto;
+}
+
+.text-header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.text {
+    font-family: 'Raleway';
+    font-size: large;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.quote {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: gray;
+    text-align: justify;
+}
+
+.first {
+    margin-top: 3rem;
+}
+
+@media only screen and (min-width: 500px) {
+    .block {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 5rem;
+        }
+    .textBlock {
+        width: 50%;
+    }
+    .text-header {
+        font-size: xx-large;
+        margin-bottom: 1rem;
+    }
+    .text-subheader {
+        font-size: x-large;
+        margin-bottom: 3rem;
+    }
+}

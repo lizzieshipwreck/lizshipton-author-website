@@ -80,6 +80,12 @@ button::after {
     box-shadow: -6px -6px 0px yellow;
 }
 
+.button-salt-dark,
+.button-salt-dark::after {
+    background: rgb(100,82,131) 5%;
+    box-shadow: 6px 6px 0px rgb(211,55,71);
+}
+
 button::after {
     --slice-0: inset(50% 50% 50% 50%);
     --slice-1: inset(80% -6px 0 0);
