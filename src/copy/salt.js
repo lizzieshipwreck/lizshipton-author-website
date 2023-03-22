@@ -4,7 +4,7 @@ const description_three = "Bird needs answers."
 const description_four = "But when her search for those answers takes a reckless turn, she puts herself and her best friend Sargo in the crosshairs of a dangerous underground organization that wants them dead."
 const description_five = "Forced to flee their hometown, they sail into the Salt—and quickly discover that the organization they're running from runs deeper than they know..."
 
-const quote_one = 'An immersive read right from the get-go. The characters and world pull you in and won’t let you go. Definitely worth it!" - Amazon Review'
+const quote_one = '"An immersive read right from the get-go. The characters and world pull you in and won’t let you go. Definitely worth it!" - Amazon Review'
 const quote_two = '"Such a good book and a lovely surprise! Sailing, pirates, and urban dystopias. The action rarely stopped, and I had trouble putting it down! I highly recommend this book if you\'re looking for something fast-paced and dystopian." - Amazon Review'
 
 export const salt_description = {
