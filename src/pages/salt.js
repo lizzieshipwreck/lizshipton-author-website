@@ -1,11 +1,9 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import * as styles from "./salt.module.css"
-import { salt_description, salt_cta, salt_title, salt_cover_image, salt_alt, salt_kindle_link } from '../copy/salt';
+import { salt_cta, salt_title, salt_alt, salt_kindle_link, salt_cover_image } from '../copy/salt';
 import BookButton from '../components/index/book-button';
 import BookCover from '../components/index/book-cover';
-
-const [one, two, three, four] = salt_description
 
 const SaltAmazonRedirect = () => {
   return (
@@ -14,7 +12,7 @@ const SaltAmazonRedirect = () => {
         <div className={styles.block}>
             <div>
             <BookCover title={salt_title} cta={salt_cta} src={salt_cover_image} alt={salt_alt} />
-            <BookButton link={salt_kindle_link} text="Click to Buy on Amazon" flip={false} title={salt_title} dark/> 
+            <BookButton link={salt_kindle_link} text={"Click to Buy"} flip={false} title={salt_title} dark/> 
             </div>
           <div className={styles.textBlock}>
             <h2 className={styles.textHeader}>What do you do with a drunken sailor when the world is under water?</h2>

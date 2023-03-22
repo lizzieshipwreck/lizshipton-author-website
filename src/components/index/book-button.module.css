@@ -104,13 +104,19 @@ button::after {
 }
 
 .button-salt::after {
-    content: 'AVAILABLE NOW';
+    content: 'FREE IN KU';
     background: linear-gradient(45deg, transparent 3%, hotpink 3%, hotpink 5%, darkturquoise 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
 }
 
+.button-salt-dark::after {
+    content: 'FREE IN KU';
+    background: linear-gradient(45deg, transparent 3%, rgb(211,55,71) 3%, rgb(211,55,71) 5%, rgb(100,82,131) 5%);
+    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
+}
+
 .button-sand::after {
-    content: 'COMING 03/2023';
+    content: 'FREE IN KU';
     background: linear-gradient(45deg, transparent 3%, turquoise 3%, turquoise 5%, mediumorchid 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px hotpink;
 }
@@ -121,7 +127,7 @@ button::after {
 }
 
 .button-scourge::after {
-    content: 'AVAILABLE NOW';
+    content: 'FREE IN KU';
     background: linear-gradient(45deg, transparent 3%, greenyellow 3%, greenyellow 5%, orange 5%);
     text-shadow: -3px -3px 0px hotpink, 3px 3px 0px #00E6F6;
 }
