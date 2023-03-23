@@ -11,7 +11,9 @@ export const sand_description = {
 
 export const sand_quotes = [quote_one, quote_two]
 
-export const sand_cta = "FREE IN KU";
+export const sand_cta = "READ FREE IN KU";
+
+export const sand_mobile_cta = "FREE IN KU";
 
 export const sand_title = "Sand";
 

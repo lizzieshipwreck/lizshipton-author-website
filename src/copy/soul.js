@@ -15,6 +15,8 @@ export const soul_quotes = [quote_one, quote_two];
 
 export const soul_cta = "COMING 05/2023";
 
+export const soul_mobile_cta = "FREE IN KU";
+
 export const soul_title = "Soul";
 
 export const soul_cover_image = "soul_small";

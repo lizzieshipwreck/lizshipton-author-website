@@ -22,19 +22,23 @@
     text-align: justify;
 }
 
+.reviews {
+    text-align: center;
+}
+
 .first {
     margin-top: 3rem;
 }
 
 @media only screen and (min-width: 500px) {
-    .block {
+    .blocks {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             margin-top: 5rem;
         }
-    .textBlock {
-        width: 50%;
+    .text-block {
+        width: 45%;
     }
     .text-header {
         font-size: xx-large;
