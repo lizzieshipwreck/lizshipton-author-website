@@ -19,7 +19,7 @@ export const soul_mobile_cta = "FREE IN KU";
 
 export const soul_title = "Soul";
 
-export const soul_cover_image = "soul_small";
+export const soul_cover_image = "Soul";
 
 export const soul_kindle_link = "https://www.amazon.com/Soul-Thalassic-Book-Liz-Shipton-ebook/dp/B0BSB8KZX9?maas=maas_adg_1BB8E41EE1006FA1E8AE9BE12C125088_afap_abs&ref_=aa_maas&tag=maas";
 

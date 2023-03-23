@@ -21,7 +21,7 @@ export const scourge_mobile_cta = "FREE IN KU";
 
 export const scourge_title = "Scourge";
 
-export const scourge_cover_image = "scourge_small";
+export const scourge_cover_image = "Scourge";
 
 export const scourge_kindle_link = "https://www.amazon.com/Scourge-Thalassic-Book-Liz-Shipton-ebook/dp/B0BN4Q98R9?maas=maas_adg_948B4ABC4616DBFD6A89734DE214F490_afap_abs&ref_=aa_maas&tag=maas";
 

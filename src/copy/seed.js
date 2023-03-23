@@ -9,7 +9,7 @@ export const seed_cta = "DOWNLOAD NOW";
 
 export const seed_title = "Seed";
 
-export const seed_cover_image = "seed_small";
+export const seed_cover_image = "Seed";
 
 export const seed_download_link = "https://subscribepage.io/seed-giveaway";
 
