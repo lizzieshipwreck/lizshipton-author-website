@@ -15,13 +15,13 @@ export const scourge_description = {
 
 export const scourge_quotes = [quote_one, quote_two, quote_three];
 
-export const scourge_cta = "READ FREE IN KU";
+export const scourge_cta = "READ FOR $0.99 ON KINDLE";
 
 export const scourge_mobile_cta = "FREE IN KU";
 
 export const scourge_title = "Scourge";
 
-export const scourge_cover_image = "Scourge";
+export const scourge_cover_image = "scourge_small";
 
 export const scourge_kindle_link = "https://www.amazon.com/Scourge-Thalassic-Book-Liz-Shipton-ebook/dp/B0BN4Q98R9?maas=maas_adg_948B4ABC4616DBFD6A89734DE214F490_afap_abs&ref_=aa_maas&tag=maas";
 

@@ -15,13 +15,13 @@ export const salt_description = {
 
 export const salt_quotes = [quote_one, quote_two]
 
-export const salt_cta = "READ FREE IN KU";
+export const salt_cta = "READ FOR $0.99 ON KINDLE";
 
 export const salt_mobile_cta = "FREE IN KU";
 
 export const salt_title = "Salt";
 
-export const salt_cover_image = "Salt";
+export const salt_cover_image = "salt_small";
 
 export const salt_kindle_link = "https://www.amazon.com/Salt-Thalassic-Book-Liz-Shipton-ebook/dp/B0BRHK64P7?maas=maas_adg_F4D729763A84791B73D562CB877EC097_afap_abs&ref_=aa_maas&tag=maas";
 

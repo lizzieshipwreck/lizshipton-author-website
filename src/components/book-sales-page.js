@@ -7,7 +7,7 @@ import BookButton from '../components/index/book-button';
 import BookCover from '../components/index/book-cover';
 import { StaticImage } from 'gatsby-plugin-image';
 
-const BookSalesPage = ({title, cta, link, cover_image, cover_alt, quotes, description, flip}) => {
+const BookSalesPage = ({title, cta, mobile_cta, link, cover_image, cover_alt, quotes, description}) => {
 
   const [windowWidth, setWindowWidth] = useState(0);
 
@@ -24,7 +24,9 @@ const BookSalesPage = ({title, cta, link, cover_image, cover_alt, quotes, descri
       }
   }
 
-  const CTA = windowWidth > 850 ? cta : "FREE IN KU";
+  const isMobile = windowWidth < 850;
+
+  const CTA =  isMobile ? mobile_cta : cta;
 
   const {tagline, paragraphs} = description;
 
@@ -39,13 +41,10 @@ const BookSalesPage = ({title, cta, link, cover_image, cover_alt, quotes, descri
                 <BookCover title={title} src={cover_image} alt={cover_alt} link={link}/>
               }
               styles={styles}
-              flip={flip}
               />
           <div className={styles.textBlock}>
+            <BookButton link={link} text={CTA} title={title} mobile={isMobile}/>
             <h2 className={styles.textHeader}>{tagline}</h2>
-            <br/>
-              <BookButton link={link} text={CTA} flip={flip} title={title} dark/>
-            <br/>
               {
                   paragraphs.map((paragraph) => {
                       return <p className={styles.text}>{paragraph}</p>

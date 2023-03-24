@@ -11,13 +11,13 @@ export const sand_description = {
 
 export const sand_quotes = [quote_one, quote_two]
 
-export const sand_cta = "READ FREE IN KU";
+export const sand_cta = "READ FOR $0.99 ON KINDLE";
 
 export const sand_mobile_cta = "FREE IN KU";
 
 export const sand_title = "Sand";
 
-export const sand_cover_image = "Sand";
+export const sand_cover_image = "sand_small";
 
 export const sand_kindle_link = "https://www.amazon.com/Sand-Thalassic-Book-Liz-Shipton-ebook/dp/B0BSCHP2HB?maas=maas_adg_44445E370729929852FEBEF69EBF8A98_afap_abs&ref_=aa_maas&tag=maas";
 

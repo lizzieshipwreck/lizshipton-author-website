@@ -1,11 +1,9 @@
 .container {
-    margin-top: 1rem;
     margin-bottom: 0;
 }
 
-.flipContainer {
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+.mobileContainer {
+    margin-top: 2rem;
 }
 
 /* nifty glitch buttons from  https: //codepen.io/stevenlei/pen/ZEpyBod */
@@ -31,20 +29,10 @@ button::after {
     box-shadow: 6px 6px 0px rgb(224,95,119);
 }
 
-.button-salt-flip,
-.button-salt-flip::after {
-    box-shadow: -6px -6px 0px rgb(224,95,119);
-}
-
 .button-sand, 
 .button-sand::after {
     background: rgb(78, 28, 96) 5%;
     box-shadow: 6px 6px 0px rgb(45, 181, 186);
-}
-
-.button-sand-flip,
-.button-sand-flip::after {
-    box-shadow: -6px -6px 0px rgb(45, 181, 186);
 }
 
 .button-soul, 
@@ -53,20 +41,10 @@ button::after {
     box-shadow: 6px 6px 0px rgb(212,94,91);
 }
 
-.button-soul-flip,
-.button-soul-flip::after {
-    box-shadow: -6px -6px 0px rgb(212,94,91);
-}
-
 .button-scourge,
 .button-scourge::after {
     background: rgb(22,70,119) 5%;
     box-shadow: 6px 6px 0px rgb(233,125,91);
-}
-
-.button-scourge-flip,
-.button-scourge-flip::after {
-    box-shadow: -6px -6px 0px rgb(233,125,91);
 }
 
 button::after {
