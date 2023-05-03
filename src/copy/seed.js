@@ -16,3 +16,8 @@ export const seed_download_link = "https://subscribepage.io/seed-giveaway";
 export const seed_alt = "A young woman standing by a bare tree with a cat sitting in the branches, looking at a refugee camp in the desert."
 
 export const seed_page_link = "/free-short-story";
+
+
+// Seed and Fire
+
+export const seed_and_fire_download_link = "https://subscribepage.io/seed-and-fire-giveaway";
