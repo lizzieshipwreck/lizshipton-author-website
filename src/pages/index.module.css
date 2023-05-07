@@ -11,6 +11,7 @@
     flex-direction: column;
     width: 320px;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -28,6 +29,9 @@
         justify-content: space-around;
         align-items: center;
         padding-top: 2rem;
+    }
+    .blockContainer {
+        margin-bottom: 0;
     }
 }
 

@@ -15,7 +15,7 @@ export const scourge_description = {
 
 export const scourge_quotes = [quote_one, quote_two, quote_three];
 
-export const scourge_cta = "READ FOR $0.99 ON KINDLE";
+export const scourge_cta = "READ FOR $2.99 ON KINDLE";
 
 export const scourge_mobile_cta = "FREE IN KU";
 

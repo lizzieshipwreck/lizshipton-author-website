@@ -5,7 +5,7 @@ import { seed_and_fire_download_link } from '../copy/seed'
 const NewsletterRedirect = () => {
 
     return (
-        <LandingPageRedirect pageTitle={"Newsletter"} redirectUrl={seed_download_link}/>
+        <LandingPageRedirect pageTitle={"Newsletter"} redirectUrl={seed_and_fire_download_link}/>
   )
 }
 

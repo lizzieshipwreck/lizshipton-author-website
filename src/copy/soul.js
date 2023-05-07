@@ -3,8 +3,8 @@ const description_two = "Powerless. Deserted. Defeated."
 const description_three = "When a close call forces her to confront her demons, she’s faced with a choice: choose a path of redemption that will turn her greatest weakness into a superpower..."
 const description_four = "Or let the darkness swallow her."
 
-const quote_one = '“A gripping and satisfying finale to this trilogy! I was on the edge of my seat and couldn’t put it down! I can’t wait to see what this author does next.” - Advanced Copy Review'
-const quote_two = '"Yet another book in this series that I couldn\'t put down! I\'m so happy there are prequels to read because I want more! Going to read those next!" - Advanced Copy Review'
+const quote_one = '"...please please let there be more!" - Amazon Review'
+const quote_two = '"A gripping and satisfying finale to this trilogy. I can\'t wait to see what this author does next." - Amazon Review'
 
 export const soul_description = {
     tagline: "Rock bottom is just a pitstop.",
@@ -13,9 +13,9 @@ export const soul_description = {
 
 export const soul_quotes = [quote_one, quote_two];
 
-export const soul_cta = "COMING 05/2023";
+export const soul_cta = "Read for $3.99 on Kindle";
 
-export const soul_mobile_cta = "READ FOR $0.99 ON KINDLE";
+export const soul_mobile_cta = "FREE IN KU";
 
 export const soul_title = "Soul";
 
