@@ -14,6 +14,7 @@ import { seed_cover_image, seed_description, seed_title, seed_alt, seed_page_lin
 import { sand_alt, sand_cover_image, sand_description, sand_page_link, sand_title } from '../copy/sand';
 import { soul_alt, soul_cover_image, soul_description, soul_page_link, soul_title } from '../copy/soul';
 import { thalassic_na_alt, thalassic_na_image, thalassic_na_link } from '../copy/thalassic_na';
+import { bad_magic_alt, bad_magic_image, bad_magic_link } from '../copy/bad_magic';
 
 
 const IndexPage = () => {
@@ -114,6 +115,18 @@ const IndexPage = () => {
           </div>
           <div className={styles.seriesImage}>
             <SeriesImage src={thalassic_na_image} alt={thalassic_na_alt} link={thalassic_na_link}/>
+          </div>
+          <div className={styles.seriesHeader}>
+            <h1 >Bad Magic (Contemporary YA Fantasy (WIP))</h1>
+          </div>
+          <div className={styles.seriesImage}>
+            <BookCover
+                src={bad_magic_image}
+                description={""}
+                link={bad_magic_link}
+                title={""}
+                alt={bad_magic_alt}
+            />          
           </div>
       </div>
     </Layout>
