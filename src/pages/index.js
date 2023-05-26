@@ -40,9 +40,6 @@ const IndexPage = () => {
     <Layout pageTitle={"Home"}>
         <div className={styles.content}>
           <AuthorIntroBlock />
-          <div className={styles.seriesHeader}>
-            <h1 >Thalassic Series (Young Adult Edition)</h1>
-          </div>
           <div className={styles.blocks}>
           <Block
               contentOne={
