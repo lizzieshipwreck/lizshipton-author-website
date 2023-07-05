@@ -53,6 +53,12 @@ button::after {
     box-shadow: 6px 6px 0px rgb(114, 83, 74);
 }
 
+.button-savage,
+.button-savage::after {
+    background: rgb(50, 24, 177) 5%;
+    box-shadow: 6px 6px 0px rgb(0, 0, 0);
+}
+
 button::after {
     --slice-0: inset(50% 50% 50% 50%);
     --slice-1: inset(80% -6px 0 0);
