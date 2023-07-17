@@ -15,7 +15,7 @@ const SeriesImage = ({ src, link, alt }) => {
                         original {
                             src
                         }
-                        gatsbyImageData(quality: 100, placeholder: BLURRED, width: 1000)
+                        gatsbyImageData(quality: 100, placeholder: BLURRED, width: 1024)
                     }
                 }
             }
