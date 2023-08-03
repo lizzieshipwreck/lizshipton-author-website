@@ -15,18 +15,18 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
         (
         <ul className={styles.navLinks}>
             <li className={styles.navLinkItem}>
-            <Link to="/" className={styles.navLinkText} id={styles.home}>
-              <b>Home</b>
+            <Link to="/newsletter" className={styles.navLinkText} id={styles.newsletter}>
+              <b>{!!windowWidth && windowWidth > 850 ? 'Newsletter' : 'News'}</b>
+            </Link>
+            </li>
+            <li className={styles.navLinkItem}>
+            <Link to="/ya-books" className={styles.navLinkText} id={styles.home}>
+              <b>{!!windowWidth && windowWidth > 850 ? 'YA Books' : 'YA'}</b>
             </Link>
             </li>
             <li className={styles.navLinkItem}>
             <Link to="/about" className={styles.navLinkText} id={styles.about}>
               <b>About</b>
-            </Link>
-            </li>
-            <li className={styles.navLinkItem}>
-            <Link to="/newsletter" className={styles.navLinkText} id={styles.newsletter}>
-              <b>{!!windowWidth && windowWidth > 850 ? 'Newsletter' : 'News'}</b>
             </Link>
             </li>
             <li className={styles.navLinkItem}>
