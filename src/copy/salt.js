@@ -30,3 +30,5 @@ export const salt_kindle_link = "https://www.amazon.com/Salt-Thalassic-Book-Liz-
 export const salt_alt = "A young woman, large dog, and a young man standing on a pier looking at a sailboat on the ocean, in front of a futuristic city."
 
 export const salt_page_link = "/salt";
+
+export const salt_na_link = "https://www.amazon.com/gp/product/B0BZN2K9F9"

@@ -7,6 +7,7 @@ import AuthorIntroBlock from '../components/index/author-intro-block';
 import SeriesImage from '../components/index/series-image';
 
 import { thalassic_na_alt, thalassic_na_image, thalassic_na_link, tropes } from '../copy/thalassic_na';
+import { salt_na_link } from '../copy/salt';
 
 const IndexPage = () => {
 
@@ -35,7 +36,7 @@ const IndexPage = () => {
             <SeriesImage src={thalassic_na_image} alt={thalassic_na_alt} link={thalassic_na_link}/>
           </div>
           <div className={styles.tropes}>
-            <SeriesImage src={tropes} alt={"Salt Book Tropes"} link={thalassic_na_link}/>
+            <SeriesImage src={tropes} alt={"Salt Book Tropes"} link={salt_na_link}/>
           </div>
       </div>
     </Layout>
