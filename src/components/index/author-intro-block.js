@@ -7,7 +7,7 @@ const AuthorIntroBlock = () => {
     return (
         <>
             <Link to="/about" className={styles.authorIntro}>
-                <StaticImage src={"../../images/author_headshot_round.png"} placeholder="blurred" quality={100} height={175} className={styles.authorHeadshot} />
+                <StaticImage src={"../../images/liz and aloy smoochin.jpeg"} placeholder="blurred" quality={100} height={175} className={styles.authorHeadshot} />
              </Link>
             <h2 className={styles.textHeader}>Part-time author 🪶⚓ Full-time pirate</h2>
             <p className={styles.text}>
