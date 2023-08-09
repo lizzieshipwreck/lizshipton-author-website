@@ -26,12 +26,13 @@
 .tropes {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .seriesImage {
     display: flex;
     justify-content: center;
+    margin-top: 3rem;
 }
 
 @media only screen and (min-width: 1000px) {
