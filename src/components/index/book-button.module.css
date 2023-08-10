@@ -10,6 +10,7 @@
 button,
 button::after {
     width: 100%; 
+    min-width: 250px;
     height: 86px;
     border-radius: 4px;
     font-size: 36px;

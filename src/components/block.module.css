@@ -8,3 +8,8 @@
 .textBlock {
     width: 30%;
 }
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}

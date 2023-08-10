@@ -1,17 +1,18 @@
 import * as React from 'react'
+import * as localStyles from './block.module.css';
 
-const Block = ({ contentOne, contentTwo, flip, styles }) => {
+const Block = ({ contentOne, contentTwo, flip, horizontal, styles }) => {
 
     if (flip) {
     return (
-        <div className={styles.blockContainer}>
+        <div className={horizontal ? styles.blockContainer : localStyles.horizontal}>
             <div>{contentTwo}</div>
             <div>{contentOne}</div>
         </div>
         )
     } else {
     return (
-        <div className={styles.blockContainer}>
+        <div className={horizontal ? styles.blockContainer : localStyles.horizontal}>
             <div>{contentOne}</div>
             <div>{contentTwo}</div>
         </div>

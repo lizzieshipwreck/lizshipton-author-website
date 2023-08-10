@@ -1,57 +1,44 @@
 import * as React from 'react'
-import { useState, useEffect } from 'react';
+import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
-import BookCover from '../components/index/book-cover';
-import * as styles from './index.module.css'
-import SeriesImage from '../components/index/series-image';
+import * as styles from './ya-books.module.css'
 
-import { thalassic_ya_alt, thalassic_ya_image, thalassic_ya_link } from '../copy/thalassic_ya';
-import { bad_magic_alt, bad_magic_image, bad_magic_link } from '../copy/bad_magic';
+import { thalassic_ya_alt, thalassic_ya_image, thalassic_ya_paperback_link, thalassic_ya_ebook_link, about_one, about_two, about_three, about_four } from '../copy/thalassic_ya';
+import BookButton from '../components/index/book-button';
 
-const IndexPage = () => {
-
-    const [windowWidth, setWindowWidth] = useState(0);
-
-    useEffect(() => {
-        checkWindowWidth();
-        return () => window.removeEventListener('resize', checkWindowWidth)
-    });
-
-    const checkWindowWidth = () => {
-        if (typeof window !== undefined) {
-        const width = window.innerWidth;
-        setWindowWidth(width);
-        window.addEventListener('resize', checkWindowWidth);
-        }
-    }
-  
-  const flip = !!windowWidth && windowWidth < 700;
+const YABooks = () => {
 
   return (
-    <Layout pageTitle={"Home"}>
-        <div className={styles.content}>
-        <div className={styles.seriesHeader}>
-            <h1 >Thalassic Series (YA Edition)</h1>
+    <Layout pageTitle={"YA Books"}>
+      <div className={styles.content}>
+        <div className={styles.block}>
+          <div className={styles.textBlock}>
+            <h2 className={styles.textHeader}>Young Adult (YA) Editions</h2>
+            <p className={styles.text}>
+              {about_one}
+            </p>
+            <p className={styles.text}>
+              {about_two}
+            </p>
+            <p className={styles.text}>
+              {about_three}
+            </p>
+            <p className={styles.text}>
+              {about_four}
+            </p>
+            <h3 className={styles.block}>
+              <BookButton link={thalassic_ya_ebook_link} text={"eBooks"} title={"Salt"}/>
+              <BookButton link={thalassic_ya_paperback_link} text={"Paperbacks"} title={"Sand"}/>
+            </h3>
           </div>
-            <div className={styles.seriesImage}>
-              <SeriesImage src={thalassic_ya_image} alt={thalassic_ya_alt} link={thalassic_ya_link}/>
+          <div className={styles.imageBlock}>
+            <StaticImage src={"../images/three_covers_ya.png"} alt={thalassic_ya_alt} placeholder="blurred" quality={100}/>
           </div>
-          <div className={styles.seriesHeader}>
-            <h1 >Bad Magic (Serialized Contemporary YA Fantasy)</h1>
-          </div>
-          <div className={styles.seriesImage}>
-            <BookCover
-                src={bad_magic_image}
-                description={""}
-                link={bad_magic_link}
-                title={""}
-                alt={bad_magic_alt}
-            />          
-          </div>
+        </div>
       </div>
     </Layout>
   )
 }
 
-export default IndexPage
+export default YABooks
