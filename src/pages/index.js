@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { useState, useEffect } from 'react';
 
 import Layout from '../components/layout'
 import * as styles from './index.module.css'
@@ -10,23 +9,6 @@ import { thalassic_na_alt, thalassic_na_image, thalassic_na_link, tropes } from 
 import { salt_na_link } from '../copy/salt';
 
 const IndexPage = () => {
-
-    const [windowWidth, setWindowWidth] = useState(0);
-
-    useEffect(() => {
-        checkWindowWidth();
-        return () => window.removeEventListener('resize', checkWindowWidth)
-    });
-
-    const checkWindowWidth = () => {
-        if (typeof window !== undefined) {
-        const width = window.innerWidth;
-        setWindowWidth(width);
-        window.addEventListener('resize', checkWindowWidth);
-        }
-    }
-  
-  const flip = !!windowWidth && windowWidth < 700;
 
   return (
     <Layout pageTitle={"Home"}>

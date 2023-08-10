@@ -1,4 +1,6 @@
 import * as React from 'react'
+import { useState, useEffect } from 'react';
+
 import { StaticImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
@@ -9,10 +11,28 @@ import BookButton from '../components/index/book-button';
 
 const YABooks = () => {
 
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+      checkWindowWidth();
+      return () => window.removeEventListener('resize', checkWindowWidth)
+  });
+
+  const checkWindowWidth = () => {
+      if (typeof window !== undefined) {
+      const width = window.innerWidth;
+      setWindowWidth(width);
+      window.addEventListener('resize', checkWindowWidth);
+      }
+  }
+
+const isMobile = !!windowWidth && windowWidth < 700;
+
   return (
     <Layout pageTitle={"YA Books"}>
       <div className={styles.content}>
         <div className={styles.block}>
+          {isMobile && <StaticImage src={"../images/three_covers_ya.png"} alt={thalassic_ya_alt} placeholder="blurred" quality={100} style={{marginBottom: '3rem'}}/>}
           <div className={styles.textBlock}>
             <h2 className={styles.textHeader}>Young Adult (YA) Editions</h2>
             <p className={styles.text}>
@@ -28,12 +48,12 @@ const YABooks = () => {
               {about_four}
             </p>
             <h3 className={styles.block}>
-              <BookButton link={thalassic_ya_ebook_link} text={"eBooks"} title={"Salt"}/>
-              <BookButton link={thalassic_ya_paperback_link} text={"Paperbacks"} title={"Sand"}/>
+              <BookButton link={thalassic_ya_ebook_link} text={"eBooks"} title={"Salt"} mobile={isMobile}/>
+              <BookButton link={thalassic_ya_paperback_link} text={"Paperbacks"} title={"Sand"} mobile={isMobile} />
             </h3>
           </div>
           <div className={styles.imageBlock}>
-            <StaticImage src={"../images/three_covers_ya.png"} alt={thalassic_ya_alt} placeholder="blurred" quality={100}/>
+            {!isMobile && <StaticImage src={"../images/three_covers_ya.png"} alt={thalassic_ya_alt} placeholder="blurred" quality={100}/>}
           </div>
         </div>
       </div>
