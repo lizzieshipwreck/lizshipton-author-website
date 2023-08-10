@@ -1,7 +1,7 @@
 export const thalassic_ya_image = "goat_skull";
 export const thalassic_ya_alt = "Covers for the Thalassic YA series";
-export const thalassic_ya_paperback_link = "https://forms.gle/T5QjKSBDaT51RNUX9";
-export const thalassic_ya_ebook_link = "https://forms.gle/8uEJuCwR5H4X4f9t7";
+export const thalassic_ya_paperback_link = "https://shop.lizshipton.com/collection/paperbacks";
+export const thalassic_ya_ebook_link = "https://shop.lizshipton.com/collection/ebooks";
 
 export const about_one = "I offer two versions of my books: a Young Adult edition and a spicy New Adult edition."
 export const about_two = "The only difference between the two editions is that the New Adult books have explicit 'spicy' (aka sex) scenes. The Young Adult editions do not include these scenes, so they are appropriate for teens and for people who prefer 'clean' romance."
