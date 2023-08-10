@@ -9,12 +9,17 @@ import * as styles from './landing-page-redirect.module.css';
 
 const EMAIL_PARAMS = ['remain', 'releases', 'arc', 'spice', 'no_spice', 'subscription', 'prequel']
 
-const ThankyouText = ({isEmailClick}) => {
+const ThankyouText = ({isEmailClick, isPurchaseClick}) => {
     if (isEmailClick) {
         return (
             <h2 className={styles.subtitle}>Your choice has been recorded</h2>
         )   
-    } else {
+    } else if (isPurchaseClick) {
+        return (
+            <h2 className={styles.subtitle}>Visit <a href="https://purchase.bookfunnel.com/lizshiptonbooks">https://purchase.bookfunnel.com/lizshiptonbooks</a> to download your eBook(s)</h2>
+        )
+    }
+    else {
         return (
             <>
                 <h2 className={styles.subtitle}>Check your inbox for a <b>confirmation email</b>.</h2>
@@ -29,6 +34,7 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
     
     const [params, setParams] = useState({});
     const [isEmailClick, setIsEmailClick] = useState(false);
+    const [isPurchaseClick, setIsPurchaseClick] = useState(false);
 
     useEffect(() => {
         const redirectToLandingPage = () => {
@@ -42,10 +48,15 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
             if (!params['thank_you'] && redirectUrl) {
                 // we have been sent here from a link that should redirect to a mailing list signup
                 redirectToLandingPage();
-            } else {
+            } else if (params['ebook-purchase']) {
+                // we have been sent here from PayHip after an eBook purchase.
+                // Show the 'thank you for your purchase' text
+                setIsPurchaseClick(true); 
+            }
+            else {
                 // we have been sent here from a landing page thank you,
                 // or from an email where the user has responded to a prompt by clicking a link.
-                // Display the page.
+                // Show the 'your choice has been recorded' text
                 for (let param in EMAIL_PARAMS) {
                     const option = EMAIL_PARAMS[param]
                     if (params[option]) {
@@ -64,7 +75,7 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
                     <div className={styles.content}>
                         <StaticImage src={"../images/lizzie_and_aloy_round.png"} placeholder="blurred" quality={100} width={300}/>
                         <h1 className={styles.title}>Thank you!</h1>
-                        <ThankyouText isEmailClick={isEmailClick} />
+                        <ThankyouText isEmailClick={isEmailClick} isPurchaseClick={isPurchaseClick} />
                     </div>
             </Layout>
             ) : (<div className={styles.spinner}> <PropogateLoader color={'black'} size={25}/></div>)
