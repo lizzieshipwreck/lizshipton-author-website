@@ -10,10 +10,10 @@
 }
 
 .text {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     line-height: 1.5;
     letter-spacing: 1.5;
-    font-size: larger;
+    font-size: medium;
     text-align: justify;
     color: gray;
 }

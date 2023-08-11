@@ -1139,6 +1139,11 @@
   resolved "https://registry.npmjs.org/@fontsource/megrim/-/megrim-4.5.9.tgz"
   integrity sha512-2vCcFKgX1SLNF3HZh+82s/CXZO0T7VHlgST26vzpDiOVkgHVlZD8Ax3WjDLdfujV4bIaRiIGvbuIqlZKd4ZSYA==
 
+"@fontsource/montserrat-alternates@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/montserrat-alternates/-/montserrat-alternates-5.0.8.tgz#38e3535574955b12268c95065c648670e7046b4f"
+  integrity sha512-wFDGm5efIzEoFH57jenRw1h27TzEKst8xx0Veq01Z/fS0v3ESvPbiRLUl9euMwu62/zBkuzG9CpR0Ng1yTB6Uw==
+
 "@fontsource/raleway@^4.5.9":
   version "4.5.9"
   resolved "https://registry.npmjs.org/@fontsource/raleway/-/raleway-4.5.9.tgz"

@@ -10,17 +10,17 @@
 }
 
 .text {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     line-height: 1.5;
     letter-spacing: 1.5;
-    font-size: larger;
+    font-size: medium;
     text-align: justify;
     color: gray;
 }
 
 .text-footer {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: larger;
+    font-size: x-large;
     font-style: italic;
     color: gray;
 }
@@ -29,7 +29,7 @@
     .block {
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
+            align-items: center;
             margin-top: 5rem;
         }
     .textBlock {

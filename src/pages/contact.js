@@ -12,7 +12,10 @@ const ContactPage = () => {
               Shoot me an email anytime at <a href="mailto:liz@lizshipton.com" className={styles.link}>liz@lizshipton.com</a>.
             </p>
             <p className={styles.text}>
-              I love chatting with fellow readers, writers, and travelers. I'm also available for guest posts and consulting work.
+              I love chatting with fellow readers, writers, and travelers.
+            </p>
+            <p className={styles.text}>
+              I'm also available for guest posts and consulting work.
             </p>
             <p className={styles.text}>
               Questions about your data? Review my <a href="https://pdfhost.io/v/f6oaercs2_Liz_Shipton_Online_Privacy_Policy" target="_blank" rel="noreferrer">Privacy Policy</a>

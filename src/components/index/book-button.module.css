@@ -12,9 +12,9 @@ button::after {
     width: 100%; 
     min-width: 250px;
     height: 86px;
-    border-radius: 4px;
+    border-radius: 50px;
     font-size: 36px;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Megrim', sans-serif;
     border: 0;
     color: #fff;
     letter-spacing: 3px;
