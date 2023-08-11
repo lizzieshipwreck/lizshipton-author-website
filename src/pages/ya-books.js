@@ -6,7 +6,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import * as styles from './ya-books.module.css'
 
-import { thalassic_ya_alt, thalassic_ya_paperback_link, thalassic_ya_ebook_link, about_one, about_two, about_three, about_four } from '../copy/thalassic_ya';
+import { thalassic_ya_alt, thalassic_ya_shop_link, thalassic_ya_ebook_link, about_one, about_two, about_three, about_four } from '../copy/thalassic_ya';
 import BookButton from '../components/index/book-button';
 
 const YABooks = () => {
@@ -47,7 +47,7 @@ const isMobile = !!windowWidth && windowWidth < 700;
             <p className={styles.text}>
               {about_four}
             </p>
-              <BookButton link={thalassic_ya_ebook_link} text={"Buy YA Editions"} title={"Sand"} mobile={isMobile}/>
+              <BookButton link={thalassic_ya_shop_link} text={"Buy YA Editions"} title={"Sand"} mobile={isMobile}/>
           </div>
           <div className={styles.imageBlock}>
             {!isMobile && <StaticImage src={"../images/ya_complete_mock.png"} alt={thalassic_ya_alt} placeholder="blurred" quality={100}/>}
