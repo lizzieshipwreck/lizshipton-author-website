@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { useState } from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
@@ -8,8 +7,6 @@ import * as styles from "./newsletter.module.css"
 import { seed_ya_download_link, seed_na_download_link } from '../copy/seed'
 
 const NewsletterRedirect = () => {
-
-  const [spice, setSpice] = useState("")
 
     return (
       <Layout pageTitle="Newsletter">

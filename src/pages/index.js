@@ -7,6 +7,7 @@ import SeriesImage from '../components/index/series-image';
 
 import { thalassic_na_alt, thalassic_na_image, thalassic_na_link, tropes } from '../copy/thalassic_na';
 import { salt_na_link } from '../copy/salt';
+import BookButton from '../components/index/book-button';
 
 const IndexPage = () => {
 
@@ -16,6 +17,9 @@ const IndexPage = () => {
           <AuthorIntroBlock />
           <div className={styles.seriesImage}>
             <SeriesImage src={thalassic_na_image} alt={thalassic_na_alt} link={thalassic_na_link}/>
+          </div>
+          <div className={styles.button}>
+            <BookButton text={"Buy the Series on Amazon"} title={"Soul"} link={thalassic_na_link}/>
           </div>
           <div className={styles.tropes}>
             <SeriesImage src={tropes} alt={"Salt Book Tropes"} link={salt_na_link}/>

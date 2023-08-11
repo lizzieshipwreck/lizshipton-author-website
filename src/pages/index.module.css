@@ -23,6 +23,13 @@
     color: rgba(55, 54, 54, 0.85);
 }
 
+.button {
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
 .tropes {
     display: flex;
     justify-content: center;
