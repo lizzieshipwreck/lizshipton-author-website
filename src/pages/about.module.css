@@ -9,7 +9,7 @@
     color: rgba(55, 54, 54, 0.85);
 }
 
-.text {
+.text, .text-small {
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 1.5;
     letter-spacing: 1.5;
@@ -23,6 +23,10 @@
     font-size: x-large;
     font-style: italic;
     color: gray;
+}
+
+.text-small {
+    font-size: small;
 }
 
 @media only screen and (min-width: 500px) {

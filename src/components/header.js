@@ -36,7 +36,7 @@ const Header = ({siteName, pageName}) => {
                 {!!windowWidth && windowWidth > 500 ? (
                     <StaticImage
                         alt="Liz Shipton logo with compass"
-                        src="../images/liz_shipton_logo.png"
+                        src="../images/liz_shipton_logo-transparent.png"
                         placeholder="blurred"
                         quality={100}
                         width={350}
@@ -46,7 +46,7 @@ const Header = ({siteName, pageName}) => {
                     !isHamburgerOpen ? (
                     <StaticImage
                         alt="Liz Shipton logo with compass"
-                        src="../images/liz_shipton_logo.png"
+                        src="../images/liz_shipton_logo-transparent.png"
                         placeholder="blurred"
                         quality={100}
                         width={250}

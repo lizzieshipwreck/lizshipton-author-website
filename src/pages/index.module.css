@@ -23,17 +23,21 @@
     color: rgba(55, 54, 54, 0.85);
 }
 
-.button {
-    width: 50%;
+.buttons {
     margin: auto;
     margin-top: 3rem;
-    margin-bottom: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .tropes {
     display: flex;
     justify-content: center;
-    margin-top: 6rem;
+    background-color: rgb(247, 239, 228, 0.3);
+    padding-bottom: 2.5rem;
+    padding-top: 6rem;
 }
 
 .seriesImage {

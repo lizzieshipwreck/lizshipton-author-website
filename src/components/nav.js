@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 import * as styles from './nav.module.css'
 import Hamburger from 'hamburger-react'
 
+const lizshipton_shop_link = "https://shop.lizshipton.com";
+
 const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
 
   const toggleHamburger = () => {
@@ -14,6 +16,11 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
       { isHamburgerOpen && 
         (
         <ul className={styles.navLinks}>
+            <li className={styles.navLinkItem}>
+            <Link to={lizshipton_shop_link} className={styles.navLinkText} id={'shop'}>
+              <b>Shop</b>
+            </Link>
+            </li>
             <li className={styles.navLinkItem}>
             <Link to="/newsletter" className={styles.navLinkText} id={'newsletter'}>
               <b>{!!windowWidth && windowWidth > 850 ? 'Newsletter' : 'News'}</b>
@@ -27,11 +34,6 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
             <li className={styles.navLinkItem}>
             <Link to="/about" className={styles.navLinkText} id={'about'}>
               <b>About</b>
-            </Link>
-            </li>
-            <li className={styles.navLinkItem}>
-            <Link to="/contact" className={styles.navLinkText} id={'contact'}>
-              <b>Contact</b>
             </Link>
             </li>
             {/* <li className={styles.navLinkItem}>
