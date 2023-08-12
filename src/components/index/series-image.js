@@ -5,8 +5,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 const SeriesImage = ({ src, link, alt }) => {
 
-    console.log(src, link, alt)
-
     const data = useStaticQuery(graphql`
         query {
             allImageSharp {

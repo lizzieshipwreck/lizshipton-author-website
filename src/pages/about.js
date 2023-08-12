@@ -26,7 +26,7 @@ const AboutPage = () => {
             </p>
             <h3 className={styles.textFooter}>Thanks for stopping by!</h3>
             <p className={styles.textSmall}>
-              Drop me a line at <a href="mailto:liz@lizshipton.com" className={styles.link}>liz@lizshipton.com</a> anytime. Questions about your data? Review my <a href="https://pdfhost.io/v/f6oaercs2_Liz_Shipton_Online_Privacy_Policy" target="_blank" rel="noreferrer">Privacy Policy</a>
+              Drop me a line at <a href="mailto:liz@lizshipton.com">liz@lizshipton.com</a> anytime. Questions about your data? Review my <a href="https://pdfhost.io/v/f6oaercs2_Liz_Shipton_Online_Privacy_Policy" target="_blank" rel="noreferrer">Privacy Policy</a>
             </p>
           </div>
         </div>

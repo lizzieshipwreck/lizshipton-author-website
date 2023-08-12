@@ -45,7 +45,7 @@ const isMobile = !!windowWidth && windowWidth < 700;
               {about_three}
             </p>
             <br/>
-              <BookButton link={thalassic_ya_shop_link} text={"Buy YA Editions"} title={"Soul"} mobile={isMobile}/>
+              <BookButton link={thalassic_ya_shop_link} text={"Buy YA Editions"} title={"Scourge"} mobile={isMobile}/>
           </div>
           <div className={styles.imageBlock}>
             {!isMobile && <StaticImage src={"../images/ya_complete_mock.png"} alt={thalassic_ya_alt} placeholder="blurred" quality={100}/>}

@@ -9,21 +9,23 @@ const Header = ({siteName, pageName}) => {
     const [windowWidth, setWindowWidth] = useState(0);
     const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
 
+    const checkWindowWidth = () => {
+        if (typeof window !== undefined) {
+        const width = window.innerWidth;
+        setWindowWidth(width);
+        window.addEventListener('resize', checkWindowWidth);
+        }
+    }
+
+    const setHamburgerMenuState = () => {
+        if (windowWidth > 0 ){
+            const shouldStartOpen = windowWidth > 500
+            setIsHamburgerOpen(shouldStartOpen)
+        }
+    }
+
     useEffect(() => {
-        const checkWindowWidth = () => {
-            if (typeof window !== undefined) {
-            const width = window.innerWidth;
-            setWindowWidth(width);
-            window.addEventListener('resize', checkWindowWidth);
-            }
-        }
-    
-        const setHamburgerMenuState = () => {
-            if (windowWidth > 0 ){
-                const shouldStartOpen = windowWidth > 500
-                setIsHamburgerOpen(shouldStartOpen)
-            }
-        }
+
         checkWindowWidth();
         setHamburgerMenuState();
         return () => window.removeEventListener('resize', checkWindowWidth)
