@@ -19,7 +19,7 @@ const IndexPage = () => {
             <SeriesImage src={thalassic_na_image} alt={thalassic_na_alt}/>
           </div>
           <div className={styles.buttons}>
-            <BookButton text={"Shop Now"} title={"Soul"} link={thalassic_na_amazon_link}/>
+            <BookButton text={"Pre-Order Now"} title={"Soul"} link={"https://www.amazon.com/Savage-Spicy-Dystopian-Fantasy-Thalassic-ebook/dp/B0CB6T3Q1T"}/>
           </div>
           <div className={styles.tropes}>
             <SeriesImage src={tropes} alt={"Salt Book Tropes"} link={salt_na_link}/>
