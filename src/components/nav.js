@@ -36,11 +36,11 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
               <b>About</b>
             </Link>
             </li>
-            {/* <li className={styles.navLinkItem}>
-            <Link to="/blog" className={styles.navLinkText}>
-              <b>Blog</b>
+            <li className={styles.navLinkItem}>
+            <Link to="https://instagram.com/sv_loki" className={styles.navLinkText} target="_blank">
+              <b>Sailing</b>
             </Link>
-            </li> */}
+            </li>
           </ul>
         )
       }
