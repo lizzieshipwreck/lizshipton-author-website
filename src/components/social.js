@@ -8,7 +8,7 @@ const Social = ({ socialLinks }) => {
       <div className={styles.container}>
           {
               socialLinks.map((link) => {
-                  return <SocialIcon key={link.url} url={link.url} bgColor={"black"} fgColor={link.color} target="_blank" className={styles.link}/>
+                  return <SocialIcon key={link.url} url={link.url} defaultSVG={link.defaultSVG} fgColor={"white"} bgColor={link.color || link.defaultSVG?.color } target="_blank" className={styles.link}/>
               })
           }
       </div>

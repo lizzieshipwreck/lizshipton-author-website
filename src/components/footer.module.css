@@ -1,5 +1,7 @@
 .container {
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
+    /* position: sticky;
+    bottom: 30%;
+    margin-right: 0.5rem; */
 }

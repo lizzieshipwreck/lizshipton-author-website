@@ -13,6 +13,7 @@ const Layout = ({ pageTitle, children }) => {
           socialLinks {
             url
             color
+            defaultSVG { icon mask color }
           }
         }
       }
