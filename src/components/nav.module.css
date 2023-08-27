@@ -28,3 +28,13 @@
         padding-left: 2rem;
     }
 }
+
+@keyframes fade {
+    to {
+        opacity: 0.3;
+    }
+}
+
+.nav-link-item:hover {
+    animation: fade linear both;
+}
