@@ -1,7 +1,4 @@
 .block {
-    display: flex;
-    justify-content: space-between;
-	align-items: center;
     width: 80%;
     margin: auto;
     margin-bottom: 10rem;
@@ -11,13 +8,8 @@
     margin-bottom: 0;
 }
 
-.textBlock {
-    width: 50%;
-}
-
 .text-header {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
     color: rgba(55, 54, 54, 0.85);
 }
 
@@ -30,26 +22,40 @@
     color: gray;
 }
 
+@media only screen and (min-width: 750px) {
+    .block{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+    }
+	.text-block {
+		width: 50%;
+	}
+	.text-header {
+		margin: 0;
+	}
+}
+
 @keyframes reveal-right {
 	from {
-        clip-path: inset(0% 100% 0% 0%);
+        /* clip-path: inset(0% 100% 100% 0%); */
         opacity: 0;
 
 	}
 	to {
-		clip-path: inset(0% 0% 0% 0%);
+		/* clip-path: inset(0% 0% 0% 0%); */
         opacity: 1;
 	}
 }
 
 @keyframes reveal-left {
 	from {
-		clip-path: inset(0% 0% 0% 100%);
+		/* clip-path: inset(0% 0% 100% 100%); */
         opacity: 0;
 
 	}
 	to {
-		clip-path: inset(0% 0% 0% 0%);
+		/* clip-path: inset(0% 0% 0% 0%); */
         opacity: 1;
 	}
 }
@@ -64,7 +70,7 @@
 	animation-timeline: --revealing-image;
 
 	/* Tweak range when effect should run*/
-	animation-range: entry 0% cover 50%;
+	animation-range: entry 0% cover 45%;
 }
 
 .reveal-right {
@@ -77,5 +83,5 @@
 	animation-timeline: --revealing-image;
 
 	/* Tweak range when effect should run*/
-	animation-range: entry 0% cover 50%;
+	animation-range: entry 0% cover 45%;
 }

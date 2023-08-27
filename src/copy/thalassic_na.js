@@ -5,3 +5,4 @@ export const thalassic_na_shop_link = "https://shop.lizshipton.com/collection/sp
 export const savage_na_link = "https://www.amazon.com/Savage-Spicy-Dystopian-Fantasy-Thalassic-ebook/dp/B0CB6T3Q1T";
 export const savage_promo = "savage vs zahara";
 export const salt_tropes = "homepage-transparent";
+export const salt_na_link = "https://www.amazon.com/Salt-Adult-Dystopian-Romance-Thalassic-ebook/dp/B0BZN2K9F9";

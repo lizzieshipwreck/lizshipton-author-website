@@ -1,9 +1,11 @@
 import * as React from 'react'
 
-import BookButton from './index/book-button';
+import BookButton from './book-button';
 import BlockLayoutImage from './page-layouts/block-image';
 
 import * as styles from './text-and-image-block.module.css';
+
+
 const TextBlock = ({heading, paragraphs, cta}) => {
 
     return (
@@ -18,7 +20,7 @@ const TextBlock = ({heading, paragraphs, cta}) => {
                         )
                     })
                 }
-            { cta && <BookButton link={cta.link} text={cta.text} title={cta.colorScheme}/> }
+            { cta && <BookButton link={cta.link} text={cta.text} mobileText = {cta.mobileText} title={cta.colorScheme}/> }
         </div>
     )
 }

@@ -26,7 +26,7 @@
     margin: auto;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 750px) {
     .text-header {
         font-size: x-large;
     }

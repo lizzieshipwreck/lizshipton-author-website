@@ -27,7 +27,7 @@
     font-size: xx-large;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 750px) {
     .block {
             display: flex;
             justify-content: space-evenly;

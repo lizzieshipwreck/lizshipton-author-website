@@ -5,9 +5,8 @@ import * as styles from './index.module.css'
 import AuthorIntroBlock from '../components/index/author-intro-block';
 import SeriesImage from '../components/index/series-image';
 
-import { thalassic_na_alt, thalassic_na_image, thalassic_na_amazon_link, salt_tropes, savage_na_link, savage_promo } from '../copy/thalassic_na';
-import { salt_na_link } from '../copy/salt';
-import BookButton from '../components/index/book-button';
+import { thalassic_na_alt, thalassic_na_image, thalassic_na_amazon_link, salt_tropes, savage_na_link, savage_promo, salt_na_link } from '../copy/thalassic_na';
+import BookButton from '../components/book-button';
 
 const IndexPage = () => {
 
