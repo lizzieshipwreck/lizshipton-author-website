@@ -37,9 +37,9 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
             </Link>
             </li>
             <li className={styles.navLinkItem}>
-            <Link to="https://instagram.com/sv_loki" className={styles.navLinkText} target="_blank">
+            <a href="https://instagram.com/sv_loki" className={styles.navLinkText} target="_blank">
               <b>Sailing</b>
-            </Link>
+            </a>
             </li>
           </ul>
         )

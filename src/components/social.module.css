@@ -1,11 +1,23 @@
 .container {
     display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    padding-bottom: 1rem;
+    flex-direction: column;
+    position: absolute;
 }
 
 .link {
-    margin-left: .5rem;
-    margin-right: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(55, 54, 54, 0.85);
+}
+
+@keyframes fade {
+    to {
+        opacity: 0.3;
+    }
+}
+
+.link {
+    animation: fade linear both;
+    animation-timeline: scroll();
+	animation-range: 0 1000px;
 }

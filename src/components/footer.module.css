@@ -1,7 +1,7 @@
 .container {
     display: flex;
     justify-content: center;
-    /* position: sticky;
-    bottom: 30%;
-    margin-right: 0.5rem; */
+    color: rgba(55, 54, 54, 0.85);
+    font-family: 'Megrim';
+    /* font-size: x-large; */
 }
