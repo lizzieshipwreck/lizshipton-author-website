@@ -1,7 +1,7 @@
 import * as React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/page-layouts/layout'
 import { about_one, about_two, about_three, about_four } from "../copy/about";
-import BlockLayoutPage from '../components/page-layouts/block-layout-page';
+import BlockLayoutPage from '../components/page-layouts/block-page';
 
 
 const content = [

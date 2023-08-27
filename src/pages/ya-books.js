@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import Layout from '../components/layout'
-import BlockLayoutPage from '../components/page-layouts/block-layout-page';
+import Layout from '../components/page-layouts/layout'
+import BlockLayoutPage from '../components/page-layouts/block-page';
 
 import { thalassic_ya_alt, thalassic_ya_shop_link, ya_one, ya_two, ya_three, ya_four } from '../copy/thalassic_ya';
 

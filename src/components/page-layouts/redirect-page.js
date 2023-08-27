@@ -2,12 +2,10 @@ import * as React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import QueryString from 'qs'
-import Layout from '../components/layout'
+import Layout from './layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import PropogateLoader from "react-spinners/PropagateLoader";
-import * as styles from './landing-page-redirect.module.css';
-
-// TODO: rename component redirect-page and move to "page-layouts" folder
+import * as styles from './redirect-page.module.css';
 
 const EMAIL_PARAMS = ['remain', 'releases', 'arc', 'spice', 'no_spice', 'subscription', 'prequel', 'signup']
 
@@ -79,7 +77,7 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
             params['thank_you'] ? (
                 <Layout pageTitle={pageTitle}>
                     <div className={styles.content}>
-                        <StaticImage src={"../images/lizzie_and_aloy_round.png"} placeholder="blurred" quality={100} width={300}/>
+                        <StaticImage src={"../../images/lizzie_and_aloy_round.png"} placeholder="blurred" quality={100} width={300}/>
                         <h1 className={styles.title}>Thank you!</h1>
                         <ThankyouText isEmailClick={isEmailClick} isPurchaseClick={isPurchaseClick} />
                     </div>

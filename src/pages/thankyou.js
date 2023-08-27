@@ -1,5 +1,5 @@
 import * as React from 'react'
-import LandingPageRedirect from '../components/landing-page-redirect'
+import LandingPageRedirect from '../components/page-layouts/redirect-page'
 
 const NewsletterRedirect = () => {
 

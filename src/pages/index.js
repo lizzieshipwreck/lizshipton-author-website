@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import Layout from '../components/layout'
+import Layout from '../components/page-layouts/layout'
 import * as styles from './index.module.css'
 import AuthorIntroBlock from '../components/index/author-intro-block';
 import SeriesImage from '../components/index/series-image';

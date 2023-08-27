@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import * as styles from './layout.module.css'
-import Header from './header'
-import Sidebar from './sidebar'
-import Footer from './footer'
+import Header from '../header'
+import Sidebar from '../sidebar'
+import Footer from '../footer'
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`

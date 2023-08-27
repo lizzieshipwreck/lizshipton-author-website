@@ -1,6 +1,6 @@
 import * as React from 'react'
-import TextAndImageBlock from './text-and-image-block';
-import * as styles from "./block-layout-page.module.css"
+import TextAndImageBlock from '../text-and-image-block';
+import * as styles from "./block-page.module.css"
 
 const BlockLayoutPage = ({flip, content}) => {
   return (

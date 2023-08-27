@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import BookButton from '../index/book-button';
-import BlockLayoutImage from './block-layout-image';
+import BookButton from './index/book-button';
+import BlockLayoutImage from './page-layouts/block-image';
 
 import * as styles from './text-and-image-block.module.css';
 const TextBlock = ({heading, paragraphs, cta}) => {
