@@ -3,9 +3,8 @@ import { useMemo } from 'react';
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-// TODO: refactor with block-page-image (maybe pass the query in as a prop?)
-
-const SeriesImage = ({ src, link, alt }) => {
+const BlockLayoutImage = ({ src, link, alt }) => {
+    console.log(src);
 
     const data = useStaticQuery(graphql`
         query {
@@ -15,7 +14,7 @@ const SeriesImage = ({ src, link, alt }) => {
                         original {
                             src
                         }
-                        gatsbyImageData(quality: 100, placeholder: BLURRED, width: 1024)
+                        gatsbyImageData(quality: 100, placeholder: BLURRED, width: 495)
                     }
                 }
             }
@@ -39,4 +38,4 @@ const SeriesImage = ({ src, link, alt }) => {
 
     );
 }
-export default SeriesImage;
+export default BlockLayoutImage;

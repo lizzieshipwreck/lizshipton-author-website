@@ -1,9 +1,6 @@
 .container {
+    margin-top: 3rem;
     margin-bottom: 0;
-}
-
-.mobileContainer {
-    margin-top: 2rem;
 }
 
 /* nifty glitch buttons from  https: //codepen.io/stevenlei/pen/ZEpyBod */

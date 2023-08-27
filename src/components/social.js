@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTiktok, faInstagram, faFacebook, faGoodreads, faThreads, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 import * as styles from './social.module.css'
+import { faLayerGroup } from '@fortawesome/free-solid-svg-icons';
 
 const icons = {
     discord: faDiscord,
@@ -11,7 +12,8 @@ const icons = {
     instagram: faInstagram,
     facebook: faFacebook,
     goodreads: faGoodreads,
-    threads: faThreads
+    threads: faThreads,
+    ream: faLayerGroup
   }
 
 

@@ -2,7 +2,7 @@ import * as React from 'react'
 import { useState, useEffect } from 'react';
 import Layout from '../components/layout'
 import * as styles from "./book-sales-page.module.css"
-import Block from '../components/block';
+import Block from './page-layouts/text-and-image-block';
 import BookButton from '../components/index/book-button';
 import BookCover from '../components/index/book-cover';
 import { StaticImage } from 'gatsby-plugin-image';

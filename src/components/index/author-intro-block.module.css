@@ -6,7 +6,6 @@
 
 .author-headshot {
     border-radius: 50%;
-    margin-top: 2rem;
     box-shadow: 3px 0 0px rgb(79, 79, 79), -3px 0 0px rgb(79, 78, 78);
 }
 
@@ -28,9 +27,6 @@
 }
 
 @media only screen and (min-width: 700px) {
-    .author-intro {
-        /* padding-bottom: 2rem; */
-    }
     .text-header {
         font-size: x-large;
     }

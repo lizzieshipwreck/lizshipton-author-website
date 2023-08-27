@@ -1,22 +1,36 @@
-.content {
-    width: 100%;
-}
-
-.button {
+.block {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+    width: 80%;
     margin: auto;
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    margin-bottom: 10rem;
 }
 
-.headline, .middle, .end {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
+.block:last-of-type {
+    margin-bottom: 0;
 }
 
-@keyframes reveal-curtain {
+.textBlock {
+    width: 50%;
+}
+
+.text-header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: rgba(55, 54, 54, 0.85);
+}
+
+.text, .text-small {
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-size: medium;
+    text-align: justify;
+    color: gray;
+}
+
+@keyframes reveal-right {
 	from {
         clip-path: inset(0% 100% 0% 0%);
         opacity: 0;
@@ -28,7 +42,7 @@
 	}
 }
 
-@keyframes reveal-lift {
+@keyframes reveal-left {
 	from {
 		clip-path: inset(0% 0% 0% 100%);
         opacity: 0;
@@ -40,28 +54,26 @@
 	}
 }
 
-.middle {
-    margin-top: 6rem;
+.reveal-left {
 	/* Create View Timeline */
 	view-timeline-name: --revealing-image;
 	view-timeline-axis: block;
 
 	/* Attach animation, linked to the  View Timeline */
-	animation: reveal-curtain linear both;
+	animation: reveal-left linear both;
 	animation-timeline: --revealing-image;
 
 	/* Tweak range when effect should run*/
 	animation-range: entry 0% cover 50%;
 }
 
-.end {
-    margin-top: 6rem;
+.reveal-right {
 	/* Create View Timeline */
 	view-timeline-name: --revealing-image;
 	view-timeline-axis: block;
 
 	/* Attach animation, linked to the  View Timeline */
-	animation: reveal-lift linear both;
+	animation: reveal-right linear both;
 	animation-timeline: --revealing-image;
 
 	/* Tweak range when effect should run*/

@@ -7,6 +7,8 @@ import { StaticImage } from 'gatsby-plugin-image'
 import PropogateLoader from "react-spinners/PropagateLoader";
 import * as styles from './landing-page-redirect.module.css';
 
+// TODO: rename component redirect-page and move to "page-layouts" folder
+
 const EMAIL_PARAMS = ['remain', 'releases', 'arc', 'spice', 'no_spice', 'subscription', 'prequel', 'signup']
 
 const ThankyouText = ({isEmailClick, isPurchaseClick}) => {

@@ -9,7 +9,8 @@ module.exports = {
         {url: "https://facebook.com/lizshiptonauthor", name: 'facebook'},
         {url: "https://instagram.com/lizshiptonauthor", name: 'instagram'},
         {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", name: 'goodreads'},
-        {url: "https://threads.net/@lizshiptonauthor", name: 'threads'}
+        {url: "https://threads.net/@lizshiptonauthor", name: 'threads'},
+        {url: "https://reamstories.com/page/lekik90zu2", name: 'ream'}
       ]
   },
   plugins: [
