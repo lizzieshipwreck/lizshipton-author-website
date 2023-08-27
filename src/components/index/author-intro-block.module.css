@@ -6,8 +6,8 @@
 
 .author-headshot {
     border-radius: 50%;
-    margin-bottom: 1rem;
-    box-shadow: 3px 0 3px rgb(79, 79, 79), -3px 0 3px rgb(79, 78, 78);
+    margin-top: 2rem;
+    box-shadow: 3px 0 0px rgb(79, 79, 79), -3px 0 0px rgb(79, 78, 78);
 }
 
 .text-header {
@@ -16,7 +16,6 @@
     font-size: medium;
     letter-spacing: 1px;
     color: rgba(55, 54, 54, 0.85);
-    margin: 0.5rem;
 }
 
 .text {
@@ -30,7 +29,7 @@
 
 @media only screen and (min-width: 700px) {
     .author-intro {
-        padding-bottom: 2rem;
+        /* padding-bottom: 2rem; */
     }
     .text-header {
         font-size: x-large;
@@ -40,4 +39,3 @@
         font-size: x-large;
     }
 }
-

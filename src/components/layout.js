@@ -26,7 +26,7 @@ const Layout = ({ pageTitle, children }) => {
     <div className={styles.container}>
       <Header siteName={title} pageName={pageTitle}/>
         <Sidebar socialLinks={socialLinks}/>
-        <main className={styles.main}>
+        <main>
           {children}
         </main>
         <Footer/>

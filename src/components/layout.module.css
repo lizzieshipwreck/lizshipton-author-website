@@ -1,13 +1,19 @@
+
+@keyframes gradient-shift {
+	from {
+		background-color: white;
+	}
+	to {
+		background-color: bisque;
+	}
+}
+
 .container {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
     display: flex;
-}
-
-.main {
-    padding-top:  2rem;
-    padding-bottom: 2rem;
-    /* flex: 1; */
-    /* position: absolute; */
+    animation: gradient-shift linear forwards;
+	animation-timeline: scroll();
+	animation-range: 0vh 1000vh;
 }

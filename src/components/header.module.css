@@ -2,19 +2,51 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        padding-bottom: 2.5rem;
         border-style: solid;
         border-top: none;
         border-left: none;
         border-right: none;
-        color: rgb(169, 169, 169, 0.2);
+        border-color: rgb(169, 169, 169, 0.2);
+        background-color:white;
         position: sticky;
         top: 0;
         z-index: 100;
-        background-color: rgba(255, 255, 255, 0.85);
+        width: 100vw;
 }
+
+@keyframes sticky-parallax-header-move-and-size {
+	from {
+		height: 10vh;
+        padding-bottom: 2.5rem;
+	}
+	to {
+		height: 5vh;
+        padding-bottom: .75rem;
+		opacity: 0.5;
+	}
+}
+
+#sticky-parallax-header {
+	position: fixed;
+	top: 0;
+	animation: sticky-parallax-header-move-and-size linear forwards;
+	animation-timeline: scroll();
+	animation-range: 0vh 100vh;
+}
+
+@keyframes fade {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;;
+	}
+}
+        
 
 .logo {
         margin-left: 1rem;
-        margin-bottom: 6px;
+        animation: fade linear forwards;
+	animation-timeline: scroll();
+	animation-range: 0vh 100vh;
 }

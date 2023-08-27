@@ -2,73 +2,74 @@
     width: 100%;
 }
 
-.blocks {
-    margin: auto;
-}
-
-.blockContainer {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-    margin: auto;
-    margin-bottom: 2rem;
-}
-
-.seriesHeader {
-    display: flex;
-    justify-content: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
-    letter-spacing: 1px;
-    color: rgba(55, 54, 54, 0.85);
-}
-
-.buttons {
+.button {
     margin: auto;
     margin-top: 3rem;
-    padding-bottom: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.tropes {
+.headline, .middle, .end {
     display: flex;
     justify-content: center;
-    background-color: rgb(247, 239, 228, 0.3);
-    padding-bottom: 2.5rem;
-    padding-top: 6rem;
-}
-
-.seriesImage {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-@media only screen and (min-width: 1000px) {
-    .blocks {
-        width: 85%
-    }
-    .blockContainer {
-        width: 320px;
-    }
-}
-
-@media only screen and (min-width: 700px) {
-    .blocks {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 2rem;
-    }
-    .blockContainer {
-        margin-bottom: 0;
-    }
+    margin-top: 2rem;
 }
 
 @media only screen and (max-width: 700px ){
     .seriesHeader {
         text-align: center;
     }
+}
+
+@keyframes reveal-curtain {
+	from {
+        clip-path: inset(0% 100% 0% 0%);
+        opacity: 0;
+
+	}
+	to {
+		clip-path: inset(0% 0% 0% 0%);
+        opacity: 1;
+	}
+}
+
+@keyframes reveal-lift {
+	from {
+		clip-path: inset(0% 0% 0% 100%);
+        opacity: 0;
+
+	}
+	to {
+		clip-path: inset(0% 0% 0% 0%);
+        opacity: 1;
+	}
+}
+
+.middle {
+    margin-top: 6rem;
+	/* Create View Timeline */
+	view-timeline-name: --revealing-image;
+	view-timeline-axis: block;
+
+	/* Attach animation, linked to the  View Timeline */
+	animation: reveal-curtain linear both;
+	animation-timeline: --revealing-image;
+
+	/* Tweak range when effect should run*/
+	animation-range: entry 0% cover 50%;
+}
+
+.end {
+    margin-top: 6rem;
+	/* Create View Timeline */
+	view-timeline-name: --revealing-image;
+	view-timeline-axis: block;
+
+	/* Attach animation, linked to the  View Timeline */
+	animation: reveal-lift linear both;
+	animation-timeline: --revealing-image;
+
+	/* Tweak range when effect should run*/
+	animation-range: entry 0% cover 50%;
 }

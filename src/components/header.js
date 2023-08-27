@@ -32,7 +32,7 @@ const Header = ({siteName, pageName}) => {
     }, [windowWidth]);
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id={styles.stickyParallaxHeader}>
             <title>{siteName} | {pageName}</title>
             <Link to="/">
                 {!!windowWidth && windowWidth > 500 ? (

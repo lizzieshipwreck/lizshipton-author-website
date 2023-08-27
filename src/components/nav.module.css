@@ -1,8 +1,8 @@
 .nav-menu {
     display: flex;
     align-items: center;
-    margin-right: 1rem;
-    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
 }
 
 .nav-links {
@@ -16,7 +16,7 @@
     color: rgba(55, 54, 54, 0.85);
     text-decoration: none;
     font-family: 'Megrim';
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .nav-link-item {
@@ -26,8 +26,5 @@
 @media only screen and (min-width: 750px) {
     .nav-link-item {
         padding-left: 2rem;
-    }
-    .nav-link-text {
-        font-size: xx-large;
     }
 }
