@@ -37,3 +37,14 @@
         margin-top: 6rem;
     }
 }
+
+@keyframes fade {
+    to {
+        opacity: 0.3;
+    }
+}
+
+.button:hover {
+    animation: fade linear both;
+    animation-duration: 150ms;
+}

@@ -14,10 +14,10 @@ const NewsletterRedirect = () => {
               <h3 className={styles.textHeader}>{header}</h3>
               <h1 className={styles.text}>{subheader}</h1>
               <div className={styles.block}>
-                <Link to={seed_na_download_link}>
+                <Link to={seed_na_download_link} className={styles.button}>
                   <StaticImage src={"../images/spicy.png"} placeholder="blurred" quality={100} height={300} />
                 </Link>
-                <Link to={seed_ya_download_link}>
+                <Link to={seed_ya_download_link} className={styles.button}>
                   <StaticImage src={"../images/mild.png"} placeholder="blurred" quality={100} height={300} />
                 </Link>
               </div>

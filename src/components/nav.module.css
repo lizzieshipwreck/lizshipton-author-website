@@ -37,4 +37,5 @@
 
 .nav-link-item:hover {
     animation: fade linear both;
+    animation-duration: 150ms;
 }
