@@ -1,8 +1,15 @@
-export const thalassic_na_image = "na_thalassic_complete";
+export const thalassic_na_image = "na thalassic complete";
 export const thalassic_na_alt = "Covers for the complete Thalassic New Adult series";
 export const thalassic_na_amazon_link = "https://www.amazon.com/dp/B0C4J9RZWS";
 export const thalassic_na_shop_link = "https://shop.lizshipton.com/collection/spicy-paperbacks";
 export const savage_na_link = "https://www.amazon.com/Savage-Spicy-Dystopian-Fantasy-Thalassic-ebook/dp/B0CB6T3Q1T";
 export const savage_promo = "savage vs zahara";
-export const salt_tropes = "homepage-transparent";
+export const salt_tropes = "salt tropes";
 export const salt_na_link = "https://www.amazon.com/Salt-Adult-Dystopian-Romance-Thalassic-ebook/dp/B0BZN2K9F9";
+export const thalassic_na_cta_text = "Shop Now";
+export const thalassic_na_cta_mobile_text = "Shop Now";
+export const thalassic_na_button_color = "Soul";
+export const savage_button_color = "Savage";
+export const savage_pre_order_text = "Pre-Order";
+export const savage_promo_alt = "Savage vs. Zahara promo image";
+export const salt_tropes_alt = "Listed tropes for Salt";

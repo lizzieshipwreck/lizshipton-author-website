@@ -4,7 +4,6 @@
 
 .button {
     margin: auto;
-    margin-top: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -66,4 +65,10 @@
 
 	/* Tweak range when effect should run*/
 	animation-range: entry 0% cover 50%;
+}
+
+@media only screen and (max-width: 750px) {
+    .end, .middle {
+		animation-range: entry 0% cover 15%;
+	}
 }

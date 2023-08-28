@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/compass_favicon.png",
+        icon: "src/images/compass favicon.png",
       }
     },
     {

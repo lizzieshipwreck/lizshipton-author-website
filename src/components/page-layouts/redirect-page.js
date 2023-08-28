@@ -77,7 +77,7 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
             params['thank_you'] ? (
                 <Layout pageTitle={pageTitle}>
                     <div className={styles.content}>
-                        <StaticImage src={"../../images/lizzie_and_aloy_round.png"} placeholder="blurred" quality={100} width={300}/>
+                        <StaticImage src={"../../images/liz and aloy round.png"} placeholder="blurred" quality={100} width={300}/>
                         <h1 className={styles.title}>Thank you!</h1>
                         <ThankyouText isEmailClick={isEmailClick} isPurchaseClick={isPurchaseClick} />
                     </div>
