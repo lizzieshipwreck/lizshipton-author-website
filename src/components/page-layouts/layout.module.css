@@ -4,9 +4,11 @@
 		background-color: white;
 	}
 	to {
-		background-color: bisque;
+		/* background-color: bisque; */ 
+		background-color: white;
 	}
 }
+/* TODO: fix CSS scroll animations */
 
 .container {
     font-family: sans-serif;
