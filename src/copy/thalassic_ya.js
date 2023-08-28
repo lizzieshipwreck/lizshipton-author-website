@@ -24,7 +24,7 @@ const bad_magic_one = "Seven was born at sea. Now she's a SoCal witch."
 const bad_magic_two = "For the first sixteen years of her life, Seven has sailed the world. Now, her family is giving up life at sea and moving to San Diego. But Seven is not ready for the realities of an American high school. Immediately branded a 'freak' and a 'weirdo' Seven struggles to fit in.";
 const bad_magic_three = "When she's taken under the wing of some fellow 'freaks and weirdos' (aka the theatre kids) Seven discovers that her new friends possess magical abilities - and so does she! Not only that, one of the theatre kids (a handsome boy called Logan) seems to be taking an interest in her.";
 const bad_magic_four = "But when Seven's magic starts to behave oddly, Seven learns that not all magic is created equal, and there may be something that her new friends aren't telling her.";
-
+const bad_magic_five = "This is the first book in a new Young Adult Fantasy series I'm working on, slated for release in late 2024. I'm offering early access to work-in-progress chapters and exclusive author's notes via a subscription service called Ream. You can read chapter one for free!";
 
 
 export const content = [
@@ -36,7 +36,7 @@ export const content = [
   },
   {
     heading: bad_magic_heading,
-    paragraphs: [bad_magic_one, bad_magic_two, bad_magic_three, bad_magic_four],
+    paragraphs: [bad_magic_one, bad_magic_two, bad_magic_three, bad_magic_four, bad_magic_five],
     image: {src: bad_magic_image, link: bad_magic_ream_link, alt: bad_magic_alt},
     cta: {text: bad_magic_cta_text, mobileText: bad_magic_cta_mobile_text, colorScheme: bad_magic_button_color, link: bad_magic_ream_link}
   }
