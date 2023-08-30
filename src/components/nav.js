@@ -39,7 +39,7 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
           </ul>
         )
       }
-      {!!windowWidth && windowWidth < 500 &&
+      {!!windowWidth && windowWidth < 750 &&
         <Hamburger
           color='gray'
           distance='lg'
