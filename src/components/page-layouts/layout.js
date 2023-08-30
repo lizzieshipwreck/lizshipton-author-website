@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { useEffect } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import * as styles from './layout.module.css'
 import Header from '../header'
@@ -16,13 +17,15 @@ const Layout = ({ pageTitle, children }) => {
     return () => window.removeEventListener('scroll', setScrollPosition)
 });
 
+const getScrollPosition = () => {
+  return document.documentElement.style.setProperty('--scroll', ( window.scrollY - offsetStart ) / ( document.body.offsetHeight - offsetStart - offsetEnd - window.innerHeight ));
+}
+
 const setScrollPosition = () => {
   // set a --scroll variable on the style object so we can access it in 
 //  modules and bind animations to scroll
     if (typeof window !== undefined) {
-      window.addEventListener('scroll', () => {
-        document.documentElement.style.setProperty('--scroll', ( window.scrollY - offsetStart ) / ( document.body.offsetHeight - offsetStart - offsetEnd - window.innerHeight ));
-      }, false);
+      window.addEventListener('scroll', getScrollPosition);
     }
 }
 

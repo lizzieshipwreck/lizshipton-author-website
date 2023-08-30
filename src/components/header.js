@@ -25,7 +25,6 @@ const Header = ({siteName, pageName}) => {
     }
 
     useEffect(() => {
-
         checkWindowWidth();
         setHamburgerMenuState();
         return () => window.removeEventListener('resize', checkWindowWidth)
