@@ -7,8 +7,7 @@
         border-left: none;
         border-right: none;
         border-color: rgb(169, 169, 169, 0.2);
-        /* background-color:white; */
-		background-color: rgb(255, 255, 255, .2);
+		background-color: white;
         position: sticky;
         top: 0;
         z-index: 100;
@@ -18,7 +17,7 @@
 @keyframes sticky-parallax-header-move-and-size {
 	from {
 		height: 10vh;
-        padding-bottom: 2.5rem;
+        padding-bottom: 2rem;
 	}
 	to {
 		height: 5vh;
@@ -30,10 +29,7 @@
 #sticky-parallax-header {
 	position: fixed;
 	top: 0;
-	padding-bottom: 2.5rem;
-	/* animation: sticky-parallax-header-move-and-size 1s linear infinite;
-	animation-timeline: scroll();
-	animation-range: 0vh 100vh; */
+	animation: sticky-parallax-header-move-and-size 15s linear infinite;
 }
 
 @keyframes fade {
@@ -45,12 +41,18 @@
 	}
 }
         
-
 .logo {
     margin-left: 1rem;
-    /* animation: fade 1s linear infinite;
+    animation: fade 15s linear infinite;
+}
+
+/* TODO: consolidate all these animation params into a global object */
+.logo, #sticky-parallax-header {
+	/* Don't let the animation play by default */
 	animation-play-state: paused;
-	animation-delay: calc(var(--scroll) * -1s);
-	animation-timeline: scroll();
-	animation-range: 0vh 100vh; */
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 }

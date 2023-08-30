@@ -27,48 +27,24 @@
 	}
 }
 
-@keyframes reveal-lift {
+@keyframes fade {
 	from {
-		clip-path: inset(100% 0% 0% 0%);
         opacity: 0;
 
 	}
 	to {
-		clip-path: inset(0% 0% 0% 0%);
         opacity: 1;
 	}
 }
 
-.middle {
+.middle, .end {
     margin-top: 6rem;
-	/* Create View Timeline */
-	view-timeline-name: --revealing-image;
-	view-timeline-axis: block;
-
-	/* Attach animation, linked to the  View Timeline */
-	animation: reveal-curtain linear both;
-	animation-timeline: --revealing-image;
-
-	/* Tweak range when effect should run*/
-	animation-range: entry 0% cover 50%;
 }
 
-.end {
-    margin-top: 6rem;
-	/* Create View Timeline */
-	view-timeline-name: --revealing-image;
-	view-timeline-axis: block;
-
-	/* Attach animation, linked to the  View Timeline */
-	animation: reveal-lift linear both;
-	animation-timeline: --revealing-image;
-
-	/* Tweak range when effect should run*/
-	animation-range: entry 0% cover 50%;
+.middle.in-view {
+	animation: reveal-curtain 2s ease-out;
 }
 
-@media only screen and (max-width: 750px) {
-    .end, .middle {
-		animation-range: entry 0% cover 15%;
-	}
+.end.in-view {
+	animation: fade 1.5s linear;
 }

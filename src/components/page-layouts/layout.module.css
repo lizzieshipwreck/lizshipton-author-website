@@ -1,22 +1,9 @@
-
-@keyframes gradient-shift {
-	from {
-		background-color: white;
-	}
-	to {
-		/* background-color: bisque; */ 
-		background-color: white;
-	}
-}
-/* TODO: fix CSS scroll animations */
-
 .container {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    display: flex;
-	padding-top: 20vh;
-    animation: gradient-shift linear forwards;
-	animation-timeline: scroll();
-	animation-range: 0vh 1000vh;
+}
+
+.content {
+	margin-top: 5rem;
 }

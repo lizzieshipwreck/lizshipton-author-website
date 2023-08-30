@@ -14,15 +14,15 @@ const about_loki_cta_text = "Follow Us On Instagram";
 const about_loki_cta_mobile_text = "Follow Us";
 const about_loki_button_color = "Paz";
 const about_loki_one = "We live on a 43ft Morgan Center Cockpit sailboat called Loki. We bought the boat in 2019 (just before the pandemic) after almost 6 years of work and planning. We didn't actually set out on our adventure until nearly two years later, in September of 2021."
-const about_loki_two = "Out journey began in Santa Cruz, CA. From there, we sailed down the Pacific Coast of the US into Baja California. We spent about a year in Mexico before continuing south through Central America (Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama.) In March of 2023 we came through the Panama Canal to the Caribbean."
-const about_loki_three = "Loki is a wonderful home, albeit a little small at times! We've never lived in a real house before anyway - all of our apartments have been studios - so we are used to sharing space. We live very simply and with minimal expense and waste, procuring our own water and making our own power from solar."
-const about_loki_four = "One of my favorite things about this way of life is the freedom it has given both of us to explore meaningful work. I have the time to build a career as a freelance writer and indie author. Meanwhile, Trev has discovered an aptitude for marine electrician work and is working on starting his own business too."
+const about_loki_two = "Our journey began in Santa Cruz, CA. From there, we sailed down the Pacific Coast of the US into Baja California. We spent about a year in Mexico before continuing south through Central America (Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama.) In March of 2023 we came through the Panama Canal to the Caribbean."
+const about_loki_three = "Loki is a wonderful home, albeit a little small at times! We've never lived in a real house before anyway - all of our apartments have been studios - so we are used to sharing space. We live very simply and with minimal expense and waste, procuring our own water and generating our own power from solar."
+const about_loki_four = "One of my favorite things about this way of life is the freedom it has given both of us to explore work we love. I have the time to build a career as a writer, while Trev has discovered an aptitude for marine electrician work and is also working on starting his own business."
 
 const about_crew_heading = "Meet the crew";
-const about_crew_image = "trev and aloy cool";
+const about_crew_image = "trev and aloy";
 const about_crew_alt = "Trev and Aloy sitting in Loki's cockpit";
 const about_crew_one = "Trevor Hope";
-const about_crew_two = "Trev is the indispensible captain of this operation, without whom, let's face it, the whole thing really falls apart. He's an excellent sailor, competent electrician, and can fix just about anything. We've been together almost 15 years.";
+const about_crew_two = "Trev is the indispensible captain of this ship, without whom, let's face it, the whole operation really falls apart. He's an excellent sailor, competent electrician, and can fix just about anything. We've been together almost 15 years.";
 const about_crew_three = "Aloy Bonesnatcher McGee";
 const about_crew_four = "We rescued Aloy from GEPDA rescue in San Martin, CA in 2017. She came to us with some behavioral issues, including fear-based aggression toward strangers, which we still manage from time to time. In her maturing years (she is about 5 now) she's calmed down a lot. She is an amazing guard dog and once she gets to know a person, she is ride-or-die.";
 

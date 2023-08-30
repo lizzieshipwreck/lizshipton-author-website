@@ -1,5 +1,5 @@
 import * as React from 'react'
-
+import { useEffect, useState, useRef } from 'react';
 import Layout from '../components/page-layouts/layout'
 import * as styles from './index.module.css'
 import AuthorIntroBlock from '../components/index/author-intro-block';
@@ -9,6 +9,37 @@ import { thalassic_na_alt, thalassic_na_image, thalassic_na_amazon_link, salt_tr
 import BookButton from '../components/book-button';
 
 const IndexPage = () => {
+
+  const midAnimatedElement = useRef();
+  const endAnimatedElement = useRef();
+
+  const [shouldAnimateMid, setShouldAnimateMid] = useState(false);
+  const [shouldAnimateEnd, setShouldAnimateEnd] = useState(false);
+
+  // TODO: make this a provider
+  useEffect(() => {
+    if (midAnimatedElement && midAnimatedElement.current && endAnimatedElement && endAnimatedElement.current) {
+      checkScrollPosition();
+    }
+    return () => window.removeEventListener('scroll', checkScrollPosition)
+  }, []);
+
+  const checkScrollPosition = () => {
+    if (typeof window !== undefined) {
+      window.addEventListener('scroll', () => {
+          const bottomOfViewport = Math.floor(window.scrollY + window.innerHeight);
+          const topOfMidElement = Math.floor(midAnimatedElement?.current?.offsetTop);
+          const topOfEndElement = Math.floor(endAnimatedElement?.current?.offsetTop);
+          if (topOfMidElement <= bottomOfViewport) {
+            setShouldAnimateMid(true);
+          }
+          if (topOfEndElement <= bottomOfViewport) {
+            setShouldAnimateEnd(true);
+          }
+      });
+    }
+  }
+
 
   return (
     <Layout pageTitle={"Home"}>
@@ -20,17 +51,17 @@ const IndexPage = () => {
           <div className={styles.button}>
             <BookButton text={thalassic_na_cta_text} mobileText={thalassic_na_cta_mobile_text} title={thalassic_na_button_color} link={thalassic_na_amazon_link}/>
           </div>
-          <div className={styles.middle}>
+          <div ref={midAnimatedElement} className={`${styles.middle} ${shouldAnimateMid && styles.inView}`}>
             <SeriesImage src={savage_promo} alt={savage_promo_alt} link={savage_na_link}/>
           </div>
           <div className={styles.button}>
             <BookButton text={savage_pre_order_text} mobileText={savage_pre_order_text} title={savage_button_color} link={savage_na_link}/>
           </div>
-          <div className={styles.end}>
+          <div ref={endAnimatedElement} className={`${styles.end} ${shouldAnimateEnd && styles.inView}`}>
             <SeriesImage src={salt_tropes} alt={salt_tropes_alt} link={salt_na_link}/>
           </div>
           <div className={styles.button}>
-            <BookButton text={"Free in KU"} mobileText={savage_pre_order_text} title={"Salt"} link={savage_na_link}/>
+            <BookButton text={"Free in KU"} mobileText={"Free in KU"} title={"Salt"} link={savage_na_link}/>
           </div>
       </div>
     </Layout>

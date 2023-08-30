@@ -36,52 +36,18 @@
 	}
 }
 
-@keyframes reveal-right {
+@keyframes fade {
 	from {
-        /* clip-path: inset(0% 100% 100% 0%); */
+
         opacity: 0;
 
 	}
 	to {
-		/* clip-path: inset(0% 0% 0% 0%); */
+
         opacity: 1;
 	}
 }
 
-@keyframes reveal-left {
-	from {
-		/* clip-path: inset(0% 0% 100% 100%); */
-        opacity: 0;
-
-	}
-	to {
-		/* clip-path: inset(0% 0% 0% 0%); */
-        opacity: 1;
-	}
-}
-
-.reveal-left {
-	/* Create View Timeline */
-	view-timeline-name: --revealing-image;
-	view-timeline-axis: block;
-
-	/* Attach animation, linked to the  View Timeline */
-	animation: reveal-left linear both;
-	animation-timeline: --revealing-image;
-
-	/* Tweak range when effect should run*/
-	animation-range: entry 0% cover 45%;
-}
-
-.reveal-right {
-	/* Create View Timeline */
-	view-timeline-name: --revealing-image;
-	view-timeline-axis: block;
-
-	/* Attach animation, linked to the  View Timeline */
-	animation: reveal-right linear both;
-	animation-timeline: --revealing-image;
-
-	/* Tweak range when effect should run*/
-	animation-range: entry 0% cover 45%;
+.in-view {
+	animation: fade 1.5s linear;
 }

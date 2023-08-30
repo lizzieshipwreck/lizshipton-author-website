@@ -33,9 +33,6 @@
             justify-content: space-evenly;
             align-items: center;
         }
-    .text-header {
-        margin-top: 6rem;
-    }
 }
 
 @keyframes fade {

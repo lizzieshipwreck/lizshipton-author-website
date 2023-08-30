@@ -17,13 +17,22 @@
 }
 
 .link {
-    animation: fade linear both;
-    animation-timeline: scroll();
-	animation-range: 0 500px;
+    animation: fade 15s linear infinite;
 }
 
 @media only screen and (min-width: 750px) {
     .link {
         margin-bottom: 2rem;
     }
+}
+
+/* TODO: consolidate all these animation params into a global object */
+.link {
+	/* Don't let the animation play by default */
+	animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 }

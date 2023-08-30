@@ -20,9 +20,9 @@ const icons = {
 const Social = ({ socialLinks }) => {
 
     const [beat, setBeat] = useState("");
-
     const [windowWidth, setWindowWidth] = useState(0);
 
+    // TODO: make this a provider
     useEffect(() => {
         checkWindowWidth();
         return () => window.removeEventListener('resize', checkWindowWidth)
