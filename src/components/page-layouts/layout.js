@@ -15,7 +15,6 @@ const Layout = ({ pageTitle, children }) => {
     document.documentElement.style.setProperty('--scroll', ( window.scrollY - offsetStart ) / ( document.body.offsetHeight - offsetStart - offsetEnd - window.innerHeight ));
   }, false);
 
-
   const data = useStaticQuery(graphql`
     query {
       site {

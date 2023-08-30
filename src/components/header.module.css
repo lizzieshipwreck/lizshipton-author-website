@@ -29,7 +29,7 @@
 #sticky-parallax-header {
 	position: fixed;
 	top: 0;
-	animation: sticky-parallax-header-move-and-size 15s linear infinite;
+	animation: sticky-parallax-header-move-and-size 0.5s linear infinite;
 }
 
 @keyframes fade {
@@ -43,7 +43,7 @@
         
 .logo {
     margin-left: 1rem;
-    animation: fade 15s linear infinite;
+    animation: fade 0.5s linear infinite;
 }
 
 /* TODO: consolidate all these animation params into a global object */

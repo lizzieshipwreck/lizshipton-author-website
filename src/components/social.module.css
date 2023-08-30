@@ -17,7 +17,7 @@
 }
 
 .link {
-    animation: fade 15s linear infinite;
+    animation: fade 0.5s linear infinite;
 }
 
 @media only screen and (min-width: 750px) {
