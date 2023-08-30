@@ -11,9 +11,21 @@ const Layout = ({ pageTitle, children }) => {
   let offsetStart = 0;
   let offsetEnd = 0;
 
-  window.addEventListener('scroll', () => {
-    document.documentElement.style.setProperty('--scroll', ( window.scrollY - offsetStart ) / ( document.body.offsetHeight - offsetStart - offsetEnd - window.innerHeight ));
-  }, false);
+  useEffect(() => {
+    setScrollPosition();
+    return () => window.removeEventListener('scroll', setScrollPosition)
+});
+
+const setScrollPosition = () => {
+  // set a --scroll variable on the style object so we can access it in 
+//  modules and bind animations to scroll
+    if (typeof window !== undefined) {
+      window.addEventListener('scroll', () => {
+        document.documentElement.style.setProperty('--scroll', ( window.scrollY - offsetStart ) / ( document.body.offsetHeight - offsetStart - offsetEnd - window.innerHeight ));
+      }, false);
+    }
+}
+
 
   const data = useStaticQuery(graphql`
     query {
