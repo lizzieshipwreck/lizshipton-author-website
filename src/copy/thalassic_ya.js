@@ -17,7 +17,7 @@ const bad_magic_image =  "bad magic";
 const bad_magic_alt = "Bad Magic cover";
 const bad_magic_ream_link = "https://bit.ly/bad-magic-ch-1-preview";
 const bad_magic_cta_text = "Read Chapter One";
-const bad_magic_cta_mobile_text = "Read Ch. One";
+const bad_magic_cta_mobile_text = "Read Ch. 1";
 const bad_magic_button_color = "Sand";
 
 const bad_magic_one = "Seven was born at sea. Now she's a SoCal witch."
