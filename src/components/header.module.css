@@ -18,10 +18,13 @@
 	from {
 		height: 10vh;
         padding-bottom: 2rem;
+        border-color: rgb(169, 169, 169, 0.2);
+        opacity: 1;
 	}
 	to {
 		height: 5vh;
         padding-bottom: .75rem;
+        border-color: rgb(169, 169, 169, 0);
 		opacity: 0.5;
 	}
 }

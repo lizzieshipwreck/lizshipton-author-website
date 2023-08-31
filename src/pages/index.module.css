@@ -42,9 +42,9 @@
 }
 
 .middle.in-view {
-	animation: reveal-curtain 2s ease-out;
+	animation: reveal-curtain 3s ease-out;
 }
 
 .end.in-view {
-	animation: fade 1.5s linear;
+	animation: fade 2s linear;
 }
