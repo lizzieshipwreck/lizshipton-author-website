@@ -1,7 +1,7 @@
 const thalassic_ya_heading = "Young Adult (YA) Editions";
 const thalassic_ya_image = "ya complete mock";
 const thalassic_ya_alt = "Covers for the Thalassic YA series";
-const thalassic_ya_shop_link = "https://shop.lizshipton.com/collection/ya-editions";
+const thalassic_ya_shop_link = "https://shop.lizshipton.com/collection/ebooks";
 const thalassic_ya_cta_text = "Buy YA Editions";
 const thalassic_ya_cta_mobile_text = "Shop YA";
 const thalassic_ya_button_color = "Scourge";
