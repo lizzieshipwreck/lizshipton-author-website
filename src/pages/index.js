@@ -5,7 +5,7 @@ import * as styles from './index.module.css'
 import AuthorIntroBlock from '../components/index/author-intro-block';
 import SeriesImage from '../components/index/series-image';
 
-import { thalassic_na_alt, thalassic_na_image, thalassic_na_amazon_link, salt_tropes, salt_tropes_alt, savage_na_link, savage_promo, savage_promo_alt, savage_pre_order_text, savage_button_color, salt_na_link, thalassic_na_cta_mobile_text, thalassic_na_cta_text, thalassic_na_button_color } from '../copy/thalassic_na';
+import { thalassic_na_alt, thalassic_na_image, thalassic_na_amazon_link, salt_tropes, salt_tropes_alt, savage_na_link, savage_promo, savage_promo_alt, savage_pre_order_text, savage_button_color, salt_na_link, salt_ku_text, salt_ku_mobile_text, salt_button_color, thalassic_na_cta_mobile_text, thalassic_na_cta_text, thalassic_na_button_color } from '../copy/thalassic_na';
 import BookButton from '../components/book-button';
 
 const IndexPage = () => {
@@ -52,16 +52,16 @@ const IndexPage = () => {
             <BookButton text={thalassic_na_cta_text} mobileText={thalassic_na_cta_mobile_text} title={thalassic_na_button_color} link={thalassic_na_amazon_link}/>
           </div>
           <div ref={midAnimatedElement} className={`${styles.middle} ${shouldAnimateMid && styles.inView}`}>
-            <SeriesImage src={savage_promo} alt={savage_promo_alt} link={savage_na_link}/>
+            <SeriesImage src={savage_promo} alt={savage_promo_alt}/>
           </div>
           <div className={styles.button}>
             <BookButton text={savage_pre_order_text} mobileText={savage_pre_order_text} title={savage_button_color} link={savage_na_link}/>
           </div>
           <div ref={endAnimatedElement} className={`${styles.end} ${shouldAnimateEnd && styles.inView}`}>
-            <SeriesImage src={salt_tropes} alt={salt_tropes_alt} link={salt_na_link}/>
+            <SeriesImage src={salt_tropes} alt={salt_tropes_alt}/>
           </div>
           <div className={styles.button}>
-            <BookButton text={"Free in KU"} mobileText={"Free in KU"} title={"Salt"} link={savage_na_link}/>
+            <BookButton text={salt_ku_text} mobileText={salt_ku_mobile_text} title={salt_button_color} link={salt_na_link}/>
           </div>
       </div>
     </Layout>
