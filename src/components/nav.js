@@ -41,7 +41,7 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
       }
       {!!windowWidth && windowWidth < 750 &&
         <Hamburger
-          color='gray'
+          color='#373636d9'
           distance='lg'
           toggled={isHamburgerOpen}
           toggle={toggleHamburger}

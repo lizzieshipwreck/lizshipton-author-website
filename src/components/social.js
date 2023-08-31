@@ -47,7 +47,7 @@ const Social = ({ socialLinks }) => {
                         <FontAwesomeIcon
                             key={name} 
                             icon={icons[name]}
-                            size={isMobile? "sm" : "2x"} 
+                            size={isMobile ? "1x" : "2x"}
                             fixedWidth 
                             beatFade={beat === name}
                             onMouseEnter={() => setBeat(name)} 
