@@ -23,7 +23,7 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
             </li>
             <li className={styles.navLinkItem}>
             <Link to="/newsletter" className={styles.navLinkText} id={'newsletter'}>
-              <b>{!!windowWidth && windowWidth > 750 ? 'Newsletter' : 'News'}</b>
+              <b>{!!windowWidth && windowWidth > 750 ? 'Newsletter' : 'Join'}</b>
             </Link>
             </li>
             <li className={styles.navLinkItem}>
