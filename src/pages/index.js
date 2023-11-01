@@ -72,6 +72,6 @@ export default IndexPage
 
 export const Head = () => {
   return (
-    <meta property='og:image' content={'https://i.ibb.co/nRzv053/na-thalassic-complete-small.png'}></meta>
+    <meta property='og:image' content={'https://i.ibb.co/yP63QJv/na-thalassic-social-share.png'}></meta>
   )
 }
