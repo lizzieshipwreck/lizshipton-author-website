@@ -69,3 +69,9 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+export const Head = () => {
+  return (
+    <meta property='og:image' content={thalassic_na_image}></meta>
+  )
+}
