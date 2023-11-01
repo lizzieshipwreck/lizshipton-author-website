@@ -4,13 +4,13 @@ module.exports = {
     siteUrl: `https://lizshipton.com`,
     socialLinks:
       [
-        {url: "https://discord.gg/peyvVKGNZT", name: 'discord'},
         {url: "https://tiktok.com/@lizshiptonauthor", name: 'tiktok'},
-        {url: "https://facebook.com/lizshiptonauthor", name: 'facebook'},
         {url: "https://instagram.com/lizshiptonauthor", name: 'instagram'},
+        {url: "https://facebook.com/lizshiptonauthor", name: 'facebook'},
         {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", name: 'goodreads'},
         {url: "https://threads.net/@lizshiptonauthor", name: 'threads'},
-        {url: "https://reamstories.com/page/lekik90zu2", name: 'ream'}
+        {url: "https://discord.gg/peyvVKGNZT", name: 'discord'},
+        // {url: "https://reamstories.com/page/lekik90zu2", name: 'ream'}
       ]
   },
   plugins: [
