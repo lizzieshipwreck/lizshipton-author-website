@@ -11,7 +11,7 @@ const AuthorIntroBlock = () => {
              </Link>
             <h2 className={styles.textHeader}>Part-time author 🪶⚓ Full-time pirate</h2>
             <p className={styles.text}>
-                Sailing around the world. Turning my adventures into Sci-Fi and Fantasy books.
+                Sailing around the world. Turning my adventures into speculative fiction.
             </p>
         </div>
     )
