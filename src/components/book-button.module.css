@@ -1,6 +1,6 @@
 .container {
-    margin-bottom: 0;
-    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 /* nifty glitch buttons from  https: //codepen.io/stevenlei/pen/ZEpyBod */
@@ -56,6 +56,12 @@ button::after {
     box-shadow: 6px 6px 0px rgb(166, 113, 84);
 }
 
+.button-lz, 
+.button-lz::after {
+    background: rgb(253,73,181) 5%;
+    box-shadow: 6px 6px 0px rgb(3, 3, 3);
+}
+
 button::after {
     --slice-0: inset(50% 50% 50% 50%);
     --slice-1: inset(80% -6px 0 0);
@@ -100,6 +106,12 @@ button::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(233,125,91) 3%, rgb(233,125,91) 5%, rgb(22,70,119)  5%);
     text-shadow: -3px -3px 0px rgb(224,95,119), 3px 3px 0px #00E6F6;
+}
+
+.button-lz::after {
+    content: '--------------';
+    background: linear-gradient(45deg, transparent 3%, rgb(253,73,181) 3%, rgb(224,95,119) 5%, rgb(250, 247, 247) 5%);
+    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
 }
 
 button:hover::after {

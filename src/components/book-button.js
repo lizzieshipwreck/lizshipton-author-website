@@ -5,6 +5,8 @@ import * as styles from "./book-button.module.css";
 
 const BookButton = ({ link, text, mobileText, title }) => {
 
+    console.log("title", title)
+
     const [windowWidth, setWindowWidth] = useState(0);
 
     useEffect(() => {
