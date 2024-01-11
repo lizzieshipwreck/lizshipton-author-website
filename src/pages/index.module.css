@@ -37,6 +37,32 @@
 	}
 }
 
+.middle {
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-by {
+    display: flex;
+    align-items: center;
+}
+
+.instalove-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    font-style: italic;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.coming-soon-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    letter-spacing: 1px;
+    color: rgba(55, 54, 54, 0.85);
+    margin: 0;
+}
+
 .middle, .end {
     margin-top: 6rem;
 }
