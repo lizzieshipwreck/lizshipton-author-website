@@ -110,8 +110,8 @@ button::after {
 
 .button-lz::after {
     content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(253,73,181) 3%, rgb(224,95,119) 5%, rgb(250, 247, 247) 5%);
-    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
+    background: linear-gradient(45deg, transparent 3%, rgb(250, 250, 250) 3%, rgb(250,250,250) 5%, rgb(253,73,181) 5%);
+    text-shadow: -3px -3px 0px yellowgreen, 3px 3px 0px aqua;
 }
 
 button:hover::after {

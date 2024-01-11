@@ -18,7 +18,7 @@ const IndexPage = () => {
 
   // TODO: make this a provider
   useEffect(() => {
-    if (midAnimatedElement && midAnimatedElement.current && endAnimatedElement && endAnimatedElement.current) {
+    if (midAnimatedElement && midAnimatedElement.current || endAnimatedElement && endAnimatedElement.current) {
       checkScrollPosition();
     }
     return () => window.removeEventListener('scroll', checkScrollPosition)
@@ -52,21 +52,14 @@ const IndexPage = () => {
             <BookButton text={thalassic_na_cta_text} mobileText={thalassic_na_cta_mobile_text} title={thalassic_na_button_color} link={thalassic_na_shop_link}/>
           </div>
           <div ref={midAnimatedElement} className={`${styles.middle} ${shouldAnimateMid && styles.inView}`}>
-          <div className={`${styles.sideBy}`}>
-            <h3 className={`${styles.comingSoonText}`}>Coming 2024  💖  </h3>
-            <p className={`${styles.instaloveText}`}>12 Spicy Holiday Instaloves</p>
-          </div>
-            <SeriesImage src={"holiday remix"} alt={savage_promo_alt}/>
+            <div className={`${styles.border}`}/>
+            <h3 className={`${styles.comingSoonText}`}>Coming 2024  💖  Holiday Remixes</h3>
+            <p className={`${styles.instaloveText}`}>Short,  spicy,  speculative  Instalove.</p>
+            <SeriesImage src={"holiday remix"} alt={"holiday remixes series"}/>
           </div>
           <div className={styles.button}>
             <BookButton text={"Read Now"} mobileText={"Read"} title={"Lz"} link={"https://amzn.to/48rGC6c"}/>
           </div>
-          <div ref={endAnimatedElement} className={`${styles.end} ${shouldAnimateEnd && styles.inView}`}>
-            <SeriesImage src={salt_tropes} alt={salt_tropes_alt} link={salt_na_link}/>
-          </div>
-          {/* <div className={styles.button}>
-            <BookButton text={salt_button_text} mobileText={salt_mobile_text} title={salt_button_color} link={salt_na_link}/>
-          </div> */}
       </div>
     </Layout>
   )
