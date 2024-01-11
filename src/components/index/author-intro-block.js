@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 
 const AuthorIntroBlock = () => {
     return (
-        <div className={styles.container}>
+        <div>
             <Link to="/about" className={styles.authorIntro}>
                 <StaticImage src={"../../images/liz and aloy smoochin round.png"} placeholder="blurred" quality={100} height={175} className={styles.authorHeadshot}/>
              </Link>

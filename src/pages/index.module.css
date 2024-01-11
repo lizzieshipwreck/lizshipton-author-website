@@ -41,13 +41,13 @@
     border-style: solid;
     width: 75%;
     border-image: radial-gradient(rgb(146, 146, 146), rgb(250,250,250)) 1;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .middle {
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .middle.in-view {
