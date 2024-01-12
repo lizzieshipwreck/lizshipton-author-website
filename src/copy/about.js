@@ -2,7 +2,7 @@ const about_liz_heading = "Part-time author 🪶⚓ Full-time pirate";
 const about_liz_image = "liz hammock smile round";
 const about_liz_alt = "Liz working from a hammock";
 const about_liz_one = "Hi! I'm Liz. I'm a freelance writer, indie author, and full-time, off-grid, live-aboard sailor. I’m currently sailing around the world with my boyfriend and my dog, turning my real-life adventures into speculative fiction.";
-const about_liz_two = "I love incorporating the incredible experiences, beautiful places, and fascinating people I encounter on my travels into my work. Many parts of the world are underrepresented in fiction, particularly speculative fiction, and I feel grateful to be able to explore them."
+const about_liz_two = "I feel incredibly grateful to be able to explore the world as I do, and I love incorporating the incredible experiences, beautiful places, and wonderful people I encounter on my travels into my work."
 const about_liz_three = "I also use my books as a means to explore themes of mental health, addiction, technology, climate change, and the looming collapse of society (but, like...in a fun way.)"
 const about_liz_four = "When I'm not penning novels about the impending apocalypse, I work as a freelance content writer specializing in articles about code, music theory, and off-grid living.\nOn the rare occasion I'm not writing, you can find me swimming, hiking, telling my dog I love her for the bazillionth time today, or watching Taskmaster."
 
@@ -15,7 +15,7 @@ const about_loki_cta_mobile_text = "Follow Us";
 const about_loki_button_color = "Paz";
 const about_loki_one = "We live on a 43ft Morgan Center Cockpit sailboat called Loki. We bought the boat in 2019 (just before the pandemic) after almost 6 years of work and planning. We didn't actually set out on our adventure until nearly two years later, in September of 2021."
 const about_loki_two = "Our journey began in Santa Cruz, CA. From there, we sailed down the Pacific Coast of the US into Baja California. We spent about a year in Mexico before continuing south through Central America (Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama.) In March of 2023 we came through the Panama Canal to the Caribbean."
-const about_loki_three = "Loki is a wonderful home, albeit a little small at times! We've never lived in a real house before anyway - all of our apartments have been studios - so we are used to sharing space. We live very simply and with minimal expense and waste, procuring our own water and generating our own power from solar."
+const about_loki_three = "Loki is a wonderful home, albeit a little small at times! We've never lived in a real house before anyway - all of our apartments have been studios - so we are used to sharing space. We live simply and with minimal expense and waste, procuring our own water and generating our own power from solar."
 const about_loki_four = "One of my favorite things about this way of life is the freedom it has given both of us to explore work we love. I have the time to build a career as a writer, while Trev has discovered an aptitude for marine electrician work and is also working on starting his own business."
 
 const about_crew_heading = "Meet the crew";
