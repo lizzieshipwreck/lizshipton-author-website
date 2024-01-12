@@ -1,10 +1,10 @@
 import * as React from 'react'
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTiktok, faInstagram, faFacebook, faGoodreads, faThreads, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faTiktok, faInstagram, faFacebook, faGoodreads, faThreads, faDiscord, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import * as styles from './social.module.css'
-import { faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import { faLayerGroup, faX } from '@fortawesome/free-solid-svg-icons';
 
 const icons = {
     discord: faDiscord,
@@ -13,7 +13,7 @@ const icons = {
     facebook: faFacebook,
     goodreads: faGoodreads,
     threads: faThreads,
-    ream: faLayerGroup
+    x: faXTwitter
   }
 
 
@@ -43,7 +43,7 @@ const Social = ({ socialLinks }) => {
           {
               socialLinks.map(({name, url}) => {
                   return (
-                    <a href={url} className={styles.link}>
+                    <a href={url} className={styles.link} target='_blank'>
                         <FontAwesomeIcon
                             key={name} 
                             icon={icons[name]}
