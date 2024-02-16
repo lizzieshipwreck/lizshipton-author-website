@@ -54,7 +54,7 @@ const IndexPage = () => {
           <div ref={midAnimatedElement} className={`${styles.middle} ${shouldAnimateMid && styles.inView}`}>
             <div className={`${styles.border}`}/>
             <h3 className={`${styles.comingSoonText}`}>Coming 2024  💖  Holiday Remixes</h3>
-            <p className={`${styles.instaloveText}`}>Short,  spicy,  speculative  Instalove.</p>
+            <p className={`${styles.instaloveText}`}>Short.  Silly. Spicy. Speculative.</p>
             <SeriesImage src={"holiday remix"} alt={"holiday remixes series"}/>
           </div>
           <div className={styles.button}>
