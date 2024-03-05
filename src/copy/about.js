@@ -1,5 +1,5 @@
 const about_liz_heading = "Part-time author 🪶⚓ Full-time pirate";
-const about_liz_image = "liz hammock smile round";
+const about_liz_image = "monkey headshot round";
 const about_liz_alt = "Liz working from a hammock";
 const about_liz_one = "Hi! I'm Liz. I'm a freelance writer, indie author, and full-time, off-grid, live-aboard sailor. I’m currently sailing around the world with my boyfriend and my dog, turning my real-life adventures into speculative fiction.";
 const about_liz_two = "I feel incredibly grateful to be able to explore the world as I do, and I love incorporating the incredible experiences, beautiful places, and wonderful people I encounter on my travels into my work."
