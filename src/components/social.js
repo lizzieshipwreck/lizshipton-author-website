@@ -1,19 +1,17 @@
 import * as React from 'react'
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTiktok, faInstagram, faFacebook, faGoodreads, faThreads, faDiscord, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faTiktok, faInstagram, faFacebook, faGoodreads, faThreads, faPatreon } from '@fortawesome/free-brands-svg-icons';
 
 import * as styles from './social.module.css'
-import { faLayerGroup, faX } from '@fortawesome/free-solid-svg-icons';
 
 const icons = {
-    discord: faDiscord,
+    patreon: faPatreon,
     tiktok: faTiktok,
     instagram: faInstagram,
     facebook: faFacebook,
     goodreads: faGoodreads,
-    threads: faThreads,
-    x: faXTwitter
+    threads: faThreads
   }
 
 

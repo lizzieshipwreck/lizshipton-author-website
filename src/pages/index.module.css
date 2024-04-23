@@ -61,15 +61,14 @@
     text-align: center;
 }
 
-.instalove-text {
+.title-text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: gray;
     font-style: italic;
     margin: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     text-align: center;
 }
-
 
 .dotslash-header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -96,7 +95,7 @@
     .coming-soon-text {
         font-size: xx-large;
     }
-    .instalove-text {
+    .title-text {
         font-size: xx-large;
     }
     .dotslash-header {
