@@ -4,7 +4,7 @@ const thalassic_ya_alt = "Covers for the Thalassic YA series";
 const thalassic_ya_shop_link = "https://shop.lizshipton.com/collection/ebooks";
 const thalassic_ya_cta_text = "Buy YA Editions";
 const thalassic_ya_cta_mobile_text = "Shop YA";
-const thalassic_ya_button_color = "Scourge";
+const thalassic_ya_button_color = "Salt";
 
 const thalassic_ya_one = "I offer two editions of the Thalassic Series: a New Adult edition and a Young Adult edition."
 const thalassic_ya_two = "The only difference between the two editions is that the New Adult books have explicit 'spicy' scenes. The Young Adult editions do not include these scenes, so they are appropriate for older teens (16+) and for people who prefer 'clean' romance."

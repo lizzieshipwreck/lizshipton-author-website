@@ -22,7 +22,7 @@ button::after {
 
 .button-salt, 
 .button-salt::after {
-    background: rgb(22,43,93) 5%;
+    background:  rgb(22,43,93) 5%;
     box-shadow: 6px 6px 0px rgb(224,95,119);
 }
 
