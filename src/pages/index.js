@@ -6,9 +6,11 @@ import AuthorIntroBlock from '../components/index/author-intro-block';
 import SeriesImage from '../components/index/series-image';
 import BookButton from '../components/book-button';
 
-import { dotslash_image, dotslash_alt, dotslash_link, dotslash_text, dotslash_button_color } from '../copy/dotslash_magic';
+import { dotslash_alt, dotslash_link, dotslash_text, dotslash_button_color } from '../copy/dotslash_magic';
 import { thalassic_na_alt, thalassic_na_image, thalassic_na_shop_link,thalassic_na_text, thalassic_na_button_color } from '../copy/thalassic_na';
 import { holiday_alt, holiday_link, holiday_image, holiday_button_color, holiday_text } from '../copy/holiday_remix';
+
+import dotslash_image from "../images/Dot Slash Teaser.gif";
 
 const IndexPage = () => {
 
@@ -48,7 +50,7 @@ const IndexPage = () => {
         <div className={styles.content}>
           <AuthorIntroBlock />
           <div className={styles.middle}>
-              <SeriesImage src={dotslash_image} className={styles.image}/>
+              <img src={dotslash_image} alt={dotslash_alt} className={styles.gif}/>
               <h2 className={`${styles.comingSoonText}`}>✨ Dot Slash Magic ✨</h2>
               <p className={`${styles.titleText}`}>What if you wrote a magic computer program?</p>
               <p className={`${styles.titleText}`}>What if that magic computer program started summoning monsters?</p>
