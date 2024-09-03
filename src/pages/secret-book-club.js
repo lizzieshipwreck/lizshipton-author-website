@@ -4,7 +4,7 @@ import LandingPageRedirect from '../components/page-layouts/redirect-page'
 const SecretBookClub = () => {
 
     return (
-        <LandingPageRedirect pageTitle={"Secret Book Club"} redirectUrl={"https://signup.lizshipton.com/free-short-stories"}/>
+        <LandingPageRedirect pageTitle={"Secret Book Club"} redirectUrl={"https://signup.lizshipton.com/tale-of-mischief"}/>
   )
 }
 
