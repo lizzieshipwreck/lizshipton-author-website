@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 import * as styles from "./newsletter.module.css"
 import { header, subheader, seed_ya_download_link, seed_na_download_link } from '../copy/newsletter'
 
-const secret_book_club_link = "https://signup.lizshipton.com/free-short-stories"
+const secret_book_club_link = "https://signup.lizshipton.com/tale-of-mischief"
 
 const NewsletterRedirect = () => {
 
