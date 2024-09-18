@@ -69,7 +69,7 @@ const IndexPage = () => {
           </div>
           <div className={`${styles.middle}`}>
             <div className={`${styles.border}`}/>
-            <h3 className={`${styles.comingSoonText}`}>💖 Holiday Remixes 💖</h3>
+            <h3 className={`${styles.comingSoonText}`}>💖 Tales of Mischief and F*ckery 💖</h3>
             <p className={`${styles.titleText}`}>Short.  Silly. Spicy. Speculative.</p>
             <SeriesImage src={holiday_image} alt={holiday_alt} className={styles.image}/>
           </div>
