@@ -1,4 +1,4 @@
-export const thalassic_na_image = "na thalassic complete";
+export const thalassic_na_image = "thalassic new flat";
 export const thalassic_na_alt = "Covers for the complete Thalassic New Adult series";
 export const thalassic_na_amazon_link = "https://amzn.to/3PBZR62";
 export const thalassic_na_shop_link = "https://shop.lizshipton.com/collection/paperbacks";
