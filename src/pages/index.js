@@ -52,8 +52,8 @@ const IndexPage = () => {
           <div className={styles.middle}>
               <img src={dotslash_image} alt={dotslash_alt} className={styles.gif}/>
               <h2 className={`${styles.comingSoonText}`}>✨ Dot Slash Magic ✨</h2>
-              <p className={`${styles.titleText}`}>What if you wrote a magic computer program?</p>
-              <p className={`${styles.titleText}`}>What if that magic computer program was maybe summoning monsters?</p>
+              <p className={`${styles.titleText}`}>What if you didn't know how to wield your own magic?</p>
+              <p className={`${styles.titleText}`}>If AI could help you...would you use it?</p>
             <div className={styles.button}>
               <BookButton text={dotslash_text} mobileText={dotslash_text} title={dotslash_button_color} link={dotslash_link}/>
             </div>
