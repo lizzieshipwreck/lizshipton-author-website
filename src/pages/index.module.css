@@ -70,17 +70,26 @@
     text-align: center;
 }
 
+.magic-text {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
 .gif {
     margin-top: 2rem;
     box-shadow: 10px -4px 30px -6px rgb(80, 79, 79);
-    max-width: 1330px;
+    max-width: 900px;
 }
 
 @media only screen and (min-width: 750px) {
     .coming-soon-text {
         font-size: xx-large;
     }
-    .title-text {
+    .title-text, .magic-text {
         font-size: xx-large;
     }
 }

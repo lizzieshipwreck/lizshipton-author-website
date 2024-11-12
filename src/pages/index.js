@@ -10,7 +10,7 @@ import { dotslash_alt, dotslash_link, dotslash_text, dotslash_button_color } fro
 import { thalassic_na_alt, thalassic_na_image, thalassic_na_shop_link,thalassic_na_text, thalassic_na_button_color } from '../copy/thalassic_na';
 import { holiday_alt, holiday_link, holiday_image, holiday_button_color, holiday_text } from '../copy/holiday_remix';
 
-import dotslash_image from "../images/Dot Slash Teaser.gif";
+import dotslash_image from "../images/Dot Slash Header Graphic.gif";
 
 const IndexPage = () => {
 
@@ -52,8 +52,8 @@ const IndexPage = () => {
           <div className={styles.middle}>
               <img src={dotslash_image} alt={dotslash_alt} className={styles.gif}/>
               <h2 className={`${styles.comingSoonText}`}>✨ Dot Slash Magic ✨</h2>
-              <p className={`${styles.titleText}`}>What if you didn't know how to wield your own magic?</p>
-              <p className={`${styles.titleText}`}>If AI could help you...would you use it?</p>
+              <p className={`${styles.magicText}`}>What if you were struggling to wield your own magic?</p>
+              <p className={`${styles.magicText}`}>If a computer could help you...would you use it?</p>
             <div className={styles.button}>
               <BookButton text={dotslash_text} mobileText={dotslash_text} title={dotslash_button_color} link={dotslash_link}/>
             </div>
