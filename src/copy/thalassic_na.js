@@ -20,7 +20,7 @@ const thalassic_na_heading = "What do you do with a drunken sailor when the worl
 const thalassic_na_one = "My name is Bird Howsley, and I'm a beautiful disaster. Well...'beautiful' is probably being generous, but the 'disaster' part is right.";
 const thalassic_na_two = "In a brutal dystopian waterworld, where survival depends on skill and smarts, I'm pretty much always one bad decision away from watching my life go completely down the drain.";
 const thalassic_na_three = "Luckily, I have a lifeline: my cute, level-headed sailing teacher, Sargo Paz. Did I say cute? I didn't mean cute. He's just a friend. I definitely don't have sex dreams about him...";
-const thalassic_na_four = "Anyway, last week I got a message from my brother, who's been dead for ten years. That's odd, right? I came up with a plan to find him, but it went pretty badly sideways and Sargo and I ended up in the crosshairs of a pretty dangerous underground organization that wants us dead.";
+const thalassic_na_four = "Anyway, last week I got a message from my brother, who's been dead for ten years. That's odd, right? I came up with a plan to find him, but it went pretty badly sideways and Sargo and I ended up in the crosshairs of a dangerous underground organization that wants us dead.";
 const thalassic_na_five = "We didn't know what else to do but flee into the Salt on Sargo's boat. Now we're cooped up together in very close quarters and things are getting - um...tense...between us.";
 const thalassic_na_six = "Oh, and did I mention I've been blacking out? Like...a lot?";
 
