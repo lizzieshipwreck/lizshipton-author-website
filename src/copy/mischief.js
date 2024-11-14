@@ -17,7 +17,7 @@ const mischief_three = 'Inside these 12 books, you’ll find 12 standalone "adul
 const mischief_four = '"Even August?" I hear you asking.'
 const mischief_five = '"Yes, friend. Even August."'
 const mischief_six = '"But there isn’t even a holiday in Aug-"'
-const mischief_seven = '"Shh shh shh... Don’t worry about that. You let ME worry about that. Just start at January, and everything will be fine."'
+const mischief_seven = '"Shh shh shh... Don’t worry about that. You let ME worry about that. Just start reading, and I promise everything will be fine."'
 
 const review_heading = "Praise for Tales of Mischief and F*ckery"
 const review_one = '"The story is funny. Also the scenes are hot, and the pp is very big. This is incredibly important and made me quite happy." ⭐ ⭐ ⭐ ⭐ ⭐'

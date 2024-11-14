@@ -19,11 +19,10 @@ const salt_alt = "Cover for Salt";
 const thalassic_na_heading = "The Thalassic Series";
 const thalassic_na_subheading = "What do you do with a drunken sailor when the world is underwater?"
 const thalassic_na_one = "My name is Bird Howsley, and I'm a beautiful disaster. Okay... 'beautiful' is probably being generous, but the 'disaster' part is right.";
-const thalassic_na_two = "In a brutal dystopian waterworld, where survival depends on skill and smarts, I'm always one bad decision away from watching my life go completely down the drain.";
-const thalassic_na_three = "Luckily, I have a lifeline: my cute, level-headed sailing teacher, Sargo Paz. Did I say cute? I didn't mean cute. He's just a friend. I definitely don't have sex dreams about him...";
-const thalassic_na_four = "Anyway, last week I got a message from my brother, who's been dead for ten years. When I went looking for him, a stupid mistake put me and Sargo in the crosshairs of a dangerous underground organization that I'm pretty sure wants us dead.";
-const thalassic_na_five = "We were forced to take Sargo's boat and flee into the Salt. Now we're cooped up together in very close quarters and things are getting - um...tense...between us.";
-const thalassic_na_six = "Oh, and did I mention I've been blacking out? Like...a lot?";
+const thalassic_na_two = "Luckily, I have a lifeline in this brutal dystopian waterworld: my cute, level-headed sailing teacher, Sargo Paz. Did I say cute? I didn't mean cute. He's just a friend. I definitely don't have sex dreams about him...";
+const thalassic_na_three = "Anyway, last week I got a message from my brother, who's been dead for ten years. Weird, right? Unfortunately, when I went looking for him, a stupid mistake put me and Sargo in the crosshairs of a dangerous underground organization that I'm pretty sure now wants us dead.";
+const thalassic_na_four = "We were forced to take Sargo's boat and flee into the Salt. Now we're cooped up together in very close quarters and things are getting - um...tense...between us.";
+const thalassic_na_five = "Oh, and did I mention I've been blacking out? Like...a lot?";
 
 const review_heading = "Praise for the Thalassic Series";
 const review_one = '"I love it all. I really enjoyed every bit of this book. The thrill and adventure. So many mysteries to solve. I can’t wait to read the next book." ⭐ ⭐ ⭐ ⭐ ⭐';
@@ -35,7 +34,7 @@ export const content = [
     {
         heading: thalassic_na_heading,
         subheading: thalassic_na_subheading,
-        paragraphs: {text: [thalassic_na_one, thalassic_na_two, thalassic_na_three, thalassic_na_four, thalassic_na_five, thalassic_na_six]},
+        paragraphs: {text: [thalassic_na_one, thalassic_na_two, thalassic_na_three, thalassic_na_four, thalassic_na_five]},
         image: {src: salt_image, alt: salt_alt },
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: thalassic_na_button_color, link: thalassic_bookshop_link},
