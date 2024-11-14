@@ -7,28 +7,36 @@ import BlockLayoutImage from './page-layouts/block-image';
 import * as styles from './text-and-image-block.module.css';
 
 
-const TextBlock = ({heading, paragraphs, cta}) => {
+const TextBlock = ({heading, paragraphs, ctas}) => {
+
+    const italic = paragraphs.italic;
 
     return (
         <div className={styles.textBlock}>
             <h2 className={styles.textHeader}>{heading}</h2>
                 {
-                    paragraphs.map((paragraph, i) => {
+                    paragraphs.text.map((paragraph, i) => {
                         return (
-                        <p className={styles.text} key={i}>
+                        <p className={`${styles[italic ? `italic` : `text`]}`} key={i}>
                             {paragraph}
                         </p>
                         )
                     })
                 }
-            { cta && <BookButton link={cta.link} text={cta.text} mobileText = {cta.mobileText} title={cta.colorScheme}/> }
+            <div className={styles.ctas}>
+                { ctas && ctas.map((cta, i) => {
+                    return (
+                        <BookButton link={cta.link} text={cta.text} mobileText={cta.mobileText} title={cta.colorScheme} key={i}/>
+                    )
+                })}
+            </div>
         </div>
     )
 }
 
 const TextAndImageBlock = ({ content, textFirst, i }) => {
 
-    const {heading, paragraphs, cta, image} = content;
+    const {heading, paragraphs, ctas, image, noMargin} = content;
 
     const animatedElement = useRef();
     const [shouldAnimate, setShouldAnimate] = useState(false);
@@ -56,18 +64,17 @@ const TextAndImageBlock = ({ content, textFirst, i }) => {
     
     return (
             textFirst ? (
-                <div className={`${styles.block} ${shouldAnimate && styles.inView}`} ref={animatedElement}>
-                    <TextBlock heading={heading} paragraphs={paragraphs} cta={cta}/>
+                <div className={`${styles.block} ${shouldAnimate && styles.inView} ${noMargin && styles.noMargin}`} ref={animatedElement}>
+                    <TextBlock heading={heading} paragraphs={paragraphs} ctas={ctas}/>
                     <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
 
                  </div>
             )
             :
             (
-                <div className={`${styles.block} ${shouldAnimate && styles.inView}`} ref={animatedElement}>
+                <div className={`${styles.block} ${shouldAnimate && styles.inView} ${noMargin && styles.noMargin}`} ref={animatedElement}>
                     <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
-                    <TextBlock heading={heading} paragraphs={paragraphs} cta={cta}/>
-
+                    <TextBlock heading={heading} paragraphs={paragraphs} ctas={ctas}/>
                  </div>
             )
     )

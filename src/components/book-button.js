@@ -3,9 +3,7 @@ import {useState, useEffect} from 'react';
 
 import * as styles from "./book-button.module.css";
 
-const BookButton = ({ link, text, mobileText, title }) => {
-
-    console.log("title", title)
+const BookButton = ({ link, text, mobileText, title, noOpen }) => {
 
     const [windowWidth, setWindowWidth] = useState(0);
 
@@ -26,7 +24,7 @@ const BookButton = ({ link, text, mobileText, title }) => {
 
     return (
         <div className={styles.container}>
-            <a href={link} target="_blank">
+            <a href={link} target={noOpen ? "" : "_blank"}>
                 <button className={`${styles[`button${title}`]}`}>{isMobile ? mobileText : text}</button>
             </a>
         </div>

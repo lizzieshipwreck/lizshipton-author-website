@@ -30,18 +30,18 @@ const about_crew_four = "We rescued Aloy from GEPDA rescue in San Martin, CA in 
 export const content = [
     {
         heading: about_liz_heading,
-        paragraphs: [about_liz_one, about_liz_two, about_liz_three, about_liz_four],
+        paragraphs: {text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four]},
         image: {src: about_liz_image, alt: about_liz_alt },
     },
     {
       heading: about_loki_heading,
-      paragraphs: [about_loki_one, about_loki_two, about_loki_three, about_loki_four],
+      paragraphs: {text: [about_loki_one, about_loki_two, about_loki_three, about_loki_four]},
       image: {src: about_loki_image, link: about_loki_link, alt: about_loki_alt},
-      cta: {text: about_loki_cta_text, mobileText: about_loki_cta_mobile_text, colorScheme: about_loki_button_color, link: about_loki_link}
+      ctas: [{text: about_loki_cta_text, mobileText: about_loki_cta_mobile_text, colorScheme: about_loki_button_color, link: about_loki_link}]
     },
     {
       heading: about_crew_heading,
-      paragraphs: [about_crew_one, about_crew_two, about_crew_three, about_crew_four],
+      paragraphs: {text: [about_crew_one, about_crew_two, about_crew_three, about_crew_four]},
       image: {src: about_crew_image, alt: about_crew_alt} 
     }
   ]
