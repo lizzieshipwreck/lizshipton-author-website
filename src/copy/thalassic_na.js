@@ -7,8 +7,8 @@ export const thalassic_na_button_color = "Soul";
 
 
 const thalassic_bookshop_link = "https://shop.lizshipton.com/collection/paperbacks";
-const bookshop_text = "Buy from Me";
-const bookshop_mobile_text = "My Shop";
+const bookshop_text = "Buy from Liz";
+const bookshop_mobile_text = "Bookshop";
 const thalassic_na_amazon_link = "https://amzn.to/3PBZR62";
 const amazon_text = "Buy from Amazon";
 const amazon_mobile_text = "Amazon";
