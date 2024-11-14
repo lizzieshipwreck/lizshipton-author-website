@@ -16,12 +16,13 @@ const amazon_mobile_text = "Amazon";
 const salt_image = "salt ebook";
 const salt_alt = "Cover for Salt";
 
-const thalassic_na_heading = "What do you do with a drunken sailor when the world is underwater?";
-const thalassic_na_one = "My name is Bird Howsley, and I'm a beautiful disaster. Well... 'beautiful' is probably being generous, but the 'disaster' part is right.";
-const thalassic_na_two = "In a brutal dystopian waterworld, where survival depends on skill and smarts, I'm pretty much always one bad decision away from watching my life go completely down the drain.";
+const thalassic_na_heading = "The Thalassic Series";
+const thalassic_na_subheading = "What do you do with a drunken sailor when the world is underwater?"
+const thalassic_na_one = "My name is Bird Howsley, and I'm a beautiful disaster. Okay... 'beautiful' is probably being generous, but the 'disaster' part is right.";
+const thalassic_na_two = "In a brutal dystopian waterworld, where survival depends on skill and smarts, I'm always one bad decision away from watching my life go completely down the drain.";
 const thalassic_na_three = "Luckily, I have a lifeline: my cute, level-headed sailing teacher, Sargo Paz. Did I say cute? I didn't mean cute. He's just a friend. I definitely don't have sex dreams about him...";
-const thalassic_na_four = "Anyway, last week I got a message from my brother, who's been dead for ten years. That's odd, right? I came up with a plan to find him, but it went pretty badly sideways and Sargo and I ended up in the crosshairs of a dangerous underground organization that wants us dead.";
-const thalassic_na_five = "We didn't know what else to do but flee into the Salt on Sargo's boat. Now we're cooped up together in very close quarters and things are getting - um...tense...between us.";
+const thalassic_na_four = "Anyway, last week I got a message from my brother, who's been dead for ten years. When I went looking for him, a stupid mistake put me and Sargo in the crosshairs of a dangerous underground organization that I'm pretty sure wants us dead.";
+const thalassic_na_five = "We were forced to take Sargo's boat and flee into the Salt. Now we're cooped up together in very close quarters and things are getting - um...tense...between us.";
 const thalassic_na_six = "Oh, and did I mention I've been blacking out? Like...a lot?";
 
 const review_heading = "Praise for the Thalassic Series";
@@ -33,6 +34,7 @@ const review_four = '"Couldn’t put it down, a fast paced adventure full of pir
 export const content = [
     {
         heading: thalassic_na_heading,
+        subheading: thalassic_na_subheading,
         paragraphs: {text: [thalassic_na_one, thalassic_na_two, thalassic_na_three, thalassic_na_four, thalassic_na_five, thalassic_na_six]},
         image: {src: salt_image, alt: salt_alt },
         ctas: [

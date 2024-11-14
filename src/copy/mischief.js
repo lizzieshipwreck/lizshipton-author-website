@@ -9,7 +9,8 @@ const mischief_vertical_image = "tales vertical";
 const mischief_amazon_link = "https://amzn.to/48rGC6c";
 const amazon_text = "Read in KU"
 
-const mischief_heading = 'Short. Silly. Spicy. Speculative.';
+const mischief_heading = 'Tales of Mischief and F*ckery';
+const mishcief_subheading = 'Short. Silly. Spicy. Speculative.';
 const mischief_one = 'Small town apocalypses? Dystopian billionaires? Fae mafia bosses? How about hockey playing shifters? A Greek god desperately in need of a nanny?';
 const mischief_two = 'You may ask, "Why?" This series of steamy holiday-themed short stories asks, "Why not?" Why not a mishmash of genres? Why not funny, off-the-wall romance with hot spice and big heart? Why not an unhinged hockey shifter rom-com starring the Easter bunny?'
 const mischief_three = 'Inside these 12 books, you’ll find 12 short standalone "adult fairy tales", each set during a different holiday in every month of the year.'
@@ -26,6 +27,7 @@ const review_three = '"Well the author said she goes for QUALITY over QUANTITY w
 export const content = [
     {
         heading: mischief_heading,
+        subheading: mishcief_subheading,
         paragraphs: {text: [mischief_one, mischief_two, mischief_three, mischief_four, mischief_five, mischief_six, mischief_seven]},
         image: {src: mischief_vertical_image, alt: mischief_alt },
         ctas: [{text: amazon_text, mobileText: mischief_mobile_text, colorScheme: mischief_button_color, link: mischief_amazon_link}],

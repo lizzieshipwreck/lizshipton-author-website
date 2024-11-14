@@ -7,13 +7,14 @@ import BlockLayoutImage from './page-layouts/block-image';
 import * as styles from './text-and-image-block.module.css';
 
 
-const TextBlock = ({heading, paragraphs, ctas}) => {
+const TextBlock = ({heading, subheading, paragraphs, ctas}) => {
 
     const italic = paragraphs.italic;
 
     return (
         <div className={styles.textBlock}>
             <h2 className={styles.textHeader}>{heading}</h2>
+            <h3 className={styles.textSubheader}>{subheading}</h3>
                 {
                     paragraphs.text.map((paragraph, i) => {
                         return (
@@ -36,7 +37,7 @@ const TextBlock = ({heading, paragraphs, ctas}) => {
 
 const TextAndImageBlock = ({ content, textFirst, i }) => {
 
-    const {heading, paragraphs, ctas, image, noMargin} = content;
+    const {heading, subheading, paragraphs, ctas, image, noMargin} = content;
 
     const animatedElement = useRef();
     const [shouldAnimate, setShouldAnimate] = useState(false);
@@ -65,7 +66,7 @@ const TextAndImageBlock = ({ content, textFirst, i }) => {
     return (
             textFirst ? (
                 <div className={`${styles.block} ${shouldAnimate && styles.inView} ${noMargin && styles.noMargin}`} ref={animatedElement}>
-                    <TextBlock heading={heading} paragraphs={paragraphs} ctas={ctas}/>
+                    <TextBlock heading={heading} subheading={subheading} paragraphs={paragraphs} ctas={ctas}/>
                     <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
 
                  </div>
@@ -74,7 +75,7 @@ const TextAndImageBlock = ({ content, textFirst, i }) => {
             (
                 <div className={`${styles.block} ${shouldAnimate && styles.inView} ${noMargin && styles.noMargin}`} ref={animatedElement}>
                     <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
-                    <TextBlock heading={heading} paragraphs={paragraphs} ctas={ctas}/>
+                    <TextBlock heading={heading} subheading={subheading} paragraphs={paragraphs} ctas={ctas}/>
                  </div>
             )
     )

@@ -13,6 +13,12 @@
     color: rgba(55, 54, 54, 0.85);
 }
 
+.text-subheader {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(80, 80, 80, 0.85);
+    font-style: italic;
+}
+
 .text, .text-small {
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 1.5;
