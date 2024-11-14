@@ -1,7 +1,7 @@
 export const thalassic_na_image = "thalassic new flat";
 export const thalassic_na_alt = "Covers for the complete Thalassic New Adult series";
 export const thalassic_link = "/thalassic-series";
-export const thalassic_na_text = "Shop Now";
+export const thalassic_na_text = "Check it Out";
 export const thalassic_na_mobile_text = "Shop";
 export const thalassic_na_button_color = "Soul";
 

@@ -1,12 +1,13 @@
 export const mischief_alt = "Covers for the Tales of Mischief Series";
 export const mischief_link = "/tales-of-mischief"
 export const mischief_button_color = "Lz";
-export const mischief_text = "Read in KU";
+export const mischief_text = "Learn More";
 export const mischief_mobile_text = "Read";
 export const mischief_image = "tales of mischief";
 
 const mischief_vertical_image = "tales vertical";
 const mischief_amazon_link = "https://amzn.to/48rGC6c";
+const amazon_text = "Read in KU"
 
 const mischief_heading = 'Short. Silly. Spicy. Speculative.';
 const mischief_one = 'Small town apocalypses? Dystopian billionaires? Fae mafia bosses? How about hockey playing shifters? A Greek god desperately in need of a nanny?';
@@ -27,7 +28,7 @@ export const content = [
         heading: mischief_heading,
         paragraphs: {text: [mischief_one, mischief_two, mischief_three, mischief_four, mischief_five, mischief_six, mischief_seven]},
         image: {src: mischief_vertical_image, alt: mischief_alt },
-        ctas: [{text: mischief_text, mobileText: mischief_mobile_text, colorScheme: mischief_button_color, link: mischief_amazon_link}],
+        ctas: [{text: amazon_text, mobileText: mischief_mobile_text, colorScheme: mischief_button_color, link: mischief_amazon_link}],
         noMargin: true
     },
     {
