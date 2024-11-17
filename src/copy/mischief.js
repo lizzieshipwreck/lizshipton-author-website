@@ -11,7 +11,7 @@ const amazon_text = "Read in KU"
 
 const mischief_heading = 'Tales of Mischief and F*ckery';
 const mishcief_subheading = 'Short. Silly. Spicy. Speculative.';
-const mischief_one = 'Small town apocalypses? Dystopian billionaires? Fae mafia bosses? How about shape-shifting hockey players? A Greek god desperately in need of a nanny?';
+const mischief_one = 'Small town apocalypses? Dystopian billionaires? The fairy mafia? How about shape-shifting hockey players? A Greek god desperately in need of a nanny?';
 const mischief_two = 'You may ask, "Why?" This series of spicy short stories asks, "Why not?" Why not a mishmash of genres? Why not funny, off-the-wall romance with hot spice and big heart? Why not an unhinged paranormal hockey romance starring the Easter bunny?'
 const mischief_three = 'Inside these 12 books, you’ll find 12 standalone "adult fairy tales", each set during a different holiday in every month of the year.'
 const mischief_four = '"Even August?" I hear you asking.'
