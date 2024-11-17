@@ -44,7 +44,7 @@
     }
 }
 
-.nav-link-text:hover,.menu-item:hover {
+.nav-link-item:hover,.menu-item:hover {
     animation: fade linear both;
     animation-duration: 150ms;
 }

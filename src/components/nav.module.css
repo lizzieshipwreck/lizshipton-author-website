@@ -21,10 +21,6 @@
     font-size: x-large;
 }
 
-.nav-link-item {
-    padding-right: 1rem;
-}
-
 @media only screen and (min-width: 750px) {
     .nav-links {
         padding-bottom: 0;

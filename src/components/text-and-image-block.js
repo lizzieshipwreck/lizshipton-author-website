@@ -10,6 +10,7 @@ import * as styles from './text-and-image-block.module.css';
 const TextBlock = ({heading, subheading, paragraphs, ctas}) => {
 
     const italic = paragraphs.italic;
+    const withHeaders = paragraphs.withHeaders;
 
     return (
         <div className={styles.textBlock}>
@@ -18,7 +19,7 @@ const TextBlock = ({heading, subheading, paragraphs, ctas}) => {
                 {
                     paragraphs.text.map((paragraph, i) => {
                         return (
-                        <p className={`${styles[italic ? `italic` : `text`]}`} key={i}>
+                        <p className={`${styles[italic ? `review` : `text`]} ${styles[(withHeaders && i % 2 === 0) && `sectionHeader`]}`} key={i}>
                             {paragraph}
                         </p>
                         )

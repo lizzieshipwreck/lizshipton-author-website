@@ -4,7 +4,7 @@ import * as styles from './dropdown.module.css'
 
 const menuItems = [
     {name: 'The Thalassic Series', mobileName: 'Thalassic', link: '/thalassic-series'},
-    {name: 'Tales of Mischief & F*ckery', mobileName: 'Tales', link: '/tales-of-mischief'}
+    {name: 'Tales of Mischief & F*ckery', mobileName: 'Mischief', link: '/tales-of-mischief'}
 ]
 
 const Dropdown = ({windowWidth}) => {
@@ -17,7 +17,9 @@ const Dropdown = ({windowWidth}) => {
 
     return (
         <>
-        <a onClick={handleOpen} className={styles.navLinkText}>Series</a>
+        <div className={styles.navLinkItem}>
+          <a onClick={handleOpen} className={styles.navLinkText}>Series</a>
+        </div>
         {open ? (
           <ul className={styles.menu}>
             {

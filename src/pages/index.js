@@ -9,6 +9,7 @@ import BookButton from '../components/book-button';
 import { dotslash_alt, dotslash_link, dotslash_text, dotslash_button_color } from '../copy/dotslash_magic';
 import { thalassic_na_alt, thalassic_na_image, thalassic_link, thalassic_na_text, thalassic_na_button_color_one } from '../copy/thalassic';
 import { mischief_alt, mischief_link, mischief_image, mischief_button_color, mischief_text } from '../copy/mischief';
+import {about_liz_link, about_liz_cta_text, about_liz_cta_mobile_text, about_liz_button_color} from '../copy/about';
 
 import dotslash_image from "../images/Dot Slash Header Graphic.gif";
 
@@ -75,6 +76,14 @@ const IndexPage = () => {
           </div>
           <div className={styles.button}>
             <BookButton text={mischief_text} mobileText={mischief_text} title={mischief_button_color} link={mischief_link} noOpen/>
+          </div>
+          <div className={`${styles.middle}`}>
+            <div className={`${styles.border}`}/>
+            <h3 className={`${styles.comingSoonText}`}>Want to stay in touch?</h3>
+            <p className={`${styles.titleText}`}>Join my newsletter for release information, ARC opportunities, dog pictures, and more!</p>
+          </div>
+          <div className={styles.button}>
+            <BookButton text={about_liz_cta_text} mobileText={about_liz_cta_mobile_text} title={about_liz_button_color} link={about_liz_link} noOpen/>
           </div>
       </div>
     </Layout>

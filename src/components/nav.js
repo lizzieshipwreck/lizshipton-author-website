@@ -25,11 +25,12 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
             <b>{!!windowWidth && windowWidth > 750 ? 'Bookshop' : 'Shop'}</b>
             </Link>
             </li>
-            <li className={styles.navLinkItem}>
-            <Link to="/newsletter" className={styles.navLinkText} id={'newsletter'}>
-              <b>{!!windowWidth && windowWidth > 750 ? 'Newsletter' : 'Join'}</b>
-            </Link>
-            </li>
+            {!!windowWidth && windowWidth > 750 ? (<li className={styles.navLinkItem}>
+              <Link to="/newsletter" className={styles.navLinkText} id={'newsletter'}>
+              <b>Newsletter</b>
+              </Link>
+              </li>) 
+            : ""}
             <li className={styles.navLinkItem}>
             <Link to="/about" className={styles.navLinkText} id={'about'}>
               <b>About</b>

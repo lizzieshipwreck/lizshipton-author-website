@@ -44,18 +44,6 @@ button::after {
     box-shadow: 6px 6px 0px rgb(233,125,91);
 }
 
-.button-paz,
-.button-paz::after {
-    background: rgb(75, 133, 93) 5%;
-    box-shadow: 6px 6px 0px rgb(114, 83, 74);
-}
-
-.button-savage,
-.button-savage::after {
-    background: rgb(42, 69, 142) 5%;
-    box-shadow: 6px 6px 0px rgb(166, 113, 84);
-}
-
 .button-lz, 
 .button-lz::after {
     background: rgb(239, 193, 55) 5%;
