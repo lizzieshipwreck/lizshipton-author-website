@@ -20,39 +20,45 @@ button::after {
     cursor: pointer;
 }
 
-.button-salt, 
-.button-salt::after {
+.button-black-one, 
+.button-black-one::after {
     background:  rgb(31, 31, 31) 5%;
     box-shadow: 6px 6px 0px rgb(45, 181, 186);
 }
 
-.button-sand, 
-.button-sand::after {
+.button-black-two, 
+.button-black-two::after {
     background:  rgb(31, 31, 31) 5%;
     box-shadow: 6px 6px 0px rgb(245,174,64);
 }
 
-.button-soul, 
-.button-soul::after {
+.button-purple, 
+.button-purple::after {
     background: rgb(49,23,59) 5%;
     box-shadow: 6px 6px 0px rgb(212,94,91);
 }
 
-.button-scourge,
-.button-scourge::after {
+.button-blue,
+.button-blue::after {
     background: rgb(22,70,119) 5%;
     box-shadow: 6px 6px 0px rgb(233,125,91);
 }
 
-.button-lz, 
-.button-lz::after {
+.button-yellow, 
+.button-yellow::after {
     background: rgb(239, 193, 55) 5%;
     box-shadow: 6px 6px 0px rgb(247, 13, 200);
 }
 
-.button-dotslash, 
-.button-dotslash::after {
+.button-pink, 
+.button-pink::after {
     background: rgb(253,73,181) 5%;
+    box-shadow: 6px 6px 0px rgb(3, 3, 3);
+}
+
+.button-green, 
+.button-green::after {
+    background: rgb(6,190,97) 5%;
     box-shadow: 6px 6px 0px rgb(3, 3, 3);
 }
 
@@ -73,24 +79,24 @@ button::after {
     clip-path: var(--slice-0);
 }
 
-.button-salt::after {
+.button-black-one::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(224,95,119) 3%, rgb(224,95,119) 5%, rgb(31,31,31) 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
 }
 
-.button-sand::after {
+.button-black-two::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(45, 181, 186) 3%, rgb(45, 181, 186) 5%, rgb(31, 31, 31) 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px rgb(224,95,119);
 }
-.button-soul::after {
+.button-purple::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(212,94,91) 3%, rgb(212,94,91) 5%, rgb(49,23,59) 5%);
     text-shadow: -3px -3px 0px turquoise, 3px 3px 0px greenyellow;
 }
 
-.button-scourge::after {
+.button-blue::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(233,125,91) 3%, rgb(233,125,91) 5%, rgb(22,70,119)  5%);
     text-shadow: -3px -3px 0px rgb(224,95,119), 3px 3px 0px #00E6F6;
@@ -102,15 +108,21 @@ button::after {
     text-shadow: -3px -3px 0px rgb(224,95,119), 3px 3px 0px #00E6F6;
 }
 
-.button-lz::after {
+.button-yellow::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(250, 250, 250) 3%, rgb(250,250,250) 5%,  rgb(239, 193, 55) 5%);
     text-shadow: -3px -3px 0px yellowgreen, 3px 3px 0px aqua;
 }
 
-.button-dotslash::after {
+.button-pink::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(250, 250, 250) 3%, rgb(250,250,250) 5%, rgb(253,73,181) 5%);
+    text-shadow: -3px -3px 0px yellowgreen, 3px 3px 0px aqua;
+}
+
+.button-green::after {
+    content: '--------------';
+    background: linear-gradient(45deg, transparent 3%, rgb(250, 250, 250) 3%, rgb(250,250,250) 5%, rgb(6,190,97) 5%);
     text-shadow: -3px -3px 0px yellowgreen, 3px 3px 0px aqua;
 }
 

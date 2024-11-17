@@ -3,8 +3,8 @@ export const thalassic_na_alt = "Covers for the complete Thalassic New Adult ser
 export const thalassic_link = "/thalassic-series";
 export const thalassic_na_text = "Check it Out";
 export const thalassic_na_mobile_text = "Shop";
-export const thalassic_na_button_color_one = "Salt";
-export const thalassic_na_button_color_two = "Sand";
+export const thalassic_na_button_color_one = "BlackOne";
+export const thalassic_na_button_color_two = "BlackTwo";
 
 
 const thalassic_bookshop_link = "https://shop.lizshipton.com/collection/paperbacks";
@@ -49,7 +49,7 @@ const thalassic_ya_alt = "Covers for the Thalassic YA series";
 const thalassic_ya_shop_link = "https://shop.lizshipton.com/collection/ebooks";
 const thalassic_ya_cta_text = "Buy YA Editions";
 const thalassic_ya_cta_mobile_text = "Shop YA";
-const thalassic_ya_button_color = "Soul";
+const thalassic_ya_button_color = "Purple";
 
 const thalassic_ya_one = "I offer two editions of the Thalassic Series: a New Adult edition and a Young Adult edition."
 const thalassic_ya_two = "The only difference between the two editions is that in the New Adult books the characters are a few years older and the books have explicit spicy scenes. The Young Adult editions do not include these scenes, so they are appropriate for teens and for people who prefer no-spice romance."
@@ -62,7 +62,7 @@ const playlist_alt = "Listen on Spotify";
 const playlist_link = "https://open.spotify.com/playlist/1vYEb8cpRhdLzipFo1fVzp";
 const playlist_cta_text = "Listen on Spotify";
 const playlist_cta_mobile_text = "Listen";
-const playlist_button_color = "Scourge";
+const playlist_button_color = "Green";
 
 const playlist_one = "Songs that were going round in my head while I was writing the books."
 const playlist_two = "Someday I'll have a breakdown for you of which songs go with which books, but not today."

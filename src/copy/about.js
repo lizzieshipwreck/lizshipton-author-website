@@ -3,7 +3,7 @@ const about_liz_image = "normal headshot round";
 const about_liz_alt = "Liz working from a hammock";
 export const about_liz_cta_text = "Join my Newsletter";
 export const about_liz_cta_mobile_text = "Newsletter";
-export const about_liz_button_color = "Soul";
+export const about_liz_button_color = "Purple";
 export const about_liz_link = "/newsletter";
 
 const about_liz_one = "Hi! I'm Liz. I'm a freelance writer, indie author, and full-time, off-grid, live-aboard sailor. I’m currently sailing around the world with my boyfriend and my dog, turning my real-life adventures into speculative fiction.";
@@ -17,7 +17,7 @@ const about_loki_link = "https://instagram.com/sv_loki";
 const about_loki_alt =  "Liz's boat Loki";
 const about_loki_cta_text = "Follow Us On Instagram";
 const about_loki_cta_mobile_text = "Follow Us";
-const about_loki_button_color = "Scourge";
+const about_loki_button_color = "Blue";
 const about_loki_one = "We live on a 43ft Morgan Center Cockpit sailboat called Loki. We bought the boat in 2019 (just before the pandemic) after almost 6 years of work and planning. We didn't actually set out on our adventure until nearly two years later, in September of 2021."
 const about_loki_two = "Our journey began in Santa Cruz, CA. From there, we sailed down the Pacific Coast of the US into Baja California. We spent about a year in Mexico before continuing south through Central America (Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama.) In March of 2023 we came through the Panama Canal to the Caribbean."
 const about_loki_three = "Loki is a wonderful home, albeit a little small at times! We've never lived in a real house before anyway - all of our apartments have been studios - so we are used to sharing space. We live simply and with minimal expense and waste, procuring our own water and generating our own power from solar."

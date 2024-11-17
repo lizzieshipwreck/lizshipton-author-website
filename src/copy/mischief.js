@@ -1,6 +1,6 @@
 export const mischief_alt = "Covers for the Tales of Mischief Series";
 export const mischief_link = "/tales-of-mischief"
-export const mischief_button_color = "Lz";
+export const mischief_button_color = "Yellow";
 export const mischief_text = "Learn More";
 export const mischief_mobile_text = "Read";
 export const mischief_image = "tales of mischief";
