@@ -10,8 +10,11 @@
     display: flex;
     align-items: baseline;
     list-style: none;
-    padding-left: 0;
     padding-bottom: 0.5rem;
+}
+
+.nav-link-item {
+    padding-left: 1rem;
 }
 
 .nav-link-text {
@@ -27,7 +30,6 @@
     }
     .nav-link-item {
         padding-left: 2rem;
-        padding-right: 0;
     }
     .nav-link-text {
         font-size: xx-large;

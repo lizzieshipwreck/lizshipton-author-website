@@ -19,7 +19,7 @@
         border-color: rgb(169, 169, 169, 0.2);
 	}
 	to {
-		height: 5vh;
+		height: 6vh;
         padding-bottom: .75rem;
         border-color: rgb(169, 169, 169, 0);
 	}
@@ -33,13 +33,23 @@
 
 @keyframes fade {
 	to {
+		opacity: 0.5;
+	}
+}
+
+@keyframes fadeOut {
+	to {
 		opacity: 0;
 	}
 }
-        
-.logo, #sticky-parallax-header a {
-    margin-left: 1rem;
+
+#sticky-parallax-header a {
     animation: fade 0.5s linear infinite;
+}
+        
+.logo {
+    margin-left: 1rem;
+    animation: fadeOut 0.5s linear infinite;
 }
 
 /* TODO: consolidate all these animation params into a global object */
