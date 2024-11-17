@@ -22,9 +22,9 @@ const about_crew_heading = "Meet the crew";
 const about_crew_image = "trev and aloy";
 const about_crew_alt = "Trev and Aloy sitting in Loki's cockpit";
 const about_crew_one = "Trevor Hope";
-const about_crew_two = "Trev is the indispensible captain of this ship, without whom, let's face it, the whole operation really falls apart. He's an excellent sailor, outstanding electrician, and can fix just about anything. We've been together almost 15 years.";
+const about_crew_two = "Trev is the indispensible captain of this ship, without whom, let's face it, the whole operation really falls apart. He's an excellent sailor, outstanding electrician, and can fix just about anything. We've been together 15 years.";
 const about_crew_three = "Aloy Bonesnatcher McGee";
-const about_crew_four = "We rescued Aloy from GEPDA rescue in San Martin, CA in 2017. She came to us with some behavioral issues, including fear-based aggression toward strangers, which we still manage from time to time. In her maturing years (she is about 5 now) she's calmed down a lot. She is an amazing guard dog and once she gets to know a person, she is ride-or-die.";
+const about_crew_four = "We rescued Aloy from GEPDA rescue in San Martin, CA in 2017. She came to us with some behavioral issues, including aggression toward strangers. We still have to manage that from time to time, but she's calmed down a lot in her maturing years. She's an amazing guard dog and once she gets to know a person, she is ride-or-die.";
 
 
 export const content = [
