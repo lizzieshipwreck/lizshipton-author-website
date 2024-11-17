@@ -6,7 +6,6 @@
         border-top: none;
         border-left: none;
         border-right: none;
-		/* background-color: white; */
         position: sticky;
         top: 0;
         z-index: 100;
@@ -18,13 +17,11 @@
 		height: 10vh;
         padding-bottom: 2rem;
         border-color: rgb(169, 169, 169, 0.2);
-        opacity: 1;
 	}
 	to {
 		height: 5vh;
         padding-bottom: .75rem;
         border-color: rgb(169, 169, 169, 0);
-		opacity: 0;
 	}
 }
 
@@ -35,21 +32,18 @@
 }
 
 @keyframes fade {
-	from {
-		opacity: 1;
-	}
 	to {
 		opacity: 0;;
 	}
 }
         
-.logo {
+.logo, #sticky-parallax-header a {
     margin-left: 1rem;
     animation: fade 0.5s linear infinite;
 }
 
 /* TODO: consolidate all these animation params into a global object */
-.logo, #sticky-parallax-header {
+.logo, #sticky-parallax-header, #sticky-parallax-header a {
 	/* Don't let the animation play by default */
 	animation-play-state: paused;
     /* Bind the animation to scroll */

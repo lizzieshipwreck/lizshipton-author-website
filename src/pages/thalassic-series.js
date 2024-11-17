@@ -2,7 +2,7 @@ import * as React from 'react'
 import Layout from '../components/page-layouts/layout'
 import BlockLayoutPage from '../components/page-layouts/block-page';
 
-import {content} from '../copy/thalassic_na';
+import {content} from '../copy/thalassic';
 
 const ThalassicSeries = () => {
   return (

@@ -12,7 +12,7 @@ button::after {
     font-size: 36px;
     font-family: 'Megrim', sans-serif;
     border: 0;
-    color: #fff;
+    color: whitesmoke;
     letter-spacing: 3px;
     line-height: 88px;
     outline: transparent;
@@ -22,14 +22,14 @@ button::after {
 
 .button-salt, 
 .button-salt::after {
-    background:  rgb(22,43,93) 5%;
-    box-shadow: 6px 6px 0px rgb(224,95,119);
+    background:  rgb(31, 31, 31) 5%;
+    box-shadow: 6px 6px 0px rgb(45, 181, 186);
 }
 
 .button-sand, 
 .button-sand::after {
-    background: rgb(78, 28, 96) 5%;
-    box-shadow: 6px 6px 0px rgb(45, 181, 186);
+    background:  rgb(31, 31, 31) 5%;
+    box-shadow: 6px 6px 0px rgb(245,174,64);
 }
 
 .button-soul, 
@@ -87,13 +87,13 @@ button::after {
 
 .button-salt::after {
     content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(224,95,119) 3%, rgb(224,95,119) 5%, rgb(22,43,93) 5%);
+    background: linear-gradient(45deg, transparent 3%, rgb(224,95,119) 3%, rgb(224,95,119) 5%, rgb(31,31,31) 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
 }
 
 .button-sand::after {
     content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(45, 181, 186) 3%, rgb(45, 181, 186) 5%, rgb(78, 28, 96) 5%);
+    background: linear-gradient(45deg, transparent 3%, rgb(45, 181, 186) 3%, rgb(45, 181, 186) 5%, rgb(31, 31, 31) 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px rgb(224,95,119);
 }
 .button-soul::after {

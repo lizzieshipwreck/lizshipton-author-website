@@ -27,6 +27,7 @@ const BlockLayoutPage = ({flip, content}) => {
         {
           content.map((contentItem, i) => {
             let textFirst = flip ? i % 2 === 0 : i % 2 !== 0;
+            console.log(contentItem, i, textFirst)
             if (isMobile) {
               // always render the image first on mobile to avoid large chunks
               // of text immediately following one another
