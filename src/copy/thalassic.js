@@ -1,3 +1,5 @@
+export const thalassic_title = "⚓ The Thalassic Series ⚓";
+export const thalassic_headline = "What do you do with a drunken sailor when the world is underwater?"
 export const thalassic_na_image = "thalassic new flat";
 export const thalassic_na_alt = "Covers for the complete Thalassic New Adult series";
 export const thalassic_link = "/thalassic-series";

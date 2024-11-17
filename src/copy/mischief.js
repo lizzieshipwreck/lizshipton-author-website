@@ -1,3 +1,5 @@
+export const mischief_title = "Tales of Mischief and F*ckery";
+export const mischief_headline = "Short.  Silly. Spicy. Speculative.";
 export const mischief_alt = "Covers for the Tales of Mischief Series";
 export const mischief_link = "/tales-of-mischief"
 export const mischief_button_color = "Yellow";
