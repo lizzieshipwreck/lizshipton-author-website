@@ -7,7 +7,7 @@ import SeriesImage from '../components/index/series-image';
 import BookButton from '../components/book-button';
 
 import { dotslash_alt, dotslash_link, dotslash_text, dotslash_button_color } from '../copy/dotslash_magic';
-import { thalassic_na_alt, thalassic_na_image, thalassic_link, thalassic_na_text, thalassic_na_button_color } from '../copy/thalassic';
+import { thalassic_na_alt, thalassic_na_image, thalassic_link, thalassic_na_text, thalassic_na_button_color_one } from '../copy/thalassic';
 import { mischief_alt, mischief_link, mischief_image, mischief_button_color, mischief_text } from '../copy/mischief';
 
 import dotslash_image from "../images/Dot Slash Header Graphic.gif";
@@ -64,7 +64,7 @@ const IndexPage = () => {
               <h2 className={`${styles.comingSoonText}`}>⚓ The Thalassic Series ⚓</h2>
               <p className={`${styles.titleText}`}>What do you do with a drunken sailor when the world is underwater?</p>
             <div className={styles.button}>
-              <BookButton text={thalassic_na_text} mobileText={thalassic_na_text} title={thalassic_na_button_color} link={thalassic_link} noOpen/>
+              <BookButton text={thalassic_na_text} mobileText={thalassic_na_text} title={thalassic_na_button_color_one} link={thalassic_link} noOpen/>
             </div>
           </div>
           <div className={`${styles.middle}`}>
