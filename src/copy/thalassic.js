@@ -21,9 +21,9 @@ const spines_alt = "Thalassic Series Spines";
 
 const thalassic_na_heading = "The Thalassic Series";
 const thalassic_na_subheading = "A heart-stopping love story about fighting to save humanity while learning to save yourself.";
-const thalassic_na_one = "When a mysterious message arrives from the brother she thought was dead, Bird Howsley is determined to find him and get answers about her past. But one reckless act hurls her into a deadly dystopian waterworld full of bloodthirsty pirates, epic disaster, and political upheaval.";
-const thalassic_na_two = "Bird and her mentor Sargo embark on a terrifying voyage, kicking off an action-packed nine-book adventure that spans vast oceans, three generations, and multiple universes."
-const thalassic_na_three = "With an ensemble of beautiful, broken characters, a unique and exquisitely detailed world, toe-curling romance, and a twisting plot that keeps you guessing right up until the end, The Thalassic Series grabs you with heart and humor and doesn't let you go.";
+const thalassic_na_one = "When a mysterious message arrives from the brother she thought was dead, Bird Howsley is determined to find him and get answers about her past. But to get to him, she must cross a deadly dystopian waterworld full of bloodthirsty pirates, global disaster, and political upheaval.";
+const thalassic_na_two = "Bird and her mentor Sargo embark on the epic voyage, kicking off an action-packed nine-book adventure that spans vast oceans, four separate love stories, and multiple universes."
+const thalassic_na_three = "Set in a unique and exquisitely detailed world full of beautiful, broken characters, The Thalassic Series sweeps you away with heart, humor, toe-curling romance, and a twisting plot that keeps you guessing right up until the end.";
 const thalassic_na_four = "For fans of The Hunger Games, Fourth Wing, Pirates of the Caribbean, and The Hitchhiker's Guide to the Galaxy.";
 const thalassic_na_five = ""; 
 
