@@ -42,8 +42,10 @@ const reading_order_three = '#2: In the order they were written';
 const reading_order_four = 'Salt  . .  Scourge  . .  Sand  . .  Seed  . .  Soul  . .  Savage  . .  Paz  . .  Passage  . .  Prologue  . .  Savage: The Lost Years';
 const reading_order_five = '#3: Chronologically';
 const reading_order_six = 'Scourge  . .  Savage  . .  Seed  . .  Savage: The Lost Years  . .  Salt  . .  Sand  . .  Soul  . .  Paz  . .  Passage  . .  Prologue';
-const reading_order_seven = '#4: Author\'s Favorites';
-const reading_order_eight = 'Prologue  . .  Passage  . .  Savage: The Lost Years  . .  Paz  . .  Soul  . .  Sand  . .  Seed   . .  Salt  . .  Scourge';
+const reading_order_link = "https://amzn.to/3CvivrY";
+const reading_order_cta_text = "Start with Salt";
+const reading_order_cta_mobile_text = "Start";
+const reading_order_button_color = "Blue";
 
 const thalassic_ya_heading = "Young Adult (YA) Editions";
 const thalassic_ya_image = "ya complete mock";
@@ -87,8 +89,11 @@ export const content = [
     },
     {
         heading: reading_order_heading,
-        paragraphs: {withHeaders: true, text: [reading_order_one, reading_order_two, reading_order_three, reading_order_four, reading_order_five, reading_order_six, reading_order_seven, reading_order_eight]},
+        paragraphs: {withHeaders: true, text: [reading_order_one, reading_order_two, reading_order_three, reading_order_four, reading_order_five, reading_order_six]},
         image: {src: spines_image, alt: spines_alt },
+        ctas: [
+            {text: reading_order_cta_text, mobileText: reading_order_cta_mobile_text, colorScheme: reading_order_button_color, link: reading_order_link},
+        ],
     },
     {
         heading: thalassic_ya_heading,
