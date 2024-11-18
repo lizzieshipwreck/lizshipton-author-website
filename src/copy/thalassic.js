@@ -43,7 +43,7 @@ const reading_order_four = 'Salt  . .  Scourge  . .  Sand  . .  Seed  . .  Soul 
 const reading_order_five = '#3: Chronologically';
 const reading_order_six = 'Scourge  . .  Savage  . .  Seed  . .  Savage: The Lost Years  . .  Salt  . .  Sand  . .  Soul  . .  Paz  . .  Passage  . .  Prologue';
 const reading_order_seven = '#4: Author\'s Favorites';
-const reading_order_eight = 'Prologue  . .  Passage  . .  Savage: The Lost Years  . .  Paz  . .  Soul  . .  Sand  . .  Salt  . .  Seed  . .  Scourge';
+const reading_order_eight = 'Prologue  . .  Passage  . .  Savage: The Lost Years  . .  Paz  . .  Soul  . .  Sand  . .  Seed   . .  Salt  . .  Scourge';
 
 const thalassic_ya_heading = "Young Adult (YA) Editions";
 const thalassic_ya_image = "ya complete mock";
