@@ -22,7 +22,7 @@ const spines_image = "spines";
 const spines_alt = "Thalassic Series Spines";
 
 const thalassic_na_heading = "The Thalassic Series";
-const thalassic_na_subheading = "A heart-stopping love story about fighting to save humanity while learning to save yourself.";
+const thalassic_na_subheading = "Fight to save humanity. Learn to save yourself.";
 const thalassic_na_one = "When a mysterious message arrives from the brother she thought was dead, Bird Howsley sets off on an epic voyage to find him. But she must cross a brutal dystopian waterworld ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
 const thalassic_na_two = "Determined, Bird barters passage from her surly mentor Sargo, sparking an epic nine-book quest that spans seven oceans, five dimensions, and four separate love stories."
 const thalassic_na_three = "Set in a unique and exquisitely detailed world full of beautiful, broken characters, The Thalassic Series sweeps you away with dark humor, toe-curling romance, and a twisting plot that keeps you guessing right up until the end.";
