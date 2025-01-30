@@ -28,14 +28,14 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
+      <title>Beep boop</title>
+      <h1 style={headingStyles}>Uh oh!</h1>
       <p style={paragraphStyles}>
-        Uh oh!{" "}
+        This page doesn't exist yet{" "}
         <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        we couldn’t find what you were looking for.
+        but I'm busily building it! Plz check back later.
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
