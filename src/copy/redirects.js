@@ -8,3 +8,4 @@ export const dotslash_videos = "https://youtube.com/playlist?list=PLnk1qoE5nddIs
 export const dotslash_appendix = "https://ebooks.lizshipton.com/gpxb9v406b";
 export const dotslash_sountrack = "https://blog.lizshipton.com/dot-slash-soundtrack";
 export const dotslash_podcasts = "https://blog.lizshipton.com/dot-slash-podcasts";
+export const mother_and_slaughter = "signup.lizshipton.com/mother-and-slaughter";
