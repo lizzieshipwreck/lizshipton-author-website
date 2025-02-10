@@ -1,10 +1,11 @@
 import * as React from 'react'
 import LandingPageRedirect from '../components/page-layouts/redirect-page'
+import { salt_redirect_link } from '../copy/redirects';
 
 const Salt = () => {
 
     return (
-        <LandingPageRedirect pageTitle={"Salt"} redirectUrl={"https://amzn.to/4cY2tnA"}/>
+        <LandingPageRedirect pageTitle={"Salt"} redirectUrl={ salt_redirect_link }/>
   )
 }
 
