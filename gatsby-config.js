@@ -7,6 +7,7 @@ module.exports = {
         {url: "https://patreon.com/lizshipton", name: 'patreon'},
         {url: "https://instagram.com/lizshipton", name: 'instagram'},
         {url: "https://tiktok.com/@lizshipton", name: 'tiktok'},
+        {url: "https://bsky.app/profile/lizshiptonauthor.bsky.social", name: 'bluesky'},
         {url: "https://facebook.com/lizshiptonauthor", name: 'facebook'},
         {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", name: 'goodreads'},
         {url: "https://threads.net/@lizshiptonauthor", name: 'threads'},

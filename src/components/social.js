@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTiktok, faInstagram, faFacebook, faGoodreads, faThreads, faPatreon } from '@fortawesome/free-brands-svg-icons';
+import { faTiktok, faInstagram, faFacebook, faGoodreads, faThreads, faPatreon, faBluesky } from '@fortawesome/free-brands-svg-icons';
 
 import * as styles from './social.module.css'
 
@@ -9,6 +9,7 @@ const icons = {
     patreon: faPatreon,
     tiktok: faTiktok,
     instagram: faInstagram,
+    bluesky: faBluesky,
     facebook: faFacebook,
     goodreads: faGoodreads,
     threads: faThreads
@@ -40,6 +41,7 @@ const Social = ({ socialLinks }) => {
       <div className={styles.container}>
           {
               socialLinks.map(({name, url}) => {
+                console.log(icons[name])
                   return (
                     <a href={url} className={styles.link} target='_blank'>
                         <FontAwesomeIcon
