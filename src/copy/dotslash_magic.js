@@ -1,6 +1,6 @@
 export const dotslash_title = "✨ Dot Slash Magic ✨";
 export const dotslash_headline_one = "What if you were struggling to wield your own magic?";
-export const dotslash_headline_two = "If a computer could help you...would you use it?";
+export const dotslash_headline_two = "If AI could help you...would you use it?";
 export const dotslash_alt = "Dot Slash Magic teaser";
 export const dotslash_link = "https://blog.lizshipton.com/dot-slash-magic";
 export const dotslash_button_color = "Pink";
