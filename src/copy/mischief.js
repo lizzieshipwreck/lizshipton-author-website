@@ -6,6 +6,7 @@ export const MISCHIEF_INDEX_PAGE = {
     headlineTwo: "",
     cta: "Learn More",
     mobileCta: "More",
+    link: "https://www.kickstarter.com/projects/lizshipton/tales-of-mischief-and-fuckery-special-edition-anthology",
     button: "Yellow",
     hasBorder: false,
     isGif: false
