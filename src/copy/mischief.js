@@ -1,12 +1,21 @@
-export const mischief_title = "Tales of Mischief and F*ckery";
-export const mischief_headline = "Because men are better when they're ficitonal";
-export const mischief_alt = "Covers for the Tales of Mischief Series";
-export const mischief_link = "/tales-of-mischief"
-export const mischief_button_color = "Yellow";
-export const mischief_text = "Learn More";
-export const mischief_mobile_text = "Read";
-export const mischief_image = "tales of mischief";
+export const MISCHIEF_INDEX_PAGE = {
+    image: "Website Tales Kickstarter Header",
+    title: "Tales of Mischief & Fuckery",
+    alt: "Covers for the Tales of Mischief Series",
+    headlineOne: "Special Edition Hardcover Anthology Kickstarter!",
+    headlineTwo: "",
+    cta: "Learn More",
+    mobileCta: "More",
+    button: "Yellow",
+    hasBorder: false,
+    isGif: false
+}
 
+
+const mischief_alt = "Covers for the Tales of Mischief Series";
+const mischief_button_color = "Yellow";
+const mischief_mobile_text = "Read";
+const mischief_image = "tales of mischief";
 const mischief_vertical_image = "tales vertical";
 const mischief_amazon_link = "https://amzn.to/48rGC6c";
 const amazon_text = "Read in KU"

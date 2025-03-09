@@ -1,9 +1,12 @@
-export const dotslash_title = "✨ Dot Slash Magic ✨";
-export const dotslash_headline_one = "What if you were struggling to wield your own magic?";
-export const dotslash_headline_two = "If AI could help you...would you use it?";
-export const dotslash_alt = "Dot Slash Magic teaser";
-export const dotslash_link = "https://blog.lizshipton.com/dot-slash-magic";
-export const dotslash_button_color = "Pink";
-export const dotslash_text = "Learn More";
-export const dotslash_mobile_text = "More";
-export const dotslash_image = "dot slash magic";
+export const DOTSLASH_INDEX_PAGE = {
+    title: "✨ Dot Slash Magic ✨",
+    headlineOne: "What if you were struggling to wield your own magic?",
+    headlineTwo: "If AI could help you...would you use it?",
+    alt: "Dot Slash Magic teaser",
+    link: "https://blog.lizshipton.com/dot-slash-magic",
+    button: "Pink",
+    cta: "Pre-Order",
+    mobileCta: "Pre-Order",
+    isGif: true,
+    hasBorder: true
+}

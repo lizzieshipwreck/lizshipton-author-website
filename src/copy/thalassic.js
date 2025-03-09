@@ -1,12 +1,21 @@
-export const thalassic_title = "⚓ The Thalassic Series ⚓";
-export const thalassic_headline = "What do you do with a drunken sailor when the world is underwater?"
-export const thalassic_na_image = "thalassic new flat";
-export const thalassic_na_alt = "Covers for the complete Thalassic New Adult series";
-export const thalassic_link = "/thalassic-series";
-export const thalassic_na_text = "Check it Out";
-export const thalassic_na_mobile_text = "Shop";
-export const thalassic_na_button_color_one = "BlackOne";
-export const thalassic_na_button_color_two = "BlackTwo";
+export const THALASSIC_INDEX_PAGE = {
+    image: "thalassic new flat",
+    title: "⚓ The Thalassic Series ⚓",
+    alt: "Covers for the Thalassic Series",
+    headlineOne: "What do you do with a drunken sailor when the world is underwater?",
+    headlineTwo: "",
+    cta: "Check it Out",
+    mobileCta: "Shop",
+    link: "/thalassic-series",
+    button: "BlackOne",
+    hasBorder: true,
+    isGif: false
+}
+
+const thalassic_na_image = "thalassic new flat";
+const thalassic_na_alt = "Covers for the complete Thalassic New Adult series";
+const thalassic_na_button_color_one = "BlackOne";
+const thalassic_na_button_color_two = "BlackTwo";
 
 
 const thalassic_bookshop_link = "https://shop.lizshipton.com/collection/paperbacks";
