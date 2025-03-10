@@ -3,13 +3,14 @@ const about_liz_image = "normal headshot round";
 const about_liz_alt = "Liz working from a hammock";
 export const about_liz_cta_text = "Join my Newsletter";
 export const about_liz_cta_mobile_text = "Newsletter";
-export const about_liz_button_color = "Purple";
+export const about_liz_button_color = "Yellow";
 export const about_liz_link = "/newsletter";
 
 const about_liz_one = "Hi! I'm Liz. I'm a writer and full-time, off-grid, live-aboard sailor. I’m currently sailing around the world with my boyfriend and my dog, turning my real-life adventures into speculative fiction.";
 const about_liz_two = "I am extremely grateful to be able to explore the world as I do, and I love incorporating my travel experiences into my work."
 const about_liz_three = "I also use my books as a means to explore themes of mental health, addiction, technology creep, climate change, and the looming collapse of society (but, like...in a fun way.)"
 const about_liz_four = "When I'm not penning novels about the impending apocalypse, I work as a freelance writer in the tech and off-grid living niches.\nOn the rare occasion I'm not writing, you can find me swimming, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching Taskmaster."
+const about_liz_five = "For professional inquiries, please reach out to liz@lizshipton.com"
 
 const about_loki_heading = "Our floating home";
 const about_loki_image = "loki";
@@ -35,7 +36,7 @@ const about_crew_four = "We rescued Aloy from GEPDA rescue in San Martin, CA in 
 export const content = [
     {
         heading: about_liz_heading,
-        paragraphs: {text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four]},
+        paragraphs: {text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four, about_liz_five]},
         image: {src: about_liz_image, alt: about_liz_alt },
         ctas: [{text: about_liz_cta_text, mobileText: about_liz_cta_mobile_text, colorScheme: about_liz_button_color, link: about_liz_link}]
 

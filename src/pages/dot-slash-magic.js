@@ -1,11 +1,11 @@
 import * as React from 'react'
 import LandingPageRedirect from '../components/page-layouts/redirect-page'
-import { dotslash_link } from '../copy/dotslash_magic'
+import { DOTSLASH_INDEX_PAGE } from '../copy/dotslash_magic'
 
 const DotSlashMagic = () => {
 
     return (
-        <LandingPageRedirect pageTitle={"Dot Slash Magic"} redirectUrl={dotslash_link}/>
+        <LandingPageRedirect pageTitle={"Dot Slash Magic"} redirectUrl={DOTSLASH_INDEX_PAGE.link}/>
   )
 }
 
