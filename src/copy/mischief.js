@@ -48,7 +48,7 @@ export const content = [
     image: "Website Tales Kickstarter Header",
     title: "😈 Tales of Mischief & Fuckery 😈",
     alt: "Covers for the Tales of Mischief Series",
-    headlineOne: "Special Edition hardcover anthology launching on Kickstarter!",
+    headlineOne: "Exclusive hardcover launching on Kickstarter!",
     headlineTwo: "",
     cta: "Learn More",
     mobileCta: "More",
