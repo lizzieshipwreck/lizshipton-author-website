@@ -39,7 +39,7 @@ const thalassic_na_four = "For fans of Divergent, Fourth Wing, and Pirates of th
 const thalassic_na_five = ""; 
 
 const review_heading = "Praise for the Thalassic Series";
-const review_one = '"I love it all. I really enjoyed every bit of this book. The thrill and adventure. So many mysteries to solve. I can’t wait to read the next book." ⭐ ⭐ ⭐ ⭐ ⭐';
+const review_one = '"The Thalassic Series gave me back that \'just finished ACOTAR feeling\'" ⭐ ⭐ ⭐ ⭐ ⭐';
 const review_two = '"I’m usually a high fantasy fan, but I’ve been tearing through these so fast. I’m just starting book three and can’t wait to see what happens!" ⭐ ⭐ ⭐ ⭐ ⭐';
 const review_three = '"The tension between Bird and Sargo is just mindblowing!" ⭐ ⭐ ⭐ ⭐ ⭐';
 const review_four = '"Couldn’t put it down, a fast paced adventure full of pirates!" ⭐ ⭐ ⭐ ⭐ ⭐';
