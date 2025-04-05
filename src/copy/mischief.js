@@ -11,7 +11,7 @@ const kickstarter_text = "Back the Kickstarter";
 const ks_mobile_text = "Kickstarter";
 
 const mischief_heading = 'Tales of Mischief and F*ckery';
-const mishcief_subheading = 'For those who prefertheir men fictional';
+const mishcief_subheading = 'For those who like their men fictional';
 const mischief_one = 'Small town apocalypses? Dystopian billionaires? The fairy mafia? How about shape-shifting hockey players? A Greek god desperately in need of a nanny?';
 const mischief_two = 'You may ask, "Why?" This series of spicy short stories asks, "Why not?" Why not a mishmash of genres? Why not funny, off-the-wall romance with hot spice and big heart? Why not an unhinged paranormal hockey romp starring the Easter bunny?'
 const mischief_three = 'Inside these 12 books, you’ll find fae, vampires, shifters and more getting down and dirty in 12 hilariously raunchy standalone "fairy tales", each set during a different holiday in every month of the year.'

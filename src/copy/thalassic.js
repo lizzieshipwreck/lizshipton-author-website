@@ -35,7 +35,7 @@ const thalassic_na_subheading = "Fight to save humanity. Learn to save yourself.
 const thalassic_na_one = "When a mysterious message arrives from the brother she thought was dead, Bird Howsley sets off on an epic voyage to find him. But she must cross a brutal dystopian waterworld ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
 const thalassic_na_two = "Determined, Bird barters passage from her surly mentor Sargo, kicking off an extraordinary nine-book quest that spans seven oceans, five dimensions, and four intertwining love stories."
 const thalassic_na_three = "Set in a unique and exquisitely detailed world full of beautiful, broken characters, The Thalassic Series sweeps you away with dark humor, toe-curling romance, and a twisting plot that keeps you guessing right up until the end.";
-const thalassic_na_four = "For fans of The Hunger Games, Pirates of the Caribbean, and The Hitchhiker's Guide to the Galaxy, this series is a perfect storm of slow-burn romance and fast-paced adventure.";
+const thalassic_na_four = "For fans of Divergent, Fourth Wing, and Pirates of the Caribbean, this series is a perfect storm of slow-burn romance and fast-paced adventure.";
 const thalassic_na_five = ""; 
 
 const review_heading = "Praise for the Thalassic Series";
@@ -78,7 +78,7 @@ const playlist_cta_mobile_text = "Listen";
 const playlist_button_color = "Green";
 
 const playlist_one = "Songs that were going round in my head while I was writing the books."
-const playlist_two = "Someday I'll have a breakdown for you of which songs go with which books, but not today."
+const playlist_two = "Someday I'll have a list for you of which songs go with which books, but not today."
 
 export const content = [
     {
