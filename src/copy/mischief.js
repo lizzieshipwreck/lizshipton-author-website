@@ -1,25 +1,14 @@
-export const MISCHIEF_INDEX_PAGE = {
-    image: "Website Tales Kickstarter Header",
-    title: "😈 Tales of Mischief & Fuckery 😈",
-    alt: "Covers for the Tales of Mischief Series",
-    headlineOne: "Special Edition hardcover anthology launching soon on Kickstarter!",
-    headlineTwo: "",
-    cta: "Learn More",
-    mobileCta: "More",
-    link: "https://www.kickstarter.com/projects/lizshipton/tales-of-mischief-and-fuckery-special-edition-anthology",
-    button: "Purple",
-    hasBorder: false,
-    isGif: false
-}
-
-
-const mischief_alt = "Covers for the Tales of Mischief Series";
-const mischief_button_color = "Yellow";
-const mischief_mobile_text = "Read";
+const mischief_alt = "Cover for the Tales of Mischief Series";
+const mischief_button_color_one = "Yellow";
+const mischief_button_color_two = "Purple";
 const mischief_image = "tales of mischief";
 const mischief_vertical_image = "tales vertical";
 const mischief_amazon_link = "https://amzn.to/48rGC6c";
 const amazon_text = "Read in KU"
+const amazon_mobile_text = "K.U.";
+const mischief_ks_link = "https://www.kickstarter.com/projects/lizshipton/tales-of-mischief-and-fuckery-special-edition-anthology";
+const kickstarter_text = "Back the Kickstarter";
+const ks_mobile_text = "Kickstarter";
 
 const mischief_heading = 'Tales of Mischief and F*ckery';
 const mishcief_subheading = 'For those who prefertheir men fictional';
@@ -42,7 +31,10 @@ export const content = [
         subheading: mishcief_subheading,
         paragraphs: {text: [mischief_one, mischief_two, mischief_three, mischief_four, mischief_five, mischief_six, mischief_seven]},
         image: {src: mischief_vertical_image, alt: mischief_alt },
-        ctas: [{text: amazon_text, mobileText: mischief_mobile_text, colorScheme: mischief_button_color, link: mischief_amazon_link}],
+        ctas: [
+            {text: kickstarter_text, mobileText: ks_mobile_text, colorScheme: mischief_button_color_two, link: mischief_ks_link},
+            {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: mischief_button_color_one, link: mischief_amazon_link}
+        ],
         noMargin: true
     },
     {
@@ -51,3 +43,18 @@ export const content = [
         image: {src: mischief_image, alt: mischief_alt },
     }
   ]
+
+  export const MISCHIEF_INDEX_PAGE = {
+    image: "Website Tales Kickstarter Header",
+    title: "😈 Tales of Mischief & Fuckery 😈",
+    alt: "Covers for the Tales of Mischief Series",
+    headlineOne: "Special Edition hardcover anthology launching on Kickstarter!",
+    headlineTwo: "",
+    cta: "Learn More",
+    mobileCta: "More",
+    link: mischief_ks_link,
+    button: "Purple",
+    hasBorder: false,
+    isGif: false
+}
+
