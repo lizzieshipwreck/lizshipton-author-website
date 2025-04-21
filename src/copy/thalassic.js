@@ -18,7 +18,7 @@ const thalassic_na_button_color_one = "BlackOne";
 const thalassic_na_button_color_two = "BlackTwo";
 
 
-const thalassic_bookshop_link = "https://shop.lizshipton.com/collection/paperbacks";
+const thalassic_bookshop_link = "https://shop.lizshipton.com/collection/thalassic";
 const bookshop_text = "Buy from Liz";
 const bookshop_mobile_text = "Bookshop";
 const thalassic_na_amazon_link = "https://amzn.to/3PBZR62";
@@ -59,7 +59,7 @@ const reading_order_button_color = "Purple";
 const thalassic_ya_heading = "Young Adult (YA) Editions";
 const thalassic_ya_image = "ya complete mock";
 const thalassic_ya_alt = "Covers for the Thalassic YA series";
-const thalassic_ya_shop_link = "https://shop.lizshipton.com/collection/ebooks";
+const thalassic_ya_shop_link = "https://shop.lizshipton.com/collection/ya-thalassic";
 const thalassic_ya_cta_text = "Buy YA Editions";
 const thalassic_ya_cta_mobile_text = "Shop YA";
 const thalassic_ya_button_color = "Blue";
