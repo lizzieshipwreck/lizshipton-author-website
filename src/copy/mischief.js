@@ -10,7 +10,7 @@ const mischief_ks_link = "https://www.kickstarter.com/projects/lizshipton/tales-
 const kickstarter_text = "See the Kickstarter";
 const ks_mobile_text = "Kickstarter";
 
-const mischief_heading = 'Tales of Mischief and F*ckery';
+const mischief_heading = 'Tales of Mischief and Fuckery';
 const mishcief_subheading = 'For people who prefer their men fictional';
 const mischief_one = 'Small town apocalypses? Dystopian billionaires? The fairy mafia? How about shape-shifting hockey players? A Greek god desperately in need of a nanny?';
 const mischief_two = 'You may ask, "Why?" This series of spicy short stories asks, "Why not?" Why not a mishmash of genres? Why not funny, off-the-wall romance with hot spice and big heart? Why not an unhinged paranormal hockey romp starring the Easter bunny?'
@@ -54,7 +54,6 @@ export const content = [
     mobileCta: "More",
     link: mischief_ks_link,
     button: "Purple",
-    hasBorder: false,
     isGif: false
 }
 

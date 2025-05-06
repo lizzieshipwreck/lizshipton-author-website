@@ -36,7 +36,7 @@ const IndexPage = () => {
                     mobileCta={item.mobileCta}
                     button={item.button}
                     link={item.link}
-                    hasBorder={item.hasBorder}
+                    hasBorder={i !== 0}
                     isGif={item.isGif}
                   />
                 </div>

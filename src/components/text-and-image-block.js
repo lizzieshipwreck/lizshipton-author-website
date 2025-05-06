@@ -40,33 +40,11 @@ const TextAndImageBlock = ({ content, textFirst, i }) => {
 
     const {heading, subheading, paragraphs, ctas, image, noMargin} = content;
 
-    const animatedElement = useRef();
-    const [shouldAnimate, setShouldAnimate] = useState(false);
 
-    // TODO: make this a provider
-    useEffect(() => {
-      if (animatedElement.current) {
-        checkScrollPosition();
-      }
-      return () => window.removeEventListener('scroll', checkScrollPosition)
-    }, [animatedElement]);
-  
-    const checkScrollPosition = () => {
-      if (typeof window !== undefined) {
-        window.addEventListener('scroll', () => {
-            const shouldReveal = i > 0;
-            const bottomOfViewport = Math.floor(window.scrollY + window.innerHeight);
-            const topOfAnimatedElement = Math.floor(animatedElement?.current?.offsetTop);
-            if (shouldReveal && (topOfAnimatedElement <= bottomOfViewport)) {
-              setShouldAnimate(true);
-            }
-        });
-      }
-    }
     
     return (
             textFirst ? (
-                <div className={`${styles.block} ${shouldAnimate && styles.inView} ${noMargin && styles.noMargin}`} ref={animatedElement}>
+                <div className={`${styles.block} ${noMargin && styles.noMargin}`}>
                     <TextBlock heading={heading} subheading={subheading} paragraphs={paragraphs} ctas={ctas}/>
                     <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
 
@@ -74,7 +52,7 @@ const TextAndImageBlock = ({ content, textFirst, i }) => {
             )
             :
             (
-                <div className={`${styles.block} ${shouldAnimate && styles.inView} ${noMargin && styles.noMargin}`} ref={animatedElement}>
+                <div className={`${styles.block} ${noMargin && styles.noMargin}`}>
                     <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
                     <TextBlock heading={heading} subheading={subheading} paragraphs={paragraphs} ctas={ctas}/>
                  </div>

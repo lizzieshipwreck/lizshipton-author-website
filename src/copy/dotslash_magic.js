@@ -8,5 +8,4 @@ export const DOTSLASH_INDEX_PAGE = {
     cta: "Pre-Order Now",
     mobileCta: "Pre-Order",
     isGif: true,
-    hasBorder: true
 }

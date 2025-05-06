@@ -7,7 +7,6 @@ export const NEWSLETTER_INDEX_PAGE = {
     mobileCta: about_liz_cta_mobile_text,
     link: about_liz_link,
     button: about_liz_button_color,
-    hasBorder: true
 }
 
 export const header = "Before we head to the newsletter...";

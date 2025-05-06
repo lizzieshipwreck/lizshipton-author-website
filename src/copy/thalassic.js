@@ -8,7 +8,6 @@ export const THALASSIC_INDEX_PAGE = {
     mobileCta: "Shop",
     link: "/thalassic-series",
     button: "BlackOne",
-    hasBorder: true,
     isGif: false
 }
 
