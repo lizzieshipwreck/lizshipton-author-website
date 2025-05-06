@@ -5,7 +5,7 @@ export const DOTSLASH_INDEX_PAGE = {
     alt: "Dot Slash Magic teaser",
     link: "https://blog.lizshipton.com/dot-slash-magic",
     button: "Pink",
-    cta: "Pre-Order Meow",
+    cta: "Pre-Order Now",
     mobileCta: "Pre-Order",
     isGif: true,
     hasBorder: true
