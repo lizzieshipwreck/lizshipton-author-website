@@ -6,9 +6,9 @@ const mischief_vertical_image = "tales vertical";
 const mischief_amazon_link = "https://amzn.to/48rGC6c";
 const amazon_text = "Read in KU"
 const amazon_mobile_text = "K.U.";
-const mischief_ks_link = "https://www.kickstarter.com/projects/lizshipton/tales-of-mischief-and-fuckery-special-edition-anthology";
-const kickstarter_text = "See the Kickstarter";
-const ks_mobile_text = "Kickstarter";
+const mischief_ks_link = "https://shop.lizshipton.com/collection/tales-of-mischief-fuckery";
+const kickstarter_text = "Buy from Liz";
+const ks_mobile_text = "Buy";
 
 const mischief_heading = 'Tales of Mischief and Fuckery';
 const mishcief_subheading = 'For people who prefer their men fictional';
