@@ -9,3 +9,4 @@ export const dotslash_appendix = "https://ebooks.lizshipton.com/gpxb9v406b";
 export const dotslash_sountrack = "https://blog.lizshipton.com/dot-slash-soundtrack";
 export const dotslash_podcasts = "https://blog.lizshipton.com/dot-slash-podcasts";
 export const mother_and_slaughter = "https://signup.lizshipton.com/mother-and-slaughter";
+export const dotslash_sneak_peek = "https://signup.lizshipton.com/dot-slash-magic";
