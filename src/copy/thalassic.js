@@ -4,8 +4,8 @@ export const THALASSIC_INDEX_PAGE = {
     alt: "Covers for the Thalassic Series",
     headlineOne: "What do you do with a drunken sailor when the world is underwater?",
     headlineTwo: "",
-    cta: "Check it Out",
-    mobileCta: "Shop",
+    cta: "Find Out",
+    mobileCta: "Find Out",
     link: "/thalassic-series",
     button: "BlackOne",
     isGif: false
@@ -23,25 +23,39 @@ const bookshop_mobile_text = "Bookshop";
 const thalassic_na_amazon_link = "https://amzn.to/3PBZR62";
 const amazon_text = "Buy from Amazon";
 const amazon_mobile_text = "Amazon";
+const thalassic_ks_link = "https://www.kickstarter.com/projects/lizshipton/the-thalassic-series-deluxe-hardcover-omnibuses";
+const thalassic_ks_text = "Follow the Project";
+const thalassic_ks_mobile_text = "Follow";
 
 const salt_image = "salt ebook";
 const salt_alt = "Cover for Salt";
 const spines_image = "spines";
 const spines_alt = "Thalassic Series Spines";
+const thalassic_ks_image = "thalassic kickstarter website";
+const thalassic_ks_alt = "Thalassic Series Kickstarter";
 
 const thalassic_na_heading = "The Thalassic Series";
 const thalassic_na_subheading = "Fight to save humanity. Learn to save yourself.";
 const thalassic_na_one = "When a mysterious message arrives from the brother she thought was dead, Bird Howsley sets off on an epic voyage to find him. But she must cross a brutal dystopian waterworld ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
 const thalassic_na_two = "Determined, Bird barters passage from her surly mentor Sargo, kicking off an extraordinary nine-book quest that spans seven oceans, five dimensions, and four intertwining love stories."
 const thalassic_na_three = "Set in a unique and exquisitely detailed world full of beautiful, broken characters, The Thalassic Series sweeps you away with dark humor, toe-curling romance, and a twisting plot that keeps you guessing right up until the end.";
-const thalassic_na_four = "For fans of Divergent, Fourth Wing, and Pirates of the Caribbean, this series is a perfect storm of slow-burn romance and fast-paced adventure.";
+const thalassic_na_four = "For fans of Divergent, Mad Max, and Pirates of the Caribbean, this series is a perfect storm of slow-burn romance and fast-paced adventure.";
 const thalassic_na_five = ""; 
 
+const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
+const thalassic_ks_subheading = "Launching on Kickstarter 2026";
+const thalassic_ks_one = "Own the complete 9-book series as 3 gorgeous special edition hardcover omnibuses.";
+const thalassic_ks_two = "Sprayed continuous edge artwork + continuous dust jacket art make 2 separate beautiful scenes."
+const thalassic_ks_three = "Character art prints by the incomparable Nikko Andrea (@tetavera) who handled art for my Tales of Mischief & Fuckery hardcover and for Dot Slash Magic.";
+const thalassic_ks_four = "Foiled hardcases with custom endpapers, hand-signed. First twenty numbered.";
+const thalassic_ks_five = "Bonus rewards and stretch goals, including custom chapter headers, additional interior art, NSFW prints, and more."; 
+const thalassic_ks_button_color = "Pink";
+
 const review_heading = "Praise for the Thalassic Series";
-const review_one = '"The Thalassic Series gave me back that \'just finished ACOTAR feeling\'" ⭐ ⭐ ⭐ ⭐ ⭐';
-const review_two = '"I’m usually a high fantasy fan, but I’ve been tearing through these so fast. I’m just starting book three and can’t wait to see what happens!" ⭐ ⭐ ⭐ ⭐ ⭐';
-const review_three = '"The tension between Bird and Sargo is just mindblowing!" ⭐ ⭐ ⭐ ⭐ ⭐';
-const review_four = '"Couldn’t put it down, a fast paced adventure full of pirates!" ⭐ ⭐ ⭐ ⭐ ⭐';
+const review_one = '"The Thalassic Series gave me back that \'just finished ACOTAR\' feeling" ⭐ ⭐ ⭐ ⭐ ⭐';
+const review_two = '"Dystopian like I\'ve never read." ⭐ ⭐ ⭐ ⭐ ⭐';
+const review_three = '"I’m usually a high fantasy fan, but I’ve been tearing through these so fast. I’m just starting book three and can’t wait to see what happens!" ⭐ ⭐ ⭐ ⭐ ⭐';
+const review_four = '"The tension between Bird and Sargo is just mindblowing!" ⭐ ⭐ ⭐ ⭐ ⭐';
 
 const reading_order_heading = "Suggested Reading Orders";
 const reading_order_one = '#1: Straight through';
@@ -88,6 +102,15 @@ export const content = [
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: thalassic_na_button_color_one, link: thalassic_bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: thalassic_na_button_color_two, link: thalassic_na_amazon_link},
+        ],
+    },
+        {
+        heading: thalassic_ks_heading,
+        subheading: thalassic_ks_subheading,
+        paragraphs: {text: [thalassic_ks_one, thalassic_ks_two, thalassic_ks_three, thalassic_ks_four,thalassic_ks_five]},
+        image: {src: thalassic_ks_image, alt: thalassic_ks_alt },
+        ctas: [
+            {text: thalassic_ks_text, mobileText: thalassic_ks_mobile_text, colorScheme: thalassic_ks_button_color, link: thalassic_ks_link},
         ],
     },
     {

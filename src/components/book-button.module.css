@@ -52,7 +52,7 @@ button::after {
 
 .button-pink, 
 .button-pink::after {
-    background: rgb(253,73,181) 5%;
+    background: rgb(253, 73, 121) 5%;
     box-shadow: 6px 6px 0px rgb(3, 3, 3);
 }
 
