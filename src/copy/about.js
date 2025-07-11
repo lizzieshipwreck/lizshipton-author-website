@@ -19,10 +19,10 @@ const about_loki_alt =  "Liz's boat Loki";
 const about_loki_cta_text = "Follow Us On Instagram";
 const about_loki_cta_mobile_text = "Follow Us";
 const about_loki_button_color = "Blue";
-const about_loki_one = "We live on a 43ft Morgan Center Cockpit sailboat called Loki. We bought the boat in 2019 (just before the pandemic) after almost 6 years of work and planning. We didn't actually set out on our adventure until nearly two years later, in September of 2021."
+const about_loki_one = "We live on a 43ft Morgan Center Cockpit sailboat called Loki. We bought the boat in 2019 after almost 6 years of work and planning. We didn't actually set sail until nearly two years later, in September of 2021."
 const about_loki_two = "Our journey began in Santa Cruz, CA. From there, we sailed down the Pacific Coast of the US into Baja California. We spent about a year in Mexico before continuing south through Central America (Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama.) In March of 2023 we came through the Panama Canal to the Caribbean."
 const about_loki_three = "Loki is a wonderful home, albeit a little small at times! We live pretty simply and with minimal expense and waste, procuring our own water and generating our own power from solar."
-const about_loki_four = "One of my favorite things about this way of life is the freedom it has given both of us to explore work we love. I'm not saying everyone pursuing creative work should embrace a minimalist lifestyle...but I'm also not NOT saying that."
+const about_loki_four = "One of my favorite things about this way of life is the freedom it has given both of us to explore work we love. Boat life keeps expenses low, meaning we have time to focus on creative projects, rather than a draining 9-5."
 
 const about_crew_heading = "Meet the crew";
 const about_crew_image = "trev and aloy";
