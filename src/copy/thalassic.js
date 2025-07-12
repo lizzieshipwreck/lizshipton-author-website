@@ -1,5 +1,5 @@
 export const THALASSIC_INDEX_PAGE = {
-    image: "thalassic new flat",
+    image: "thalassic website header",
     title: "⚓ The Thalassic Series ⚓",
     alt: "Covers for the Thalassic Series",
     headlineOne: "What do you do with a drunken sailor when the world is underwater?",
@@ -11,8 +11,8 @@ export const THALASSIC_INDEX_PAGE = {
     isGif: false
 }
 
-const thalassic_na_image = "thalassic new flat";
-const thalassic_na_alt = "Covers for the complete Thalassic New Adult series";
+const thalassic_na_image = "thalassic quote";
+const thalassic_na_alt = "quote from thalassic";
 const thalassic_na_button_color_one = "BlackOne";
 const thalassic_na_button_color_two = "BlackTwo";
 
@@ -27,11 +27,11 @@ const thalassic_ks_link = "https://www.kickstarter.com/projects/lizshipton/the-t
 const thalassic_ks_text = "Follow the Project";
 const thalassic_ks_mobile_text = "Follow";
 
-const salt_image = "salt ebook";
+const salt_image = "bird sargo website";
 const salt_alt = "Cover for Salt";
 const spines_image = "spines";
 const spines_alt = "Thalassic Series Spines";
-const thalassic_ks_image = "thalassic kickstarter website";
+const thalassic_ks_image = "thalassic website hardcovers";
 const thalassic_ks_alt = "Thalassic Series Kickstarter";
 
 const thalassic_na_heading = "The Thalassic Series";
@@ -46,7 +46,7 @@ const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
 const thalassic_ks_subheading = "Launching on Kickstarter 2026";
 const thalassic_ks_one = "Own the complete 9-book series as 3 gorgeous special edition hardcover omnibuses.";
 const thalassic_ks_two = "Sprayed continuous edge artwork + continuous dust jacket art make 2 separate beautiful scenes."
-const thalassic_ks_three = "Character art prints by the incomparable Nikko Andrea (@tetavera) who handled art for Tales of Mischief & Fuckery and Dot Slash Magic.";
+const thalassic_ks_three = "Art by the incomparable Nikko Andrea (@tetavera) who handled art for Tales of Mischief & Fuckery and Dot Slash Magic.";
 const thalassic_ks_four = "The books are foiled hardcases with dust jackets + sprayed edges, with gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable merch.";
 const thalassic_ks_five = "Bonus rewards and stretch goals include decorative chapter headers, additional interior art, NSFW prints, and more."; 
 const thalassic_ks_button_color = "Pink";
