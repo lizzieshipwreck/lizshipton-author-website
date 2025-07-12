@@ -44,10 +44,10 @@ const thalassic_na_five = "";
 
 const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
 const thalassic_ks_subheading = "Launching on Kickstarter 2026";
-const thalassic_ks_one = "Own the complete 9-book series as 3 gorgeous special edition hardcover omnibuses.";
+const thalassic_ks_one = "Own the complete 9-book series as 3 deluxe hardcover omnibuses.";
 const thalassic_ks_two = "Sprayed continuous edge artwork + continuous dust jacket art make 2 separate beautiful scenes."
 const thalassic_ks_three = "Art by the incomparable Nikko Andrea (@tetavera) who handled art for Tales of Mischief & Fuckery and Dot Slash Magic.";
-const thalassic_ks_four = "The books are foiled hardcases with dust jackets + sprayed edges, with gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable merch.";
+const thalassic_ks_four = "The books are foiled hardcases with dust jackets + sprayed edges, with gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable swag.";
 const thalassic_ks_five = "Bonus rewards and stretch goals include decorative chapter headers, additional interior art, NSFW prints, and more."; 
 const thalassic_ks_button_color = "Pink";
 
