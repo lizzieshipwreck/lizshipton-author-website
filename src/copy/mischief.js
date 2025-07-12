@@ -1,8 +1,8 @@
 const mischief_alt = "Cover for the Tales of Mischief Series";
 const mischief_button_color_one = "Yellow";
 const mischief_button_color_two = "Purple";
-const mischief_image = "tales of mischief";
-const mischief_vertical_image = "tales vertical";
+const mischief_review_image = "tales review";
+const mischief_vertical_image = "tales website";
 const mischief_amazon_link = "https://amzn.to/48rGC6c";
 const amazon_text = "Read in KU"
 const amazon_mobile_text = "K.U.";
@@ -40,7 +40,7 @@ export const content = [
     {
         heading: review_heading,
         paragraphs: {italic: true, text: [review_one, review_two, review_three]},
-        image: {src: mischief_image, alt: mischief_alt },
+        image: {src: mischief_review_image, alt: mischief_alt },
     }
   ]
 
