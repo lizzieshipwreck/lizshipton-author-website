@@ -36,19 +36,19 @@ const thalassic_ks_alt = "Thalassic Series Kickstarter";
 
 const thalassic_na_heading = "The Thalassic Series";
 const thalassic_na_subheading = "Fight to save humanity. Learn to save yourself.";
-const thalassic_na_one = "When a mysterious message arrives from the brother she thought was dead, Bird Howsley sets off on an epic voyage to find him. But she must cross a brutal dystopian waterworld ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
-const thalassic_na_two = "Determined, Bird barters passage from her surly mentor Sargo, kicking off an extraordinary nine-book quest that spans seven oceans, five dimensions, and four intertwining love stories."
-const thalassic_na_three = "Set in a unique and exquisitely detailed world full of beautiful, broken characters, The Thalassic Series sweeps you away with dark humor, toe-curling romance, and a twisting plot that keeps you guessing right up until the end.";
-const thalassic_na_four = "For fans of Divergent, Mad Max, and Pirates of the Caribbean, this series is a perfect storm of slow-burn romance and fast-paced adventure.";
-const thalassic_na_five = ""; 
+const thalassic_na_one = "In a brutal dystopian waterworld, where survival depends on skill and smarts, Bird Howsley is a beautiful disaster. Or...maybe just a disaster, period.";
+const thalassic_na_two = "A neurodivergent train wreck with a drinking habit, she's always one bad decision away from watching life go totally down the drain."
+const thalassic_na_three = "When a mysterious message arrives from the brother she thought was dead, Bird bribes her surly (and hot) mentor Sargo Paz to help her find him. Together, they sail across a futuristic world ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
+const thalassic_na_four = "Their journey kicks off an epic tale spanning nine books, seven oceans, five alternate dimensions, and three intertwining love stories.";
+const thalassic_na_five = "Mad Max meets ACOTAR meets Pirates of the Caribbean in this darkly funny series written for folks who grew up loving Hunger Games, but then decided they want a little spice with their revolution."; 
 
 const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
 const thalassic_ks_subheading = "Launching on Kickstarter 2026";
 const thalassic_ks_one = "Own the complete 9-book series as 3 deluxe hardcover omnibuses.";
-const thalassic_ks_two = "Sprayed continuous edge artwork + continuous dust jacket art make 2 separate beautiful scenes."
-const thalassic_ks_three = "Art by the incomparable Nikko Andrea (@tetavera) who handled art for Tales of Mischief & Fuckery and Dot Slash Magic.";
-const thalassic_ks_four = "The books are foiled hardcases with dust jackets + sprayed edges, with gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable swag.";
-const thalassic_ks_five = "Bonus rewards and stretch goals include decorative chapter headers, additional interior art, NSFW prints, and more."; 
+const thalassic_ks_two = "Art by the incomparable Nikko Andrea (@tetavera) who handled art for Tales of Mischief & Fuckery and Dot Slash Magic.";
+const thalassic_ks_three = "The books are foiled hardcases with continuous dust jacket and sprayed edge art, and gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable swag.";
+const thalassic_ks_four = "Bonus rewards and stretch goals include decorative chapter headers, additional interior art, NSFW prints, and more."; 
+const thalassic_ks_five = "";
 const thalassic_ks_button_color = "Pink";
 
 const review_heading = "Praise for the Thalassic Series";
