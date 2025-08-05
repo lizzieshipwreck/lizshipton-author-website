@@ -5,7 +5,7 @@ export const shop_redirect_link = "https://shop.lizshipton.com";
 export const dotslash_asmrtists = "https://youtube.com/playlist?list=PLnk1qoE5nddKhArQIjaIixoUkVUL3jtzW&feature=shared";
 export const dotslash_asmr = "https://www.youtube.com/@dotslashASMR";
 export const dotslash_videos = "https://youtube.com/playlist?list=PLnk1qoE5nddIs-QzPkDrgdwUdN3_GqeHI&feature=shared";
-export const dotslash_appendix = "https://ebooks.lizshipton.com/gpxb9v406b";
+export const dotslash_appendix = "https://signup.lizshipton.com/dot-slash-appendix";
 export const dotslash_sountrack = "https://blog.lizshipton.com/dot-slash-soundtrack";
 export const dotslash_podcasts = "https://blog.lizshipton.com/dot-slash-podcasts";
 export const mother_and_slaughter = "https://signup.lizshipton.com/mother-and-slaughter";
