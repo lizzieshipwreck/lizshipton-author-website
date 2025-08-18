@@ -17,6 +17,8 @@ const INDEX_CONTENT = [DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE, MISCHIEF_INDEX
 
 const IndexPage = () => {
 
+
+
   return (
     <Layout pageTitle={"Home"}>
         <div className={styles.content}>
