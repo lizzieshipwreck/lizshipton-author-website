@@ -11,7 +11,7 @@ const kickstarter_text = "Buy from Liz";
 const ks_mobile_text = "Buy";
 
 const mischief_heading = 'Tales of Mischief and Fuckery';
-const mishcief_subheading = 'For people who prefer their men fictional';
+const mishcief_subheading = 'Let\'s go troping tropily through the tropes!';
 const mischief_one = 'Small town apocalypses? Dystopian billionaires? The fairy mafia? How about shape-shifting hockey players? A Greek god desperately in need of a nanny?';
 const mischief_two = 'You may ask, "Why?" This series of spicy short stories asks, "Why not?" Why not a mishmash of genres? Why not funny, off-the-wall romance with hot spice and big heart? Why not an unhinged paranormal hockey romp starring the Easter bunny?'
 const mischief_three = 'Inside these 12 books, you’ll find fae, vampires, shifters and more getting down and dirty in 12 hilariously raunchy standalone "fairy tales", each set during a different holiday in every month of the year.'
@@ -48,10 +48,10 @@ export const content = [
     image: "Website Tales Kickstarter Header",
     title: "😈 Tales of Mischief & Fuckery 😈",
     alt: "Covers for the Tales of Mischief Series",
-    headlineOne: "Exclusive hardcover just launched on Kickstarter!",
+    headlineOne: "Troping tropily through the tropes.",
     headlineTwo: "",
-    cta: "Learn More",
-    mobileCta: "More",
+    cta: "Let's Go!",
+    mobileCta: "Go!",
     link: mischief_ks_link,
     button: "Purple",
     isGif: false
