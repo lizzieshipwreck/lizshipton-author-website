@@ -40,7 +40,7 @@ const thalassic_na_one = "In a brutal dystopian waterworld, where survival depen
 const thalassic_na_two = "A neurodivergent train wreck with a drinking habit, she's always one bad decision away from watching life go totally down the drain."
 const thalassic_na_three = "When a mysterious message arrives from the brother she thought was dead, Bird bribes her surly (and hot) mentor Sargo Paz to help her find him. Together, they sail across a futuristic world ravaged by bloodthirsty pirates, global disaster, and dark political secrets - while bickering, bantering, battling their inner demons, and falling in love.";
 const thalassic_na_four = "Their journey kicks off an epic tale spanning nine books, seven oceans, five alternate dimensions, and three intertwining love stories.";
-const thalassic_na_five = "Mad Max meets Daughter of No Worlds in this darkly funny series. A perfect storm of fast-paced adventure and slow-burn romance written for folks who grew up loving Hunger Games and Pirates of the Caribbean."; 
+const thalassic_na_five = "Mad Max meets Daughter of No Worlds in this darkly funny storm of fast-paced adventure and slow-burn romance."; 
 
 const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
 const thalassic_ks_subheading = "Launching on Kickstarter 2026";
