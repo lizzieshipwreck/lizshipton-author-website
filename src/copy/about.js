@@ -19,9 +19,9 @@ const about_loki_alt =  "Liz's boat Loki";
 const about_loki_cta_text = "Follow Us On Instagram";
 const about_loki_cta_mobile_text = "Follow Us";
 const about_loki_button_color = "Blue";
-const about_loki_one = "We live on a 43ft Morgan Center Cockpit sailboat called Loki. We bought the boat in 2019 after almost 6 years of planning. We set sail in September of 2021."
-const about_loki_two = "Our journey began in Santa Cruz, CA. From there, we sailed down the Pacific Coast of the US into Baja California. We spent about a year in Mexico before continuing south through Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama. In March of 2023 we came through the Panama Canal to the Caribbean."
-const about_loki_three = "Loki is a wonderful home, albeit a little small at times! We live pretty simply and with minimal expense and waste, procuring our own water and generating our own power from solar."
+const about_loki_one = "We live on a 43ft Morgan Center Cockpit sailboat called Loki. We bought the boat in 2019 after almost 6 years of planning, and set sail in September of 2021."
+const about_loki_two = "Our journey began in our hometown of Santa Cruz, CA. From there, we sailed down the Pacific Coast into Baja California. We spent a year in Mexico before continuing south through Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama. In March of 2023 we came through the Panama Canal to the Caribbean."
+const about_loki_three = "Loki is a wonderful home, albeit a little small at times! We live simply and with minimal expense and waste, procuring our own water and generating our own power from solar."
 const about_loki_four = "One of my favorite things about this way of life is the freedom it gives us to explore work we love. We were motivated to pursue this lifestyle partially by a desire to see the world, but partially by the rapidly rising housing costs in our hometown. Boat life keeps expenses low, meaning we have time to focus on creative projects, rather than a mortgage."
 
 const about_crew_heading = "Meet the crew";
