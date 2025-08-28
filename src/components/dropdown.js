@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import * as styles from './dropdown.module.css'
 
 const menuItems = [
+    {name: 'Artificial Magic', mobileName: 'Magic', link: '/artificial-magic'},
     {name: 'The Thalassic Series', mobileName: 'Thalassic', link: '/thalassic-series'},
     {name: 'Tales of Mischief & F*ckery', mobileName: 'Mischief', link: '/tales-of-mischief'}
 ]

@@ -1,6 +1,7 @@
 const mischief_alt = "Cover for the Tales of Mischief Series";
 const mischief_button_color_one = "Yellow";
 const mischief_button_color_two = "Purple";
+const mischief_button_color_three = "Pink";
 const mischief_review_image = "tales review";
 const mischief_vertical_image = "tales website";
 const mischief_amazon_link = "https://amzn.to/48rGC6c";
@@ -9,6 +10,9 @@ const amazon_mobile_text = "K.U.";
 const mischief_ks_link = "https://shop.lizshipton.com/collection/tales-of-mischief-fuckery";
 const kickstarter_text = "Buy from Liz";
 const ks_mobile_text = "Buy";
+const mischief_art_link = "https://blog.lizshipton.com/tales-of-mischief-art";
+const art_text = "See the Art";
+const art_mobile_text = "Art";
 
 const mischief_heading = 'Tales of Mischief and Fuckery';
 const mishcief_subheading = 'Let\'s go troping tropily through the tropes!';
@@ -41,7 +45,10 @@ export const content = [
         heading: review_heading,
         paragraphs: {italic: true, text: [review_one, review_two, review_three]},
         image: {src: mischief_review_image, alt: mischief_alt },
-    }
+        noMargin: true
+    },
+        { center: true, ctas: [{text: art_text, mobileText: art_mobile_text, colorScheme: mischief_button_color_three, link: mischief_art_link}] },
+
   ]
 
   export const MISCHIEF_INDEX_PAGE = {

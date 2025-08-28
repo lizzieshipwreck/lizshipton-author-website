@@ -1,3 +1,10 @@
+.center {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
 .block {
     width: 80%;
     margin: auto;
