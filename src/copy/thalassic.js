@@ -52,7 +52,7 @@ const thalassic_ks_five = "";
 const thalassic_ks_button_color = "Pink";
 
 const review_heading = "Praise for the Thalassic Series";
-const review_one = '"The Thalassic Series gave me that \'just finished ACOTAR\' feeling" ⭐ ⭐ ⭐ ⭐ ⭐';
+const review_one = '"Gave me that \'just finished ACOTAR\' feeling" ⭐ ⭐ ⭐ ⭐ ⭐';
 const review_two = '"Dystopian like I\'ve never read." ⭐ ⭐ ⭐ ⭐ ⭐';
 const review_three = '"I’m usually a high fantasy fan, but I’ve been tearing through these so fast. I’m just starting book three and can’t wait to see what happens!" ⭐ ⭐ ⭐ ⭐ ⭐';
 const review_four = '"The tension between Bird and Sargo is just mindblowing!" ⭐ ⭐ ⭐ ⭐ ⭐';
