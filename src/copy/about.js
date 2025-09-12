@@ -1,5 +1,5 @@
 const about_liz_heading = "Part-time author 🪶⚓ Full-time pirate";
-const about_liz_image = "normal headshot round";
+const about_liz_image = "inquisitive headshot";
 const about_liz_alt = "Liz working from a hammock";
 export const about_liz_cta_text = "Join my Newsletter";
 export const about_liz_cta_mobile_text = "Newsletter";
