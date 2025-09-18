@@ -11,7 +11,7 @@ export const THALASSIC_INDEX_PAGE = {
     isGif: false
 }
 
-const thalassic_na_image = "thalassic quote";
+const ya_complete_mock = "ya complete mock";
 const thalassic_na_alt = "quote from thalassic";
 const thalassic_na_button_color_one = "BlackOne";
 const thalassic_na_button_color_two = "BlackTwo";
@@ -63,11 +63,15 @@ const reading_order_two = 'Salt  . .  Sand  . .  Soul  . .  Paz  . .  Passage  .
 const reading_order_three = '#2: In the order they were written';
 const reading_order_four = 'Salt  . .  Scourge  . .  Sand  . .  Seed  . .  Soul  . .  Savage  . .  Paz  . .  Passage  . .  Prologue  . .  Savage: The Lost Years';
 const reading_order_five = '#3: Chronologically';
-const reading_order_six = 'Scourge  . .  Savage  . .  Seed  . .  Savage: The Lost Years  . .  Salt  . .  Sand  . .  Soul  . .  Paz  . .  Passage  . .  Prologue';
-const reading_order_link = "https://amzn.to/3CvivrY";
-const reading_order_cta_text = "Start with Salt";
-const reading_order_cta_mobile_text = "Start";
-const reading_order_button_color = "Purple";
+const reading_order_six = 'Savage  . .  Scourge  . .  Seed  . .  Savage: The Lost Years  . .  Salt  . .  Sand  . .  Soul  . .  Paz  . .  Passage  . .  Prologue';
+const reading_order_link_salt = "https://amzn.to/3CvivrY";
+const reading_order_link_savage = "https://amzn.to/4gqghKi";
+const reading_order_cta_text_salt = "Start with Salt";
+const reading_order_cta_mobile_text_salt = "Start";
+const reading_order_button_color_salt = "Purple";
+const reading_order_cta_text_savage = "Start with Savage";
+const reading_order_cta_mobile_text_savage = "Start";
+const reading_order_button_color_savage = "Blue";
 
 const playlist_heading = "Playlist";
 const playlist_image = "playlist";
@@ -103,14 +107,15 @@ export const content = [
     {
         heading: review_heading,
         paragraphs: {italic: true, text: [review_one, review_two, review_three, review_four]},
-        image: {src: thalassic_na_image, alt: thalassic_na_alt },
+        image: {src: ya_complete_mock, alt: thalassic_na_alt },
     },
     {
         heading: reading_order_heading,
         paragraphs: {withHeaders: true, text: [reading_order_one, reading_order_two, reading_order_three, reading_order_four, reading_order_five, reading_order_six]},
         image: {src: spines_image, alt: spines_alt },
         ctas: [
-            {text: reading_order_cta_text, mobileText: reading_order_cta_mobile_text, colorScheme: reading_order_button_color, link: reading_order_link},
+            {text: reading_order_cta_text_salt, mobileText: reading_order_cta_mobile_text_salt, colorScheme: reading_order_button_color_salt, link: reading_order_link_salt},
+            {text: reading_order_cta_text_savage, mobileText: reading_order_cta_mobile_text_savage, colorScheme: reading_order_button_color_savage, link: reading_order_link_savage}
         ],
     },
     {
