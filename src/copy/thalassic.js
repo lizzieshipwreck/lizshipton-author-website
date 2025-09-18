@@ -69,19 +69,6 @@ const reading_order_cta_text = "Start with Salt";
 const reading_order_cta_mobile_text = "Start";
 const reading_order_button_color = "Purple";
 
-const thalassic_ya_heading = "Young Adult (YA) Editions";
-const thalassic_ya_image = "ya complete mock";
-const thalassic_ya_alt = "Covers for the Thalassic YA series";
-const thalassic_ya_shop_link = "https://shop.lizshipton.com/collection/thalassic";
-const thalassic_ya_cta_text = "Buy YA Editions";
-const thalassic_ya_cta_mobile_text = "Shop YA";
-const thalassic_ya_button_color = "Blue";
-
-const thalassic_ya_one = "I offer two editions of the Thalassic Series: a New Adult edition and a Young Adult edition."
-const thalassic_ya_two = "The only difference between the two editions is that in the New Adult books the characters are a few years older and the books have explicit spicy scenes. The Young Adult editions do not include these scenes, so they are appropriate for teens and for people who prefer no-spice romance."
-const thalassic_ya_three = "Amazon and other online retailers won't allow me to offer two versions of my series at the same time, so I offer the no-spice YA editions exclusively via this website."
-const thalassic_ya_four = "Buying direct is a great way to support indie authors! It means we get to keep more of our royalties and aren't beholden to Amazon and other retailers for our income. I appreciate your willingness to buy these books from me in this way. Thank you!"
-
 const playlist_heading = "Playlist";
 const playlist_image = "playlist";
 const playlist_alt = "Listen on Spotify";
@@ -125,12 +112,6 @@ export const content = [
         ctas: [
             {text: reading_order_cta_text, mobileText: reading_order_cta_mobile_text, colorScheme: reading_order_button_color, link: reading_order_link},
         ],
-    },
-    {
-        heading: thalassic_ya_heading,
-        paragraphs: {text: [thalassic_ya_one, thalassic_ya_two, thalassic_ya_three, thalassic_ya_four]},
-        image: {src: thalassic_ya_image, link: thalassic_ya_shop_link, alt: thalassic_ya_alt},
-        ctas: [{text: thalassic_ya_cta_text, mobileText: thalassic_ya_cta_mobile_text, colorScheme: thalassic_ya_button_color, link: thalassic_ya_shop_link}]
     },
     {
         heading: playlist_heading,
