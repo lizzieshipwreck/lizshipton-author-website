@@ -8,6 +8,6 @@ export const dotslash_videos = "https://youtube.com/playlist?list=PLnk1qoE5nddIs
 export const dotslash_appendix = "https://signup.lizshipton.com/dot-slash-appendix";
 export const dotslash_sountrack = "https://blog.lizshipton.com/dot-slash-soundtrack";
 export const dotslash_podcasts = "https://blog.lizshipton.com/dot-slash-podcasts";
-export const mother_and_slaughter = "https://signup.lizshipton.com/mother-and-slaughter";
+export const mother_and_slaughter = "https://www.kickstarter.com/projects/lizshipton/mother-and-slaughter";
 export const dotslash_sneak_peek = "https://signup.lizshipton.com/dot-slash-magic";
 export const thalassic_playlist = "https://open.spotify.com/playlist/1vYEb8cpRhdLzipFo1fVzp";
