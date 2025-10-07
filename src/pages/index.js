@@ -8,12 +8,13 @@ import { DOTSLASH_INDEX_PAGE } from '../copy/dotslash_magic';
 import { THALASSIC_INDEX_PAGE } from '../copy/thalassic';
 import { MISCHIEF_INDEX_PAGE } from '../copy/mischief';
 import { NEWSLETTER_INDEX_PAGE } from '../copy/newsletter';
+import { MOTHER_INDEX_PAGE } from '../copy/mother-slaughter';
 
 import dotslash_image from "../images/Dot Slash Header Graphic.gif";
 
 DOTSLASH_INDEX_PAGE.image = dotslash_image;
 
-const INDEX_CONTENT = [DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE, MISCHIEF_INDEX_PAGE, NEWSLETTER_INDEX_PAGE]
+const INDEX_CONTENT = [DOTSLASH_INDEX_PAGE, MOTHER_INDEX_PAGE, THALASSIC_INDEX_PAGE, MISCHIEF_INDEX_PAGE, NEWSLETTER_INDEX_PAGE]
 
 const IndexPage = () => {
 
