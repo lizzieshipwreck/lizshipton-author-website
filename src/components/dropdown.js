@@ -28,9 +28,9 @@ const Dropdown = ({windowWidth}) => {
                 menuItems.map((item) => {
                     return (
                         <li className={styles.menuItem}>
-                            <Link to={item.link} id={item.name} className={styles.itemText}>
+                            <a href={item.link} id={item.name} className={styles.itemText} target='_blank' rel="noopener">
                                {!!windowWidth && windowWidth > 750 ? item.name : item.mobileName}
-                            </Link>
+                            </a>
                         </li>
                     )
                 })
