@@ -3,9 +3,10 @@ import { Link } from 'gatsby'
 import * as styles from './dropdown.module.css'
 
 const menuItems = [
-    {name: 'Artificial Magic', mobileName: 'Magic', link: '/artificial-magic'},
+    {name: 'Dot Slash Magic', mobileName: 'Magic', link: '/artificial-magic'},
+    {name: 'Mother & Slaughter', mobileName: 'Slaughter', link: '/mother-and-slaughter'},
     {name: 'The Thalassic Series', mobileName: 'Thalassic', link: '/thalassic-series'},
-    {name: 'Tales of Mischief & F*ckery', mobileName: 'Mischief', link: '/tales-of-mischief'}
+    {name: 'Tales of Mischief & Fuckery', mobileName: 'Mischief', link: '/tales-of-mischief'}
 ]
 
 const Dropdown = ({windowWidth}) => {
@@ -19,7 +20,7 @@ const Dropdown = ({windowWidth}) => {
     return (
         <>
         <div className={styles.navLinkItem}>
-          <a onClick={handleOpen} className={styles.navLinkText}>Series</a>
+          <a onClick={handleOpen} className={styles.navLinkText}>Books</a>
         </div>
         {open ? (
           <ul className={styles.menu}>
