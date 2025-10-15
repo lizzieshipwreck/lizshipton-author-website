@@ -11,7 +11,7 @@ const AuthorIntroBlock = () => {
              </Link>
             <h2 className={styles.textHeader}>Brilliantly stupid</h2>
             <p className={styles.text}>
-                because "good writer" means nothing now.
+                because "good writer" means nothing these days.
             </p>
         </div>
     )
