@@ -31,6 +31,7 @@ export const content = [
         heading: editing_heading,
         paragraphs: {text: [editing_one, editing_two, editing_three, editing_four, editing_five]},
         image: {src: editing_image, alt: editing_alt },
+        noMargin: true
     },
     {
       heading: prices_heading,
