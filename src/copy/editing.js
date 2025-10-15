@@ -2,7 +2,7 @@ const editing_heading = "Manuscript Shredding";
 const editing_image = "quill";
 const editing_alt = "quill with blood";
 
-const editing_one = "Get your manuscript in shape for querying or self-publishing -- whether that's honing your opening hook, tightening up pacing, banter, plot holes, character arcs, or just checking spelling and grammar.";
+const editing_one = "Get your manuscript in shape for querying or self-publishing -- whether that's honing your opening hook, tightening up pacing, identifying plot holes, crafting character arcs, punching up banter, or just checking spelling and grammar.";
 const editing_two = "In my 4 years in publishing I've edited 12 books, including 2 that were picked up by publishing houses. I've worked with editors at Angry Robot and Simon and Schuster, and have written for social media, technical blogs, and freelance copywriting outlets."
 const editing_three = "Please be aware: I am not kind."
 const editing_four = "I'm a bitter, cynical husk of a person, and I think lots of things are bad. I will not hesitate to tell you that your thing is bad, and to gleefully explain why, in excruciating detail."
