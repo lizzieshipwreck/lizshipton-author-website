@@ -1,4 +1,4 @@
-const about_liz_heading = "Part-time author 🪶⚓ Full-time pirate";
+const about_liz_heading = "Brilliantly stupid";
 const about_liz_image = "inquisitive headshot";
 const about_liz_alt = "Liz working from a hammock";
 export const about_liz_cta_text = "Newsletter";
@@ -6,9 +6,9 @@ export const about_liz_cta_mobile_text = "Newsletter";
 export const about_liz_button_color = "Yellow";
 export const about_liz_link = "/newsletter";
 
-const about_liz_one = "Hi! I'm Liz. I'm a writer and full-time, off-grid, live-aboard sailor. I’m currently sailing around the world with my partner and my dog, turning my real-life adventures into speculative fiction.";
+const about_liz_one = "Hi! I'm Liz. I'm a writer and off-grid sailor. I’m currently living on a sailboat with my partner and my dog, turning my real-life adventures into speculative fiction.";
 const about_liz_two = "I'm extremely grateful to explore the world as I do, and I love incorporating my travel experiences into my work."
-const about_liz_three = "My books also explore themes surrounding mental health, addiction, technology creep, climate change, and the looming collapse of society (but, like...in a fun way.)"
+const about_liz_three = "My books explore themes surrounding mental health, addiction, technology creep, climate change, and the looming collapse of society (but, like...in a fun way.)"
 const about_liz_four = "When I'm not penning novels about the impending apocalypse, I work as a freelance writer in the tech and off-grid living niches.\nOn the rare occasion I'm not writing, you can find me swimming, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching Taskmaster."
 const about_liz_five = "For professional inquiries, please reach out to liz@lizshipton.com, or contact my agent Amy Collins at acollins@talcottnotch.net"
 
