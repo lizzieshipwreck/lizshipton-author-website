@@ -1,4 +1,4 @@
-const about_liz_heading = "Brilliantly stupid";
+const about_liz_heading = "Part tiem author 🪶⚓ Full time pirate";
 const about_liz_image = "inquisitive headshot";
 const about_liz_alt = "Liz working from a hammock";
 export const about_liz_cta_text = "Newsletter";
