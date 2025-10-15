@@ -6,10 +6,10 @@ export const about_liz_cta_mobile_text = "Newsletter";
 export const about_liz_button_color = "Yellow";
 export const about_liz_link = "/newsletter";
 
-const about_liz_one = "Hi! I'm Liz. I'm a writer and off-grid liveaboard sailor. I gallivant about the high seas with my partner and my dog, turning my real-life adventures into speculative fiction.";
-const about_liz_two = "While I explore the world, my books explore themes adjacent to mental health, the loneliness epidemic, addiction, smashing the broligarchy, climate change, and the looming collapse of society (but, like...in a fun way.)"
-const about_liz_three = "When I'm not penning novels about the impending apocalypse, I rip other writers' manuscripts to shreds for fun. Others call this pastime 'editing', and if you're interested, I can do it for you."
-const about_liz_four = " On the rare occasion I'm not working, you can find me swimming, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching Taskmaster."
+const about_liz_one = "Hi! I'm Liz. I'm a writer and off-grid liveaboard sailor. I gallivant about the high seas with my partner and my dog, turning my adventures into speculative fiction.";
+const about_liz_two = "While I explore the world, my books explore themes adjacent to mental health, the loneliness epidemic, addiction, tech creep, climate change, and the looming collapse of society (but, like...in a fun way.)"
+const about_liz_three = "When I'm not penning novels about the impending apocalypse, I make money ripping other writers' manuscripts to shreds for fun. Others call this pastime 'editing', and if you're interested, I can do it for you."
+const about_liz_four = "On the rare occasion I'm not working, you can find me swimming, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching Taskmaster."
 const about_liz_five = "For editing inquiries, please send the first page of your manuscript to liz@lizshipton.com. For anything else, contact my agent Amy Collins at acollins@talcottnotch.net."
 
 const about_loki_heading = "Our floating home";
