@@ -8,7 +8,7 @@ const editing_three = "Please be aware: I am not kind."
 const editing_four = "I'm a bitter, cynical husk of a person, and I think lots of things are bad. I will not hesitate to tell you that your thing is bad, and to gleefully explain why, in excruciating detail."
 const editing_five = "If that's what you're into, take a look at the rates below. To get a quote, please send the first chapter of your manuscript, along with total word count and the services you're seeking."
 
-const prices_heading = "Rates";
+const prices_heading = "Rates (60K word minimum)";
 const prices_image = "typewriter";
 const prices_link = "mailto:liz@lizshipton.com";
 const prices_alt =  "typewriter letters";
