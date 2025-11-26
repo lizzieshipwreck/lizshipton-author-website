@@ -9,9 +9,9 @@ const AuthorIntroBlock = () => {
             <Link to="/about" className={styles.authorIntro}>
                 <StaticImage src={"../../images/monkey headshot round.png"} placeholder="blurred" quality={100} height={175} className={styles.authorHeadshot}/>
              </Link>
-            <h2 className={styles.textHeader}>Brilliantly stupid</h2>
+            <h2 className={styles.textHeader}>Part time author 🪶⚓ Full time pirate</h2>
             <p className={styles.text}>
-                because "good writer" means nothing these days.
+                Turning my adventures into speculative fiction.
             </p>
         </div>
     )
