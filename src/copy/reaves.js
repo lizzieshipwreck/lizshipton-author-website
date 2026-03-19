@@ -25,6 +25,7 @@ const bonus_image = "medaling bonus";
 const bonus_alt = "Medaling Bonus Chapter";
 
 const bonus_one = "Told from Nic's POV, this chapter takes place a few years before the book. This is Nic's bi-awakening with his former partner, French goalie Mathieu Bordeaux. It's tender, sexy, slippery (!) and about 3500 words."
+const bonus_link = "signup.lizshipton.com/hailey-reaves-newsletter";
 const bonus_text = "Get it FREE";
 const bonus_mobile_text = "Get it"
 const bonus_button_color = "Purple";
@@ -66,7 +67,7 @@ export const content = [
         paragraphs: {text: [bonus_one]},
         image: {src: bonus_image, alt: bonus_alt },
         ctas: [
-            {text: bonus_text, mobileText: bonus_mobile_text, colorScheme: bonus_button_color, link: medaling_bookshop_link},
+            {text: bonus_text, mobileText: bonus_mobile_text, colorScheme: bonus_button_color, link: bonus_link},
         ],
     },
     {
