@@ -44,7 +44,7 @@ const reaves_link = "https://lizshipton.com";
 const reaves_button_color = "Yellow";
 
 const series_image = "league series";
-const series_one = "Medaling is book one of a planned MM rivals-to-lovers hockey romance series called 'The League of Extraordinarily Gay Gentleman'. Books are dual-POV, standalone, feature a new pair each time, and can be read in any order."
+const series_one = "Medaling is book one of a planned MM rivals-to-lovers hockey romance series called 'The League of Extraordinarily Gay Gentleman'. Books are standalone, dual-POV, feature a new pair each time, and can be read in any order."
 const series_two = "Books 2 & 3 (Wingmen & Bro Code) rapid release in 2026.";
 
 export const content = [
