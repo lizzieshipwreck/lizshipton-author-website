@@ -25,11 +25,6 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
                 <b>{!!windowWidth && windowWidth > 750 ? 'Shop' : 'Shop'}</b>
               </Link>
             </li>
-            <li className={styles.navLinkItem}>
-              <Link to={"/editing"} className={styles.navLinkText} id={'editing'}>
-                <b>{!!windowWidth && windowWidth > 750 ? 'Editing' : 'Edits'}</b>
-              </Link>
-            </li>
             {!!windowWidth && windowWidth > 750 ? (<li className={styles.navLinkItem}>
               <Link to="/newsletter" className={styles.navLinkText} id={'newsletter'}>
                 <b>Newsletter</b>
@@ -47,6 +42,11 @@ const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
               </Link>
               </li>) 
             : ""}
+            <li className={styles.navLinkItem}>
+              <Link to={"/hailey-reaves"} className={styles.navLinkText} id={'reaves'}>
+                <b>{!!windowWidth && windowWidth > 750 ? 'Hailey Reaves' : 'Edits'}</b>
+              </Link>
+            </li>
           </ul>
         )
       }
