@@ -54,7 +54,7 @@ export const content = [
         paragraphs: {text: [medaling_one, medaling_two, medaling_three, medaling_four]},
         image: {src: medaling_image, alt: medaling_alt },
         ctas: [
-            {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: medaling_button_color_one, link: medaling_bookshop_link},
+            // {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: medaling_button_color_one, link: medaling_bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: medaling_button_color_two, link: medaling_amazon_link},
         ],
     },
