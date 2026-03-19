@@ -35,19 +35,19 @@ const reaves_subheading = "";
 const reaves_image = "reaves website";
 const reaves_alt = "Hailey Reaves";
 
-const reaves_one = "Hailey Reaves is the sports romance pen name of author Liz Shipton. She enjoys putting tortured boys into spicy situations.";
+const reaves_one = "Hailey Reaves is the sports romance pen name of author Liz Shipton. Hailey enjoys putting tortured boys into spicy situations.";
 const reaves_two = "Liz is a SFF author best known for their spicy urban fantasy Dot Slash Magic, which received a starred review from Publisher's Weekly, and for their viral comedy videos. Liz lives on a sailboat in the Caribbean with their partner and dog.";
 const reaves_text = "Learn More";
 const reaves_mobile_text = "More";
 const reaves_link = "https://lizshipton.com";
 const reaves_button_color = "Yellow";
 
-const series_one = "Medaling is book one of a MM rivals-to-lovers hockey romance series called 'The League'. Books are dual-POV, standalone, feature a new pair each time, and can be read in any order."
-const series_two = "Books 2 & 3 (Wingmen & Bro Code) rapid release in mid-2026.";
+const series_image = "league series";
+const series_one = "Medaling is book one of a planned MM rivals-to-lovers hockey romance series called 'The League of Extraordinarily Gay Gentleman'. Books are dual-POV, standalone, feature a new pair each time, and can be read in any order."
+const series_two = "Books 2 & 3 (Wingmen & Bro Code) rapid release in 2026.";
 
 export const content = [
     {
-        noMargin: true,
         heading: medaling_heading,
         subheading: medaling_subheading,
         paragraphs: {text: [medaling_one, medaling_two, medaling_three, medaling_four]},
@@ -58,7 +58,7 @@ export const content = [
         ],
     },
     {
-        center: true,
+        image: {src: series_image, alt: medaling_alt },
         paragraphs: {italic: true, text: [series_one, series_two]},    },
     {
         heading: bonus_heading,
