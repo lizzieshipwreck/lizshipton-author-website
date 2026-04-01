@@ -4,10 +4,10 @@ const mother_ks_link = "https://www.kickstarter.com/projects/lizshipton/mother-a
     image: "MS Website Header",
     title: "⚔️ Mother & Slaughter ⚔️",
     alt: "Cover for Mother & Slaughter",
-    headlineOne: "Coming February 2026",
+    headlineOne: "Slay, girl",
     headlineTwo: "",
-    cta: "On Kickstarter",
-    mobileCta: "Kickstarter",
+    cta: "Pre-Order Now",
+    mobileCta: "Pre-Order",
     link: mother_ks_link,
     button: "Red",
     isGif: false
