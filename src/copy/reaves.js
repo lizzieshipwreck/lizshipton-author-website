@@ -9,7 +9,7 @@ const medaling_two = "Nic left the US for Quebec at sixteen and never looked bac
 const medaling_three = "And now they're sharing a room in the Olympic village.";
 const medaling_four = "Perfect for fans of Rachel Reid's Heated Rivalry who want higher stakes, a slower burn, and an Olympic clock ticking down to zero.";
 
-const medaling_bookshop_link = "https://amzn.to/4rkmdZ8";
+const medaling_bookshop_link = "https://shop.lizshipton.com/collection/hailey-reaves";
 const bookshop_text = "Buy Direct";
 const bookshop_mobile_text = "Bookshop";
 const medaling_amazon_link = "https://amzn.to/4rkmdZ8";
@@ -54,7 +54,7 @@ export const content = [
         paragraphs: {text: [medaling_one, medaling_two, medaling_three, medaling_four]},
         image: {src: medaling_image, alt: medaling_alt },
         ctas: [
-            // {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: medaling_button_color_one, link: medaling_bookshop_link},
+            {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: medaling_button_color_one, link: medaling_bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: medaling_button_color_two, link: medaling_amazon_link},
         ],
     },
