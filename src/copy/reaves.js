@@ -36,7 +36,7 @@ const reaves_subheading = "";
 const reaves_image = "reaves website";
 const reaves_alt = "Hailey Reaves";
 
-const reaves_one = "Hailey Reaves is the sports romance pen name of author Liz Shipton. Hailey enjoys putting tortured boys into spicy situations.";
+const reaves_one = "Hailey Reaves is the MM romance pen name of author Liz Shipton. Hailey enjoys putting tortured boys into spicy situations.";
 const reaves_two = "Liz is a SFF author best known for their spicy urban fantasy Dot Slash Magic, which received a starred review from Publisher's Weekly, and for their viral comedy videos. Liz lives on a sailboat in the Caribbean with their partner and dog.";
 const reaves_text = "Learn More";
 const reaves_mobile_text = "More";
