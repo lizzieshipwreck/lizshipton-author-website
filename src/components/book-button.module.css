@@ -68,6 +68,48 @@ button::after {
     box-shadow: 6px 6px 0px #d0c9b8;
 }
 
+.button-medaling-pink, 
+.button-medaling-pink::after {
+    background: #fe689f 5%;
+    box-shadow: 6px 6px 0px #c8cac9;
+}
+
+.button-medaling-blue, 
+.button-medaling-blue::after {
+    background: #179990 5%;
+    box-shadow: 6px 6px 0px #143d71;
+}
+
+.button-wingmen-purple, 
+.button-wingmen-purple::after {
+    background: #a727e7 5%;
+    box-shadow: 6px 6px 0px #c8cac9;
+}
+
+.button-wingmen-green, 
+.button-wingmen-blue::after {
+    background: #4bad20 5%;
+    box-shadow: 6px 6px 0px #36641a;
+}
+
+.button-brocode-green, 
+.button-brocode-green::after {
+    background: #06a682 5%;
+    box-shadow: 6px 6px 0px #c8cac9;
+}
+
+.button-brocode-orange, 
+.button-brocode-orange::after {
+    background: #72469b 5%;
+    box-shadow: 6px 6px 0px hsl(281, 85%, 13%);
+}
+
+.button-bonus-orange, 
+.button-brocode-green::after {
+    background: #ff914d 5%;
+    box-shadow: 6px 6px 0px #c8cac9;
+}
+
 button::after {
     --slice-0: inset(50% 50% 50% 50%);
     --slice-1: inset(80% -6px 0 0);
