@@ -38,4 +38,15 @@ module.exports = {
     "gatsby-plugin-fontawesome-css",
     "gatsby-plugin-netlify"
   ],
+  headers: [
+    {
+      source: `/`,
+      headers: [
+        {
+          key: `x-clacks-overhead`,
+          value: `GNU Terry Pratchett`,
+        }
+      ]
+    }
+  ]
 }

@@ -29,7 +29,7 @@ const wingmen_four = "A standalone dual-POV rivals-to-lovers MM hockey romance w
 const wingmen_bookshop_link = "https://shop.lizshipton.com/collection/hailey-reaves";
 const wingmen_amazon_link = "https://amzn.to/418MIGB";
 const wingmen_button_color_one = "WingmenPurple";
-const wingmen_button_color_two = "WingmenGreen";
+const wingmen_button_color_two = "WingmenBlue";
 
 
 const brocode_heading = "Bro Code: A Rivals-to-Lovers MM Hockey Romance";

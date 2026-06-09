@@ -86,10 +86,10 @@ button::after {
     box-shadow: 6px 6px 0px #c8cac9;
 }
 
-.button-wingmen-green, 
+.button-wingmen-blue, 
 .button-wingmen-blue::after {
-    background: #4bad20 5%;
-    box-shadow: 6px 6px 0px #36641a;
+    background: #00c9e8 5%;
+    box-shadow: 6px 6px 0px #348601;
 }
 
 .button-brocode-green, 
@@ -100,12 +100,12 @@ button::after {
 
 .button-brocode-orange, 
 .button-brocode-orange::after {
-    background: #72469b 5%;
-    box-shadow: 6px 6px 0px hsl(281, 85%, 13%);
+    background: #ff6a00 5%;
+    box-shadow: 6px 6px 0px #7b0bb3;
 }
 
 .button-bonus-orange, 
-.button-brocode-green::after {
+.button-bonus-orange::after {
     background: #ff914d 5%;
     box-shadow: 6px 6px 0px #c8cac9;
 }
