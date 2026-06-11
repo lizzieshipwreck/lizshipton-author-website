@@ -6,11 +6,12 @@ const mischief_review_image = "tales review";
 const mischief_vertical_image = "tales website";
 const mischief_amazon_link = "https://amzn.to/48rGC6c";
 const amazon_text = "Read in KU"
-const amazon_mobile_text = "K.U.";
-const mischief_ks_link = "https://shop.lizshipton.com/collection/tales-of-mischief-fuckery";
-const kickstarter_text = "Buy from Liz";
-const ks_mobile_text = "Buy";
-const mischief_art_link = "https://blog.lizshipton.com/tales-of-mischief-art";
+const amazon_mobile_text = "Retailers";
+const mischief_link = "/tales-of-mischief";
+const bookshop_text = "Buy from Liz";
+const bookshop_mobile_text = "Bookshop";
+const bookshop_link = "https://shop.lizshipton.com/collection/tales-of-mischief-fuckery"
+const mischief_art_link = "https://shop.lizshipton.com/b/3RKoy";
 const art_text = "See the Art";
 const art_mobile_text = "Art";
 
@@ -29,14 +30,20 @@ const review_one = '"This story is funny! Also the scenes are hot, and the pp is
 const review_two = '"Fast world building but Ms. Shipton made it happen like a pro. Just the right amount of spice and plot to have me wishing for a sequel." ⭐ ⭐ ⭐ ⭐ ⭐'
 const review_three = '"Well the author said she goes for QUALITY over QUANTITY when it comes to spice and my oh my did she mean it...this one defied gravity!" ⭐ ⭐ ⭐ ⭐ ⭐'
 
+const roses_image = "Mischief Roses"
+const roses_alt = "Art for Roses are Red, Violence is Blue"
+const daddy_image = "Mischief Daddy"
+const daddy_alt = "Art for Daddy"
+const bonus_cover = "Mischief Bonus"
+const bonus_alt = "Art for the cover"
+
 export const content = [
     {
-        heading: mischief_heading,
         subheading: mishcief_subheading,
         paragraphs: {text: [mischief_one, mischief_two, mischief_three, mischief_four, mischief_five, mischief_six, mischief_seven]},
-        image: {src: mischief_vertical_image, alt: mischief_alt },
+        images: [{src: mischief_vertical_image, alt: mischief_alt }],
         ctas: [
-            {text: kickstarter_text, mobileText: ks_mobile_text, colorScheme: mischief_button_color_two, link: mischief_ks_link},
+            {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: mischief_button_color_two, link: bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: mischief_button_color_one, link: mischief_amazon_link}
         ],
         noMargin: true
@@ -44,11 +51,8 @@ export const content = [
     {
         heading: review_heading,
         paragraphs: {italic: true, text: [review_one, review_two, review_three]},
-        image: {src: mischief_review_image, alt: mischief_alt },
-        noMargin: true
-    },
-        { center: true, ctas: [{text: art_text, mobileText: art_mobile_text, colorScheme: mischief_button_color_three, link: mischief_art_link}] },
-
+        images: [{src: mischief_review_image, alt: mischief_alt }],
+    }
   ]
 
   export const MISCHIEF_INDEX_PAGE = {
@@ -59,7 +63,7 @@ export const content = [
     headlineTwo: "",
     cta: "Let's Go!",
     mobileCta: "Go!",
-    link: mischief_ks_link,
+    link: mischief_link,
     button: "Purple",
     isGif: false
 }

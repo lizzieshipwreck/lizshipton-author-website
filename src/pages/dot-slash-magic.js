@@ -1,12 +1,15 @@
 import * as React from 'react'
-import LandingPageRedirect from '../components/page-layouts/redirect-page'
-import { DOTSLASH_INDEX_PAGE } from '../copy/dotslash_magic'
+import Layout from '../components/page-layouts/layout'
+import BlockLayoutPage from '../components/page-layouts/block-page';
+
+import {content} from '../copy/dotslash_magic';
 
 const DotSlashMagic = () => {
-
-    return (
-        <LandingPageRedirect pageTitle={"Dot Slash Magic"} redirectUrl={DOTSLASH_INDEX_PAGE.link}/>
+  return (
+    <Layout pageTitle="Dot Slash Magic">
+      <BlockLayoutPage content={content} flip={false}/>
+    </Layout>
   )
 }
 
-export default DotSlashMagic; 
+export default DotSlashMagic 

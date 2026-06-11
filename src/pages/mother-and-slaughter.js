@@ -1,12 +1,15 @@
 import * as React from 'react'
-import LandingPageRedirect from '../components/page-layouts/redirect-page'
-import { mother_and_slaughter } from '../copy/redirects';
+import Layout from '../components/page-layouts/layout'
+import BlockLayoutPage from '../components/page-layouts/block-page';
 
-const MotherAndSlaughter = () => {
+import {content} from '../copy/mother-slaughter';
 
-    return (
-        <LandingPageRedirect pageTitle={"Mother & Slaughter"} redirectUrl={ mother_and_slaughter }/>
+const MotherSlaughter = () => {
+  return (
+    <Layout pageTitle="Mother & Slaughter">
+      <BlockLayoutPage content={content} flip={false}/>
+    </Layout>
   )
 }
 
-export default MotherAndSlaughter; 
+export default MotherSlaughter 

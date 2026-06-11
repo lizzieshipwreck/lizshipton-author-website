@@ -20,16 +20,40 @@ button::after {
     cursor: pointer;
 }
 
-.button-black-one, 
-.button-black-one::after {
+.button-black-thalassic-one, 
+.button-black-thalassic-one::after {
     background:  rgb(31, 31, 31) 5%;
     box-shadow: 6px 6px 0px rgb(45, 181, 186);
 }
 
-.button-black-two, 
-.button-black-two::after {
+.button-black-thalassic-two, 
+.button-black-thalassic-two::after {
     background:  rgb(31, 31, 31) 5%;
     box-shadow: 6px 6px 0px rgb(245,174,64);
+}
+
+.button-black-dotslash-one, 
+.button-black-dotslash-one::after {
+    background: rgb(0,0,0) 5%;
+    box-shadow: 6px 6px 0px rgb(253,73,181);
+}
+
+.button-black-dotslash-two, 
+.button-black-dotslash-two::after {
+        background:  rgb(0,0,0) 5%;
+    box-shadow: 6px 6px 0px rgb(137, 224, 100);
+}
+
+.button-black-mother-one, 
+.button-black-mother-one::after {
+    background: rgb(0,0,0) 5%;
+    box-shadow: 6px 6px 0px rgb(208, 20, 20);
+}
+
+.button-red-mother-two, 
+.button-red-mother-two::after {
+        background:  rgb(208, 20, 20) 5%;
+    box-shadow: 6px 6px 0px rgb(0, 0, 0);
 }
 
 .button-purple, 
@@ -52,8 +76,8 @@ button::after {
 
 .button-pink, 
 .button-pink::after {
-    background: rgb(253, 73, 121) 5%;
-    box-shadow: 6px 6px 0px rgb(3, 3, 3);
+    background: rgb(253, 73, 142) 5%;
+    box-shadow: 6px 6px 0px rgb(31, 31, 31);
 }
 
 .button-green, 
@@ -127,15 +151,26 @@ button::after {
     clip-path: var(--slice-0);
 }
 
-.button-black-one::after {
+.button-black-thalassic-one::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(224,95,119) 3%, rgb(224,95,119) 5%, rgb(31,31,31) 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
 }
 
-.button-black-two::after {
+.button-black-thalassic-two::after {
     content: '--------------';
     background: linear-gradient(45deg, transparent 3%, rgb(45, 181, 186) 3%, rgb(45, 181, 186) 5%, rgb(31, 31, 31) 5%);
+    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px rgb(224,95,119);
+}
+.button-black-dotslash-one::after {
+    content: '--------------';
+    background: linear-gradient(45deg, transparent 3%, rgb(224,95,119) 3%, rgb(224,95,119) 5%, rgb(0,0,0) 5%);
+    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
+}
+
+.button-black-dotslash-two::after {
+    content: '--------------';
+    background: linear-gradient(45deg, transparent 3%, rgb(45, 181, 186) 3%, rgb(45, 181, 186) 5%, rgb(0,0,0) 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px rgb(224,95,119);
 }
 .button-purple::after {
@@ -238,6 +273,6 @@ button:hover::after {
 
 @media only screen and (min-width: 750px) {
     button, button::after {
-        min-width: 350px;
+        min-width: 500px;
     }
 }

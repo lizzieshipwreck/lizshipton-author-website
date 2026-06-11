@@ -33,7 +33,7 @@
 }
 
 .text-subheader {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     color: rgba(80, 80, 80, 0.85);
     font-style: italic;
 }
@@ -60,7 +60,7 @@
 }
 
 .ctas {
-    margin: 0;
+    margin: auto;
 }
 
 @media only screen and (min-width: 750px) {

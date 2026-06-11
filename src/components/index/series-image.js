@@ -3,9 +3,11 @@ import { useMemo } from 'react';
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
+import * as styles from './series-image.module.css';
+
 // TODO: refactor with block-page-image (maybe pass the query in as a prop?)
 
-const SeriesImage = ({ src, link, alt }) => {
+const SeriesImage = ({ src, link, alt, caption }) => {
 
     const data = useStaticQuery(graphql`
         query {
@@ -22,7 +24,7 @@ const SeriesImage = ({ src, link, alt }) => {
         }
         `
     );
-
+    
     const match = useMemo(() => data.allImageSharp.edges.find(({ node }) => node.original.src.includes(src)), [data, src]);
     
     if (!match) return null;
@@ -35,6 +37,7 @@ const SeriesImage = ({ src, link, alt }) => {
                 image={image}
                 alt={alt}
             />
+            { caption && <h3 className={styles.caption}>{caption}</h3>}
         </Link>
 
     );

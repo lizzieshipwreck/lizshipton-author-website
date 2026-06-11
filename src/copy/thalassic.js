@@ -7,22 +7,22 @@ export const THALASSIC_INDEX_PAGE = {
     cta: "Find Out",
     mobileCta: "Find Out",
     link: "/thalassic-series",
-    button: "BlackOne",
+    button: "BlackThalassicOne",
     isGif: false
 }
 
 const ya_complete_mock = "ya complete mock";
 const thalassic_na_alt = "quote from thalassic";
-const thalassic_na_button_color_one = "BlackOne";
-const thalassic_na_button_color_two = "BlackTwo";
+const thalassic_na_button_color_one = "BlackThalassicOne";
+const thalassic_na_button_color_two = "BlackThalassicTwo";
 
 
 const thalassic_bookshop_link = "https://shop.lizshipton.com/collection/thalassic";
 const bookshop_text = "Buy from Liz";
 const bookshop_mobile_text = "Bookshop";
 const thalassic_na_amazon_link = "https://amzn.to/3PBZR62";
-const amazon_text = "Buy from Amazon";
-const amazon_mobile_text = "Amazon";
+const amazon_text = "Read in KU";
+const amazon_mobile_text = "KU";
 const thalassic_ks_link = "https://www.kickstarter.com/projects/lizshipton/the-thalassic-series-deluxe-hardcover-omnibuses";
 const thalassic_ks_text = "Follow the Project";
 const thalassic_ks_mobile_text = "Follow";
@@ -86,20 +86,19 @@ const playlist_two = "Someday I'll have a list for you of which songs go with wh
 
 export const content = [
     {
-        heading: thalassic_na_heading,
         subheading: thalassic_na_subheading,
         paragraphs: {text: [thalassic_na_one, thalassic_na_two, thalassic_na_three, thalassic_na_four,thalassic_na_five]},
-        image: {src: salt_image, alt: salt_alt },
+        images: [{src: salt_image, alt: salt_alt }],
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: thalassic_na_button_color_one, link: thalassic_bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: thalassic_na_button_color_two, link: thalassic_na_amazon_link},
         ],
     },
-        {
+    {
         heading: thalassic_ks_heading,
         subheading: thalassic_ks_subheading,
         paragraphs: {text: [thalassic_ks_one, thalassic_ks_two, thalassic_ks_three, thalassic_ks_four,thalassic_ks_five]},
-        image: {src: thalassic_ks_image, alt: thalassic_ks_alt },
+        images: [{src: thalassic_ks_image, alt: thalassic_ks_alt }],
         ctas: [
             {text: thalassic_ks_text, mobileText: thalassic_ks_mobile_text, colorScheme: thalassic_ks_button_color, link: thalassic_ks_link},
         ],
@@ -107,12 +106,12 @@ export const content = [
     {
         heading: review_heading,
         paragraphs: {italic: true, text: [review_one, review_two, review_three, review_four]},
-        image: {src: ya_complete_mock, alt: thalassic_na_alt },
+        images: [{src: ya_complete_mock, alt: thalassic_na_alt }],
     },
     {
         heading: reading_order_heading,
         paragraphs: {withHeaders: true, text: [reading_order_one, reading_order_two, reading_order_three, reading_order_four, reading_order_five, reading_order_six]},
-        image: {src: spines_image, alt: spines_alt },
+        images: [{src: spines_image, alt: spines_alt }],
         ctas: [
             {text: reading_order_cta_text_salt, mobileText: reading_order_cta_mobile_text_salt, colorScheme: reading_order_button_color_salt, link: reading_order_link_salt},
             {text: reading_order_cta_text_savage, mobileText: reading_order_cta_mobile_text_savage, colorScheme: reading_order_button_color_savage, link: reading_order_link_savage}
@@ -121,7 +120,7 @@ export const content = [
     {
         heading: playlist_heading,
         paragraphs: {text: [playlist_one, playlist_two]},
-        image: {src: playlist_image, link: playlist_link, alt: playlist_alt},
+        images: [{src: playlist_image, link: playlist_link, alt: playlist_alt}],
         ctas: [{text: playlist_cta_text, mobileText: playlist_cta_mobile_text, colorScheme: playlist_button_color, link: playlist_link}]
     }
   ]

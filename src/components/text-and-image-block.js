@@ -3,6 +3,8 @@ import { useEffect, useState, useRef } from 'react';
 
 import BookButton from './book-button';
 import BlockLayoutImage from './page-layouts/block-image';
+import SeriesImage from '../components/index/series-image';
+
 
 import * as styles from './text-and-image-block.module.css';
 
@@ -38,22 +40,46 @@ const TextBlock = ({heading, subheading, paragraphs, ctas}) => {
 
 const TextAndImageBlock = ({ content, textFirst, i }) => {
 
-    const {heading, subheading, paragraphs, ctas, image, noMargin, center} = content;
+    const {heading, subheading, paragraphs, ctas, images, noMargin, center} = content;
+    let noText;
 
+    if(!paragraphs) {
+        noText = true;
+    }
 
     
     return (
+        noText ? (
+            <>
+            <div className={`${center ? styles.center : styles.block} ${noMargin && styles.noMargin}`}>
+                {images && images.length > 1 ? 
+                images.map((image, i) => {
+                   return <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
+                })
+                : 
+                <SeriesImage src={images[0].src} alt={images[0].alt} caption={images[0].caption} className={styles.center}/>
+                }       
+            </div>
+            <div className={styles.center}>
+                    { ctas && ctas?.map((cta, i) => {
+                        return (
+                            <BookButton link={cta.link} text={cta.text} mobileText={cta.mobileText} title={cta.colorScheme} key={i}/>
+                        )
+                    })}
+            </div>   
+            </>  
+        ) :
             textFirst ? (
                 <div className={`${center ? styles.center : styles.block} ${noMargin && styles.noMargin}`}>
                     <TextBlock heading={heading} subheading={subheading} paragraphs={paragraphs} ctas={ctas}/>
-                    {image && <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>}
+                    {images && <BlockLayoutImage src={images[0].src} link={images[0].link} alt={images[0].alt}/>}
 
                  </div>
             )
             :
             (
                 <div className={`${center ? styles.center : styles.block} ${noMargin && styles.noMargin}`}>
-                    {image && <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>}
+                    {images && <BlockLayoutImage src={images[0].src} link={images[0].link} alt={images[0].alt}/>}
                     <TextBlock heading={heading} subheading={subheading} paragraphs={paragraphs} ctas={ctas}/>
                  </div>
             )

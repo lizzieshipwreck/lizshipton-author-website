@@ -4,8 +4,6 @@ import * as styles from './nav.module.css'
 import Hamburger from 'hamburger-react'
 import Dropdown from './dropdown'
 
-const lizshipton_shop_link = "https://shop.lizshipton.com";
-
 const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
 
   const toggleHamburger = () => {
