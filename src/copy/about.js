@@ -1,16 +1,16 @@
 const about_liz_heading = "Part time author 🪶⚓ Full time pirate";
-const about_liz_image = "inquisitive headshot";
+const about_liz_image = "Headshot 2026";
 const about_liz_alt = "Liz Shipton's Headshot";
 export const about_liz_cta_text = "Newsletter";
 export const about_liz_cta_mobile_text = "Newsletter";
-export const about_liz_button_color = "Yellow";
+export const about_liz_button_color = "Pink";
 export const about_liz_link = "/newsletter";
 
 const about_liz_one = "Hi! I'm Liz. I'm a writer and off-grid liveaboard sailor. I gallivant about the high seas with my partner and my dog, turning my adventures into speculative fiction.";
 const about_liz_two = "While I explore the world, my books explore themes adjacent to mental health, the loneliness epidemic, addiction, tech creep, climate change, and the looming collapse of society (but, like. . .in a fun way.)"
 const about_liz_three = "I'm a hybrid author, meaning I publish through both traditional and indie routes. Most people know me through my urban fantasy Dot Slash Magic, which received a starred review from Publisher's Weekly, or from my viral comedy videos."
 const about_liz_four = "When I'm not penning novels about the impending apocalypse, you can find me at yoga, karaoke, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching 8 Out of 10 Cats Does Countdown."
-const about_liz_five = "Pronouns: she/they. For editing inquiries, please see the 'Editing' page of this site. For anything else, contact my agent Amy Collins at Talcott Notch Literary Agency."
+const about_liz_five = "Pronouns: she/they."
 
 const about_loki_heading = "Our floating home";
 const about_loki_image = "loki";
@@ -37,20 +37,20 @@ export const content = [
     {
         heading: about_liz_heading,
         paragraphs: {text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four, about_liz_five]},
-        image: {src: about_liz_image, alt: about_liz_alt },
+        images: [{src: about_liz_image, alt: about_liz_alt }],
         ctas: [{text: about_liz_cta_text, mobileText: about_liz_cta_mobile_text, colorScheme: about_liz_button_color, link: about_liz_link}]
 
     },
     {
       heading: about_loki_heading,
       paragraphs: {text: [about_loki_one, about_loki_two, about_loki_three, about_loki_four]},
-      image: {src: about_loki_image, link: about_loki_link, alt: about_loki_alt},
+      images: [{src: about_loki_image, link: about_loki_link, alt: about_loki_alt}],
       ctas: [{text: about_loki_cta_text, mobileText: about_loki_cta_mobile_text, colorScheme: about_loki_button_color, link: about_loki_link}]
     },
     {
       heading: about_crew_heading,
       paragraphs: {withHeaders: true, text: [about_crew_one, about_crew_two, about_crew_three, about_crew_four]},
-      image: {src: about_crew_image, alt: about_crew_alt} 
+      images: [{src: about_crew_image, alt: about_crew_alt}] 
     }
   ]
   

@@ -1,3 +1,5 @@
+const mother_button_color_one = "Red"
+const mother_button_color_two ="Yellow"
 const mother_link = "/mother-and-slaughter";
 
   export const MOTHER_INDEX_PAGE = {
@@ -21,26 +23,25 @@ const mother_four = "Eleanor would rather be decapitated in the arena than have 
 const mother_five = "But the journey takes an unexpected turn, bringing Eleanor face-to-face with new friends, old flames, and secrets about Draconia that would make any self-respecting feminist want to stand up, pick up a sword, and use it to slaughter the patriarchy."
 
 const bookshop_text = "Buy from Liz"
-const retail_text = "Buy from Retailers"
-const bookshop_mobile_text = "Bookshop"
-const retail_mobile_text = "Retailers"
+const retail_text = "Read Free in KU"
+const bookshop_mobile_text = "Paperback"
+const retail_mobile_text = "Read in KU"
 const bookshop_link = "https://shop.lizshipton.com/collection/artificial-magic"
 const retail_link = "https://amzn.to/4skYxVr"
 
 const mother_cover_image = "Mother & Slaughter Cover"
 const mother_cover_alt = "Cover for Mother & Slaughter"
 
-const mother_button_color_one = "BlackMotherOne"
-const mother_button_color_two ="RedMotherTwo"
-
 const review_image = "Mother Reviews"
 const review_alt = "Reviews of Mother & Slaughter"
 const character_image = "The Horror Show"
 const character_alt = "Comic book art for Mother & Slaughter"
-const review_text = "On Kirkus"
+const review_text = "Kirkus Review"
 const review_link= "https://www.kirkusreviews.com/book-reviews/liz-shipton/mother-slaughter/"
 
-const illustration_image = "Mother Illustrations"
+const illustration_image_one = "Hog Wild"
+const illustration_image_two = "The River"
+
 const illustration_alt = "Art for Dot Slash Magic"
 
 const mother_ks_heading = "Special Edition Hardcover"
@@ -66,23 +67,22 @@ export const content = [
     {
         images: [{src: review_image, alt: review_alt }, {src: character_image, alt: character_alt }],
         ctas: [
-            {text: review_text, mobileText: review_text, colorScheme: mother_button_color_one, link: review_link},
-        ],
-        noMargin: true
-    },
-        {
-        heading: mother_ks_heading,
-        paragraphs: {text: [mother_ks_one, mother_ks_two, mother_ks_three]},
-        images: [{src: mother_ks_image, alt: mother_ks_alt }],
-        ctas: [
-            {text: mother_ks_text, mobileText: mother_ks_mobile_text, colorScheme: mother_button_color_two, link: mother_ks_link},
+            {text: review_text, mobileText: review_text, colorScheme: mother_button_color_two, link: review_link},
         ],
         noMargin: true
     },
     {
-        images: [{src: illustration_image, alt: illustration_alt, caption: "Art by Daniel Lorca @hdlscompany" }],
+        images: [{src: illustration_image_one, alt: illustration_alt}, {src: illustration_image_two, alt: illustration_alt}],
+        noMargin: true
+    },
+    {
+        heading: mother_ks_heading,
+        paragraphs: {text: [mother_ks_one, mother_ks_two, mother_ks_three]},
+        images: [{src: mother_ks_image, alt: mother_ks_alt }],
+        ctas: [
+            {text: mother_ks_text, mobileText: mother_ks_mobile_text, colorScheme: mother_button_color_one, link: mother_ks_link},
+        ],
         noMargin: true
     }
-
   ]
   

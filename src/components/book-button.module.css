@@ -20,76 +20,46 @@ button::after {
     cursor: pointer;
 }
 
-.button-black-thalassic-one, 
-.button-black-thalassic-one::after {
-    background:  rgb(31, 31, 31) 5%;
-    box-shadow: 6px 6px 0px rgb(45, 181, 186);
-}
-
-.button-black-thalassic-two, 
-.button-black-thalassic-two::after {
-    background:  rgb(31, 31, 31) 5%;
-    box-shadow: 6px 6px 0px rgb(245,174,64);
-}
-
-.button-black-dotslash-one, 
-.button-black-dotslash-one::after {
-    background: rgb(0,0,0) 5%;
-    box-shadow: 6px 6px 0px rgb(253,73,181);
-}
-
-.button-black-dotslash-two, 
-.button-black-dotslash-two::after {
-        background:  rgb(0,0,0) 5%;
-    box-shadow: 6px 6px 0px rgb(137, 224, 100);
-}
-
-.button-black-mother-one, 
-.button-black-mother-one::after {
-    background: rgb(0,0,0) 5%;
-    box-shadow: 6px 6px 0px rgb(208, 20, 20);
-}
-
-.button-red-mother-two, 
-.button-red-mother-two::after {
-        background:  rgb(208, 20, 20) 5%;
-    box-shadow: 6px 6px 0px rgb(0, 0, 0);
-}
-
-.button-purple, 
-.button-purple::after {
-    background: rgb(49,23,59) 5%;
-    box-shadow: 6px 6px 0px rgb(212,94,91);
-}
-
-.button-blue,
+.button-blue, 
 .button-blue::after {
-    background: rgb(22,70,119) 5%;
-    box-shadow: 6px 6px 0px rgb(233,125,91);
+    background:  rgb(0, 0, 0) 5%;
+    box-shadow: 6px 6px 0px rgb(45, 181, 186);
 }
 
 .button-yellow, 
 .button-yellow::after {
-    background: rgb(239, 193, 55) 5%;
-    box-shadow: 6px 6px 0px rgb(247, 13, 200);
+    background:  rgb(0, 0, 0) 5%;
+    box-shadow: 6px 6px 0px rgb(245,174,64);
 }
 
 .button-pink, 
 .button-pink::after {
-    background: rgb(253, 73, 142) 5%;
-    box-shadow: 6px 6px 0px rgb(31, 31, 31);
+    background: rgb(0,0,0) 5%;
+    box-shadow: 6px 6px 0px rgb(253,73,181);
 }
 
 .button-green, 
 .button-green::after {
-    background: rgb(6,190,97) 5%;
-    box-shadow: 6px 6px 0px rgb(3, 3, 3);
+        background:  rgb(0,0,0) 5%;
+    box-shadow: 6px 6px 0px rgb(137, 224, 100);
 }
 
 .button-red, 
 .button-red::after {
-    background: #e30302 5%;
-    box-shadow: 6px 6px 0px #d0c9b8;
+    background: rgb(0,0,0) 5%;
+    box-shadow: 6px 6px 0px rgb(208, 20, 20);
+}
+
+.button-purple, 
+.button-purple::after {
+    background: rgb(0,0,0) 5%;
+    box-shadow: 6px 6px 0px rgb(176, 0, 199);
+}
+
+.button-orange, 
+.button-orange::after {
+    background: #000000 5%;
+    box-shadow: 6px 6px 0px #ff914d;
 }
 
 .button-medaling-pink, 
@@ -122,18 +92,6 @@ button::after {
     box-shadow: 6px 6px 0px #c8cac9;
 }
 
-.button-brocode-orange, 
-.button-brocode-orange::after {
-    background: #ff6a00 5%;
-    box-shadow: 6px 6px 0px #7b0bb3;
-}
-
-.button-bonus-orange, 
-.button-bonus-orange::after {
-    background: #ff914d 5%;
-    box-shadow: 6px 6px 0px #c8cac9;
-}
-
 button::after {
     --slice-0: inset(50% 50% 50% 50%);
     --slice-1: inset(80% -6px 0 0);
@@ -149,64 +107,9 @@ button::after {
     right: 0;
     bottom: 0;
     clip-path: var(--slice-0);
-}
-
-.button-black-thalassic-one::after {
     content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(224,95,119) 3%, rgb(224,95,119) 5%, rgb(31,31,31) 5%);
+    background: linear-gradient(45deg, transparent 3%, rgb(255, 0, 200) 3%, rgb(0, 242, 255) 5%, rgb(0,0,0) 5%);
     text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
-}
-
-.button-black-thalassic-two::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(45, 181, 186) 3%, rgb(45, 181, 186) 5%, rgb(31, 31, 31) 5%);
-    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px rgb(224,95,119);
-}
-.button-black-dotslash-one::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(224,95,119) 3%, rgb(224,95,119) 5%, rgb(0,0,0) 5%);
-    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px orange;
-}
-
-.button-black-dotslash-two::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(45, 181, 186) 3%, rgb(45, 181, 186) 5%, rgb(0,0,0) 5%);
-    text-shadow: -3px -3px 0px greenyellow, 3px 3px 0px rgb(224,95,119);
-}
-.button-purple::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(212,94,91) 3%, rgb(212,94,91) 5%, rgb(49,23,59) 5%);
-    text-shadow: -3px -3px 0px turquoise, 3px 3px 0px greenyellow;
-}
-
-.button-blue::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(233,125,91) 3%, rgb(233,125,91) 5%, rgb(22,70,119)  5%);
-    text-shadow: -3px -3px 0px rgb(224,95,119), 3px 3px 0px #00E6F6;
-}
-
-.button-yellow::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(250, 250, 250) 3%, rgb(250,250,250) 5%,  rgb(239, 193, 55) 5%);
-    text-shadow: -3px -3px 0px yellowgreen, 3px 3px 0px aqua;
-}
-
-.button-pink::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(250, 250, 250) 3%, rgb(250,250,250) 5%, rgb(253,73,181) 5%);
-    text-shadow: -3px -3px 0px yellowgreen, 3px 3px 0px aqua;
-}
-
-.button-red::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(250, 250, 250) 3%, rgb(250,250,250) 5%, #cd0202 5%);
-    text-shadow: -3px -3px 0px yellowgreen, 3px 3px 0px aqua;
-}
-
-.button-green::after {
-    content: '--------------';
-    background: linear-gradient(45deg, transparent 3%, rgb(250, 250, 250) 3%, rgb(250,250,250) 5%, rgb(6,190,97) 5%);
-    text-shadow: -3px -3px 0px yellowgreen, 3px 3px 0px aqua;
 }
 
 button:hover::after {

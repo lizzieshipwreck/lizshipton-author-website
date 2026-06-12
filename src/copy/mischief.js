@@ -1,19 +1,27 @@
-const mischief_alt = "Cover for the Tales of Mischief Series";
-const mischief_button_color_one = "Yellow";
-const mischief_button_color_two = "Purple";
-const mischief_button_color_three = "Pink";
-const mischief_review_image = "tales review";
-const mischief_vertical_image = "tales website";
-const mischief_amazon_link = "https://amzn.to/48rGC6c";
-const amazon_text = "Read in KU"
-const amazon_mobile_text = "Retailers";
+const mischief_button_color_one = "Purple";
+const mischief_button_color_two = "Yellow";
 const mischief_link = "/tales-of-mischief";
+
+  export const MISCHIEF_INDEX_PAGE = {
+    image: "Website Tales Kickstarter Header",
+    title: "😈 Tales of Mischief & Fuckery 😈",
+    alt: "Covers for the Tales of Mischief Series",
+    headlineOne: "Troping tropily through the tropes.",
+    headlineTwo: "",
+    cta: "Let's Go!",
+    mobileCta: "Go!",
+    link: mischief_link,
+    button: "Purple",
+}
+
+const mischief_alt = "Cover for the Tales of Mischief Series";
+const mischief_image = "tales website";
+const mischief_amazon_link = "https://amzn.to/48rGC6c";
+const amazon_text = "Read Free in KU"
+const amazon_mobile_text = "Read in KU";
 const bookshop_text = "Buy from Liz";
-const bookshop_mobile_text = "Bookshop";
+const bookshop_mobile_text = "Paperback";
 const bookshop_link = "https://shop.lizshipton.com/collection/tales-of-mischief-fuckery"
-const mischief_art_link = "https://shop.lizshipton.com/b/3RKoy";
-const art_text = "See the Art";
-const art_mobile_text = "Art";
 
 const mischief_heading = 'Tales of Mischief and Fuckery';
 const mishcief_subheading = 'Troping tropily through the tropes';
@@ -29,6 +37,7 @@ const review_heading = "Praise for Tales of Mischief and F*ckery"
 const review_one = '"This story is funny! Also the scenes are hot, and the pp is very big. This is incredibly important and made me quite happy." ⭐ ⭐ ⭐ ⭐ ⭐'
 const review_two = '"Fast world building but Ms. Shipton made it happen like a pro. Just the right amount of spice and plot to have me wishing for a sequel." ⭐ ⭐ ⭐ ⭐ ⭐'
 const review_three = '"Well the author said she goes for QUALITY over QUANTITY when it comes to spice and my oh my did she mean it...this one defied gravity!" ⭐ ⭐ ⭐ ⭐ ⭐'
+const review_image = "tales review";
 
 const roses_image = "Mischief Roses"
 const roses_alt = "Art for Roses are Red, Violence is Blue"
@@ -41,30 +50,16 @@ export const content = [
     {
         subheading: mishcief_subheading,
         paragraphs: {text: [mischief_one, mischief_two, mischief_three, mischief_four, mischief_five, mischief_six, mischief_seven]},
-        images: [{src: mischief_vertical_image, alt: mischief_alt }],
+        images: [{src: mischief_image, alt: mischief_alt }],
         ctas: [
-            {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: mischief_button_color_two, link: bookshop_link},
-            {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: mischief_button_color_one, link: mischief_amazon_link}
+            {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: mischief_button_color_one, link: bookshop_link},
+            {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: mischief_button_color_two, link: mischief_amazon_link}
         ],
         noMargin: true
     },
     {
         heading: review_heading,
         paragraphs: {italic: true, text: [review_one, review_two, review_three]},
-        images: [{src: mischief_review_image, alt: mischief_alt }],
+        images: [{src: review_image, alt: mischief_alt }],
     }
   ]
-
-  export const MISCHIEF_INDEX_PAGE = {
-    image: "Website Tales Kickstarter Header",
-    title: "😈 Tales of Mischief & Fuckery 😈",
-    alt: "Covers for the Tales of Mischief Series",
-    headlineOne: "Troping tropily through the tropes.",
-    headlineTwo: "",
-    cta: "Let's Go!",
-    mobileCta: "Go!",
-    link: mischief_link,
-    button: "Purple",
-    isGif: false
-}
-

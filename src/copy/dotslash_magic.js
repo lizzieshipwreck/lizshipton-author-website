@@ -1,13 +1,17 @@
+const dotslash_button_color_one = "Pink"
+const dotslash_button_color_two ="Green"
+const dotslash_link = "/dot-slash-magic"
+
 export const DOTSLASH_INDEX_PAGE = {
+    image: "Dot Slash Header",
     title: "✨ Dot Slash Magic ✨",
     headlineOne: "If AI gave you power you could barely control...would you use it?",
     headlineTwo: "",
-    alt: "Dot Slash Magic teaser",
-    link: "/dot-slash-magic",
-    button: "Pink",
+    alt: "Dot Slash Magic header",
+    link: dotslash_link,
+    button: dotslash_button_color_one,
     cta: "Go Rogue",
     mobileCta: "Go Rogue",
-    isGif: true,
 }
 
 const dotslash_heading = "If AI gave you power you could barely control...would you use it?"
@@ -27,9 +31,6 @@ const retail_link = "https://amzn.to/3SnAjdm"
 
 const dotslash_cover_image = "Dot Slash Magic Cover"
 const dotslash_cover_alt = "Cover for Dot Slash Magic"
-
-const dotslash_button_color_one = "BlackDotslashOne"
-const dotslash_button_color_two ="BlackDotslashTwo"
 
 const review_image = "Dot Slash Reviews"
 const review_alt = "Reviews of Dot Slash Magic"

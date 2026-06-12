@@ -10,15 +10,9 @@ import { MISCHIEF_INDEX_PAGE } from '../copy/mischief';
 import { NEWSLETTER_INDEX_PAGE } from '../copy/newsletter';
 import { MOTHER_INDEX_PAGE } from '../copy/mother-slaughter';
 
-import dotslash_image from "../images/Dot Slash Header Graphic.gif";
-
-DOTSLASH_INDEX_PAGE.image = dotslash_image;
-
 const INDEX_CONTENT = [MOTHER_INDEX_PAGE, DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE, MISCHIEF_INDEX_PAGE, NEWSLETTER_INDEX_PAGE]
 
 const IndexPage = () => {
-
-
 
   return (
     <Layout pageTitle={"Home"}>
@@ -26,6 +20,7 @@ const IndexPage = () => {
           <AuthorIntroBlock />
           {
             INDEX_CONTENT.map((item, i) => {
+              console.log(item.image)
               return (
                 <div className={`${styles[i === 0 ? `fadeIn` : 'noFade']}`}>
                   <SeriesBlock
@@ -40,7 +35,6 @@ const IndexPage = () => {
                     button={item.button}
                     link={item.link}
                     hasBorder={i !== 0}
-                    isGif={item.isGif}
                   />
                 </div>
               )

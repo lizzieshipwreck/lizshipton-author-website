@@ -11,8 +11,8 @@ const medaling_four = "A standalone dual-POV rivals-to-lovers MM hockey romance 
 
 const medaling_bookshop_link = "https://shop.lizshipton.com/collection/hailey-reaves";
 const medaling_amazon_link = "https://amzn.to/4rkmdZ8";
-const medaling_button_color_one = "MedalingPink";
-const medaling_button_color_two = "MedalingBlue";
+const medaling_button_color_one = "Pink";
+const medaling_button_color_two = "Blue";
 
 
 const wingmen_heading = "Wingmen: A Rivals-to-Lovers MM Hockey Romance";
@@ -28,8 +28,8 @@ const wingmen_four = "A standalone dual-POV rivals-to-lovers MM hockey romance w
 
 const wingmen_bookshop_link = "https://shop.lizshipton.com/collection/hailey-reaves";
 const wingmen_amazon_link = "https://amzn.to/418MIGB";
-const wingmen_button_color_one = "WingmenPurple";
-const wingmen_button_color_two = "WingmenBlue";
+const wingmen_button_color_one = "Purple";
+const wingmen_button_color_two = "Blue";
 
 
 const brocode_heading = "Bro Code: A Rivals-to-Lovers MM Hockey Romance";
@@ -45,8 +45,8 @@ const brocode_four = "A standalone dual-POV rivals-to-lovers MM hockey romance w
 
 const brocode_bookshop_link = "https://shop.lizshipton.com/collection/hailey-reaves";
 const brocode_amazon_link = "https://amzn.to/4ogyqhP";
-const brocode_button_color_one = "BrocodeGreen";
-const brocode_button_color_two = "BrocodeOrange";
+const brocode_button_color_one = "Green";
+const brocode_button_color_two = "Purple";
 
 
 const bonus_heading = "Free Bonus Scene"
@@ -59,14 +59,14 @@ const bonus_one = "Told from Nic Arsenault's POV, this chapter takes place a few
 const bonus_link = "https://signup.lizshipton.com/hailey-reaves-newsletter";
 const bonus_text = "Get it FREE";
 const bonus_mobile_text = "Get it"
-const bonus_button_color = "BonusOrange";
+const bonus_button_color = "Orange";
 
 // 
 
-const bookshop_text = "Get the Paperback";
+const bookshop_text = "Buy from Liz";
 const bookshop_mobile_text = "Paperback";
 const amazon_text = "Read Free in KU";
-const amazon_mobile_text = "EBook";
+const amazon_mobile_text = "Free in KU";
 
 const reaves_heading = "Hailey Reaves";
 const reaves_subheading = "";
@@ -86,7 +86,7 @@ export const content = [
         heading: medaling_heading,
         subheading: medaling_subheading,
         paragraphs: {text: [medaling_one, medaling_two, medaling_three, medaling_four]},
-        image: {src: medaling_image, alt: medaling_alt },
+        images: [{src: medaling_image, alt: medaling_alt }],
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: medaling_button_color_one, link: medaling_bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: medaling_button_color_two, link: medaling_amazon_link},
@@ -96,7 +96,7 @@ export const content = [
         heading: wingmen_heading,
         subheading: wingmen_subheading,
         paragraphs: {text: [wingmen_one, wingmen_two, wingmen_three, wingmen_four]},
-        image: {src: wingmen_image, alt: wingmen_alt },
+        images: [{src: wingmen_image, alt: wingmen_alt }],
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: wingmen_button_color_one, link: wingmen_bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: wingmen_button_color_two, link: wingmen_amazon_link},
@@ -106,7 +106,7 @@ export const content = [
         heading: brocode_heading,
         subheading: brocode_subheading,
         paragraphs: {text: [brocode_one, brocode_two, brocode_three, brocode_four]},
-        image: {src: brocode_image, alt: brocode_alt },
+        images: [{src: brocode_image, alt: brocode_alt }],
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: brocode_button_color_one, link: brocode_bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: brocode_button_color_two, link: brocode_amazon_link},
@@ -116,7 +116,7 @@ export const content = [
         heading: bonus_heading,
         subheading: bonus_subheading,
         paragraphs: {text: [bonus_one]},
-        image: {src: bonus_image, alt: bonus_alt },
+        images: [{src: bonus_image, alt: bonus_alt }],
         ctas: [
             {text: bonus_text, mobileText: bonus_mobile_text, colorScheme: bonus_button_color, link: bonus_link},
         ],
@@ -125,7 +125,7 @@ export const content = [
         heading: reaves_heading,
         subheading: reaves_subheading,
         paragraphs: {text: [reaves_one, reaves_two]},
-        image: {src: reaves_image, alt: reaves_alt },
+        images: [{src: reaves_image, alt: reaves_alt }],
         ctas: [
             {text: reaves_text, mobileText: reaves_mobile_text, colorScheme: reaves_button_color, link: reaves_link},
         ],
