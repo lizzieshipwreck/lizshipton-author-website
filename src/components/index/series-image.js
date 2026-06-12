@@ -24,7 +24,7 @@ const SeriesImage = ({ src, link, alt, caption }) => {
         }
         `
     );
-    
+
     const match = useMemo(() => data.allImageSharp.edges.find(({ node }) => node.original.src.includes(src)), [data, src]);
     
     if (!match) return null;
