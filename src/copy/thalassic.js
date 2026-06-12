@@ -28,7 +28,7 @@ const thalassic_ks_link = "https://www.kickstarter.com/projects/lizshipton/the-t
 const thalassic_ks_text = "Follow the Project";
 const thalassic_ks_mobile_text = "Follow";
 
-const salt_image = "bird sargo website";
+const salt_image = "Salt Cover";
 const salt_alt = "Cover for Salt";
 const spines_image = "spines";
 const spines_alt = "Thalassic Series Spines";
@@ -37,9 +37,10 @@ const thalassic_ks_alt = "Thalassic Series Kickstarter";
 
 const thalassic_na_subheading = "What do you do with a drunken sailor when the world is underwater?";
 const thalassic_na_one = "In a brutal dystopian waterworld, where survival depends on skill and smarts, Bird Howsley is a beautiful disaster. Or...maybe just a disaster, period.";
-const thalassic_na_two = "When a mysterious message arrives from the brother she thought was dead, Bird bribes her surly (and hot) mentor Sargo Paz to help her find him. Together, they voyage across a dangerous high-tech world ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
+const thalassic_na_two = "When a mysterious message arrives from the brother she thought was dead, Bird bribes her surly (and hot) mentor Sargo Paz to help her find him. Together, they voyage across a dangerous, drowning high-tech world ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
 const thalassic_na_three = "Their journey kicks off an epic tale spanning nine books, seven oceans, five alternate dimensions, and three intertwining love stories.";
-const thalassic_na_four = "These books contain explicit sexual content."; 
+const thalassic_na_four = "A perfect storm of fast-paced adventure and slow-burn romance for fans of YA dystopian who grew up and decided they'd like a little spice with their revolution."
+const thalassic_na_five = "These books contain explicit sexual content."; 
 
 const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
 const thalassic_ks_subheading = "Launching on Kickstarter 2026";
@@ -78,10 +79,13 @@ const playlist_cta_mobile_text = "Listen";
 const playlist_one = "Songs that were going round in my head while I was writing the books."
 const playlist_two = "Someday I'll have a list for you of which songs go with which books, but not today."
 
+const tropes_image = "Bird Sargo Tropes"
+const tropes_alt = "Bird and Sargo"
+
 export const content = [
     {
         subheading: thalassic_na_subheading,
-        paragraphs: {text: [thalassic_na_one, thalassic_na_two, thalassic_na_three, thalassic_na_four]},
+        paragraphs: {text: [thalassic_na_one, thalassic_na_two, thalassic_na_three, thalassic_na_four, thalassic_na_five]},
         images: [{src: salt_image, alt: salt_alt }],
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: thalassic_na_button_color_one, link: thalassic_bookshop_link},
@@ -117,6 +121,10 @@ export const content = [
         images: [{src: playlist_image, link: playlist_link, alt: playlist_alt}],
         ctas: [{text: playlist_cta_text, mobileText: playlist_cta_mobile_text, colorScheme: thalassic_na_button_color_two, link: playlist_link}],
         noMargin: true
-    }
+    },
+    {
+        images: [{src: tropes_image, alt: thalassic_na_alt, caption: "Art by Daniel Lorca @hdlscompany" }],
+        noMargin: true
+    },
   ]
   
