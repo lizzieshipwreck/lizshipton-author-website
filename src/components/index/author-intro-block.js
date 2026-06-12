@@ -7,11 +7,13 @@ const AuthorIntroBlock = () => {
     return (
         <div>
             <Link to="/about" className={styles.authorIntro}>
-                <StaticImage src={"../../images/monkey headshot round.png"} placeholder="blurred" quality={100} height={175} className={styles.authorHeadshot}/>
+                <StaticImage src={"../../images/Casual Headshot.jpg"} placeholder="blurred" quality={100} height={175} className={styles.authorHeadshot}/>
              </Link>
-            <h2 className={styles.textHeader}>Part time author 🪶⚓ Full time pirate</h2>
+            <h2 className={styles.textHeader}>
+                Speculative fiction. Sometimes with sex.
+            </h2>
             <p className={styles.text}>
-                Living at sea. Turning my adventures into speculative fiction.
+                Writing about the collapse of society. But, like...in a fun way.
             </p>
         </div>
     )

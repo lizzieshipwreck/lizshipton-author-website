@@ -1,4 +1,4 @@
-const about_liz_heading = "Part time author 🪶⚓ Full time pirate";
+const about_liz_subheading = "Hi! I'm Liz.";
 const about_liz_image = "Headshot 2026";
 const about_liz_alt = "Liz Shipton's Headshot";
 export const about_liz_cta_text = "Newsletter";
@@ -6,13 +6,13 @@ export const about_liz_cta_mobile_text = "Newsletter";
 export const about_liz_button_color = "Pink";
 export const about_liz_link = "/newsletter";
 
-const about_liz_one = "Hi! I'm Liz. I'm a writer and off-grid liveaboard sailor. I gallivant about the high seas with my partner and my dog, turning my adventures into speculative fiction.";
-const about_liz_two = "While I explore the world, my books explore themes adjacent to mental health, the loneliness epidemic, addiction, tech creep, climate change, and the looming collapse of society (but, like. . .in a fun way.)"
+const about_liz_one = "I'm a writer and off-grid liveaboard sailor. I gallivant about the high seas with my partner and my dog, turning my adventures into speculative fiction.";
+const about_liz_two = "While I explore the world, my books explore themes adjacent to mental health, the loneliness epidemic, addiction, tech creep, climate change, and the looming collapse of society (but, remember: in a fun way.)"
 const about_liz_three = "I'm a hybrid author, meaning I publish through both traditional and indie routes. Most people know me through my urban fantasy Dot Slash Magic, which received a starred review from Publisher's Weekly, or from my viral comedy videos."
 const about_liz_four = "When I'm not penning novels about the impending apocalypse, you can find me at yoga, karaoke, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching 8 Out of 10 Cats Does Countdown."
-const about_liz_five = "Pronouns: she/they."
+const about_liz_five = "she/they"
 
-const about_loki_heading = "Our floating home";
+const about_loki_heading = "Full time author 🪶⚓ Part time pirate";
 const about_loki_image = "loki";
 const about_loki_link = "https://instagram.com/sv_loki";
 const about_loki_alt =  "Liz's boat Loki";
@@ -21,8 +21,8 @@ const about_loki_cta_mobile_text = "Follow Us";
 const about_loki_button_color = "Blue";
 const about_loki_one = "My partner, dog, and I live on a 43ft Morgan sailboat called Loki. We bought the boat in 2019 after almost 6 years of planning, and set sail in September of 2021."
 const about_loki_two = "Our journey began in our hometown of Santa Cruz, CA. From there, we sailed down the Pacific Coast into Baja California. We spent a year in Mexico before continuing south through Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama. In March of 2023 we came through the Panama Canal to the Caribbean."
-const about_loki_three = "Loki is a wonderful home, albeit small at times. We live simply, and with minimal expense and waste, procuring our own water and generating our own power from solar."
-const about_loki_four = "One of my favorite things about this way of life is the freedom it gives us to explore work we love. We were motivated to pursue this lifestyle by a desire to see the world, but also by the understanding that boat life is an amazing way to keep expenses low - meaning we have time to focus on creative projects, rather than a mortgage."
+const about_loki_three = "Loki is a great home, albeit small at times. We live simply, with minimal expense and waste, procuring our own water and generating our own power from solar."
+const about_loki_four = "We were motivated to pursue this lifestyle by a desire to see the world, but also by the understanding that boat life is an amazing way to keep expenses low - meaning we have time to focus on work we love, rather than a mortgage."
 
 const about_crew_heading = "Meet the crew";
 const about_crew_image = "trev and aloy";
@@ -35,7 +35,7 @@ const about_crew_four = "We rescued Aloy from GEPDA rescue in San Martin, CA in 
 
 export const content = [
     {
-        heading: about_liz_heading,
+        subheading: about_liz_subheading,
         paragraphs: {text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four, about_liz_five]},
         images: [{src: about_liz_image, alt: about_liz_alt }],
         ctas: [{text: about_liz_cta_text, mobileText: about_liz_cta_mobile_text, colorScheme: about_liz_button_color, link: about_liz_link}]

@@ -11,7 +11,7 @@ export const THALASSIC_INDEX_PAGE = {
     cta: "Find Out",
     mobileCta: "Find Out",
     link: thalassic_link,
-    button: "BlackThalassicOne",
+    button: "Blue",
     isGif: false
 }
 

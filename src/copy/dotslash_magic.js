@@ -4,7 +4,7 @@ const dotslash_link = "/dot-slash-magic"
 
 export const DOTSLASH_INDEX_PAGE = {
     image: "Dot Slash Header",
-    title: "✨ Dot Slash Magic ✨",
+    title: "Dot Slash Magic",
     headlineOne: "If AI gave you power you could barely control...would you use it?",
     headlineTwo: "",
     alt: "Dot Slash Magic header",

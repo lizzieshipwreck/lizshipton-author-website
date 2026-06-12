@@ -6,11 +6,9 @@ import SeriesBlock from '../components/index/series-block';
 
 import { DOTSLASH_INDEX_PAGE } from '../copy/dotslash_magic';
 import { THALASSIC_INDEX_PAGE } from '../copy/thalassic';
-import { MISCHIEF_INDEX_PAGE } from '../copy/mischief';
-import { NEWSLETTER_INDEX_PAGE } from '../copy/newsletter';
 import { MOTHER_INDEX_PAGE } from '../copy/mother-slaughter';
 
-const INDEX_CONTENT = [MOTHER_INDEX_PAGE, DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE, MISCHIEF_INDEX_PAGE, NEWSLETTER_INDEX_PAGE]
+const INDEX_CONTENT = [MOTHER_INDEX_PAGE, DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE]
 
 const IndexPage = () => {
 
@@ -20,16 +18,13 @@ const IndexPage = () => {
           <AuthorIntroBlock />
           {
             INDEX_CONTENT.map((item, i) => {
-              console.log(item.image)
               return (
                 <div className={`${styles[i === 0 ? `fadeIn` : 'noFade']}`}>
                   <SeriesBlock
                     key={i}
                     image={item.image}
                     alt={item.alt}
-                    title={item.title}
                     headlineOne={item.headlineOne}
-                    headlineTwo={item.headlineTwo}
                     cta={item.cta}
                     mobileCta={item.mobileCta}
                     button={item.button}
