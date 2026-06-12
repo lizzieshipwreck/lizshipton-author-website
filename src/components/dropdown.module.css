@@ -16,6 +16,7 @@
 .menu-item {
     border: solid lightgray;
     border-radius: 50px;
+    min-width: 300px;
     padding: 1rem;
     margin-top: 1rem;
     background: rgba(220, 220, 220, 0.3);

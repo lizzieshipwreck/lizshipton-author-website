@@ -50,24 +50,25 @@ const TextAndImageBlock = ({ content, textFirst, i }) => {
     
     return (
         noText ? (
-            <>
-            <div className={`${center ? styles.center : styles.block} ${noMargin && styles.noMargin}`}>
-                {images && images.length > 1 ? 
-                images.map((image, i) => {
-                   return <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
-                })
-                : 
-                <SeriesImage src={images[0].src} alt={images[0].alt} caption={images[0].caption} className={styles.center}/>
-                }       
-            </div>
-            <div className={styles.center}>
-                    { ctas && ctas?.map((cta, i) => {
-                        return (
+
+            <div className={`${center ? styles.center : styles.imageBlock} ${noMargin && styles.noMargin}`}>
+                <div className={styles.imageRow}>
+                    {images && images.length > 1 ? 
+                        images.map((image, i) => {
+                            return <BlockLayoutImage src={image.src} link={image.link} alt={image.alt}/>
+                        })
+                    : 
+                        <SeriesImage src={images[0].src} alt={images[0].alt} caption={images[0].caption} className={styles.center}/>
+                    }       
+                </div>
+                { ctas && ctas?.map((cta, i) => {
+                    return (
+                        <div className={styles.center}>
                             <BookButton link={cta.link} text={cta.text} mobileText={cta.mobileText} title={cta.colorScheme} key={i}/>
-                        )
-                    })}
-            </div>   
-            </>  
+                        </div>   
+                    )
+                })}
+            </div>
         ) :
             textFirst ? (
                 <div className={`${center ? styles.center : styles.block} ${noMargin && styles.noMargin}`}>

@@ -4,14 +4,14 @@ const mother_link = "/mother-and-slaughter";
 
   export const MOTHER_INDEX_PAGE = {
     image: "Mother Header",
+    mobileImage: "Mother & Slaughter Cover",
     title: "⚔️ Mother & Slaughter ⚔️",
     alt: "Cover for Mother & Slaughter",
-    headlineOne: "Slay, girl",
-    cta: "Pre-Order Now",
-    mobileCta: "Pre-Order",
+    headlineOne: "A hundred and fifty years ago, the women of Draconia were stripped of their magic...",
+    cta: "Slay, girl",
+    mobileCta: "Slay, girl",
     link: mother_link,
     button: "Red",
-    isGif: false
 }
 
 const mother_heading = "Slay, girl"
@@ -69,11 +69,10 @@ export const content = [
         ctas: [
             {text: review_text, mobileText: review_text, colorScheme: mother_button_color_two, link: review_link},
         ],
-        noMargin: true
+        // noMargin: true
     },
     {
         images: [{src: illustration_image_one, alt: illustration_alt}, {src: illustration_image_two, alt: illustration_alt}],
-        noMargin: true
     },
     {
         heading: mother_ks_heading,

@@ -1,20 +1,21 @@
 .container {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 /* nifty glitch buttons from  https: //codepen.io/stevenlei/pen/ZEpyBod */
 button,
 button::after {
-    width: 100%; 
-    height: 86px;
+    min-width: 300px; 
+    height: 65px;
     border-radius: 50px;
     font-size: 36px;
     font-family: 'Megrim', sans-serif;
     border: 0;
     color: whitesmoke;
     letter-spacing: 3px;
-    line-height: 88px;
     outline: transparent;
     position: relative;
     cursor: pointer;
@@ -175,6 +176,10 @@ button:hover::after {
 }
 
 @media only screen and (min-width: 750px) {
+    .container {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
     button, button::after {
         min-width: 500px;
     }

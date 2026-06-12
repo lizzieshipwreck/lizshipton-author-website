@@ -51,12 +51,12 @@ export const content = [
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: mischief_button_color_one, link: bookshop_link},
             {text: amazon_text, mobileText: amazon_mobile_text, colorScheme: mischief_button_color_two, link: mischief_amazon_link}
-        ],
-        noMargin: true
+        ]
     },
     {
         heading: review_heading,
         paragraphs: {italic: true, text: [review_one, review_two, review_three]},
         images: [{src: review_image, alt: mischief_alt }],
+        noMargin: true
     }
   ]

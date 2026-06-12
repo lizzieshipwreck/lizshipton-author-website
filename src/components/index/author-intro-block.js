@@ -10,10 +10,10 @@ const AuthorIntroBlock = () => {
                 <StaticImage src={"../../images/Casual Headshot.jpg"} placeholder="blurred" quality={100} height={175} className={styles.authorHeadshot}/>
              </Link>
             <h2 className={styles.textHeader}>
-                serious sci-fantasy for unserious people
+                sci-fi & fantasy for unserious people
             </h2>
             <p className={styles.text}>
-                I write about the collapse of society. But, like...in a fun way.
+                I write about the looming collapse of society. But, like...in a fun way.
             </p>
         </div>
     )

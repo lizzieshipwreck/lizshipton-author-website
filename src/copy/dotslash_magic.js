@@ -4,9 +4,9 @@ const dotslash_link = "/dot-slash-magic"
 
 export const DOTSLASH_INDEX_PAGE = {
     image: "Dot Slash Header",
+    mobileImage: "Dot Slash Magic Cover",
     title: "Dot Slash Magic",
     headlineOne: "If AI gave you power you could barely control...would you use it?",
-    headlineTwo: "",
     alt: "Dot Slash Magic header",
     link: dotslash_link,
     button: dotslash_button_color_one,
@@ -36,7 +36,7 @@ const review_image = "Dot Slash Reviews"
 const review_alt = "Reviews of Dot Slash Magic"
 const character_image = "Dot Slash Characters"
 const character_alt = "Character art for Dot Slash magic"
-const review_text = "Pub Weekly Review"
+const review_text = "PubWeekly Review"
 const review_link= "https://www.publishersweekly.com/9781915998743"
 
 const kraken_image = "Dot Slash Kraken"
@@ -57,7 +57,6 @@ export const content = [
         ctas: [
             {text: review_text, mobileText: review_text, colorScheme: dotslash_button_color_one, link: review_link},
         ],
-        noMargin: true
     },
     {
         images: [{src: kraken_image, alt: kraken_alt, caption: "Character art by Daniel Lorca @hdlscompany" }],

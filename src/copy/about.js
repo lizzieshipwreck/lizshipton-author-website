@@ -50,7 +50,8 @@ export const content = [
     {
       heading: about_crew_heading,
       paragraphs: {withHeaders: true, text: [about_crew_one, about_crew_two, about_crew_three, about_crew_four]},
-      images: [{src: about_crew_image, alt: about_crew_alt}] 
+      images: [{src: about_crew_image, alt: about_crew_alt}],
+      noMargin: true
     }
   ]
   

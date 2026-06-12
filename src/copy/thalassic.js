@@ -3,7 +3,8 @@ const thalassic_na_button_color_two = "Yellow";
 const thalassic_link = "/thalassic-series"
 
 export const THALASSIC_INDEX_PAGE = {
-    image: "thalassic website header",
+    image: "Thalassic Website Header",
+    mobileImage: "Salt Cover",
     title: "⚓ The Thalassic Series ⚓",
     alt: "Covers for the Thalassic Series",
     headlineOne: "What do you do with a drunken sailor when the world is underwater?",
@@ -12,7 +13,6 @@ export const THALASSIC_INDEX_PAGE = {
     mobileCta: "Find Out",
     link: thalassic_link,
     button: "Blue",
-    isGif: false
 }
 
 const ya_complete_mock = "ya complete mock";
@@ -64,9 +64,9 @@ const reading_order_six = 'Savage  . .  Scourge  . .  Seed  . .  Savage: The Los
 const reading_order_link_salt = "https://amzn.to/3CvivrY";
 const reading_order_link_savage = "https://amzn.to/4gqghKi";
 const reading_order_cta_text_salt = "Start with Salt";
-const reading_order_cta_mobile_text_salt = "Start";
+const reading_order_cta_mobile_text_salt = "Salt";
 const reading_order_cta_text_savage = "Start with Savage";
-const reading_order_cta_mobile_text_savage = "Start";
+const reading_order_cta_mobile_text_savage = "Savage";
 
 const playlist_heading = "Playlist";
 const playlist_image = "playlist";
@@ -115,7 +115,8 @@ export const content = [
         heading: playlist_heading,
         paragraphs: {text: [playlist_one, playlist_two]},
         images: [{src: playlist_image, link: playlist_link, alt: playlist_alt}],
-        ctas: [{text: playlist_cta_text, mobileText: playlist_cta_mobile_text, colorScheme: thalassic_na_button_color_two, link: playlist_link}]
+        ctas: [{text: playlist_cta_text, mobileText: playlist_cta_mobile_text, colorScheme: thalassic_na_button_color_two, link: playlist_link}],
+        noMargin: true
     }
   ]
   

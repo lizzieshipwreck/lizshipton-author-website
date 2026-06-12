@@ -2,7 +2,6 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
 }
 
 .center button {
@@ -13,18 +12,14 @@
     text-align: center;
 }
 
-.center:last-of-type, .no-margin {
-     margin-bottom: 0rem;
-}
-
-.block {
+.block, .image-block {
     width: 80%;
     margin: auto;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
-.block:last-of-type, .no-margin {
-    margin-bottom: 0;
+.no-margin {
+    margin-bottom: 0rem;
 }
 
 .text-header {
@@ -68,6 +63,18 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+    }
+    .image-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .no-margin {
+     margin-bottom: 0rem;
     }
 	.text-block {
 		width: 50%;
