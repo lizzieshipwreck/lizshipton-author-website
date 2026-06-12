@@ -3,7 +3,7 @@ const thalassic_na_button_color_two = "Yellow";
 const thalassic_link = "/thalassic-series"
 
 export const THALASSIC_INDEX_PAGE = {
-    image: "Thalassic Website Header",
+    image: "thalassic website header",
     mobileImage: "Salt Cover",
     title: "⚓ The Thalassic Series ⚓",
     alt: "Covers for the Thalassic Series",
