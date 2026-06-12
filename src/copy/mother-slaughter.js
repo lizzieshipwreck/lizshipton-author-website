@@ -3,7 +3,7 @@ const mother_button_color_two ="Yellow"
 const mother_link = "/mother-and-slaughter";
 
   export const MOTHER_INDEX_PAGE = {
-    image: "MS Website Header",
+    image: "Mother Header",
     title: "⚔️ Mother & Slaughter ⚔️",
     alt: "Cover for Mother & Slaughter",
     headlineOne: "Slay, girl",
