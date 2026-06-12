@@ -45,7 +45,7 @@ const brocode_four = "A standalone dual-POV rivals-to-lovers MM hockey romance w
 
 const brocode_bookshop_link = "https://shop.lizshipton.com/collection/hailey-reaves";
 const brocode_amazon_link = "https://amzn.to/4ogyqhP";
-const brocode_button_color_one = "Green";
+const brocode_button_color_one = "Orange";
 const brocode_button_color_two = "Purple";
 
 

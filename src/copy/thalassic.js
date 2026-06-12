@@ -37,9 +37,9 @@ const thalassic_ks_alt = "Thalassic Series Kickstarter";
 
 const thalassic_na_subheading = "What do you do with a drunken sailor when the world is underwater?";
 const thalassic_na_one = "In a brutal dystopian waterworld, where survival depends on skill and smarts, Bird Howsley is a beautiful disaster. Or...maybe just a disaster, period.";
-const thalassic_na_two = "When a mysterious message arrives from the brother she thought was dead, Bird bribes her surly (and hot) mentor Sargo Paz to help her find him. Together, they sail across a futuristic world ravaged by bloodthirsty pirates, global disaster, and dark political secrets - while bickering, bantering, battling their inner demons, and falling in love.";
+const thalassic_na_two = "When a mysterious message arrives from the brother she thought was dead, Bird bribes her surly (and hot) mentor Sargo Paz to help her find him. Together, they voyage across a dangerous high-tech world ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
 const thalassic_na_three = "Their journey kicks off an epic tale spanning nine books, seven oceans, five alternate dimensions, and three intertwining love stories.";
-const thalassic_na_four = "Divergent meets Pirates of the Caribbean in this darkly funny perfect storm of fast-paced adventure and slow-burn romance."; 
+const thalassic_na_four = "These books contain explicit sexual content."; 
 
 const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
 const thalassic_ks_subheading = "Launching on Kickstarter 2026";

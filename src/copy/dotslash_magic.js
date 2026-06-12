@@ -20,7 +20,7 @@ const dotslash_one = "When Seven Jones is blackmailed back to community college 
 const dotslash_two = "Suddenly surrounded by a society of intimidating spell-slingers, and struggling to control her own power, Seven hacks the magic system and codes a dangerous shortcut. It works...but at a terrible cost."
 const dotslash_three = "When monsters begin stalking campus and a student turns up dead, blame falls on Seven and her 'creepy artifical magic.' Is her reckless cheat fueling the chaos...or is someone trying to frame her?"
 const dotslash_four = "Her only ally is Logan, an infuriatingly hot ex–Navy SEAL with dark secrets of his own. Together they blow up dragons, chainsaw krakens, and face their demons. But in the magical underworld, nothing is what it seems – and not everyone makes it out alive."
-const dotslash_five = "Fans of Russian Doll, Fourth Wing and Dungeon Crawler Carl will delight in this bawdy satire about the magic that makes us human."
+const dotslash_five = "This book contains explicit sexual content."
 
 const bookshop_text = "Buy from Liz"
 const retail_text = "Buy from Retailers"

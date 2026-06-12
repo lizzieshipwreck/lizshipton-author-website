@@ -24,7 +24,7 @@ const BookButton = ({ link, text, mobileText, title, noOpen }) => {
 
     return (
         <div className={styles.container}>
-            <a href={link} target={noOpen ? "" : "_blank"}>
+            <a href={link}>
                 <button className={`${styles[`button${title}`]}`}>{isMobile ? mobileText : text}</button>
             </a>
         </div>

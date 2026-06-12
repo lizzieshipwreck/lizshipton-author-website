@@ -26,12 +26,9 @@ const bookshop_link = "https://shop.lizshipton.com/collection/tales-of-mischief-
 const mischief_heading = 'Tales of Mischief and Fuckery';
 const mishcief_subheading = 'Troping tropily through the tropes';
 const mischief_one = 'Small town apocalypses? Dystopian billionaires? The fairy mafia? How about shape-shifting hockey players? A Greek god desperately in need of a nanny?';
-const mischief_two = 'You may ask, "Why?" This series of spicy short stories asks, "Why not?" Why not a mishmash of genres? Why not funny, off-the-wall romance with hot spice and big heart? Why not an unhinged paranormal hockey romp starring the Easter bunny?'
+const mischief_two = 'You may ask, "Why?" This series of spicy speculative short stories asks, "Why not?" Why not a mishmash of genres? Why not off-the-wall sci-fantasy romance with hot spice and big heart? Why not an unhinged paranormal hockey romp starring the Easter bunny?'
 const mischief_three = 'Inside this, you’ll find fae, vampires, shifters and more getting down and dirty in 12 raunchy standalone tales, each set during a different holiday in every month of the year.'
-const mischief_four = '"Even August?" I hear you asking.'
-const mischief_five = '"Yes, friend. Even August."'
-const mischief_six = '"But there isn’t even a holiday in Aug-"'
-const mischief_seven = '"Shh shh shh... Don’t worry about that. You let me worry about that. Just start reading, and I promise everything will be fine."'
+const mischief_four = 'This book contains explicit sexual content and extremely NSFW illustrations.'
 
 const review_heading = "Praise for Tales of Mischief and F*ckery"
 const review_one = '"This story is funny! Also the scenes are hot, and the pp is very big. This is incredibly important and made me quite happy." ⭐ ⭐ ⭐ ⭐ ⭐'
@@ -49,7 +46,7 @@ const bonus_alt = "Art for the cover"
 export const content = [
     {
         subheading: mishcief_subheading,
-        paragraphs: {text: [mischief_one, mischief_two, mischief_three, mischief_four, mischief_five, mischief_six, mischief_seven]},
+        paragraphs: {text: [mischief_one, mischief_two, mischief_three, mischief_four]},
         images: [{src: mischief_image, alt: mischief_alt }],
         ctas: [
             {text: bookshop_text, mobileText: bookshop_mobile_text, colorScheme: mischief_button_color_one, link: bookshop_link},
