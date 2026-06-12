@@ -43,7 +43,7 @@ const thalassic_na_four = "A perfect storm of fast-paced adventure and slow-burn
 const thalassic_na_five = "These books contain explicit sexual content."; 
 
 const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
-const thalassic_ks_subheading = "Launching on Kickstarter 2026";
+const thalassic_ks_subheading = "Launching on Kickstarter";
 const thalassic_ks_one = "Own the complete 9-book series as 3 deluxe hardcover omnibuses.";
 const thalassic_ks_two = "Art by the incomparable Daniel Lorca, who handles all my art.";
 const thalassic_ks_three = "The books are foiled hardcases with continuous dust jacket and sprayed edge art, and gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable swag.";
