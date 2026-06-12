@@ -64,7 +64,7 @@ const mother_illustration_image = "The River"
 const mother_illustration_alt = "Comic book illustration in Mother & Slaughter"
 const illustration_text = "See in Bookshop"
 const illustration_mobile_text = "Bookshop"
-const illustration_link = "https://shop.lizshipton.com/b/L42WR"
+const illustration_link = "https://shop.lizshipton.com"
 
 export const content = [
     {
