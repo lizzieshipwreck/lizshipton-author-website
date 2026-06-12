@@ -16,7 +16,7 @@ const medaling_button_color_two = "Blue";
 
 
 const wingmen_heading = "Wingmen: A Rivals-to-Lovers MM Hockey Romance";
-const wingmen_subheading = "Two wingers. One bet. The summer that changes everything.";
+const wingmen_subheading = "Two wingers. One bet. The summer that changes it all.";
 
 const wingmen_image = "wingmen website";
 const wingmen_alt = "Cover for Wingmen";
