@@ -60,7 +60,9 @@ const illustration_subheading = "by Daniel Lorca"
 const illustration_one = "I've worked with Daniel on a few projects now, and am always blown away by his talent, imagination, and care for the work."
 const illustration_two = "Daniel's ability to tell a story through imagery and his attention to detail are unparalleled. So much in these illustrations comes directly from his head - I give him a breakdown of the scene and point him in a direction, and he comes back with more than I could have ever hoped for. His technical skill is savage, and his style is uniquely beautiful."
 const illustration_three = "The book contains 4 of Daniel's illustrations - they are full-color in the eBook and special edition hardcover, B&W in the paperback, and available as art prints. He also designed the cover for the special edition, which is available through my bookshop."
-const illustration_four = "I truly think Daniel is one of the most talented artists working in the industry right now. I would recommend you hire him for your project, but that would mean I'd have to share him. (Just kidding. To see more of his work and contact him, use the button below.)"
+const illustration_four = "Daniel lives in Lima, Peru, and works on commission for various professional and personal projects. I would recommend you hire him, but that would mean I'd have to share him."
+const illustration_five = "Just kidding. To see more of his work and contact him, use the button below."
+
 const mother_illustration_image = "The River"
 const mother_illustration_alt = "Comic book illustration in Mother & Slaughter"
 const illustration_text = "Contact Daniel"
@@ -86,7 +88,7 @@ export const content = [
         {
             heading: illustration_heading,
             subheading: illustration_subheading,
-            paragraphs: {text: [illustration_one, illustration_two, illustration_three, illustration_four]},
+            paragraphs: {text: [illustration_one, illustration_two, illustration_three, illustration_four, illustration_five]},
             images: [{src: mother_illustration_image, alt: mother_illustration_alt }],
             ctas: [
                 {text: illustration_text, mobileText: illustration_mobile_text, colorScheme: mother_button_color_two, link: illustration_link},
