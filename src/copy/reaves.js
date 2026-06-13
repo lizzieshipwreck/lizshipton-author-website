@@ -52,7 +52,7 @@ const brocode_button_color_two = "Purple";
 const bonus_heading = "Free Bonus Scene"
 const bonus_subheading = "A spicy encounter between bros";
 
-const bonus_image = "Bonus Website";
+const bonus_image = "bonus website";
 const bonus_alt = "Medaling Bonus Chapter";
 
 const bonus_one = "Told from Nic Arsenault's POV, this chapter takes place a few years before Medaling. This is Nic's bi-awakening with his former partner, French goalie Mathieu Bordeaux. It's tender, sexy, slippery (!) and about 3500 words."
