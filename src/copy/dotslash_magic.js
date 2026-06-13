@@ -36,7 +36,7 @@ const review_image = "Dot Slash Reviews"
 const review_alt = "Reviews of Dot Slash Magic"
 const character_image = "Dot Slash Characters"
 const character_alt = "Character art for Dot Slash magic"
-const review_text = "PubWeekly Review"
+const review_text = "Pub Weekly"
 const review_link= "https://www.publishersweekly.com/9781915998743"
 
 const kraken_image = "Dot Slash Kraken"
