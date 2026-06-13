@@ -53,7 +53,7 @@ const mother_ks_image = "Mother Hardcover"
 const mother_ks_alt = "The Mother & Slaughter special edition hardcover"
 const mother_ks_text = "Order Now"
 const mother_ks_mobile_text = "Order"
-const mother_ks_link = "https://shop.lizshipton.com/"
+const mother_ks_link = "https://shop.lizshipton.com"
 
 const illustration_heading = "Illustrations"
 const illustration_subheading = "by Daniel Lorca"

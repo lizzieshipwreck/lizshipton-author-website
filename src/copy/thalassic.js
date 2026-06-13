@@ -45,8 +45,8 @@ const thalassic_na_five = "These books contain explicit sexual content.";
 const thalassic_ks_heading = "Deluxe Special Edition Omnibuses";
 const thalassic_ks_subheading = "Launching on Kickstarter";
 const thalassic_ks_one = "Own the complete 9-book series as 3 deluxe hardcover omnibuses.";
-const thalassic_ks_two = "Art by the incomparable Daniel Lorca, who handles all my art.";
-const thalassic_ks_three = "The books are foiled hardcases with continuous dust jacket and sprayed edge art, and gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable swag.";
+const thalassic_ks_two = "Art by Daniel Lorca.";
+const thalassic_ks_three = "Foiled hardcases with continuous dust jacket and sprayed edge art. Gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable swag.";
 const thalassic_ks_four = "Bonus rewards and stretch goals include decorative chapter headers, additional interior art, NSFW prints, and more."; 
 
 const review_heading = "Praise for the Thalassic Series";
