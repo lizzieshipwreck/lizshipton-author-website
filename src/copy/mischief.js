@@ -27,7 +27,7 @@ const mischief_heading = 'Tales of Mischief and Fuckery';
 const mishcief_subheading = 'Troping tropily through the tropes';
 const mischief_one = 'Small town apocalypses? Dystopian billionaires? The fairy mafia? How about shape-shifting hockey players? A Greek god desperately in need of a nanny?';
 const mischief_two = 'You may ask, "Why?" This series of spicy speculative short stories asks, "Why not?" Why not a mishmash of genres? Why not off-the-wall sci-fantasy romance with hot spice and big heart? Why not an unhinged paranormal hockey romp starring the Easter bunny?'
-const mischief_three = 'Inside this, you’ll find fae, vampires, shifters and more getting down and dirty in 12 raunchy standalone tales, each set during a different holiday in every month of the year.'
+const mischief_three = 'Inside this collection, you’ll find fae, vampires, shifters and more getting down and dirty in 12 raunchy standalone tales, each set during a different holiday in every month of the year.'
 const mischief_four = 'This book contains explicit sexual content and extremely NSFW illustrations.'
 
 const review_heading = "Praise for Tales of Mischief and F*ckery"
