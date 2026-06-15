@@ -24,7 +24,7 @@ const Dropdown = ({windowWidth}) => {
     return (
         <>
         <div className={styles.navLinkItem}>
-          <a onClick={handleOpen} className={styles.navLinkText}>Books</a>
+          <a onClick={handleOpen} className={styles.navLinkText}>books</a>
         </div>
         {open ? (
           <ul className={styles.menu}>

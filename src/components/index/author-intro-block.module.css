@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .author-headshot {
@@ -10,7 +11,7 @@
 }
 
 .text-header {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     text-align: center;
     font-size: medium;
     letter-spacing: 1px;
@@ -24,6 +25,34 @@
     font-style: italic;
     width: 85%;
     margin: auto;
+    font-size: large;
+}
+
+.finger {
+    text-align: center;
+    font-size: xx-large;
+    opacity: 1;
+}
+
+@keyframes fade {
+    to {
+        opacity: 0;
+    }
+}
+
+.finger {
+    animation: fade 0.15s linear infinite;
+}
+
+/* TODO: consolidate all these animation params into a global object */
+.finger {
+	/* Don't let the animation play by default */
+	animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 }
 
 @media only screen and (min-width: 750px) {

@@ -1,4 +1,3 @@
-const medaling_heading = "Medaling: A Rivals-to-Lovers MM Hockey Romance";
 const medaling_subheading = "Two rivals. One room. Three weeks to ruin everything.";
 
 const medaling_image = "medaling website";
@@ -15,7 +14,6 @@ const medaling_button_color_one = "Pink";
 const medaling_button_color_two = "Blue";
 
 
-const wingmen_heading = "Wingmen: A Rivals-to-Lovers MM Hockey Romance";
 const wingmen_subheading = "Two wingers. One bet. The summer that changes it all.";
 
 const wingmen_image = "wingmen website";
@@ -32,7 +30,6 @@ const wingmen_button_color_one = "Purple";
 const wingmen_button_color_two = "Blue";
 
 
-const brocode_heading = "Bro Code: A Rivals-to-Lovers MM Hockey Romance";
 const brocode_subheading = "One jock. One nerd. Zero chance this ends professionally.";
 
 const brocode_image = "brocode website";
@@ -49,41 +46,38 @@ const brocode_button_color_one = "Orange";
 const brocode_button_color_two = "Purple";
 
 
-const bonus_heading = "Free Bonus Scene"
-const bonus_subheading = "A spicy encounter between bros";
+const bonus_subheading = "Free bonus: a spicy encounter between bros";
 
 const bonus_image = "bonus website";
 const bonus_alt = "Medaling Bonus Chapter";
 
 const bonus_one = "Told from Nic Arsenault's POV, this chapter takes place a few years before Medaling. This is Nic's bi-awakening with his former partner, French goalie Mathieu Bordeaux. It's tender, sexy, slippery (!) and about 3500 words."
 const bonus_link = "https://signup.lizshipton.com/hailey-reaves-newsletter";
-const bonus_text = "Get it FREE";
-const bonus_mobile_text = "Get it"
+const bonus_text = "get it FREE";
+const bonus_mobile_text = "get it"
 const bonus_button_color = "Orange";
 
 // 
 
-const bookshop_text = "Buy from Hailey";
-const bookshop_mobile_text = "Paperback";
-const amazon_text = "Read Free in KU";
-const amazon_mobile_text = "Free in KU";
+const bookshop_text = "buy from hailey";
+const bookshop_mobile_text = "paperback";
+const amazon_text = "read free in KU";
+const amazon_mobile_text = "free in KU";
 
-const reaves_heading = "Hailey Reaves";
-const reaves_subheading = "";
+const reaves_subheading = "Hailey Reaves";
 
 const reaves_image = "reaves website";
 const reaves_alt = "Hailey Reaves";
 
 const reaves_one = "Hailey Reaves is the MM romance pen name of author Liz Shipton. Hailey enjoys putting tortured boys into spicy situations.";
 const reaves_two = "Liz is a SFF author best known for their spicy urban fantasy Dot Slash Magic, which received a starred review from Publisher's Weekly, and for their viral comedy videos. Liz lives on a sailboat in the Caribbean with their partner and dog.";
-const reaves_text = "Main Site";
+const reaves_text = "main site";
 const reaves_mobile_text = "Main";
 const reaves_link = "https://lizshipton.com";
 const reaves_button_color = "Yellow";
 
 export const content = [
     {
-        heading: medaling_heading,
         subheading: medaling_subheading,
         paragraphs: {text: [medaling_one, medaling_two, medaling_three, medaling_four]},
         images: [{src: medaling_image, alt: medaling_alt }],
@@ -93,7 +87,6 @@ export const content = [
         ],
     },
     {
-        heading: wingmen_heading,
         subheading: wingmen_subheading,
         paragraphs: {text: [wingmen_one, wingmen_two, wingmen_three, wingmen_four]},
         images: [{src: wingmen_image, alt: wingmen_alt }],
@@ -103,7 +96,6 @@ export const content = [
         ],
     },
         {
-        heading: brocode_heading,
         subheading: brocode_subheading,
         paragraphs: {text: [brocode_one, brocode_two, brocode_three, brocode_four]},
         images: [{src: brocode_image, alt: brocode_alt }],
@@ -113,7 +105,6 @@ export const content = [
         ],
     },
     {
-        heading: bonus_heading,
         subheading: bonus_subheading,
         paragraphs: {text: [bonus_one]},
         images: [{src: bonus_image, alt: bonus_alt }],
@@ -122,7 +113,6 @@ export const content = [
         ],
     },
     {
-        heading: reaves_heading,
         subheading: reaves_subheading,
         paragraphs: {text: [reaves_one, reaves_two]},
         images: [{src: reaves_image, alt: reaves_alt }],

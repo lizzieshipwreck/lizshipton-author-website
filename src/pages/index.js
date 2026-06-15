@@ -9,6 +9,7 @@ import SeriesBlock from '../components/index/series-block';
 import { DOTSLASH_INDEX_PAGE } from '../copy/dotslash_magic';
 import { THALASSIC_INDEX_PAGE } from '../copy/thalassic';
 import { MOTHER_INDEX_PAGE } from '../copy/mother-slaughter';
+import { ABOUT_INDEX_PAGE } from '../copy/about';
 
 const INDEX_CONTENT = [MOTHER_INDEX_PAGE, DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE]
 
@@ -38,7 +39,7 @@ const IndexPage = () => {
           {
             INDEX_CONTENT.map((item, i) => {
               return (
-                <div className={`${styles[i === 0 ? `fadeIn` : 'noFade']}`}>
+                <div className={`${styles[i === 0 && `hero`]}`}>
                   <SeriesBlock
                     key={i}
                     image={isMobile ? item.mobileImage : item.image}

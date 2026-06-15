@@ -2,24 +2,27 @@
     width: 100%;
 }
 
-.fade-in {
-    animation: fade 2s ease-in;
-}
-
-.no-fade {
-    opacity: 1;
-}
-
-.red {
-    background-color: red;
+.hero {
+    opacity: 0;
 }
 
 @keyframes fade {
-	from {
-        opacity: 0;
-
-	}
-	to {
+    to {
         opacity: 1;
-	}
+    }
+}
+
+.hero {
+    animation: fade 0.15s linear infinite;
+}
+
+/* TODO: consolidate all these animation params into a global object */
+.hero {
+	/* Don't let the animation play by default */
+	animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 }

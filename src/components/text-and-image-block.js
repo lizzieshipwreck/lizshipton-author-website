@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { useEffect, useState, useRef } from 'react';
 
 import BookButton from './book-button';
 import BlockLayoutImage from './page-layouts/block-image';

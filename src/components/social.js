@@ -41,7 +41,7 @@ const Social = ({ socialLinks }) => {
           {
               socialLinks.map(({name, url}) => {
                   return (
-                    <a href={url} className={styles.link} target='_blank'>
+                    <a href={url} className={styles.link} target='_blank' rel="noreferrer">
                         <FontAwesomeIcon
                             key={name} 
                             icon={icons[name]}

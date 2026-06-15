@@ -8,8 +8,8 @@ const mother_link = "/mother-and-slaughter";
     title: "⚔️ Mother & Slaughter ⚔️",
     alt: "Cover for Mother & Slaughter",
     headlineOne: "A hundred and fifty years ago, the women of Draconia were stripped of their magic...",
-    cta: "Slay, girl",
-    mobileCta: "Slay, girl",
+    cta: "slay, girl",
+    mobileCta: "slay, girl",
     link: mother_link,
     button: "Red",
 }
@@ -23,10 +23,10 @@ const mother_four = "Eleanor would rather be decapitated in the arena than have 
 const mother_five = "But the journey takes an unexpected turn, bringing Eleanor face-to-face with new friends, old flames, and secrets about Draconia that would make any self-respecting feminist want to stand up, pick up a sword, and use it to slaughter the patriarchy."
 const mother_six = "No explicit sexual content."
 
-const bookshop_text = "Buy from Liz"
-const retail_text = "Read Free in KU"
-const bookshop_mobile_text = "Paperback"
-const retail_mobile_text = "Read in KU"
+const bookshop_text = "buy from liz"
+const retail_text = "read free in KU"
+const bookshop_mobile_text = "paperback"
+const retail_mobile_text = "read in KU"
 const bookshop_link = "https://shop.lizshipton.com/collection/artificial-magic"
 const retail_link = "https://amzn.to/4skYxVr"
 
@@ -37,13 +37,9 @@ const review_image = "Mother Reviews"
 const review_alt = "Reviews of Mother & Slaughter"
 const character_image = "The Horror Show"
 const character_alt = "Comic book art for Mother & Slaughter"
-const review_text = "Kirkus Review"
+const review_text = "kirkus review"
+const review_text_mobile = "kirkus"
 const review_link= "https://www.kirkusreviews.com/book-reviews/liz-shipton/mother-slaughter/"
-
-const illustration_image_one = "Hog Wild"
-const illustration_image_two = "The River"
-
-const illustration_alt = "Art for Dot Slash Magic"
 
 const mother_ks_heading = "Special Edition Hardcover"
 const mother_ks_one = "Get the deluxe collector's edition complete with Daniel Lorca's illustrations in full color."
@@ -51,8 +47,8 @@ const mother_ks_two = "A 6x9 hardcover with red metallic foil on the title and p
 const mother_ks_three = "6x9 prints of all color illustrations are also available, along with special edition paperbacks, bookmarks, stickers, and tees."
 const mother_ks_image = "Mother Hardcover"
 const mother_ks_alt = "The Mother & Slaughter special edition hardcover"
-const mother_ks_text = "Order Now"
-const mother_ks_mobile_text = "Order"
+const mother_ks_text = "order now"
+const mother_ks_mobile_text = "order"
 const mother_ks_link = "https://shop.lizshipton.com"
 
 const illustration_heading = "Illustrations"
@@ -65,8 +61,8 @@ const illustration_five = "Just kidding. To see more of his work and contact him
 
 const mother_illustration_image = "The River"
 const mother_illustration_alt = "Comic book illustration in Mother & Slaughter"
-const illustration_text = "Contact Daniel"
-const illustration_mobile_text = "Contact"
+const illustration_text = "contact daniel"
+const illustration_mobile_text = "contact"
 const illustration_link = "https://hdlscompany.artstation.com"
 
 export const content = [
@@ -82,7 +78,7 @@ export const content = [
     {
         images: [{src: review_image, alt: review_alt }, {src: character_image, alt: character_alt }],
         ctas: [
-            {text: review_text, mobileText: review_text, colorScheme: mother_button_color_two, link: review_link},
+            {text: review_text, mobileText: review_text_mobile, colorScheme: mother_button_color_two, link: review_link},
         ],
     },
         {

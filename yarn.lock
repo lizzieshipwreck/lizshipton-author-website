@@ -1168,6 +1168,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/alfa-slab-one@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/alfa-slab-one/-/alfa-slab-one-5.2.8.tgz#3f5de5149e254369aca8d88fc55ee926faafb5c4"
+  integrity sha512-++XkDfZAfT2qb8MAiyMR+clQe7HZRci1if88IZxd1Vlhu4fc6FvraSgOTa01OmQ8vdy/KTumdX5J3rZvGsjKGQ==
+
 "@fontsource/bebas-neue@^5.0.9":
   version "5.0.9"
   resolved "https://registry.npmjs.org/@fontsource/bebas-neue/-/bebas-neue-5.0.9.tgz"
@@ -1187,6 +1192,11 @@
   version "5.0.8"
   resolved "https://registry.npmjs.org/@fontsource/raleway/-/raleway-5.0.8.tgz"
   integrity sha512-b6ZTFQ7sZSUSm/ny0SNXdafcu+p6jpIzpEc1Woxym4qkuAp3kONZJs9r+HYPfMm/fDW1VBIzZxVOLhglYzdw6Q==
+
+"@fontsource/roboto-slab@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-slab/-/roboto-slab-5.2.8.tgz#557ffa492aeb18eada80bbccc423f788b9967de1"
+  integrity sha512-8+iMCsoUZsDwQUe5omwCp7JPNTVdyAgay5AdhmnFZPEVIVabujrmYaFkSuZ1+GUemPEWlzEQ6aQkg2mPL84SAA==
 
 "@fontsource/roboto@^5.0.8":
   version "5.0.8"

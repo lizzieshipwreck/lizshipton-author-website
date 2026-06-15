@@ -12,7 +12,8 @@ button::after {
     height: 65px;
     border-radius: 50px;
     font-size: 36px;
-    font-family: 'Megrim', sans-serif;
+    font-family: 'Alfa Slab One', serif;
+    font-weight: lighter;
     border: 0;
     color: whitesmoke;
     letter-spacing: 3px;

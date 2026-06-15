@@ -9,8 +9,8 @@ export const THALASSIC_INDEX_PAGE = {
     alt: "Covers for the Thalassic Series",
     headlineOne: "What do you do with a drunken sailor when the world is underwater?",
     headlineTwo: "",
-    cta: "Find Out",
-    mobileCta: "Find Out",
+    cta: "find out",
+    mobileCta: "find out",
     link: thalassic_link,
     button: "Blue",
 }
@@ -19,14 +19,11 @@ const ya_complete_mock = "ya complete mock";
 const thalassic_na_alt = "quote from thalassic";
 
 const thalassic_bookshop_link = "https://shop.lizshipton.com/collection/thalassic";
-const bookshop_text = "Buy from Liz";
-const bookshop_mobile_text = "Paperback";
+const bookshop_text = "buy from liz";
+const bookshop_mobile_text = "paperback";
 const thalassic_na_amazon_link = "https://amzn.to/3PBZR62";
-const amazon_text = "Read Free in KU";
-const amazon_mobile_text = "Read in KU";
-const thalassic_ks_link = "https://www.kickstarter.com/projects/lizshipton/the-thalassic-series-deluxe-hardcover-omnibuses";
-const thalassic_ks_text = "Follow the Project";
-const thalassic_ks_mobile_text = "Follow";
+const amazon_text = "read free in KU";
+const amazon_mobile_text = "read in KU";
 
 const salt_image = "Salt Cover";
 const salt_alt = "Cover for Salt";
@@ -48,6 +45,9 @@ const thalassic_ks_one = "Own the complete 9-book series as 3 deluxe hardcover o
 const thalassic_ks_two = "Art by Daniel Lorca.";
 const thalassic_ks_three = "Foiled hardcases with continuous dust jacket and sprayed edge art. Gorgerous color illustrations. Hand-signed bookplates. First twenty numbered. Also available are bookmarks, stickers, and wearable swag.";
 const thalassic_ks_four = "Bonus rewards and stretch goals include decorative chapter headers, additional interior art, NSFW prints, and more."; 
+const thalassic_ks_link = "https://www.kickstarter.com/projects/lizshipton/the-thalassic-series-deluxe-hardcover-omnibuses";
+const thalassic_ks_text = "follow the project";
+const thalassic_ks_mobile_text = "follow";
 
 const review_heading = "Praise for the Thalassic Series";
 const review_one = '"Gave me that \'just finished ACOTAR\' feeling" ⭐ ⭐ ⭐ ⭐ ⭐';
@@ -64,17 +64,17 @@ const reading_order_five = '#3: Chronologically';
 const reading_order_six = 'Savage  . .  Scourge  . .  Seed  . .  Savage: The Lost Years  . .  Salt  . .  Sand  . .  Soul  . .  Paz  . .  Passage  . .  Prologue';
 const reading_order_link_salt = "https://amzn.to/3CvivrY";
 const reading_order_link_savage = "https://amzn.to/4gqghKi";
-const reading_order_cta_text_salt = "Start with Salt";
-const reading_order_cta_mobile_text_salt = "Salt";
-const reading_order_cta_text_savage = "Start with Savage";
-const reading_order_cta_mobile_text_savage = "Savage";
+const reading_order_cta_text_salt = "start with salt";
+const reading_order_cta_mobile_text_salt = "salt";
+const reading_order_cta_text_savage = "start with savage";
+const reading_order_cta_mobile_text_savage = "savage";
 
 const playlist_heading = "Playlist";
 const playlist_image = "playlist";
 const playlist_alt = "Listen on Spotify";
 const playlist_link = "https://open.spotify.com/playlist/1vYEb8cpRhdLzipFo1fVzp";
-const playlist_cta_text = "Listen on Spotify";
-const playlist_cta_mobile_text = "Listen";
+const playlist_cta_text = "listen on spotify";
+const playlist_cta_mobile_text = "listen";
 
 const playlist_one = "Songs that were going round in my head while I was writing the books."
 const playlist_two = "Someday I'll have a list for you of which songs go with which books, but not today."
@@ -123,7 +123,7 @@ export const content = [
         noMargin: true
     },
     {
-        images: [{src: tropes_image, alt: thalassic_na_alt, caption: "Art by Daniel Lorca @hdlscompany" }],
+        images: [{src: tropes_image, alt: tropes_alt, caption: "Art by Daniel Lorca @hdlscompany" }],
         noMargin: true
     },
   ]

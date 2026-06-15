@@ -10,8 +10,8 @@ export const DOTSLASH_INDEX_PAGE = {
     alt: "Dot Slash Magic header",
     link: dotslash_link,
     button: dotslash_button_color_one,
-    cta: "Go Rogue",
-    mobileCta: "Go Rogue",
+    cta: "go rogue",
+    mobileCta: "go rogue",
 }
 
 const dotslash_heading = "If AI gave you power you could barely control...would you use it?"
@@ -22,10 +22,10 @@ const dotslash_three = "When monsters begin stalking campus and a student turns 
 const dotslash_four = "Her only ally is Logan, an infuriatingly hot ex–Navy SEAL with dark secrets of his own. Together they blow up dragons, chainsaw krakens, and face their demons as Seven desperately tries to prove her innocence. But in the magical underworld, nothing is what it seems – and not everyone makes it out alive."
 const dotslash_five = "This book contains explicit sexual content."
 
-const bookshop_text = "Buy from Liz"
-const retail_text = "Buy from Retailers"
-const bookshop_mobile_text = "Bookshop"
-const retail_mobile_text = "Retailers"
+const bookshop_text = "buy from liz"
+const retail_text = "buy from retailers"
+const bookshop_mobile_text = "bookshop"
+const retail_mobile_text = "retailers"
 const bookshop_link = "https://shop.lizshipton.com/collection/artificial-magic"
 const retail_link = "https://amzn.to/3SnAjdm"
 
@@ -36,7 +36,7 @@ const review_image = "Dot Slash Reviews"
 const review_alt = "Reviews of Dot Slash Magic"
 const character_image = "Dot Slash Characters"
 const character_alt = "Character art for Dot Slash magic"
-const review_text = "Pub Weekly"
+const review_text = "pub weekly"
 const review_link= "https://www.publishersweekly.com/9781915998743"
 
 const kraken_image = "Dot Slash Kraken"

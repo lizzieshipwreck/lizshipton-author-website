@@ -21,14 +21,6 @@
     margin-bottom: 3rem;
 }
 
-.title-text {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    color: rgba(55, 54, 54, 0.85);
-    margin-top: 2rem;
-    text-align: center;
-}
-
 .headline-text {
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: gray;

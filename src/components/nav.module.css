@@ -18,9 +18,9 @@
 }
 
 .nav-link-text {
-    color: rgba(55, 54, 54, 0.85);
+    color: #373636d9;
     text-decoration: none;
-    font-family: 'Megrim';
+    font-family: 'Roboto Slab';
     font-size: x-large;
 }
 
@@ -32,7 +32,7 @@
         padding-left: 2rem;
     }
     .nav-link-text {
-        font-size: xx-large;
+        font-size: x-large;
     }
 }
 
