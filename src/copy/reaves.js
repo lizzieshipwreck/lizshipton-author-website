@@ -1,3 +1,9 @@
+const reaves_link = '/hailey-reaves';
+
+export const REAVES_INDEX_PAGE = {
+    link: reaves_link,
+}
+
 const medaling_subheading = "Two rivals. One room. Three weeks to ruin everything.";
 
 const medaling_image = "medaling website";
@@ -73,7 +79,7 @@ const reaves_one = "Hailey Reaves is the MM romance pen name of author Liz Shipt
 const reaves_two = "Liz is a SFF author best known for their spicy urban fantasy Dot Slash Magic, which received a starred review from Publisher's Weekly, and for their viral comedy videos. Liz lives on a sailboat in the Caribbean with their partner and dog.";
 const reaves_text = "main site";
 const reaves_mobile_text = "Main";
-const reaves_link = "https://lizshipton.com";
+const main_site_link = "https://lizshipton.com";
 const reaves_button_color = "Yellow";
 
 export const content = [
@@ -117,7 +123,7 @@ export const content = [
         paragraphs: {text: [reaves_one, reaves_two]},
         images: [{src: reaves_image, alt: reaves_alt }],
         ctas: [
-            {text: reaves_text, mobileText: reaves_mobile_text, colorScheme: reaves_button_color, link: reaves_link},
+            {text: reaves_text, mobileText: reaves_mobile_text, colorScheme: reaves_button_color, link: main_site_link},
         ],
     }
   ]

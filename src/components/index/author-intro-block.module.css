@@ -1,13 +1,18 @@
-.author-intro {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
 }
 
-.author-headshot {
+.content {
+	position: fixed;
+    text-align: center;
+}
+
+.headshot {
     border-radius: 100%;
     box-shadow: 3px 0 0px rgb(79, 79, 79), -3px 0 0px rgb(79, 78, 78);
+    animation: fade 0.15s linear infinite;
 }
 
 .text-header {
@@ -16,6 +21,7 @@
     font-size: medium;
     letter-spacing: 1px;
     color: rgba(55, 54, 54, 0.85);
+    animation: fade 0.14s linear infinite;
 }
 
 .text {
@@ -26,6 +32,7 @@
     width: 85%;
     margin: auto;
     font-size: large;
+    animation: fade 0.12s linear infinite;
 }
 
 .finger {
@@ -41,11 +48,11 @@
 }
 
 .finger {
-    animation: fade 0.15s linear infinite;
+    animation: fade 0.10s linear infinite;
 }
 
 /* TODO: consolidate all these animation params into a global object */
-.finger {
+.finger, .text, .text-header, .headshot {
 	/* Don't let the animation play by default */
 	animation-play-state: paused;
     /* Bind the animation to scroll */

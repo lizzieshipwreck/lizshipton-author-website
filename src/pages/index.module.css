@@ -4,6 +4,7 @@
 
 .hero {
     opacity: 0;
+    margin-top: 50%;
 }
 
 @keyframes fade {

@@ -2,7 +2,7 @@
     color: rgba(55, 54, 54, 0.85);
     text-decoration: none;
     font-family: 'Roboto Slab';
-    font-size: x-large;
+    font-size: larger;
     cursor: pointer;
     position: relative;
 }
