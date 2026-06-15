@@ -4,12 +4,11 @@ module.exports = {
     siteUrl: `https://lizshipton.com`,
     socialLinks:
       [
-        {url: "https://patreon.com/lizshipton", name: 'patreon'},
+        {url: "https://lizshiptonauthor.substack.com", name: 'substack'},
         {url: "https://instagram.com/lizshiptonauthor", name: 'instagram'},
         {url: "https://tiktok.com/@lizshiptonauthor", name: 'tiktok'},
         {url: "https://facebook.com/lizshiptonauthor", name: 'facebook'},
         {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", name: 'goodreads'},
-        {url: "https://threads.net/@lizshiptonauthor", name: 'threads'},
       ]
   },
   plugins: [

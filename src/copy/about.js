@@ -1,16 +1,15 @@
-const about_liz_subheading = "Hi! I'm Liz.";
+const about_liz_subheading = "Hi! I'm Liz. Speculative fiction author & boat hermit.";
 const about_liz_image = "Headshot 2026";
 const about_liz_alt = "Liz Shipton's Headshot";
-export const about_liz_cta_text = "Newsletter";
-export const about_liz_cta_mobile_text = "Newsletter";
+export const about_liz_cta_text = "Substack";
+export const about_liz_cta_mobile_text = "Substack";
 export const about_liz_button_color = "Pink";
-export const about_liz_link = "/newsletter";
+export const about_liz_link = "https://lizshiptonauthor.substack.com";
 
-const about_liz_one = "I'm a speculative fiction author and loosely-hinged person.";
-const about_liz_two = "I started writing when my partner, dog, and I set sail from California in 2021. My first book, Salt, was written on my phone while I was in the cockpit on night watch along the Pacific Coast. That series includes a lot of real-life adventures and locations, as do all my books since."
-const about_liz_three = "As a writer, I try to balance dark humor, bonkers action, and epic world-building with characters rooted in my lived experience. My work skews political, and many of my books contain explicit content. I like to lure you in with sex and magic, and then beat you over the head with current events. AI, immigration, feminism, climate change, mental health, queerness, and Donald Trump are common themes."
+const about_liz_one = "I started writing when my partner and I set sail from California in 2021. My first book, Salt, was written on my phone while I was in the cockpit on night watch along the Pacific Coast."
+const about_liz_two = "As a writer, I try to balance dark humor and bonkers action with world-building and characters rooted in my lived experience. While my books are more about satire than romance, they contain romantic arcs and explicit content, because I like to lure you in with sex and magic before I beat you over the head with stuff like AI, immigration, feminism, climate change, mental health, queerness, and Donald Trump."
+const about_liz_three = "I also write bits and bobs about the attention economy on Substack, and high-heat MM sports romance under the pen name Hailey Reaves."
 const about_liz_four = "On the rare occasion I'm not writing, you can find me at yoga or karaoke, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching 8 Out of 10 Cats Does Countdown."
-const about_liz_five = "she/they"
 
 const about_loki_subheading = "Author 🪶⚓ Pirate";
 const about_loki_image = "loki";
@@ -36,7 +35,7 @@ const about_crew_four = "We rescued Aloy from GEPDA rescue in San Martin, CA in 
 export const content = [
     {
         subheading: about_liz_subheading,
-        paragraphs: {text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four, about_liz_five]},
+        paragraphs: {text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four]},
         images: [{src: about_liz_image, alt: about_liz_alt }],
         ctas: [{text: about_liz_cta_text, mobileText: about_liz_cta_mobile_text, colorScheme: about_liz_button_color, link: about_liz_link}]
 
