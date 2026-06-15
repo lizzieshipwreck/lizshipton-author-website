@@ -1,29 +1,58 @@
 .content {
     width: 100%;
+    position: relative;
 }
 
-.hero {
-    opacity: 0;
-    margin-top: 50%;
-}
-
-@keyframes fade {
-    to {
+@keyframes shrinkAndFadeOutHero {
+    0%, 75% {
         opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.85);
+        
     }
 }
 
-.hero {
-    animation: fade 0.15s linear infinite;
+@keyframes shrinkAndFadeOutContainer {
+    0%, 75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.85);
+    }
 }
 
-/* TODO: consolidate all these animation params into a global object */
+.hero, .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    z-index: var(--layer);
+}
+
 .hero {
-	/* Don't let the animation play by default */
-	animation-play-state: paused;
-    /* Bind the animation to scroll */
-    animation-delay: calc(var(--scroll) * -1s);
-    /* These last 2 properites clean up overshoot weirdness */
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
+    animation: shrinkAndFadeOutHero 1s linear both;
+    animation-play-state: paused;
+    animation-delay: calc(((var(--scroll) * 2.5) - (var(--layer))) * -2s);
+}
+
+.container {
+    animation: shrinkAndFadeOutContainer 1s linear both;
+    animation-play-state: paused;
+    animation-delay: calc(((var(--scroll) * 2.7) - (var(--layer))) * -2s);
+}
+
+.container {
+    margin-top: 50vh;
+}
+
+@media only screen and (max-width: 750px) {
+    .container, .hero {
+        padding-top: 3rem;
+    }
 }

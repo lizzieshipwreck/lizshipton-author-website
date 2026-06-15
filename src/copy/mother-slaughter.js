@@ -8,8 +8,8 @@ const mother_link = "/mother-and-slaughter";
     title: "⚔️ Mother & Slaughter ⚔️",
     alt: "Cover for Mother & Slaughter",
     headlineOne: "A hundred and fifty years ago, the women of Draconia were stripped of their magic...",
-    cta: "slay, girl",
-    mobileCta: "slay, girl",
+    cta: "learn more",
+    mobileCta: "learn more",
     link: mother_link,
     button: "Red",
 }

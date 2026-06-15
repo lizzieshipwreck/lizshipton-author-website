@@ -4,5 +4,22 @@
     color: rgba(55, 54, 54, 0.85);
     font-family: 'Raleway';
     font-size: small;
-    position: sticky;
+    position: absolute;
+    bottom: 0;          /* Aligns perfectly with the bottom of the parent */
+    right: 0;           /* Positions it on the right side */
+    height: auto;
+    p {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .container {
+        position: absolute;
+        bottom: 0;  
+        left: 50%;
+        transform: translate(-50%);
+        font-size: xx-small;
+        width: 100%;
+    }
 }

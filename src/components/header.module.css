@@ -8,8 +8,8 @@
         border-right: none;
         position: sticky;
         top: 0;
-        z-index: 100;
         width: 100vw;
+        z-index: 4;
 }
 
 @keyframes sticky-parallax-header-move-and-size {
@@ -19,7 +19,7 @@
         border-color: rgb(169, 169, 169, 0.2);
 	}
 	to {
-		height: 6vh;
+		height: var(--shrink-height);
         padding-bottom: .75rem;
         border-color: rgb(169, 169, 169, 0);
 	}
@@ -28,18 +28,19 @@
 #sticky-parallax-header {
 	position: fixed;
 	top: 0;
-	animation: sticky-parallax-header-move-and-size 0.5s linear infinite;
+	animation: sticky-parallax-header-move-and-size 0.20s linear infinite;
+    --shrink-height: 4vh;
+}
+
+@media only screen and (max-width: 750px) {
+    #sticky-parallax-header {
+        --shrink-height: 6vh;
+    }
 }
 
 @keyframes fade {
 	to {
-		color: lightgray;
-	}
-}
-
-@keyframes fadeMenu {
-	to {
-		background: rgba(211, 211, 211)
+		color: rgba(211, 211, 211);
 	}
 }
 
@@ -54,20 +55,18 @@
         animation: fade 0.5s linear infinite;
     }
     :global(.hamburger-react div) {
-        animation: fadeMenu 0.5s linear infinite;
+        animation: fade 0.5s linear infinite;
     }
 }
 
 .logo {
     margin-left: 1rem;
-    animation: fadeOut 0.5s linear infinite;
+    animation: fadeOut 0.20s linear infinite;
 }
 
 /* TODO: consolidate all these animation params into a global object */
 .logo, #sticky-parallax-header, #sticky-parallax-header a, #sticky-parallax-header :global(.hamburger-react div) {
-	/* Don't let the animation play by default */
 	animation-play-state: paused;
-    /* Bind the animation to scroll */
     animation-delay: calc(var(--scroll) * -1s);
     /* These last 2 properites clean up overshoot weirdness */
     animation-iteration-count: 1;

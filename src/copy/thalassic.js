@@ -9,8 +9,8 @@ export const THALASSIC_INDEX_PAGE = {
     alt: "Covers for the Thalassic Series",
     headlineOne: "What do you do with a drunken sailor when the world is underwater?",
     headlineTwo: "",
-    cta: "find out",
-    mobileCta: "find out",
+    cta: "learn more",
+    mobileCta: "learn more",
     link: thalassic_link,
     button: "Blue",
 }

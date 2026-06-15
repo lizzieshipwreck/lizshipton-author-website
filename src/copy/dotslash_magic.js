@@ -10,8 +10,8 @@ export const DOTSLASH_INDEX_PAGE = {
     alt: "Dot Slash Magic header",
     link: dotslash_link,
     button: dotslash_button_color_one,
-    cta: "go rogue",
-    mobileCta: "go rogue",
+    cta: "learn more",
+    mobileCta: "learn more",
 }
 
 const dotslash_heading = "If AI gave you power you could barely control...would you use it?"

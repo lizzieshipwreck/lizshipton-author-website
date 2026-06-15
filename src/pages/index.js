@@ -9,7 +9,6 @@ import SeriesBlock from '../components/index/series-block';
 import { DOTSLASH_INDEX_PAGE } from '../copy/dotslash_magic';
 import { THALASSIC_INDEX_PAGE } from '../copy/thalassic';
 import { MOTHER_INDEX_PAGE } from '../copy/mother-slaughter';
-import { ABOUT_INDEX_PAGE } from '../copy/about';
 
 const INDEX_CONTENT = [MOTHER_INDEX_PAGE, DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE]
 
@@ -19,14 +18,16 @@ const IndexPage = () => {
 
     useEffect(() => {
         checkWindowWidth();
-        return () => window.removeEventListener('resize', checkWindowWidth)
+        return () => {
+          window.removeEventListener('resize', checkWindowWidth)
+        }
     });
   
     const checkWindowWidth = () => {
         if (typeof window !== undefined) {
-        const width = window.innerWidth;
-        setWindowWidth(width);
-        window.addEventListener('resize', checkWindowWidth);
+          const width = window.innerWidth;
+          setWindowWidth(width);
+          window.addEventListener('resize', checkWindowWidth);
         }
     }
   
@@ -38,19 +39,20 @@ const IndexPage = () => {
           <AuthorIntroBlock />
           {
             INDEX_CONTENT.map((item, i) => {
+              const hero = i === 0;
+              const layer = i + 1;
               return (
-                <div className={`${styles[i === 0 && `hero`]}`}>
-                  <SeriesBlock
-                    key={i}
-                    image={isMobile ? item.mobileImage : item.image}
-                    alt={item.alt}
-                    headlineOne={item.headlineOne}
-                    cta={item.cta}
-                    mobileCta={item.mobileCta}
-                    button={item.button}
-                    link={item.link}
-                    hasBorder={i !== 0}
-                  />
+                  <div className={`${styles[hero ? 'hero' : 'container']}`} style={{ '--layer': layer, '--duration': layer }}>
+                    <SeriesBlock
+                      key={i}
+                      image={isMobile ? item.mobileImage : item.image}
+                      alt={item.alt}
+                      headlineOne={item.headlineOne}
+                      cta={item.cta}
+                      mobileCta={item.mobileCta}
+                      button={item.button}
+                      link={item.link}
+                    />
                 </div>
               )
             })
