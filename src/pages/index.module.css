@@ -4,23 +4,24 @@
 }
 
 @keyframes shrinkAndFadeOutHero {
-    0%, 75% {
+    0%, 10% {
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: scale(0.85);
-        
+        transform: scale(0.95);
+        visibility: hidden;
     }
 }
 
 @keyframes shrinkAndFadeOutContainer {
-    0%, 75% {
+    0%, 5% {
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: scale(0.85);
+        transform: scale(0.95);
+        visibility: hidden;
     }
 }
 
@@ -42,7 +43,7 @@
 }
 
 .container {
-    animation: shrinkAndFadeOutContainer 1s linear both;
+    animation: shrinkAndFadeOutContainer 1.2s linear both;
     animation-play-state: paused;
     animation-delay: calc(((var(--scroll) * 2.7) - (var(--layer))) * -2s);
 }
