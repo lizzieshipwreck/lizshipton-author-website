@@ -1,14 +1,14 @@
 const about_liz_button_color = "Pink";
 const about_liz_link = "https://lizshiptonauthor.substack.com";
 
-const about_liz_subheading = "Hi, I'm Liz. Speculative fiction author & boat hermit.";
+const about_liz_subheading = "Speculative fiction author. Literal hermit.";
 const about_liz_image = "Headshot 2026";
 const about_liz_alt = "Liz Shipton's Headshot";
 const about_liz_cta_text = "substack";
 const about_liz_cta_mobile_text = "substack";
 
 const about_liz_one = "I started writing when my partner and I set sail from California in 2021. My first book, Salt, was written on my phone while I was in the cockpit on night watch along the Pacific Coast."
-const about_liz_two = "As a writer, I try to balance dark humor and bonkers action with world-building and characters rooted in my lived experience. While I consider my books more satire than romance, they are romantic with explicit content, because I like to lure you in with sex and magic before I beat you over the head with stuff like AI, immigration, feminism, climate change, mental health, queerness, and Donald Trump."
+const about_liz_two = "As a writer, I try to balance dark humor and bonkers action with world-building and characters rooted in my lived experience. While I consider my books more satire than romance, they do contain romantic arcs and explicit content, because I like to lure you in with sex and magic before I beat you over the head with stuff like AI, immigration, feminism, climate change, mental health, queerness, and Donald Trump."
 const about_liz_three = "I also write bits and bobs about the attention economy on Substack, and squishy MM sports romance under the pen name Hailey Reaves."
 const about_liz_four = "On the rare occasion I'm not writing, you can find me at yoga or karaoke, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching 8 Out of 10 Cats Does Countdown."
 
@@ -20,9 +20,9 @@ const about_loki_cta_text = "follow on instagram";
 const about_loki_cta_mobile_text = "follow us";
 const about_loki_button_color = "Blue";
 const about_loki_one = "My partner, dog, and I live on a 43ft Morgan called Loki. We bought the boat in 2019 after almost 6 years of planning, and set sail in September of 2021."
-const about_loki_two = "Our journey began in our hometown of Santa Cruz, CA. From there, we sailed down the Pacific Coast into Baja California. We spent a year in Mexico before continuing south through Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama. In 2023 we came through the Panama Canal to the Caribbean, where we now liveaboard."
+const about_loki_two = "Our journey began in our hometown of Santa Cruz, CA. From there, we sailed down the Pacific Coast into Baja California. We spent a year in Mexico before continuing south through Guatamala, El Salvador, Nicaragua, Hondurus, Costa Rica, and Panama. In 2023 we came through the Panama Canal to the Caribbean, where we still live on the boat."
 const about_loki_three = "Loki is a great home, albeit small. We live simply, with minimal expense and waste, procuring our own water and generating power from solar."
-const about_loki_four = "We were motivated to do this by a desire to see the world, but boat life is also an amazing way to keep expenses low. One of my favorite parts of this lifestyle is that it allows us the freedom to pursue work we love, rather than worry about paying off a mortgage."
+const about_loki_four = "We were motivated to do this by a desire to see the world - but boat life is also an amazing way to keep expenses low. One of my favorite parts of this lifestyle is that it allows us to focus on pursuing work we love, rather than paying off a mortgage."
 
 const about_crew_subheading = "Meet the crew";
 const about_crew_image = "trev and aloy";

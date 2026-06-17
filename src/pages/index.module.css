@@ -45,11 +45,7 @@
 .container {
     animation: shrinkAndFadeOutContainer 1.2s linear both;
     animation-play-state: paused;
-    animation-delay: calc(((var(--scroll) * 2.7) - (var(--layer))) * -2s);
-}
-
-.container {
-    margin-top: 50vh;
+    animation-delay: calc(((var(--scroll) * 2.8) - (var(--layer))) * -2s);
 }
 
 @media only screen and (max-width: 750px) {

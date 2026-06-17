@@ -32,15 +32,9 @@
     --shrink-height: 4vh;
 }
 
-@media only screen and (max-width: 750px) {
-    #sticky-parallax-header {
-        --shrink-height: 6vh;
-    }
-}
-
 @keyframes fade {
 	to {
-		color: rgba(211, 211, 211);
+		color: var(--color);
 	}
 }
 
@@ -50,14 +44,21 @@
 	}
 }
 
-#sticky-parallax-header {
-    a {
-        animation: fade 0.5s linear infinite;
-    }
-    :global(.hamburger-react div) {
-        animation: fade 0.5s linear infinite;
+@media only screen and (max-width: 750px) {
+    #sticky-parallax-header {
+        --shrink-height: 6vh;
     }
 }
+
+@media only screen and (min-width: 750px) {
+    #sticky-parallax-header {
+        a {
+            animation: fade 0.5s linear infinite;
+            --color: rgba(211, 211, 211)
+        }
+    }
+}
+
 
 .logo {
     margin-left: 1rem;

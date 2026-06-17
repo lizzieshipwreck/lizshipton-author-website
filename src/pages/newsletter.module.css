@@ -1,48 +1,17 @@
-.content {
-    width: 80%;
-    height: 100vh;
-    margin: auto;
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25%;
 }
 
-.block {
-    margin-top: 3rem;
+.i-frame{
+    /* width: 480;
+    height:320; */
+    border: 1px solid #EEE; 
+    background: white;
 }
 
-.text-header {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: gray;
-}
+/* .qr-code {
 
-.text {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: rgba(55, 54, 54, 0.85);
-    text-align: center;
-    font-style: italic;
-    width: 85%;
-    margin: auto;
-}
-
-.emoji {
-    font-size: xx-large;
-}
-
-@media only screen and (min-width: 750px) {
-    .block {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-}
-
-@keyframes fade {
-    to {
-        opacity: 0.3;
-    }
-}
-
-.button:hover {
-    animation: fade linear both;
-    animation-duration: 150ms;
-}
+} */

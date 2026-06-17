@@ -1,11 +1,14 @@
 import * as React from 'react'
 import LandingPageRedirect from '../components/page-layouts/redirect-page'
-import { dotslash_sneak_peek} from '../copy/redirects';
+import * as styles from './newsletter.module.css'
 
 const Newsletter = () => {
 
     return (
-        <LandingPageRedirect pageTitle={"Newsletter"} redirectUrl={ dotslash_sneak_peek }/>
+        <div className={styles.container}>
+            <iframe src="https://lizshiptonauthor.substack.com/embed" className={styles.iFrame} frameborder={0} scrolling={'no'}></iframe>
+            
+        </div>
   )
 }
 
