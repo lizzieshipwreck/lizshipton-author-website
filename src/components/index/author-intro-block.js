@@ -14,7 +14,7 @@ const AuthorIntroBlock = () => {
                     come for the sex and magic
                 </h2>
                 <p className={styles.text}>
-                    stay for the absolute chaos
+                    stay for the dystopian chaos
                 </p>
                 <p className={styles.finger}>
                     👇🏻
