@@ -11,7 +11,7 @@ const AuthorIntroBlock = () => {
                     <StaticImage src={"../../images/Casual Headshot.png"} placeholder="blurred" quality={100} height={175} className={styles.headshot}/>
                 </Link>
                 <h2 className={styles.textHeader}>
-                    dark speculative satire
+                    speculative fiction with teeth
                 </h2>
                 <p className={styles.text}>
                     come for the magic. stay for the mayhem
