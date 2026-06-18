@@ -7,7 +7,7 @@ const about_liz_alt = "Liz Shipton's Headshot";
 const about_liz_cta_text = "substack";
 const about_liz_cta_mobile_text = "substack";
 
-const about_liz_one = "I started writing when my partner and I left California to explore the world via sailboat in 2021. My first book, Salt, was written on my phone while I was in the cockpit on night watch along the Pacific Coast. That book turned into a series, which turned into the pathological condition people like to call 'being a writer.'"
+const about_liz_one = "I started writing when my partner and I left California to explore the world via sailboat in 2021. My first book, Salt, was written on my phone while I was in the cockpit on night watch along the Pacific Coast. That book turned into two, then into a series, then into the pathological condition people call 'being a writer.'"
 const about_liz_two = "As a writer, I try to balance dark humor and high-stakes action with world-building and characters rooted in my lived experience. While I consider my books more satire than romance, many of them contain romantic arcs and explicit content, because I like to lure you in with sex and magic before I beat you over the head with stuff like AI, immigration, feminism, climate change, mental health, queerness, and Donald Trump."
 const about_liz_three = "I also write bits and bobs about the attention economy on Substack, and squishy MM sports romance under the pen name Hailey Reaves."
 const about_liz_four = "On the rare occasion I'm not writing, you can find me at yoga or karaoke, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching 8 Out of 10 Cats Does Countdown."
