@@ -66,6 +66,6 @@ export default IndexPage
 
 export const Head = () => {
   return (
-    <meta property='og:image' content={'https://i.ibb.co/yP63QJv/na-thalassic-social-share.png'}></meta>
+    <meta property='og:image' content={'https://lizshipton.com/static/5c3fbe17fdcdade66893a5a6117ba08d/7f42c/logo%20transparent.webp'}></meta>
   )
 }
