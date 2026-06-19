@@ -23,19 +23,20 @@ const Newsletter = () => {
                     />
                 </div>
                 <div className={styles.signup}>
+                    <a href={substack_link} target='blank'  rel='noopener noreferrer'>
+                        <StaticImage 
+                            alt="Broadside logo"
+                            src="../images/compass favicon.png"
+                            placeholder="blurred"
+                            quality={100}
+                            width={100}
+                        />
+                    </a>
                     <h3 className={styles.header}>{content.newsletter_header}</h3>
                     <p className={styles.text}>{content.newsletter_text_one}</p>
                     <p className={styles.text}>{content.newsletter_text_two}</p>
+                    <p className={styles.center}>{content.newsletter_text_three}</p>
                     <iframe src="https://lizshiptonauthor.substack.com/embed?transparent=1" frameborder={0} scrolling="no"></iframe>
-                    <a href={substack_link} target='blank'  rel='noopener noreferrer'>
-                        <StaticImage 
-                            alt="Substack QR code"
-                            src="../images/qr-code.png"
-                            placeholder="blurred"
-                            quality={100}
-                            width={200}
-                        />
-                    </a>
                 </div>
             </div>
         </Layout>

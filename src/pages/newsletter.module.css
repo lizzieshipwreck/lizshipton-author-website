@@ -19,7 +19,8 @@
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: rgba(80, 80, 80, 0.85);
     font-style: italic;
-    margin-top: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     font-size: xx-large;
 }
 
@@ -30,4 +31,10 @@
     font-size: medium;
     text-align: justify;
     color: gray;
+    margin-top: 0;
+}
+
+.center {
+    text-align: center;
+    color: rgba(80, 80, 80, 0.85);
 }
