@@ -37,7 +37,7 @@ button::after {
 .button-pink, 
 .button-pink::after {
     background: rgb(0,0,0) 5%;
-    box-shadow: 6px 6px 0px rgb(253,73,181);
+    box-shadow: 6px 6px 0px #C12B7C;
 }
 
 .button-green, 
