@@ -9,7 +9,7 @@
         position: sticky;
         top: 0;
         width: 100vw;
-        z-index: 4;
+        z-index: 100;
 }
 
 @keyframes sticky-parallax-header-move-and-size {

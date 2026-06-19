@@ -46,15 +46,15 @@
 }
 
 .hero {
-    animation: shrinkAndFadeOutHero 1s linear both;
+    animation: shrinkAndFadeOutHero .5s linear both;
     animation-play-state: paused, paused;
-    animation-delay: calc(((var(--scroll) * 2.5) - (var(--layer))) * -2s);
+    animation-delay: calc(((var(--scroll) * 2.7) - (var(--layer))) * -2s);
 }
 
 .container {
-    animation: shrinkAndFadeOutContainer 1.2s linear both;
+    animation: shrinkAndFadeOutContainer .7s linear both;
     animation-play-state: paused;
-    animation-delay: calc(((var(--scroll) * 2.8) - (var(--layer))) * -2s);
+    animation-delay: calc(((var(--scroll) * 3.4) - (var(--layer))) * -2s);
 }
 
 @media only screen and (max-width: 750px) {

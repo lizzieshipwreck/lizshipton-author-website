@@ -1,6 +1,18 @@
 const about_liz_button_color = "Pink";
 const about_liz_link = "https://lizshiptonauthor.substack.com";
 
+export const ABOUT_INDEX_PAGE = {
+    image: "Broadside Header",
+    mobileImage: "Broadside Banner",
+    title: "Newsletter",
+    headlineOne: "If AI gave you power you could barely control...would you use it?",
+    alt: "Dot Slash Magic header",
+    link: about_liz_link,
+    button: about_liz_button_color,
+    cta: "newsletter",
+    mobileCta: "newsletter",
+}
+
 const about_liz_subheading = "Hi. I'm Liz.";
 const about_liz_image = "Headshot 2026";
 const about_liz_alt = "Liz Shipton's Headshot";
