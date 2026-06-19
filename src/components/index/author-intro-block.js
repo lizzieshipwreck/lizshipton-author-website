@@ -17,7 +17,7 @@ const AuthorIntroBlock = () => {
                     come for the magic. stay for the mayhem
                 </p>
                 <p className={styles.finger}>
-                    👇🏻
+                    <StaticImage src={"../../images/down arrow.png"} placeholder="blurred" quality={100} height={50}/>
                 </p>
             </div>
         </div>
