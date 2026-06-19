@@ -30,8 +30,8 @@ const retail_mobile_text = "read in KU"
 const bookshop_link = "https://shop.lizshipton.com/collection/artificial-magic"
 const retail_link = "https://amzn.to/4skYxVr"
 
-const mother_cover_image = "Mother & Slaughter Cover"
-const mother_cover_alt = "Cover for Mother & Slaughter"
+export const mother_cover_image = "Mother & Slaughter Cover"
+export const mother_cover_alt = "Cover for Mother & Slaughter"
 
 const review_image = "Mother Reviews"
 const review_alt = "Reviews of Mother & Slaughter"

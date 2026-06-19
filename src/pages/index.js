@@ -9,9 +9,9 @@ import SeriesBlock from '../components/index/series-block';
 import { DOTSLASH_INDEX_PAGE } from '../copy/dotslash_magic';
 import { THALASSIC_INDEX_PAGE } from '../copy/thalassic';
 import { MOTHER_INDEX_PAGE } from '../copy/mother-slaughter';
-import { ABOUT_INDEX_PAGE } from '../copy/about';
+import { NEWSLETTER_INDEX_PAGE } from '../copy/newsletter';
 
-const INDEX_CONTENT = [MOTHER_INDEX_PAGE, DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE, ABOUT_INDEX_PAGE]
+const INDEX_CONTENT = [MOTHER_INDEX_PAGE, DOTSLASH_INDEX_PAGE, THALASSIC_INDEX_PAGE, NEWSLETTER_INDEX_PAGE]
 
 const IndexPage = () => {
 

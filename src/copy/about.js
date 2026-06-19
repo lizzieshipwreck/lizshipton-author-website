@@ -1,17 +1,5 @@
 const about_liz_button_color = "Pink";
-const about_liz_link = "https://lizshiptonauthor.substack.com";
-
-export const ABOUT_INDEX_PAGE = {
-    image: "Broadside Header",
-    mobileImage: "Broadside Banner",
-    title: "Newsletter",
-    headlineOne: "If AI gave you power you could barely control...would you use it?",
-    alt: "Dot Slash Magic header",
-    link: about_liz_link,
-    button: about_liz_button_color,
-    cta: "newsletter",
-    mobileCta: "newsletter",
-}
+export const substack_link = "https://lizshiptonauthor.substack.com";
 
 const about_liz_subheading = "Hi. I'm Liz.";
 const about_liz_image = "Headshot 2026";
@@ -50,7 +38,7 @@ export const content = [
         subheading: about_liz_subheading,
         paragraphs: {text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four]},
         images: [{src: about_liz_image, alt: about_liz_alt }],
-        ctas: [{text: about_liz_cta_text, mobileText: about_liz_cta_mobile_text, colorScheme: about_liz_button_color, link: about_liz_link}]
+        ctas: [{text: about_liz_cta_text, mobileText: about_liz_cta_mobile_text, colorScheme: about_liz_button_color, link: substack_link}]
 
     },
     {

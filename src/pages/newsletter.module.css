@@ -1,17 +1,33 @@
 .container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 25%;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-.i-frame{
-    /* width: 480;
-    height:320; */
-    border: 1px solid #EEE; 
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.i-frame {
     background: white;
 }
 
-/* .qr-code {
+.header {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: rgba(80, 80, 80, 0.85);
+    font-style: italic;
+    margin-top: 0;
+    font-size: xx-large;
+}
 
-} */
+.text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-size: medium;
+    text-align: justify;
+    color: gray;
+}
