@@ -3,15 +3,6 @@
     position: relative;
 }
 
-@keyframes fadeInHero {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 @keyframes shrinkAndFadeOutHero {
     0%, 10% {
         opacity: 1;

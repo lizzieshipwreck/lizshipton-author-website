@@ -10,8 +10,14 @@
     text-align: center;
 }
 
+@keyframes fade {
+    to {
+        opacity: 0;
+    }
+}
+
 .books {
-    animation: fade 0.18s linear infinite;
+    animation: fade 0.11s linear infinite;
 }
 
 .text-header {
@@ -20,7 +26,7 @@
     font-size: medium;
     letter-spacing: 1px;
     color: rgba(55, 54, 54, 0.85);
-    animation: fade 0.14s linear infinite;
+    animation: fade 0.09s linear infinite;
 }
 
 .text {
@@ -31,23 +37,15 @@
     width: 85%;
     margin: auto;
     font-size: large;
-    animation: fade 0.12s linear infinite;
+    animation: fade 0.07s linear infinite;
 }
 
 .finger {
     text-align: center;
     font-size: xx-large;
     opacity: 1;
-}
+    animation: fade .05s linear infinite;
 
-@keyframes fade {
-    to {
-        opacity: 0;
-    }
-}
-
-.finger {
-    animation: fade 0.10s linear infinite;
 }
 
 /* TODO: consolidate all these animation params into a global object */
