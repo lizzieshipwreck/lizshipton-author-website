@@ -26,3 +26,15 @@ export const content = {
     newsletter_button_color,
     newsletter_link
 }
+
+const reaves_newsletter_header = "Free Bonus Chapter"
+const reaves_newsletter_text_one = "Join the Hailey Reaves newsletter to get a free bonus chapter delivered straight (or gay) to your inbox."
+const reaves_newsletter_text_two = "Set a few years before Medaling, this is a purely spicy scene between Nic Arsenault and his first boyfriend, French goalkeeper Mathieu Bordeaux. This is Nic's bi-awakening. It's tender, sexy, slippery (!) and about 3500 words."
+const reaves_newsletter_text_three = "This newsletter sends out monthly deals and discounts on spicy romance ebooks, along with ARC opportunities and the occasional update."
+
+export const reaves_content = {
+    reaves_newsletter_header,
+    reaves_newsletter_text_one,
+    reaves_newsletter_text_two,
+    reaves_newsletter_text_three,
+}

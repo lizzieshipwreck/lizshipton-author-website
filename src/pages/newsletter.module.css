@@ -3,6 +3,12 @@
     justify-content: space-around;
     align-items: flex-start;
 }
+.reaves-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10rem;
+}
 
 .signup {
     display: flex;
