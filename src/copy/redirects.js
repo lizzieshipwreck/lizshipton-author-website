@@ -1,13 +1,9 @@
-export const blog_redirect_link = "https://blog.lizshipton.com";
 export const salt_redirect_link = "https://amzn.to/4cY2tnA";
-export const book_club_redirect_link = "https://signup.lizshipton.com/tale-of-mischief";
 export const shop_redirect_link = "https://shop.lizshipton.com";
 export const dotslash_asmrtists = "https://youtube.com/playlist?list=PLnk1qoE5nddKhArQIjaIixoUkVUL3jtzW&feature=shared";
 export const dotslash_asmr = "https://www.youtube.com/@dotslashASMR";
 export const dotslash_videos = "https://youtube.com/playlist?list=PLnk1qoE5nddIs-QzPkDrgdwUdN3_GqeHI&feature=shared";
 export const dotslash_appendix = "https://ebooks.lizshipton.com/st6t0bqo0k";
-export const dotslash_sountrack = "https://blog.lizshipton.com/dot-slash-soundtrack";
-export const dotslash_podcasts = "https://blog.lizshipton.com/dot-slash-podcasts";
-export const mother_and_slaughter = "https://blog.lizshipton.com/mother-slaughter";
-export const dotslash_sneak_peek = "https://signup.lizshipton.com/dot-slash-magic";
+export const dotslash_sountrack = "https://lizshiptonauthor.substack.com/p/dot-slash-playlist";
+export const dotslash_podcasts = "https://lizshiptonauthor.substack.com/p/dot-slash-magic-resources";
 export const thalassic_playlist = "https://open.spotify.com/playlist/1vYEb8cpRhdLzipFo1fVzp";
