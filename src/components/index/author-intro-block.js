@@ -8,7 +8,7 @@ const AuthorIntroBlock = () => {
         <div className={styles.container}>
             <div className={styles.content}>
                 <Link to="/about" >
-                    <StaticImage src={"../../images/Casual Headshot.png"} placeholder="blurred" quality={100} height={175} className={styles.headshot}/>
+                    <StaticImage src={"../../images/Books.png"} placeholder="blurred" quality={100} height={350} className={styles.books} />
                 </Link>
                 <h2 className={styles.textHeader}>
                     speculative fiction with teeth

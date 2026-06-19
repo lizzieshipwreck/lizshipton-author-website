@@ -10,10 +10,8 @@
     text-align: center;
 }
 
-.headshot {
-    border-radius: 100%;
-    box-shadow: 3px 0 0px rgb(79, 79, 79), -3px 0 0px rgb(79, 78, 78);
-    animation: fade 0.14s linear infinite;
+.books {
+    animation: fade 0.18s linear infinite;
 }
 
 .text-header {
@@ -22,7 +20,7 @@
     font-size: medium;
     letter-spacing: 1px;
     color: rgba(55, 54, 54, 0.85);
-    animation: fade 0.13s linear infinite;
+    animation: fade 0.14s linear infinite;
 }
 
 .text {
@@ -53,7 +51,7 @@
 }
 
 /* TODO: consolidate all these animation params into a global object */
-.finger, .text, .text-header, .headshot {
+.finger, .text, .text-header, .books {
 	animation-play-state: paused;
     animation-delay: calc(var(--scroll) * -1s);
     /* These last 2 properites clean up overshoot weirdness */
