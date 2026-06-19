@@ -14,8 +14,8 @@ export const NEWSLETTER_INDEX_PAGE = {
 }
 
 const newsletter_header = "Join the Crew"
-const newsletter_text_one = "Sign up for my free monthly newsletter to get exclusive recommendations, ARC opportunities, my work and travel updates, and pictures of my dog."
-const newsletter_text_two = "You'll also get the first chapter of Mother & Slaughter, plus optional access to weekly essays I post to Substack about the magic and mayhem of being an artist inside today's algorithm-driven world."
+const newsletter_text_one = "Sign up for my free monthly newsletter to download the first chapter of Mother & Slaughter for free."
+const newsletter_text_two = "You'll also get exclusive recommendations, ARC opportunities, updates about my work and travel, and pictures of my dog. Plus, optional access to my weekly Substack essays about the magic and mayhem of being an artist in today's algorithm-driven world."
 
 export const content = {
     newsletter_header,
