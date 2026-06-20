@@ -1,20 +1,13 @@
-.container{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-.reaves-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin-top: 10rem;
+.container, .reaves-container{
+    width: 80%;
+    margin: auto;
 }
 
 .signup {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    margin-top: 3rem;
 }
 
 .i-frame {
@@ -28,6 +21,7 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: xx-large;
+    text-align: center;
 }
 
 .text {
@@ -43,4 +37,17 @@
 .center {
     text-align: center;
     color: rgba(80, 80, 80, 0.85);
+}
+
+@media only screen and (min-width: 750px) {
+    .container, .reaves-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .signup{
+        width: 40%;
+        margin-top: 0;
+    }
 }

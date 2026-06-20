@@ -25,7 +25,7 @@ const Newsletter = () => {
                 <div className={styles.signup}>
                     <a href={substack_link} target='blank'  rel='noopener noreferrer'>
                         <StaticImage 
-                            alt="Broadside logo"
+                            alt="Broadside favicon"
                             src="../images/compass favicon.png"
                             placeholder="blurred"
                             quality={100}
@@ -37,6 +37,15 @@ const Newsletter = () => {
                     <p className={styles.text}>{content.newsletter_text_two}</p>
                     <p className={styles.center}>{content.newsletter_text_three}</p>
                     <iframe src="https://lizshiptonauthor.substack.com/embed?transparent=1" frameborder={0} scrolling="no"></iframe>
+                    <a href={substack_link} target='blank'  rel='noopener noreferrer'>
+                        <StaticImage 
+                            alt="Broadside logo"
+                            src="../images/Broadside Logo.png"
+                            placeholder="blurred"
+                            quality={100}
+                            width={300}
+                        />
+                    </a>
                 </div>
             </div>
         </Layout>
