@@ -6,9 +6,9 @@ import {content} from '../copy/reaves';
 
 const HaileyReaves = () => {
   return (
-    <Layout pageTitle="Hailey Reaves">
-      <BlockLayoutPage content={content} flip={false}/>
-    </Layout>
+    <div style={{'margin-top': '5rem'}}>
+      <BlockLayoutPage content={content} flip={false} />
+    </div>
   )
 }
 

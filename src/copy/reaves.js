@@ -58,6 +58,7 @@ const bonus_image = "bonus website";
 const bonus_alt = "Medaling Bonus Chapter";
 
 const bonus_one = "Told from Nic Arsenault's POV, this chapter takes place a few years before Medaling. This is Nic's bi-awakening with his former partner, French goalie Mathieu Bordeaux. It's tender, sexy, slippery (!) and about 3500 words."
+const bonus_two = "Download it free when you join the Hailey Reaves newsletter - you'll receive one email a month with deals and discounts on spicy MM romance eBooks."
 const bonus_link = "https://signup.lizshipton.com/hailey-reaves-newsletter";
 const bonus_text = "get it FREE";
 const bonus_mobile_text = "get it"
@@ -77,12 +78,20 @@ const reaves_alt = "Hailey Reaves";
 
 const reaves_one = "Hailey Reaves is the MM romance pen name of author Liz Shipton. Hailey enjoys putting tortured boys into spicy situations.";
 const reaves_two = "Liz is a SFF author best known for their spicy urban fantasy Dot Slash Magic, which received a starred review from Publisher's Weekly, and for their viral comedy videos. Liz lives on a sailboat in the Caribbean with their partner and dog.";
-const reaves_text = "main site";
-const reaves_mobile_text = "Main";
+const reaves_text = "meet liz";
+const reaves_mobile_text = "meet liz";
 const main_site_link = "https://lizshipton.com";
 const reaves_button_color = "Yellow";
 
 export const content = [
+        {
+        subheading: reaves_subheading,
+        paragraphs: {text: [reaves_one, reaves_two]},
+        images: [{src: reaves_image, alt: reaves_alt }],
+        ctas: [
+            {text: reaves_text, mobileText: reaves_mobile_text, colorScheme: reaves_button_color, link: main_site_link},
+        ],
+    },
     {
         subheading: medaling_subheading,
         paragraphs: {text: [medaling_one, medaling_two, medaling_three, medaling_four]},
@@ -112,18 +121,10 @@ export const content = [
     },
     {
         subheading: bonus_subheading,
-        paragraphs: {text: [bonus_one]},
+        paragraphs: {text: [bonus_one, bonus_two]},
         images: [{src: bonus_image, alt: bonus_alt }],
         ctas: [
             {text: bonus_text, mobileText: bonus_mobile_text, colorScheme: bonus_button_color, link: bonus_link},
-        ],
-    },
-    {
-        subheading: reaves_subheading,
-        paragraphs: {text: [reaves_one, reaves_two]},
-        images: [{src: reaves_image, alt: reaves_alt }],
-        ctas: [
-            {text: reaves_text, mobileText: reaves_mobile_text, colorScheme: reaves_button_color, link: main_site_link},
         ],
     }
   ]
