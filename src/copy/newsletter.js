@@ -3,7 +3,7 @@ const newsletter_link = "/newsletter";
 
 export const NEWSLETTER_INDEX_PAGE = {
     image: "Broadside Header",
-    mobileImage: "Broadside Banner",
+    mobileImage: "Broadside Mobile",
     title: "Newsletter",
     headlineOne: "",
     alt: "",
