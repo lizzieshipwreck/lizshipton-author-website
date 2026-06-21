@@ -18,9 +18,9 @@ const ThankyouText = ({isEmailClick, isPurchaseClick}) => {
     } else if (isPurchaseClick) {
         return (
             <div>
-                <h2 className={styles.subtitle}>Visit <a href="https://ebooks.lizshipton.com/my-purchases" className={styles.link}>https://ebooks.lizshipton.com/my-purchases</a> to download any eBook(s)</h2>
+                <h2 className={styles.subtitle}>Visit <a href="https://ebooks.lizshipton.com/my-purchases" className={styles.link}>https://ebooks.lizshipton.com/my-purchases</a> to download any eBook(s) purchased.</h2>
                 <h3 className={styles.subtitle}>If you purchased physical items, check your email for confirmation from PayHip</h3>
-                <h4 className={styles.subtitle}>Want to stay updated about ARC opportunities and releases, and see more pictures of my dog? <a href={substack_link}>Join my Substack</a></h4>
+                <h4 className={styles.subtitle}>Want to stay updated about ARC opportunities and releases, and see more pictures of my dog? <a href={substack_link}>Join my mailing list</a></h4>
             </div>
         )
     }
@@ -53,7 +53,7 @@ const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
             if (!params['thank_you'] && redirectUrl) {
                 // we have been sent here from a link that should redirect to a mailing list signup
                 redirectToLandingPage();
-            } else if (params['ebook-purchase']) {
+            } else if (params['purchase']) {
                 // we have been sent here from PayHip after an eBook purchase.
                 // Show the 'thank you for your purchase' text
                 setIsPurchaseClick(true); 
