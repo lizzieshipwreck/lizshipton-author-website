@@ -18,9 +18,9 @@ const ThankyouText = ({isEmailClick, isPurchaseClick}) => {
     } else if (isPurchaseClick) {
         return (
             <div>
-                <h2 className={styles.subtitle}>Visit <a href="https://ebooks.lizshipton.com/my-purchases" className={styles.link}>https://ebooks.lizshipton.com/my-purchases</a> to download any eBook(s) purchased.</h2>
-                <h3 className={styles.subtitle}>If you purchased physical items, check your email for confirmation from PayHip</h3>
-                <h4 className={styles.subtitle}>Want to stay updated about ARC opportunities and releases, and see more pictures of my dog? <a href={substack_link}>Join my mailing list</a></h4>
+                <h2 className={styles.subtitle}><a href="https://ebooks.lizshipton.com/my-purchases" className={styles.link}>Click here</a> to download any eBooks, or check your inbox for an email from BookFunnel.</h2>
+                <h3 className={styles.subtitle}>If you purchased physical items, check your email for confirmation from PayHip.</h3>
+                <h4 className={styles.subtitle}>Want ARC opportunities, release info, and pictures of my dog? <a href={substack_link} className={styles.link}>Join my mailing list.</a></h4>
             </div>
         )
     }

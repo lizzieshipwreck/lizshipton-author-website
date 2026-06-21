@@ -17,7 +17,7 @@
 }
 
 .spam {
-    color: palevioletred;
+    color: #C02B7B;
 }
 
 .promo {
@@ -33,4 +33,5 @@
 
 .link {
     text-decoration: underline;
+    color: #C02B7B;
 }
