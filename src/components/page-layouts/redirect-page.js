@@ -6,8 +6,9 @@ import Layout from './layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import PropogateLoader from "react-spinners/PropagateLoader";
 import * as styles from './redirect-page.module.css';
+import {substack_link} from '../../copy/about';
 
-const EMAIL_PARAMS = ['remain', 'releases', 'arc', 'spice', 'no_spice', 'subscription', 'prequel', 'signup']
+const EMAIL_PARAMS = ['remain', 'arc']
 
 const ThankyouText = ({isEmailClick, isPurchaseClick}) => {
     if (isEmailClick) {
@@ -17,9 +18,9 @@ const ThankyouText = ({isEmailClick, isPurchaseClick}) => {
     } else if (isPurchaseClick) {
         return (
             <div>
-                <h2 className={styles.subtitle}>Visit <a href="https://ebooks.lizshipton.com/my-purchases" className={styles.link}>https://ebooks.lizshipton.com/my-purchases</a> to download your eBook(s)</h2>
-                <h3 className={styles.subtitle}>You will also receive an email from help@bookfunnel.com with a link to download them later</h3>
-                <h4 className={styles.subtitle}>If you purchased physical items, check your email for confirmation from PayHip</h4>
+                <h2 className={styles.subtitle}>Visit <a href="https://ebooks.lizshipton.com/my-purchases" className={styles.link}>https://ebooks.lizshipton.com/my-purchases</a> to download any eBook(s)</h2>
+                <h3 className={styles.subtitle}>If you purchased physical items, check your email for confirmation from PayHip</h3>
+                <h4 className={styles.subtitle}>Want to stay updated about ARC opportunities and releases, and see more pictures of my dog? <a href={substack_link}>Join my Substack</a></h4>
             </div>
         )
     }
