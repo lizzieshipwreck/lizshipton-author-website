@@ -59,7 +59,7 @@ const bonus_alt = "Medaling Bonus Chapter";
 
 const bonus_one = "Told from Nic Arsenault's POV, this chapter takes place a few years before Medaling. This is Nic's bi-awakening with his former partner, French goalie Mathieu Bordeaux. It's tender, sexy, slippery (!) and about 3500 words."
 const bonus_two = "Download it free when you join the Hailey Reaves newsletter - you'll receive one email a month with deals and discounts on spicy MM romance eBooks."
-const bonus_link = "https://signup.lizshipton.com/hailey-reaves-newsletter";
+const bonus_link = "https://lizshipton.com/hailey-reaves-newsletter";
 const bonus_text = "get it FREE";
 const bonus_mobile_text = "get it"
 const bonus_button_color = "Orange";
