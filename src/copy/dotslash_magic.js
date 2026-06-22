@@ -18,7 +18,7 @@ const dotslash_heading = "If AI gave you power you could barely control...would 
 
 const dotslash_one = "When Seven Jones is blackmailed back to community college after years of drifting, the last thing she expects to find there is an underground world of magic."
 const dotslash_two = "Suddenly surrounded by intimidating spell-slingers, Seven struggles to control her own power - until she hacks the magic system and codes a dangerous shortcut. It works...but at a terrible cost."
-const dotslash_three = "When monsters begin stalking campus and a student turns up dead, blame falls on Seven and her 'creepy artifical magic.' Is her reckless cheat fueling the chaos...or is someone trying to frame her?"
+const dotslash_three = "When monsters begin stalking campus and a student turns up dead, blame falls on Seven and her 'creepy artificial magic.' Is her reckless cheat fueling the chaos...or is someone trying to frame her?"
 const dotslash_four = "Her only ally is Logan, an infuriatingly hot ex–Navy SEAL with dark secrets of his own. Together they blow up dragons, chainsaw krakens, and face their demons as Seven desperately tries to prove her innocence. But in the magical underworld, nothing is what it seems – and not everyone makes it out alive."
 const dotslash_five = "This book contains explicit sexual content."
 
