@@ -8,7 +8,7 @@ import PropogateLoader from "react-spinners/PropagateLoader";
 import * as styles from './redirect-page.module.css';
 import {substack_link} from '../../copy/about';
 
-const EMAIL_PARAMS = ['remain', 'arc']
+const EMAIL_PARAMS = ['remain', 'arc', 'leave']
 
 const ThankyouText = ({isEmailClick, isPurchaseClick}) => {
     if (isEmailClick) {
@@ -27,8 +27,7 @@ const ThankyouText = ({isEmailClick, isPurchaseClick}) => {
     else {
         return (
             <>
-                <h2 className={styles.subtitle}>Check your inbox for a <b>confirmation email</b>.</h2>
-                <h3 className={styles.header}>Don't forget to check your <i className={styles.spam}>SPAM</i> and <i className={styles.promo}>PROMOTIONS</i> folders!</h3>
+                <h2 className={styles.subtitle}>Aloy and I are forever grateful.</h2>
             </>
     
         )
