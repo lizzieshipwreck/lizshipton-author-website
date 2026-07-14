@@ -47,9 +47,9 @@ const brocode_three = "Failure isn't an option. The only way to win is to save e
 const brocode_four = "A high-heat standalone dual-POV rivals-to-lovers MM hockey romance with opposites attract and a second chance.";
 
 const brocode_bookshop_link = "https://shop.lizshipton.com/collection/hailey-reaves";
-const brocode_amazon_link = "https://amzn.to/4ogyqhP";
+const brocode_amazon_link = "https://amzn.to/44XHBL8";
 const brocode_button_color_one = "Orange";
-const brocode_button_color_two = "Purple";
+const brocode_button_color_two = "Blue";
 
 
 const bonus_subheading = "Free bonus: a spicy encounter between bros";
