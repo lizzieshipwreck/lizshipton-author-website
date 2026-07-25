@@ -15,7 +15,7 @@ export const NEWSLETTER_INDEX_PAGE = {
 
 const newsletter_header = "Join the Crew"
 const newsletter_text_one = "Sign up for Broadside, my free newsletter, and get the first chapter of Mother & Slaughter delivered to your inbox."
-const newsletter_text_two = "You'll also get weekly satire, exclusive recommendations, ARC opportunities, updates, and pictures of my dog. Tap through and check your inbox to confirm your email."
+const newsletter_text_two = "You'll also get weekly culture pieces, exclusive recommendations, ARC opportunities, updates, and pictures of my dog. Tap through and check your inbox to confirm your email."
 const newsletter_text_three = "Make sure to check the spam folder!"
 
 export const content = {
