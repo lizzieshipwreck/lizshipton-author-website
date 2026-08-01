@@ -62,7 +62,7 @@ const bonus_two = "Download it free when you join the Hailey Reaves newsletter -
 const bonus_link = "https://lizshipton.com/hailey-reaves-newsletter";
 const bonus_text = "get it FREE";
 const bonus_mobile_text = "get it"
-const bonus_button_color = "Orange";
+const bonus_button_color = "Red";
 
 // 
 
