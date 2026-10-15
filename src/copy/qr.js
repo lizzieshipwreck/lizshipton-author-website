@@ -1,0 +1,2 @@
+export const instructions = "The code above will be redeemed on the next page for your free eBook. You will need to provide an email - this is just to watermark the download & ensure each code is only used once. You will not be added to any mailing lists and your data will not be stored or shared."
+export const allClaimedInstructions = "Looks like all these codes were redeemed! Reach out to liz@lizshipton.com and let me know the QR codes are all used. I'll be happy to send you a fresh one."

@@ -20,6 +20,12 @@ button::after {
     outline: transparent;
     position: relative;
     cursor: pointer;
+} 
+
+.button-brand, 
+.button-brand::after {
+    background:  rgb(0, 0, 0) 5%;
+    box-shadow: 6px 6px 0px rgb(193, 43, 124);
 }
 
 .button-blue, 

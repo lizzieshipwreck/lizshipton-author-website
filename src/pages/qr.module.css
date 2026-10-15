@@ -1,0 +1,30 @@
+.container {
+    width: 80%;
+    margin: auto;
+    height: 75vh; /*forces footer to bottom of page because content not filling whole viewport*/
+}
+
+.book-code {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.code {
+    font-weight: bolder;
+    color: #373636d9;
+    font-family: 'Roboto Slab';
+    font-size: xx-large;
+}
+
+.instructions {
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-size: medium;
+    color: gray;
+}
+
+.button {
+    color: "Brand"
+}

@@ -35,7 +35,7 @@ const NotFoundPage = () => {
         <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        but I'm busily building it! Plz check back later.
+        But I'm probably building it! Plz check back later.
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
