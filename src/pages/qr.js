@@ -54,7 +54,7 @@ const EditingPage = () => {
                 privacy policy
             </Link>
             {
-              code &&  <BookButton text={"proceed"} mobileText={"proceed"} title={"Brand"} link={""} />
+              code &&  <BookButton text={"proceed"} mobileText={"proceed"} title={"Brand"} link={`https://getmybook.com/${code}`} />
             }
         </div>
       </div>
