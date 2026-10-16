@@ -14,7 +14,7 @@ const EditingPage = () => {
 
   const getCode = async () => {
     try {
-        const response = await fetch('/api/redeem-slaughter-code', {
+        const response = await fetch('http://localhost:8000/api/redeem-slaughter-code', {
           method: 'POST',
           headers: {
           'Content-Type': 'application/json',
@@ -29,7 +29,29 @@ const EditingPage = () => {
         if (response.status === 410) {
           setMessage(data.message)
         }
-        console.error('Failed to validate code:', data.message);
+        console.error('All codes redeemed');
+      }
+    } catch(error) {
+      console.error(error)
+    }
+  }
+
+  const markCode = async () => {
+      try {
+        const response = await fetch('/api/mark-slaughter-code-redeemed', {
+          method: 'POST',
+          headers: {
+          'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({code})
+      });
+
+      const data = await response.json();
+      
+      if (response.ok) {
+        return
+      } else {
+        console.error('Failed to redeem code:', data.error);
       }
     } catch(error) {
       console.error(error)
@@ -54,7 +76,7 @@ const EditingPage = () => {
                 privacy policy
             </Link>
             {
-              code &&  <BookButton text={"proceed"} mobileText={"proceed"} title={"Brand"} link={`https://getmybook.com/${code}`} />
+              code &&  <BookButton text={"proceed"} mobileText={"proceed"} title={"Brand"} link={`https://getmybook.com/${code}`} onClick={markCode}/>
             }
         </div>
       </div>

@@ -15,6 +15,7 @@ export default async function handler(req, res) {
     if (Object.keys(bookCodeLedger).length === 0) {
       const codeString = process.env.GATSBY_SLAUGHTER_QR_CODES || "";
       const rawCodes = codeString.split(",");
+      console.log(codeString)
 
       rawCodes.forEach(code => {
         if (code.trim()) bookCodeLedger[code.trim()] = ""; 
@@ -31,17 +32,11 @@ export default async function handler(req, res) {
       return res.status(410).json({ message: "All codes have been claimed!" });
     }
 
-    // Mark as used and commit to persistent storage
-    // Netlify automatically creates the 'slaughter_delivery_store' bucket for this k/v store
-    const date = new Date();
-    bookCodeLedger[firstAvailableCode] = date.toLocaleString('en-US');
-    await store.setJSON('book_code_ledger', bookCodeLedger);
-
     // Return the link
     return res.status(200).json({ downloadCode: firstAvailableCode });
 
   } catch (error) {
     console.error("Storage Error:", error);
-    return res.status(500).json({ error: "Failed to process token." });
+    return res.status(500).json({ error: "Failed to redeem code." });
   }
 }

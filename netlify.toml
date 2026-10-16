@@ -1,4 +1,4 @@
 [dev]
-  command = "yarn develop"  # Or "npm run develop" if you use npm
-  targetPort = 8000         # Tells Netlify to look for Gatsby here
-  port = 8888               # The port you will actually visit in your browser
+  command = "yarn gatsby develop --host localhost"
+  port = 8888
+  targetPort = 8000
