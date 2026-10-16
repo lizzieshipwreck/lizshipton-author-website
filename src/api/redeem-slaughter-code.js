@@ -17,7 +17,7 @@ export default async function handler(req, res) {
       const rawCodes = codeString.split(",");
 
       rawCodes.forEach(code => {
-        if (code.trim()) bookCodeLedger[code.trim()] = false; 
+        if (code.trim()) bookCodeLedger[code.trim()] = ""; 
       });
 
       await store.setJSON('book_code_ledger', bookCodeLedger);
@@ -25,7 +25,7 @@ export default async function handler(req, res) {
 
     // Find the first available unused link
     const availableCodes = Object.keys(bookCodeLedger);
-    const firstAvailableCode = availableCodes.find(code => bookCodeLedger[code] === false);
+    const firstAvailableCode = availableCodes.find(code => bookCodeLedger[code] === "");
 
     if (!firstAvailableCode) {
       return res.status(410).json({ message: "All codes have been claimed!" });
@@ -33,7 +33,8 @@ export default async function handler(req, res) {
 
     // Mark as used and commit to persistent storage
     // Netlify automatically creates the 'slaughter_delivery_store' bucket for this k/v store
-    bookCodeLedger[firstAvailableCode] = true;
+    const date = new Date();
+    bookCodeLedger[firstAvailableCode] = date.toLocaleString('en-US');
     await store.setJSON('book_code_ledger', bookCodeLedger);
 
     // Return the link
