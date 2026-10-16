@@ -1,9 +1,14 @@
 export const salt_redirect_link = "https://amzn.to/4cY2tnA";
 export const shop_redirect_link = "https://shop.lizshipton.com";
-export const dotslash_asmrtists = "https://youtube.com/playlist?list=PLnk1qoE5nddKhArQIjaIixoUkVUL3jtzW&feature=shared";
+export const dotslash_asmrtists =
+  "https://youtube.com/playlist?list=PLnk1qoE5nddKhArQIjaIixoUkVUL3jtzW&feature=shared";
 export const dotslash_asmr = "https://www.youtube.com/@dotslashASMR";
-export const dotslash_videos = "https://youtube.com/playlist?list=PLnk1qoE5nddIs-QzPkDrgdwUdN3_GqeHI&feature=shared";
+export const dotslash_videos =
+  "https://youtube.com/playlist?list=PLnk1qoE5nddIs-QzPkDrgdwUdN3_GqeHI&feature=shared";
 export const dotslash_appendix = "https://ebooks.lizshipton.com/st6t0bqo0k";
-export const dotslash_sountrack = "https://lizshiptonauthor.substack.com/p/dot-slash-playlist";
-export const dotslash_podcasts = "https://lizshiptonauthor.substack.com/p/dot-slash-magic-resources";
-export const thalassic_playlist = "https://open.spotify.com/playlist/1vYEb8cpRhdLzipFo1fVzp";
+export const dotslash_sountrack =
+  "https://lizshiptonauthor.substack.com/p/dot-slash-playlist";
+export const dotslash_podcasts =
+  "https://lizshiptonauthor.substack.com/p/dot-slash-magic-resources";
+export const thalassic_playlist =
+  "https://open.spotify.com/playlist/1vYEb8cpRhdLzipFo1fVzp";

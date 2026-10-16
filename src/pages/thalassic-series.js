@@ -1,15 +1,14 @@
-import * as React from 'react'
-import Layout from '../components/page-layouts/layout'
-import BlockLayoutPage from '../components/page-layouts/block-page';
+import Layout from "../components/page-layouts/layout";
+import BlockLayoutPage from "../components/page-layouts/block-page";
 
-import {content} from '../copy/thalassic';
+import { content } from "../copy/thalassic";
 
 const ThalassicSeries = () => {
   return (
     <Layout pageTitle="Thalassic Series">
-      <BlockLayoutPage content={content} flip={false}/>
+      <BlockLayoutPage content={content} flip={false} />
     </Layout>
-  )
-}
+  );
+};
 
-export default ThalassicSeries 
+export default ThalassicSeries;

@@ -1,130 +1,132 @@
-.container, .series-container {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
+.container,
+.series-container {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 /* nifty glitch buttons from  https: //codepen.io/stevenlei/pen/ZEpyBod */
 button,
 button::after {
-    min-width: 300px; 
-    height: 65px;
-    border-radius: 50px;
-    font-size: 36px;
-    font-family: 'Alfa Slab One', serif;
-    font-weight: lighter;
-    border: 0;
-    color: whitesmoke;
-    letter-spacing: 3px;
-    outline: transparent;
-    position: relative;
-    cursor: pointer;
-} 
+  min-width: 300px;
+  height: 65px;
+  border-radius: 50px;
+  font-size: 36px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: lighter;
+  border: 0;
+  color: whitesmoke;
+  letter-spacing: 3px;
+  outline: transparent;
+  position: relative;
+  cursor: pointer;
+}
 
-.button-brand, 
+.button-brand,
 .button-brand::after {
-    background:  rgb(0, 0, 0) 5%;
-    box-shadow: 6px 6px 0px rgb(193, 43, 124);
+  background: rgb(0, 0, 0) 5%;
+  box-shadow: 6px 6px 0px rgb(193, 43, 124);
 }
 
-.button-blue, 
+.button-blue,
 .button-blue::after {
-    background:  rgb(0, 0, 0) 5%;
-    box-shadow: 6px 6px 0px rgb(45, 181, 186);
+  background: rgb(0, 0, 0) 5%;
+  box-shadow: 6px 6px 0px rgb(45, 181, 186);
 }
 
-.button-yellow, 
+.button-yellow,
 .button-yellow::after {
-    background:  rgb(0, 0, 0) 5%;
-    box-shadow: 6px 6px 0px rgb(245,174,64);
+  background: rgb(0, 0, 0) 5%;
+  box-shadow: 6px 6px 0px rgb(245, 174, 64);
 }
 
-.button-pink, 
+.button-pink,
 .button-pink::after {
-    background: rgb(0,0,0) 5%;
-    box-shadow: 6px 6px 0px #C12B7C;
+  background: rgb(0, 0, 0) 5%;
+  box-shadow: 6px 6px 0px #c12b7c;
 }
 
-.button-green, 
+.button-green,
 .button-green::after {
-        background:  rgb(0,0,0) 5%;
-    box-shadow: 6px 6px 0px rgb(137, 224, 100);
+  background: rgb(0, 0, 0) 5%;
+  box-shadow: 6px 6px 0px rgb(137, 224, 100);
 }
 
-.button-red, 
+.button-red,
 .button-red::after {
-    background: rgb(0,0,0) 5%;
-    box-shadow: 6px 6px 0px rgb(208, 20, 20);
+  background: rgb(0, 0, 0) 5%;
+  box-shadow: 6px 6px 0px rgb(208, 20, 20);
 }
 
-.button-purple, 
+.button-purple,
 .button-purple::after {
-    background: rgb(0,0,0) 5%;
-    box-shadow: 6px 6px 0px rgb(176, 0, 199);
+  background: rgb(0, 0, 0) 5%;
+  box-shadow: 6px 6px 0px rgb(176, 0, 199);
 }
 
-.button-orange, 
+.button-orange,
 .button-orange::after {
-    background: #000000 5%;
-    box-shadow: 6px 6px 0px #ff914d;
+  background: #000000 5%;
+  box-shadow: 6px 6px 0px #ff914d;
 }
 
-.button-medaling-pink, 
+.button-medaling-pink,
 .button-medaling-pink::after {
-    background: #fe689f 5%;
-    box-shadow: 6px 6px 0px #c8cac9;
+  background: #fe689f 5%;
+  box-shadow: 6px 6px 0px #c8cac9;
 }
 
-.button-medaling-blue, 
+.button-medaling-blue,
 .button-medaling-blue::after {
-    background: #179990 5%;
-    box-shadow: 6px 6px 0px #143d71;
+  background: #179990 5%;
+  box-shadow: 6px 6px 0px #143d71;
 }
 
-.button-wingmen-purple, 
+.button-wingmen-purple,
 .button-wingmen-purple::after {
-    background: #a727e7 5%;
-    box-shadow: 6px 6px 0px #c8cac9;
+  background: #a727e7 5%;
+  box-shadow: 6px 6px 0px #c8cac9;
 }
 
-.button-wingmen-blue, 
+.button-wingmen-blue,
 .button-wingmen-blue::after {
-    background: #00c9e8 5%;
-    box-shadow: 6px 6px 0px #348601;
+  background: #00c9e8 5%;
+  box-shadow: 6px 6px 0px #348601;
 }
 
-.button-brocode-green, 
+.button-brocode-green,
 .button-brocode-green::after {
-    background: #06a682 5%;
-    box-shadow: 6px 6px 0px #c8cac9;
+  background: #06a682 5%;
+  box-shadow: 6px 6px 0px #c8cac9;
 }
 
 button:hover::after {
-    animation: 1s glitch;
-    animation-timing-function: steps(2, end);
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
 }
 
 @keyframes fade {
-    to {
-        opacity: 0.3;
-    }
+  to {
+    opacity: 0.3;
+  }
 }
-button:hover{
-    animation: fade linear both;
-    animation-duration: 150ms;
+button:hover {
+  animation: fade linear both;
+  animation-duration: 150ms;
 }
 
 @media only screen and (min-width: 750px) {
-    .series-container { 
-        margin-bottom: .5rem;
-        margin-top: .5rem;
-    }
-    .container{
-        margin-bottom: 3rem;
-        margin-top: 3rem;
-    }
-    button, button::after {
-        min-width: 500px;
-    }
+  .series-container {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .container {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  button,
+  button::after {
+    min-width: 500px;
+  }
 }

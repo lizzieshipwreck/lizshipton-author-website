@@ -1,37 +1,37 @@
 .content {
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 .title {
-    font-family: 'Roboto Slab';
-    font-size: xx-large;
+  font-family: "Roboto Slab";
+  font-size: xx-large;
 }
 
 .subtitle {
-    font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .header {
-    font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .spam {
-    color: #C02B7B;
+  color: #c02b7b;
 }
 
 .promo {
-    color: darkcyan;
+  color: darkcyan;
 }
 
 .spinner {
-    width: 50%;
-    margin: auto;
-    margin-top: 10rem;
-    text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 10rem;
+  text-align: center;
 }
 
 .link {
-    text-decoration: underline;
-    color: #C02B7B;
+  text-decoration: underline;
+  color: #c02b7b;
 }

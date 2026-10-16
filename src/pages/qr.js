@@ -1,16 +1,18 @@
-import * as React from 'react'
-import LandingPageRedirect from '../components/page-layouts/redirect-page'
-import {bookFunnelLink} from '../copy/mother-slaughter';
+import LandingPageRedirect from "../components/page-layouts/redirect-page";
+import { bookFunnelLink } from "../copy/mother-slaughter";
 
 const QRPage = () => {
+  return (
+    <LandingPageRedirect
+      pageTitle={"QR Download"}
+      redirectUrl={bookFunnelLink}
+    />
+  );
+};
 
-    return (
-        <LandingPageRedirect pageTitle={"QR Download"} redirectUrl={bookFunnelLink} />
-  )
-}
+export default QRPage;
 
-export default QRPage 
-
+// WHAT A WASTE OF TWO DAYS THIS WAS
 // import * as React from 'react'
 // import { useEffect, useState } from "react";
 // import { Link } from 'gatsby'
@@ -37,7 +39,7 @@ export default QRPage
 
 //       const data = await response.json();
 //       setPageLoading(false);
-      
+
 //       if (response.ok) {
 //         setCode(data.downloadCode);
 //       } else {
@@ -62,7 +64,7 @@ export default QRPage
 //       });
 
 //       const data = await response.json();
-      
+
 //       if (response.ok) {
 //         return
 //       } else {

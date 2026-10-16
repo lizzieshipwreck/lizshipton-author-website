@@ -1,53 +1,55 @@
-.container, .reaves-container{
-    width: 80%;
-    margin: auto;
+.container,
+.reaves-container {
+  width: 80%;
+  margin: auto;
 }
 
 .signup {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
 }
 
 .i-frame {
-    background: white;
+  background: white;
 }
 
 .header {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: rgba(80, 80, 80, 0.85);
-    font-style: italic;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: xx-large;
-    text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: rgba(80, 80, 80, 0.85);
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: xx-large;
+  text-align: center;
 }
 
 .text {
-    font-family: 'Montserrat Alternates', sans-serif;
-    line-height: 1.5;
-    letter-spacing: 1.5;
-    font-size: medium;
-    text-align: justify;
-    color: gray;
-    margin-top: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  font-size: medium;
+  text-align: justify;
+  color: gray;
+  margin-top: 0;
 }
 
 .center {
-    text-align: center;
-    color: rgba(80, 80, 80, 0.85);
+  text-align: center;
+  color: rgba(80, 80, 80, 0.85);
 }
 
 @media only screen and (min-width: 750px) {
-    .container, .reaves-container{
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-        width: 100%;
-    }
-    .signup{
-        width: 40%;
-        margin-top: 0;
-    }
+  .container,
+  .reaves-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .signup {
+    width: 40%;
+    margin-top: 0;
+  }
 }

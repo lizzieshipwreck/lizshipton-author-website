@@ -1,89 +1,112 @@
-import * as React from 'react'
-import { useState } from 'react'
-import { useEffect } from 'react'
-import QueryString from 'qs'
-import Layout from './layout'
-import { StaticImage } from 'gatsby-plugin-image'
+import { useState } from "react";
+import { useEffect } from "react";
+import QueryString from "qs";
+import Layout from "./layout";
+import { StaticImage } from "gatsby-plugin-image";
 import PropogateLoader from "react-spinners/PropagateLoader";
-import * as styles from './redirect-page.module.css';
-import {substack_link} from '../../copy/about';
+import * as styles from "./redirect-page.module.css";
+import { substack_link } from "../../copy/about";
 
-const EMAIL_PARAMS = ['remain', 'arc', 'leave']
+const EMAIL_PARAMS = ["remain", "arc", "leave"];
 
-const ThankyouText = ({isEmailClick, isPurchaseClick}) => {
-    if (isEmailClick) {
-        return (
-            <h2 className={styles.subtitle}>Your choice has been recorded</h2>
-        )   
-    } else if (isPurchaseClick) {
-        return (
-            <div>
-                <h2 className={styles.subtitle}><a href="https://ebooks.lizshipton.com/my-purchases" className={styles.link}>Click here</a> to download any eBooks, or check your inbox for an email from BookFunnel.</h2>
-                <h3 className={styles.subtitle}>If you purchased physical items, check your email for confirmation from PayHip.</h3>
-                <h4 className={styles.subtitle}>Want ARC opportunities, release info, and pictures of my dog? <a href={substack_link} className={styles.link}>Join my mailing list.</a></h4>
-            </div>
-        )
-    }
-    else {
-        return (
-            <>
-                <h2 className={styles.subtitle}>Aloy and I are forever grateful.</h2>
-            </>
-    
-        )
-    }
-}
+const ThankyouText = ({ isEmailClick, isPurchaseClick }) => {
+  if (isEmailClick) {
+    return <h2 className={styles.subtitle}>Your choice has been recorded</h2>;
+  } else if (isPurchaseClick) {
+    return (
+      <div>
+        <h2 className={styles.subtitle}>
+          <a
+            href="https://ebooks.lizshipton.com/my-purchases"
+            className={styles.link}
+          >
+            Click here
+          </a>{" "}
+          to download any eBooks, or check your inbox for an email from
+          BookFunnel.
+        </h2>
+        <h3 className={styles.subtitle}>
+          If you purchased physical items, check your email for confirmation
+          from PayHip.
+        </h3>
+        <h4 className={styles.subtitle}>
+          Want ARC opportunities, release info, and pictures of my dog?{" "}
+          <a href={substack_link} className={styles.link}>
+            Join my mailing list.
+          </a>
+        </h4>
+      </div>
+    );
+  } else {
+    return (
+      <>
+        <h2 className={styles.subtitle}>Aloy and I are forever grateful.</h2>
+      </>
+    );
+  }
+};
 
 const LandingPageRedirect = ({ pageTitle, redirectUrl }) => {
-    
-    const [params, setParams] = useState({});
-    const [isEmailClick, setIsEmailClick] = useState(false);
-    const [isPurchaseClick, setIsPurchaseClick] = useState(false);
+  const [params, setParams] = useState({});
+  const [isEmailClick, setIsEmailClick] = useState(false);
+  const [isPurchaseClick, setIsPurchaseClick] = useState(false);
 
-    useEffect(() => {
-        const redirectToLandingPage = () => {
-            if (typeof window !== undefined) {
-                window.location.replace(redirectUrl)
-            }
+  useEffect(() => {
+    const redirectToLandingPage = () => {
+      if (typeof window !== undefined) {
+        window.location.replace(redirectUrl);
+      }
+    };
+    if (typeof window !== undefined) {
+      const params = QueryString.parse(window.location.search, {
+        ignoreQueryPrefix: true,
+      });
+      setParams(params);
+      if (!params["thank_you"] && redirectUrl) {
+        // we have been sent here from a link that should redirect to a mailing list signup
+        redirectToLandingPage();
+      } else if (params["purchase"]) {
+        // we have been sent here from PayHip after an eBook purchase.
+        // Show the 'thank you for your purchase' text
+        setIsPurchaseClick(true);
+      } else {
+        // we have been sent here from a landing page thank you,
+        // or from an email where the user has responded to a prompt by clicking a link.
+        // Show the 'your choice has been recorded' text
+        for (let param in EMAIL_PARAMS) {
+          const option = EMAIL_PARAMS[param];
+          if (params[option]) {
+            setIsEmailClick(true);
+            return;
+          }
         }
-        if (typeof window !== undefined) {
-            const params = QueryString.parse(window.location.search, { ignoreQueryPrefix: true });
-            setParams(params)
-            if (!params['thank_you'] && redirectUrl) {
-                // we have been sent here from a link that should redirect to a mailing list signup
-                redirectToLandingPage();
-            } else if (params['purchase']) {
-                // we have been sent here from PayHip after an eBook purchase.
-                // Show the 'thank you for your purchase' text
-                setIsPurchaseClick(true); 
-            }
-            else {
-                // we have been sent here from a landing page thank you,
-                // or from an email where the user has responded to a prompt by clicking a link.
-                // Show the 'your choice has been recorded' text
-                for (let param in EMAIL_PARAMS) {
-                    const option = EMAIL_PARAMS[param]
-                    if (params[option]) {
-                        setIsEmailClick(true)
-                        return;
-                    }
-                }
-            }
-        }   
-        return () => {}
-    },[redirectUrl]);
+      }
+    }
+    return () => {};
+  }, [redirectUrl]);
 
-    return (
-            params['thank_you'] ? (
-                <Layout pageTitle={pageTitle}>
-                    <div className={styles.content}>
-                        <StaticImage src={"../../images/liz and aloy round.png"} placeholder="blurred" quality={100} width={300}/>
-                        <h1 className={styles.title}>Thank you!</h1>
-                        <ThankyouText isEmailClick={isEmailClick} isPurchaseClick={isPurchaseClick} />
-                    </div>
-            </Layout>
-            ) : (<div className={styles.spinner}> <PropogateLoader color={'black'} size={25}/></div>)
-  )
-}
+  return params["thank_you"] ? (
+    <Layout pageTitle={pageTitle}>
+      <div className={styles.content}>
+        <StaticImage
+          src={"../../images/liz and aloy round.png"}
+          placeholder="blurred"
+          quality={100}
+          width={300}
+        />
+        <h1 className={styles.title}>Thank you!</h1>
+        <ThankyouText
+          isEmailClick={isEmailClick}
+          isPurchaseClick={isPurchaseClick}
+        />
+      </div>
+    </Layout>
+  ) : (
+    <div className={styles.spinner}>
+      {" "}
+      <PropogateLoader color={"black"} size={25} />
+    </div>
+  );
+};
 
-export default LandingPageRedirect 
+export default LandingPageRedirect;

@@ -1,36 +1,36 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
 }
 
 .link {
-    color: hsla(0, 1%, 21%, 0.851);
-    margin-bottom: 0.5rem;
+  color: hsla(0, 1%, 21%, 0.851);
+  margin-bottom: 0.5rem;
 }
 
 @keyframes fade {
-    to {
-        opacity: 0.3;
-        margin-bottom: 0;
-    }
+  to {
+    opacity: 0.3;
+    margin-bottom: 0;
+  }
 }
 
 .link {
-    animation: fade 0.5s linear infinite;
+  animation: fade 0.5s linear infinite;
 }
 
 @media only screen and (min-width: 750px) {
-    .link {
-        margin-bottom: 2rem;
-    }
+  .link {
+    margin-bottom: 2rem;
+  }
 }
 
 /* TODO: consolidate all these animation params into a global object */
 .link {
-	animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -1s);
-    /* These last 2 properites clean up overshoot weirdness */
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  /* These last 2 properites clean up overshoot weirdness */
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }

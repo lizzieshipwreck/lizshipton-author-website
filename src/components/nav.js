@@ -1,51 +1,54 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
-import * as styles from './nav.module.css'
-import Hamburger from 'hamburger-react'
-import Dropdown from './dropdown'
+import { Link } from "gatsby";
+import * as styles from "./nav.module.css";
+import Hamburger from "hamburger-react";
+import Dropdown from "./dropdown";
 
 const Nav = ({ isHamburgerOpen, setIsHamburgerOpen, windowWidth }) => {
-
   const toggleHamburger = () => {
     setIsHamburgerOpen(!isHamburgerOpen);
-  }
+  };
 
   return (
     <nav className={styles.navMenu}>
-      { isHamburgerOpen && 
-        (
+      {isHamburgerOpen && (
         <ul className={styles.navLinks}>
-            <li>
-              <b><Dropdown windowWidth={windowWidth}/></b>
-            </li>
-            <li className={styles.navLinkItem}>
-              <Link to={"/shop"} className={styles.navLinkText} id={'shop'}>
-                <b>shop</b>
-              </Link>
-            </li>
-            <li className={styles.navLinkItem}>
-              <Link to="https://lizshiptonauthor.substack.com" className={styles.navLinkText} id={'substack'} target='blank'>
-                <b>substack</b>
-              </Link>
-            </li>
-            <li className={styles.navLinkItem}>
-            <Link to="/about" className={styles.navLinkText} id={'about'}>
+          <li>
+            <b>
+              <Dropdown windowWidth={windowWidth} />
+            </b>
+          </li>
+          <li className={styles.navLinkItem}>
+            <Link to={"/shop"} className={styles.navLinkText} id={"shop"}>
+              <b>shop</b>
+            </Link>
+          </li>
+          <li className={styles.navLinkItem}>
+            <Link
+              to="https://lizshiptonauthor.substack.com"
+              className={styles.navLinkText}
+              id={"substack"}
+              target="blank"
+            >
+              <b>substack</b>
+            </Link>
+          </li>
+          <li className={styles.navLinkItem}>
+            <Link to="/about" className={styles.navLinkText} id={"about"}>
               <b>about</b>
             </Link>
-            </li>
-          </ul>
-        )
-      }
-      {!!windowWidth && windowWidth < 750 &&
+          </li>
+        </ul>
+      )}
+      {!!windowWidth && windowWidth < 750 && (
         <Hamburger
-          color='#373636d9'
-          distance='lg'
+          color="#373636d9"
+          distance="lg"
           toggled={isHamburgerOpen}
           toggle={toggleHamburger}
         />
-      }
+      )}
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

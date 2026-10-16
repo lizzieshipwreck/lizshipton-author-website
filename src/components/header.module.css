@@ -1,75 +1,77 @@
 .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        border-style: solid;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        position: sticky;
-        top: 0;
-        width: 100vw;
-        z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
 }
 
 @keyframes sticky-parallax-header-move-and-size {
-	from {
-		height: 10vh;
-        padding-bottom: 2rem;
-        border-color: rgb(169, 169, 169, 0.2);
-	}
-	to {
-		height: var(--shrink-height);
-        padding-bottom: .75rem;
-        border-color: rgb(169, 169, 169, 0);
-	}
+  from {
+    height: 10vh;
+    padding-bottom: 2rem;
+    border-color: rgb(169, 169, 169, 0.2);
+  }
+  to {
+    height: var(--shrink-height);
+    padding-bottom: 0.75rem;
+    border-color: rgb(169, 169, 169, 0);
+  }
 }
 
 #sticky-parallax-header {
-	position: fixed;
-	top: 0;
-	animation: sticky-parallax-header-move-and-size 0.20s linear infinite;
-    --shrink-height: 4vh;
+  position: fixed;
+  top: 0;
+  animation: sticky-parallax-header-move-and-size 0.2s linear infinite;
+  --shrink-height: 4vh;
 }
 
 @keyframes fade {
-	to {
-		color: var(--color);
-	}
+  to {
+    color: var(--color);
+  }
 }
 
 @keyframes fadeOut {
-	to {
-		opacity: 0;
-	}
+  to {
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 750px) {
-    #sticky-parallax-header {
-        --shrink-height: 6vh;
-    }
+  #sticky-parallax-header {
+    --shrink-height: 6vh;
+  }
 }
 
 @media only screen and (min-width: 750px) {
-    #sticky-parallax-header {
-        a {
-            animation: fade 0.5s linear infinite;
-            --color: rgba(211, 211, 211)
-        }
+  #sticky-parallax-header {
+    a {
+      animation: fade 0.5s linear infinite;
+      --color: rgba(211, 211, 211);
     }
+  }
 }
 
-
 .logo {
-    margin-left: 1rem;
-    animation: fadeOut 0.20s linear infinite;
+  margin-left: 1rem;
+  animation: fadeOut 0.2s linear infinite;
 }
 
 /* TODO: consolidate all these animation params into a global object */
-.logo, #sticky-parallax-header, #sticky-parallax-header a, #sticky-parallax-header :global(.hamburger-react div) {
-	animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -1s);
-    /* These last 2 properites clean up overshoot weirdness */
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
+.logo,
+#sticky-parallax-header,
+#sticky-parallax-header a,
+#sticky-parallax-header :global(.hamburger-react div) {
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  /* These last 2 properites clean up overshoot weirdness */
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }

@@ -1,52 +1,68 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
-import * as styles from './dropdown.module.css'
-import * as DotSlash from '../copy/dotslash_magic'
-import * as Mother from '../copy/mother-slaughter'
-import * as Thalassic from '../copy/thalassic'
-import * as Tales from '../copy/mischief'
-import * as Reaves from '../copy/reaves'
+import * as React from "react";
+import * as styles from "./dropdown.module.css";
+import * as DotSlash from "../copy/dotslash_magic";
+import * as Mother from "../copy/mother-slaughter";
+import * as Thalassic from "../copy/thalassic";
+import * as Tales from "../copy/mischief";
+import * as Reaves from "../copy/reaves";
 
 const menuItems = [
-    {name: 'Mother & Slaughter', mobileName: 'Slaughter', link: Mother.MOTHER_INDEX_PAGE.link},
-    {name: 'Dot Slash Magic', mobileName: 'Magic', link: DotSlash.DOTSLASH_INDEX_PAGE.link},
-    {name: 'The Thalassic Series', mobileName: 'Thalassic', link: Thalassic.THALASSIC_INDEX_PAGE.link},
-    {name: 'Tales of Mischief & Fuckery', mobileName: 'Mischief', link: Tales.MISCHIEF_INDEX_PAGE.link},
-    {name: 'Hailey Reaves', mobileName: 'Reaves', link: Reaves.REAVES_INDEX_PAGE.link}
-]
+  {
+    name: "Mother & Slaughter",
+    mobileName: "Slaughter",
+    link: Mother.MOTHER_INDEX_PAGE.link,
+  },
+  {
+    name: "Dot Slash Magic",
+    mobileName: "Magic",
+    link: DotSlash.DOTSLASH_INDEX_PAGE.link,
+  },
+  {
+    name: "The Thalassic Series",
+    mobileName: "Thalassic",
+    link: Thalassic.THALASSIC_INDEX_PAGE.link,
+  },
+  {
+    name: "Tales of Mischief & Fuckery",
+    mobileName: "Mischief",
+    link: Tales.MISCHIEF_INDEX_PAGE.link,
+  },
+  {
+    name: "Hailey Reaves",
+    mobileName: "Reaves",
+    link: Reaves.REAVES_INDEX_PAGE.link,
+  },
+];
 
-const Dropdown = ({windowWidth}) => {
+const Dropdown = () => {
+  const [open, setOpen] = React.useState(false);
 
-    const [open, setOpen] = React.useState(false);
+  const handleOpen = () => {
+    setOpen(!open);
+  };
 
-    const handleOpen = () => {
-      setOpen(!open);
-    };
-
-    return (
-        <>
-        <div className={styles.navLinkItem}>
-          <a onClick={handleOpen} className={styles.navLinkText}>books</a>
-        </div>
-        {open ? (
-          <ul className={styles.menu}>
-            {
-                menuItems.map((item) => {
-                    return (
-                        <li className={styles.menuItem}>
-                            <a href={item.link} id={item.name} className={styles.itemText}>
-                              {item.name}
-                               {/* {!!windowWidth && windowWidth > 750 ? item.name : item.mobileName} */}
-                            </a>
-                        </li>
-                    )
-                })
-            }
-          </ul>
-        ) : null}
-      </>
-
-    )
-}
+  return (
+    <>
+      <div className={styles.navLinkItem}>
+        <a onClick={handleOpen} className={styles.navLinkText}>
+          books
+        </a>
+      </div>
+      {open ? (
+        <ul className={styles.menu}>
+          {menuItems.map((item, i) => {
+            return (
+              <li key={i} className={styles.menuItem}>
+                <a href={item.link} id={item.name} className={styles.itemText}>
+                  {item.name}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      ) : null}
+    </>
+  );
+};
 
 export default Dropdown;

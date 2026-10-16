@@ -1,18 +1,18 @@
 .button {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 @media only screen and (min-width: 750px) {
-    .headline-text {
-        font-size: xx-large;
-    }
+  .headline-text {
+    font-size: xx-large;
+  }
 }
 
 @media only screen and (max-width: 750px) {
-    .gif {
-        max-width: 80%;
-    }
+  .gif {
+    max-width: 80%;
+  }
 }

@@ -1,45 +1,47 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
   siteMetadata: {
     title: `Liz Shipton`,
     siteUrl: `https://lizshipton.com`,
-    socialLinks:
-      [
-        {url: "https://lizshiptonauthor.substack.com", name: 'substack'},
-        {url: "https://instagram.com/lizshiptonauthor", name: 'instagram'},
-        {url: "https://tiktok.com/@lizshiptonauthor", name: 'tiktok'},
-        {url: "https://facebook.com/lizshiptonauthor", name: 'facebook'},
-        {url: "https://www.goodreads.com/user/show/154243248-liz-shipton", name: 'goodreads'},
-      ]
+    socialLinks: [
+      { url: "https://lizshiptonauthor.substack.com", name: "substack" },
+      { url: "https://instagram.com/lizshiptonauthor", name: "instagram" },
+      { url: "https://tiktok.com/@lizshiptonauthor", name: "tiktok" },
+      { url: "https://facebook.com/lizshiptonauthor", name: "facebook" },
+      {
+        url: "https://www.goodreads.com/user/show/154243248-liz-shipton",
+        name: "goodreads",
+      },
+    ],
   },
   plugins: [
     {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/compass favicon.png",
-      }
+      },
     },
     {
       resolve: "gatsby-plugin-image",
       options: {
-        quality: 100
-      }
+        quality: 100,
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      }
+      },
     },
     "gatsby-plugin-sharp",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
     "gatsby-plugin-fontawesome-css",
-    "gatsby-plugin-netlify"
+    "gatsby-plugin-netlify",
   ],
   headers: [
     {
@@ -48,8 +50,8 @@ module.exports = {
         {
           key: `x-clacks-overhead`,
           value: `GNU Terry Pratchett`,
-        }
-      ]
-    }
-  ]
-}
+        },
+      ],
+    },
+  ],
+};

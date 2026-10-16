@@ -1,11 +1,11 @@
 .container {
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 100%;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
 }
 
 .content {
-	margin-top: 10rem;
+  margin-top: 10rem;
 }

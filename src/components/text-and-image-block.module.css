@@ -1,86 +1,88 @@
 .center {
-    margin: auto;
-    display: flex;
-    justify-content: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .center button {
-    width: 80%;
+  width: 80%;
 }
 
 .center p {
-    text-align: center;
+  text-align: center;
 }
 
-.block, .image-block {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 5rem;
+.block,
+.image-block {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5rem;
 }
 
 .no-margin {
-    margin-bottom: 0rem;
+  margin-bottom: 0rem;
 }
 
 .text-header {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(55, 54, 54, 0.85);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(55, 54, 54, 0.85);
 }
 
 .text-subheader {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: rgba(80, 80, 80, 0.85);
-    font-style: italic;
-    margin-top: 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: rgba(80, 80, 80, 0.85);
+  font-style: italic;
+  margin-top: 0;
 }
 
-.text, .text-small {
-    font-family: 'Montserrat Alternates', sans-serif;
-    line-height: 1.5;
-    letter-spacing: 1.5;
-    font-size: medium;
-    text-align: justify;
-    color: gray;
+.text,
+.text-small {
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  font-size: medium;
+  text-align: justify;
+  color: gray;
 }
 
 .review {
-    font-style: italic;
-    line-height: 1.5;
-    letter-spacing: 1.5;
-    text-align: justify;
+  font-style: italic;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  text-align: justify;
 }
 
 .section-header {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
 }
 
 .ctas {
-    margin: auto;
+  margin: auto;
 }
 
 @media only screen and (min-width: 750px) {
-    .block{
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-start;
-    }
-    .image-block {
-        display: flex;
-        flex-direction: column;
-    }
-    .image-row {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .no-margin {
-     margin-bottom: 0rem;
-    }
-	.text-block {
-		width: 50%;
-	}
-	.text-header {
-		margin: 0;
-	}
+  .block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .image-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .no-margin {
+    margin-bottom: 0rem;
+  }
+  .text-block {
+    width: 50%;
+  }
+  .text-header {
+    margin: 0;
+  }
 }
