@@ -9,15 +9,13 @@ export default async function handler(req, res) {
 
   try {
     const store = getStore({name: 'slaughter_delivery_store', siteID: process.env.SITE_ID, token: process.env.GATSBY_TOKEN});
-    let bookCodeLedger = await store.get('book_code_ledger', { type: 'json' });
-  
+    let bookCodeLedger = await store.get('book_code_ledger', { type: 'json' }) || {};
+
     // One-time initialization from your Netlify dashboard string
     if (Object.keys(bookCodeLedger).length === 0) {
-      const codeString = process.env.GATSBY_SLAUGHTER_QR_CODES;
+      const codeString = process.env.GATSBY_SLAUGHTER_QR_CODES || "";
       const rawCodes = codeString.split(",");
-      bookCodeLedger = {};
 
-      
       rawCodes.forEach(code => {
         if (code.trim()) bookCodeLedger[code.trim()] = false; 
       });
