@@ -1,11 +1,13 @@
 import * as React from 'react';
 import {useState, useEffect} from 'react';
+import {navigate} from 'gatsby';
 
 import * as styles from "./book-button.module.css";
 
-const BookButton = ({ link, text, mobileText, title, isSeriesBlock }) => {
+const BookButton = ({ link, text, mobileText, title, isSeriesBlock, onClick}) => {
 
     const [windowWidth, setWindowWidth] = useState(0);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         checkWindowWidth();
@@ -22,11 +24,22 @@ const BookButton = ({ link, text, mobileText, title, isSeriesBlock }) => {
   
     const isMobile = windowWidth < 750;
 
+    const handleOnClick = async (event) => {
+        if (onClick) {
+            setLoading(true);
+            await onClick(event);
+            setLoading(false);
+        }
+        if (link) {
+            navigate(link);
+        }
+    }
+
     return (
         <div className={`${styles[isSeriesBlock ? 'seriesContainer' : 'container']}`}>
-            <a href={link}>
-                <button className={`${styles[`button${title}`]}`}>{isMobile ? mobileText : text}</button>
-            </a>
+            <button onClick={handleOnClick} className={`${styles[`button${title}`]}`}>
+                {loading ? '...' : (isMobile ? mobileText : text)}
+            </button>
         </div>
     )
 }

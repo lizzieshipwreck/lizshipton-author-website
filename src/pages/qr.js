@@ -70,7 +70,7 @@ const EditingPage = () => {
       <div className={styles.container}>
         <div className={styles.bookCode}>
           {
-            loading === false && (
+            loading ? (<p className={styles.instructions}>retrieving your code...</p>) : (
             <>
               <p className={styles.code}>
                   {code || message}
