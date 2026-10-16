@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const store = getStore({name: 'slaughter_delivery_store', siteID: process.env.SITE_ID, token: process.env.GATSBY_TOKEN});
+    const store = getStore('slaughter_delivery_store', {siteID: process.env.SITE_ID, token: process.env.NETLIFY_AUTH_TOKEN});
     let bookCodeLedger = await store.get('book_code_ledger', { type: 'json' }) || {};
 
     // One-time initialization from your Netlify dashboard string

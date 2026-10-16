@@ -2,4 +2,3 @@
   command = "yarn gatsby develop"
   port = 8888
   targetPort = 8000
-  framework = "#gatsby"

@@ -8,16 +8,15 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const data = await req.json();
+  const data = req.body;
 
   const usedCode = data.code;
 
   try {
-    const store = getStore({name: 'slaughter_delivery_store', siteID: process.env.SITE_ID, token: process.env.GATSBY_TOKEN});
+    const store = getStore({name: 'slaughter_delivery_store', siteID: process.env.SITE_ID, token: process.env.NETLIFY_AUTH_TOKEN});
     let bookCodeLedger = await store.get('book_code_ledger', { type: 'json' }) || {};
 
-
-    // Find the first available unused link
+    // Find this code
     const availableCodes = Object.keys(bookCodeLedger);
     const thisUsedCode = availableCodes.find(code => code === usedCode);
 

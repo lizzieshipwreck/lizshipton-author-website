@@ -9,12 +9,13 @@ import * as styles from './qr.module.css';
 
 const EditingPage = () => {
 
+  const [loading, setLoading] = useState("");
   const [code, setCode] = useState(null);
   const [message, setMessage] = useState("");
 
   const getCode = async () => {
     try {
-        const response = await fetch('/api/redeem-slaughter-code', {
+        const response = await fetch('http://localhost:8000/api/redeem-slaughter-code', {
           method: 'POST',
           headers: {
           'Content-Type': 'application/json',
@@ -22,6 +23,7 @@ const EditingPage = () => {
       });
 
       const data = await response.json();
+      setLoading(false);
       
       if (response.ok) {
         setCode(data.downloadCode);
@@ -51,7 +53,7 @@ const EditingPage = () => {
       if (response.ok) {
         return
       } else {
-        console.error('Failed to redeem code:', data.error);
+        console.error('Failed to mark code:', data.error);
       }
     } catch(error) {
       console.error(error)
@@ -59,6 +61,7 @@ const EditingPage = () => {
   }
 
   useEffect(() => {
+    setLoading(true);
     getCode();
   }, [])
 
@@ -66,18 +69,24 @@ const EditingPage = () => {
     <Layout pageTitle="Free QR Download">
       <div className={styles.container}>
         <div className={styles.bookCode}>
-            <p className={styles.code}>
-                {code || message}
-            </p>
-            <p className={styles.instructions}>
-                {code ? instructions : allClaimedInstructions}
-            </p>
-            <Link to="https://lizshipton.com/privacy.html" id={'privacy policy'} target='blank'>
-                privacy policy
-            </Link>
-            {
-              code &&  <BookButton text={"proceed"} mobileText={"proceed"} title={"Brand"} link={`https://getmybook.com/${code}`} onClick={markCode}/>
-            }
+          {
+            loading === false && (
+            <>
+              <p className={styles.code}>
+                  {code || message}
+              </p>
+              <p className={styles.instructions}>
+                  {code ? instructions : allClaimedInstructions}
+              </p>
+              <Link to="https://lizshipton.com/privacy.html" id={'privacy policy'} target='blank'>
+                  privacy policy
+              </Link>
+              {
+                code &&  <BookButton text={"proceed"} mobileText={"proceed"} title={"Brand"} link={`https://getmybook.com/${code}`} onClick={markCode}/>
+             }
+            </>
+            )
+          }
         </div>
       </div>
     </Layout>
