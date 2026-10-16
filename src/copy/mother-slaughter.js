@@ -30,6 +30,8 @@ const retail_mobile_text = "read in KU"
 const bookshop_link = "https://shop.lizshipton.com/collection/mother-slaughter"
 const retail_link = "https://amzn.to/4skYxVr"
 
+export const bookFunnelLink = "https://ebooks.lizshipton.com/z8g3kktve7";
+
 export const mother_cover_image = "Mother & Slaughter Cover"
 export const mother_cover_alt = "Cover for Mother & Slaughter"
 
