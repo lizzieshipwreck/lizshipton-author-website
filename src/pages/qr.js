@@ -1,6 +1,6 @@
 import * as React from 'react'
 import LandingPageRedirect from '../components/page-layouts/redirect-page'
-import {bookFunnelLink} from '../copy/mother-and-slaughter';
+import {bookFunnelLink} from '../copy/mother-slaughter';
 
 const QRPage = () => {
 
