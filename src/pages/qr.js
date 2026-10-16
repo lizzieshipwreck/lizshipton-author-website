@@ -15,7 +15,7 @@ const EditingPage = () => {
 
   const getCode = async () => {
     try {
-        const response = await fetch('http://localhost:8000/api/redeem-slaughter-code', {
+        const response = await fetch('/api/redeem-slaughter-code', {
           method: 'POST',
           headers: {
           'Content-Type': 'application/json',
