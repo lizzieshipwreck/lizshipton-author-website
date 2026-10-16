@@ -9,7 +9,7 @@ import * as styles from './qr.module.css';
 
 const EditingPage = () => {
 
-  const [loading, setLoading] = useState("");
+  const [pageLoading, setPageLoading] = useState(true);
   const [code, setCode] = useState(null);
   const [message, setMessage] = useState("");
 
@@ -23,7 +23,7 @@ const EditingPage = () => {
       });
 
       const data = await response.json();
-      setLoading(false);
+      setPageLoading(false);
       
       if (response.ok) {
         setCode(data.downloadCode);
@@ -61,7 +61,6 @@ const EditingPage = () => {
   }
 
   useEffect(() => {
-    setLoading(true);
     getCode();
   }, [])
 
@@ -70,7 +69,7 @@ const EditingPage = () => {
       <div className={styles.container}>
         <div className={styles.bookCode}>
           {
-            loading ? (<p className={styles.instructions}>retrieving your code...</p>) : (
+            pageLoading ? (<p className={styles.instructions}>retrieving your code...</p>) : (
             <>
               <p className={styles.code}>
                   {code || message}
