@@ -3,6 +3,7 @@ require("dotenv").config({
 });
 
 module.exports = {
+  jsxRuntime: "automatic",
   siteMetadata: {
     title: `Liz Shipton`,
     siteUrl: `https://lizshipton.com`,
