@@ -27,7 +27,7 @@ const bookshop_text = "buy from liz"
 const retail_text = "read free in KU"
 const bookshop_mobile_text = "paperback"
 const retail_mobile_text = "read in KU"
-const bookshop_link = "https://shop.lizshipton.com/collection/artificial-magic"
+const bookshop_link = "https://shop.lizshipton.com/collection/mother-slaughter"
 const retail_link = "https://amzn.to/4skYxVr"
 
 export const mother_cover_image = "Mother & Slaughter Cover"
@@ -49,7 +49,7 @@ const mother_ks_image = "Mother Hardcover"
 const mother_ks_alt = "The Mother & Slaughter special edition hardcover"
 const mother_ks_text = "order now"
 const mother_ks_mobile_text = "order"
-const mother_ks_link = "https://shop.lizshipton.com"
+const mother_ks_link = bookshop_link
 
 const illustration_heading = "Illustrations"
 const illustration_subheading = "by Daniel Lorca"
