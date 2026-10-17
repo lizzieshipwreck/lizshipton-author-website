@@ -1,22 +1,22 @@
 const about_liz_button_color = "Pink";
 export const substack_link = "https://lizshiptonauthor.substack.com";
 
-const about_liz_subheading = "Hello, I'm Liz.";
+// const about_liz_subheading = "Hello, I'm Liz.";
 const about_liz_image = "Headshot 2026";
 const about_liz_alt = "Liz Shipton's Headshot";
 const about_liz_cta_text = "substack";
 const about_liz_cta_mobile_text = "substack";
 
 const about_liz_one =
-  "I started writing when my partner and I set out to explore the world by boat in 2021. My first book, Salt, was written on my phone in the cockpit on night watch along the Pacific Coast. That book turned into two, then a series, then the pathological condition people call 'being a writer.'";
+  "I started writing when my partner and I set out to explore the world by boat in 2021. My first book, Salt, was written on my phone in the cockpit on night watch along the Pacific Coast. That book turned into two, then a series, then a pathological condition.";
 const about_liz_two =
-  "People either know me from my urban sci-fantasy Dot Slash Magic, which was released by Angry Robot Books and received a starred review from Publishers Weekly in 2025, from my dark fantasy satire Mother & Slaughter, which was a Next Generation Indie Book Awards winner in 2026, or for my viral comedy videos.";
+  "People know my urban sci-fantasy Dot Slash Magic, which was released by Angry Robot Books and received a starred review from Publishers Weekly in 2025, my dark fantasy satire Mother & Slaughter, which was a Next Generation Indie Book Awards winner in 2026, and my viral comedy videos.";
 const about_liz_three =
-  "I like to root my worlds and characters in my lived experience, and although my work explores difficult themes, I like to lure in you with sex and magic before I beat you over the head with the heavy stuff.";
+  "I like to root my worlds and characters in my lived experience. My books explore difficult themes, but I like to lure in you with sex and magic before I beat you over the head with the heavy stuff.";
 const about_liz_four =
   "On the rare occasion I'm not writing, you can find me at yoga or karaoke, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching 8 Out of 10 Cats Does Countdown.";
 
-const about_loki_subheading = "Author 🪶⚓ Adventurer";
+// const about_loki_subheading = "Author 🪶⚓ Adventurer";
 const about_loki_image = "loki";
 const about_loki_link = "https://instagram.com/sv_loki";
 const about_loki_alt = "Liz's boat Loki";
@@ -32,7 +32,7 @@ const about_loki_three =
 const about_loki_four =
   "We were motivated to do this by a desire to see the world - but boat life is also an amazing way to keep expenses low. One of my favorite parts of this lifestyle is that it allows us to focus on pursuing work we love, rather than paying off a mortgage.";
 
-const about_crew_subheading = "The Crew";
+// const about_crew_subheading = "The Crew";
 const about_crew_image = "Trev and Aloy";
 const about_crew_alt = "Trev and Aloy";
 const about_crew_one = "Trevor Hope";
@@ -40,7 +40,7 @@ const about_crew_two =
   "Trev is the indispensible captain of this ship, without whom, let's face it, the whole operation goes under. He's an excellent sailor, outstanding electrician, and can fix just about anything. He's a licensed captain, and works seasonally in the Caribbean.";
 const about_crew_three = "Aloy Bonesnatcher McGee";
 const about_crew_four =
-  "We rescued Aloy from GEPDA rescue in San Martin, CA in 2017. She came to us with some behavioral issues, including aggression toward strangers. We still have to manage that from time to time, but she's calmed down a lot in her maturing years. She's an amazing guard dog and once she gets to know a person, she is ride-or-die. Readers may recognize her as Malarkey from the Thalassic Series.";
+  "We rescued Aloy from GEPDA rescue in San Martin, CA in 2017. She sailed with us from San Diego to Guatemala, and then from the east coast of Panama through the Caribbean. She's an amazing guard dog and once she gets to know a person, she is ride-or-die. Readers may recognize her as Malarkey from the Thalassic Series.";
 
 export const content = [
   {
