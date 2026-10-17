@@ -11,7 +11,7 @@ module.exports = [
       react: reactPlugin,
     },
 
-    // 3. Define the environments (replaces the old 'env' block)
+    // 3. Define the environments
     languageOptions: {
       parserOptions: {
         ecmaFeatures: {
@@ -30,7 +30,7 @@ module.exports = [
       "react/jsx-key": "error", // Highlights missing list keys in red
     },
 
-    // 5. Automatically look up your project's React version
+    // 5. Automatically look up React version
     settings: {
       react: {
         version: "detect",

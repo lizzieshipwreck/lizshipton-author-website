@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTiktok,
   faInstagram,
-  faFacebook,
+  faGithub,
   faGoodreads,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +14,7 @@ const icons = {
   substack: faBookmark,
   tiktok: faTiktok,
   instagram: faInstagram,
-  facebook: faFacebook,
+  github: faGithub,
   goodreads: faGoodreads,
 };
 
