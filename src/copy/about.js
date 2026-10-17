@@ -1,7 +1,7 @@
 const about_liz_button_color = "Pink";
 export const substack_link = "https://lizshiptonauthor.substack.com";
 
-const about_liz_subheading = "Hi. I'm Liz.";
+const about_liz_subheading = "Hello, I'm Liz.";
 const about_liz_image = "Headshot 2026";
 const about_liz_alt = "Liz Shipton's Headshot";
 const about_liz_cta_text = "substack";
@@ -32,7 +32,7 @@ const about_loki_three =
 const about_loki_four =
   "We were motivated to do this by a desire to see the world - but boat life is also an amazing way to keep expenses low. One of my favorite parts of this lifestyle is that it allows us to focus on pursuing work we love, rather than paying off a mortgage.";
 
-const about_crew_subheading = "Meet the crew";
+const about_crew_subheading = "The Crew";
 const about_crew_image = "Trev and Aloy";
 const about_crew_alt = "Trev and Aloy";
 const about_crew_one = "Trevor Hope";
@@ -44,7 +44,7 @@ const about_crew_four =
 
 export const content = [
   {
-    subheading: about_liz_subheading,
+    // subheading: about_liz_subheading,
     paragraphs: {
       text: [about_liz_one, about_liz_two, about_liz_three, about_liz_four],
     },
@@ -59,7 +59,7 @@ export const content = [
     ],
   },
   {
-    subheading: about_loki_subheading,
+    // subheading: about_loki_subheading,
     paragraphs: {
       text: [about_loki_one, about_loki_two, about_loki_three, about_loki_four],
     },
@@ -76,7 +76,7 @@ export const content = [
     ],
   },
   {
-    subheading: about_crew_subheading,
+    // subheading: about_crew_subheading,
     paragraphs: {
       withHeaders: true,
       text: [about_crew_one, about_crew_two, about_crew_three, about_crew_four],
