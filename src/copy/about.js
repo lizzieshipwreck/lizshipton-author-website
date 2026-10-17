@@ -10,7 +10,7 @@ const about_liz_cta_mobile_text = "substack";
 const about_liz_one =
   "I started writing when my partner and I set out to explore the world by boat in 2021. My first book, Salt, was written on my phone in the cockpit on night watch along the Pacific Coast. That book turned into two, then a series, then a pathological condition.";
 const about_liz_two =
-  "People know my urban sci-fantasy Dot Slash Magic, which was released by Angry Robot Books and received a starred review from Publishers Weekly in 2025, my dark fantasy satire Mother & Slaughter, which was a Next Generation Indie Book Awards winner in 2026, and my viral comedy videos.";
+  "My urban sci-fantasy Dot Slash Magic was released by Angry Robot Books and received a starred review from Publishers Weekly in 2025. My dark fantasy satire Mother & Slaughter was a BookLife Editor's Pick and Next Generation Indie Book Awards winner in 2026. But people probably know me best from my viral comedy videos, which were an unintended result of attempting to promote my books through BookTok.";
 const about_liz_three =
   "I try to root my worlds and characters in my lived experience. My books explore difficult themes, but I do like to lure in you with sex and magic before I beat you over the head with the heavy stuff.";
 const about_liz_four =
