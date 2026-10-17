@@ -11,11 +11,11 @@ module.exports = {
       { url: "https://lizshiptonauthor.substack.com", name: "substack" },
       { url: "https://instagram.com/lizshiptonauthor", name: "instagram" },
       { url: "https://tiktok.com/@lizshiptonauthor", name: "tiktok" },
-      { url: "https://github.com/lizzieshipwreck", name: "github" },
       {
         url: "https://www.goodreads.com/user/show/154243248-liz-shipton",
         name: "goodreads",
       },
+      { url: "https://github.com/lizzieshipwreck", name: "github" },
     ],
   },
   plugins: [
