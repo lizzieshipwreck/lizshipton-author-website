@@ -6,6 +6,8 @@ module.exports = {
   jsxRuntime: "automatic",
   siteMetadata: {
     title: `Liz Shipton`,
+    description:
+      "Author of Mother & Slaughter, Dot Slash Magic, and The Thalassic Series. Sailor, writer, viral comedy creator, and dog mom.",
     siteUrl: `https://lizshipton.com`,
     socialLinks: [
       { url: "https://lizshiptonauthor.substack.com", name: "substack" },
