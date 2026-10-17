@@ -12,7 +12,7 @@ const about_liz_one =
 const about_liz_two =
   "People know my urban sci-fantasy Dot Slash Magic, which was released by Angry Robot Books and received a starred review from Publishers Weekly in 2025, my dark fantasy satire Mother & Slaughter, which was a Next Generation Indie Book Awards winner in 2026, and my viral comedy videos.";
 const about_liz_three =
-  "I like to root my worlds and characters in my lived experience. My books explore difficult themes, but I like to lure in you with sex and magic before I beat you over the head with the heavy stuff.";
+  "I try to root my worlds and characters in my lived experience. My books explore difficult themes, but I do like to lure in you with sex and magic before I beat you over the head with the heavy stuff.";
 const about_liz_four =
   "On the rare occasion I'm not writing, you can find me at yoga or karaoke, complaining about the weather, telling my dog I love her for the bazillionth time today, or watching 8 Out of 10 Cats Does Countdown.";
 
