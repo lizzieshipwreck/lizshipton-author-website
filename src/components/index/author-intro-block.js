@@ -17,14 +17,7 @@ const AuthorIntroBlock = () => {
         </Link>
         <h2 className={styles.textHeader}>speculative fiction with teeth</h2>
         <p className={styles.text}>come for the magic. stay for the mayhem</p>
-        <p className={styles.finger}>
-          <StaticImage
-            src={"../../images/down arrow.png"}
-            placeholder="blurred"
-            quality={100}
-            height={50}
-          />
-        </p>
+        <p className={styles.finger}>👇🏻</p>
       </div>
     </div>
   );

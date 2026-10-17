@@ -6,14 +6,12 @@ import AuthorIntroBlock from "../components/index/author-intro-block";
 import SeriesBlock from "../components/index/series-block";
 
 import { DOTSLASH_INDEX_PAGE } from "../copy/dotslash_magic";
-import { THALASSIC_INDEX_PAGE } from "../copy/thalassic";
 import { MOTHER_INDEX_PAGE } from "../copy/mother-slaughter";
 import { NEWSLETTER_INDEX_PAGE } from "../copy/newsletter";
 
 const INDEX_CONTENT = [
   MOTHER_INDEX_PAGE,
   DOTSLASH_INDEX_PAGE,
-  THALASSIC_INDEX_PAGE,
   NEWSLETTER_INDEX_PAGE,
 ];
 

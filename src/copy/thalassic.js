@@ -39,7 +39,7 @@ const thalassic_na_subheading =
 const thalassic_na_one =
   "In a brutal dystopian waterworld, where survival depends on skill and smarts, Bird Howsley is a beautiful disaster. Or...maybe just a disaster, period.";
 const thalassic_na_two =
-  "When a mysterious message arrives from the brother she thought was dead, Bird bribes her surly (and hot) mentor Sargo Paz to help her find him. Together, they voyage across a dangerous, drowning high-tech world ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
+  "When a mysterious message arrives from the brother she thought was dead, Bird bribes her surly mentor Sargo Paz to help her find him. Together, they voyage across a drowning high-tech world ravaged by bloodthirsty pirates, global disaster, and dark political secrets.";
 const thalassic_na_three =
   "Their journey kicks off an epic tale spanning nine books, seven oceans, five alternate dimensions, and three intertwining love stories.";
 const thalassic_na_four =
@@ -99,8 +99,8 @@ const playlist_one =
 const playlist_two =
   "Someday I'll have a list for you of which songs go with which books, but not today.";
 
-const tropes_image = "Bird Sargo Tropes";
-const tropes_alt = "Bird and Sargo";
+const image = "Bird Sargo";
+const alt = "Bird and Sargo";
 
 export const content = [
   {
@@ -205,8 +205,8 @@ export const content = [
   {
     images: [
       {
-        src: tropes_image,
-        alt: tropes_alt,
+        src: image,
+        alt: alt,
         caption: "Art by Daniel Lorca @hdlscompany",
       },
     ],
