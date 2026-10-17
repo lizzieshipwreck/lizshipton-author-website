@@ -33,7 +33,7 @@ const about_loki_four =
   "We were motivated to do this by a desire to see the world - but boat life is also an amazing way to keep expenses low. One of my favorite parts of this lifestyle is that it allows us to focus on pursuing work we love, rather than paying off a mortgage.";
 
 const about_crew_subheading = "Meet the crew";
-const about_crew_image = "trev and aloy";
+const about_crew_image = "Trev and Aloy";
 const about_crew_alt = "Trev and Aloy";
 const about_crew_one = "Trevor Hope";
 const about_crew_two =
