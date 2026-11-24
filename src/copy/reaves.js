@@ -207,7 +207,7 @@ export const content = [
   {
     subheading: sledding_subheading,
     paragraphs: {
-      text: [sledding_one, sledding_two, sledding_three, sledding_four],
+      text: [sledding_one, sledding_two, sledding_three],
     },
     images: [{ src: sledding_image, alt: sledding_alt }],
     ctas: [
