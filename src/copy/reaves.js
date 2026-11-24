@@ -4,6 +4,8 @@ export const REAVES_INDEX_PAGE = {
   link: reaves_link,
 };
 
+// -----MEDALING------
+
 const medaling_subheading =
   "Two rivals. One room. Three weeks to ruin everything.";
 
@@ -23,6 +25,8 @@ const medaling_bookshop_link =
 const medaling_amazon_link = "https://amzn.to/4rkmdZ8";
 const medaling_button_color_one = "Pink";
 const medaling_button_color_two = "Blue";
+
+// -----WINGMEN------
 
 const wingmen_subheading =
   "Two wingers. One bet. The summer that changes it all.";
@@ -45,6 +49,8 @@ const wingmen_amazon_link = "https://amzn.to/418MIGB";
 const wingmen_button_color_one = "Purple";
 const wingmen_button_color_two = "Blue";
 
+// ----BROCODE------
+
 const brocode_subheading =
   "One jock. One nerd. Zero chance this ends professionally.";
 
@@ -66,6 +72,26 @@ const brocode_amazon_link = "https://amzn.to/44XHBL8";
 const brocode_button_color_one = "Orange";
 const brocode_button_color_two = "Blue";
 
+// ----SLEDDING------
+
+const sledding_subheading = "Six men. One proposal. An epic holiday party.";
+const sledding_image = "sledding website";
+const sledding_alt = "Cover for Sledding";
+
+const sledding_one =
+  "After a gongshow year in the NHL, six men who risked it all for love come together to celebrate the holidays with an epic sledding weekend. But what starts as a barnburner of a winter getaway dissolves into chaos when they discover that one of them plans to surprise his partner with a wedding proposal.";
+const sledding_two =
+  "As they scramble to help him pull off the perfect moment, unexpected complications trip them up at every step, reminding them that 'perfect' is impossible, love is messy, and the most important thing about the holidays is the people you celebrate with.";
+const sledding_three =
+  "A high-heat standalone multi-POV short story, featuring the whole League of Extraodinarily Gay Gentlemen in a comedic holiday romp with a marriage proposal, and a HEA.";
+
+const sledding_bookshop_link =
+  "https://shop.lizshipton.com/collection/hailey-reaves";
+const sledding_amazon_link = "https://amzn.to/3VBp0TG";
+const sledding_button_color_one = "Green";
+const sledding_button_color_two = "Blue";
+
+// ----BONUS CHAPTER------
 const bonus_subheading = "Free bonus: a spicy encounter between bros";
 
 const bonus_image = "bonus website";
@@ -175,6 +201,27 @@ export const content = [
         mobileText: amazon_mobile_text,
         colorScheme: brocode_button_color_two,
         link: brocode_amazon_link,
+      },
+    ],
+  },
+  {
+    subheading: sledding_subheading,
+    paragraphs: {
+      text: [sledding_one, sledding_two, sledding_three, sledding_four],
+    },
+    images: [{ src: sledding_image, alt: sledding_alt }],
+    ctas: [
+      {
+        text: bookshop_text,
+        mobileText: bookshop_mobile_text,
+        colorScheme: sledding_button_color_one,
+        link: sledding_bookshop_link,
+      },
+      {
+        text: amazon_text,
+        mobileText: amazon_mobile_text,
+        colorScheme: sledding_button_color_two,
+        link: sledding_amazon_link,
       },
     ],
   },
