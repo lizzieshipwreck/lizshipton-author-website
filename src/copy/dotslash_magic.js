@@ -2,6 +2,8 @@ const dotslash_button_color_one = "Pink";
 const dotslash_button_color_two = "Green";
 const dotslash_link = "/dot-slash-magic";
 
+export const bookFunnelLink = "https://dl.bookfunnel.com/qdi61vevih";
+
 export const DOTSLASH_INDEX_PAGE = {
   image: "Dot Slash Header",
   mobileImage: "Dot Slash Magic Cover",

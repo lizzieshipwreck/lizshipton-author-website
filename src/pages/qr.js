@@ -1,5 +1,5 @@
 import LandingPageRedirect from "../components/page-layouts/redirect-page";
-import { bookFunnelLink } from "../copy/mother-slaughter";
+import { bookFunnelLink } from "../copy/dotslash_magic";
 
 const QRPage = () => {
   return (
